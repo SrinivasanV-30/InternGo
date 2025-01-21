@@ -4,7 +4,7 @@ import { authenticateUser, checkPermission } from '../middlewares/authentication
 
 const userRouter = express.Router();
 
-userRouter.get('/',authenticateUser,checkPermission('MANAGE_USERS'),getAllIntern);
+userRouter.get('/',authenticateUser,checkPermission('users.manage'),getAllIntern);
 
 export default userRouter;
 

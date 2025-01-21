@@ -61,3 +61,5 @@ export const getAllInterns=async()=>{
         console.log(error)
     }
 }
+
+// export const updateInternProfi
