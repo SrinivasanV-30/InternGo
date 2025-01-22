@@ -7,7 +7,7 @@ const app=express();
 const PORT=process.env.PORT || 8000;
 
 const corsOptions = {
-  origin: 'http://192.168.0.130:5173', 
+  origin: '*', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, 
 };
