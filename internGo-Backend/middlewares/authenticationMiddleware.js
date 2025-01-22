@@ -4,12 +4,21 @@ import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
 export const authenticateUser=async(req,res,next)=>{
-    const authHeader=req.headers['authorization'];
-    const token=authHeader.split(" ")[1];
-    const user=await jwtVerify(token);
-    req.user=user;
-    // console.log(req.user);
-    next();
+    try{
+        const authHeader=req.headers['authorization'];
+        if(!authHeader){
+            logger.error("Token not present!!!")
+            return sendResponse(res,403,"Token not present!!!");
+        }
+        const token=authHeader.split(" ")[1];
+        const user=await jwtVerify(token);
+        req.user=user;
+        // console.log(req.user);
+        next();
+    }
+    catch(error){
+        logger.error(error.message);
+    }
 }
 
 

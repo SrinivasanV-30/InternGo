@@ -7,3 +7,145 @@
 2025-01-22T06:54:52.057Z [:[32minfo[39m] ::1 - - [22/Jan/2025:06:54:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 523 "-" "PostmanRuntime/7.43.0"
 2025-01-22T08:34:46.289Z [:[32minfo[39m] Login successful!!!
 2025-01-22T08:34:46.291Z [:[32minfo[39m] ::1 - - [22/Jan/2025:08:34:46 +0000] "POST /api/auth/signin HTTP/1.1" 200 534 "-" "PostmanRuntime/7.43.0"
+2025-01-22T09:13:40.608Z [:[32minfo[39m] Login successful!!!
+2025-01-22T09:13:40.609Z [:[32minfo[39m] ::1 - - [22/Jan/2025:09:13:40 +0000] "POST /api/auth/signin HTTP/1.1" 200 534 "-" "PostmanRuntime/7.43.0"
+2025-01-22T09:14:32.671Z [:[32minfo[39m] ::1 - - [22/Jan/2025:09:14:32 +0000] "GET /api/users/ HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-22T09:14:46.113Z [:[32minfo[39m] ::1 - - [22/Jan/2025:09:14:46 +0000] "GET /api/users/ HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-22T09:15:06.809Z [:[32minfo[39m] ::1 - - [22/Jan/2025:09:15:06 +0000] "GET /api/users/ HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-22T09:15:30.910Z [:[32minfo[39m] ::1 - - [22/Jan/2025:09:15:30 +0000] "GET /api/users/ HTTP/1.1" 200 1081 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:10:29.043Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:10:29 +0000] "PATCH /api/user/update/5 HTTP/1.1" 404 158 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:14:53.180Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:14:53.183Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-22T17:14:53.188Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:14:53 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:15:47.072Z [:[32minfo[39m] Login successful!!!
+2025-01-22T17:15:47.072Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:15:47 +0000] "POST /api/auth/signin HTTP/1.1" 200 534 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:17:08.561Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:17:08 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 1564 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:17:58.777Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:17:58.780Z [:[31merror[39m] User not found!!!
+2025-01-22T17:17:58.784Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:17:58 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:18:52.575Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:18:52.578Z [:[31merror[39m] Cannot read properties of undefined (reading 'length')
+2025-01-22T17:20:10.903Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:20:10.907Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:20:10.914Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:20:10 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:20:25.021Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:20:25 +0000] "GET /api/users/ HTTP/1.1" 200 1564 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:21:23.258Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:21:23.260Z [:[31merror[39m] User not found!!!
+2025-01-22T17:21:23.264Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:21:23 +0000] "GET /api/users/ HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:21:26.960Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:21:26.961Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:21:26.963Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:21:26 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:22:58.747Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:22:58.750Z [:[31merror[39m] User not found!!!
+2025-01-22T17:22:58.756Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:22:58 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:23:07.922Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:23:07.922Z [:[31merror[39m] User not found!!!
+2025-01-22T17:23:07.924Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:23:07 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:23:21.061Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:23:21.062Z [:[31merror[39m] User not found!!!
+2025-01-22T17:23:21.064Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:23:21 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:23:40.010Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:23:40.014Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:23:40.020Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:23:40 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:24:26.135Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:24:26.309Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:24:26.317Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:24:26 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:26:03.955Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:26:04.186Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:26:04.194Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:26:04 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:26:30.740Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-22T17:26:30.916Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:26:30.924Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:26:30 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:27:46.880Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:27:46.891Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:27:46 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:29:50.268Z [:[31merror[39m] comsole is not defined
+2025-01-22T17:29:50.270Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:29:50.277Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:29:50 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:30:06.860Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:30:06.870Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:30:06 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:31:56.336Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:31:56.347Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:31:56 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:35:04.168Z [:[31merror[39m] Assignment to constant variable.
+2025-01-22T17:35:04.170Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:35:04.173Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:35:04 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:35:15.987Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:35:15.997Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:35:15 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:37:54.937Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:37:54.945Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:37:54 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:42:03.852Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:42:03.862Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:42:03 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:42:40.557Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:42:40.560Z [:[31merror[39m] User not found!!!
+2025-01-22T17:42:40.566Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:42:40 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:42:44.677Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:42:44.679Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:42:44 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:43:27.816Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:43:27.824Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:43:27 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 543 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:46:06.433Z [:[31merror[39m] Cannot access 'profilePercentage' before initialization
+2025-01-22T17:46:33.097Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:46:33.100Z [:[31merror[39m] User not found!!!
+2025-01-22T17:46:33.108Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:46:33 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:46:42.449Z [:[31merror[39m] Cannot access 'profilePercentage' before initialization
+2025-01-22T17:47:01.299Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:47:01 +0000] "PATCH /api/users/update/5 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:47:03.719Z [:[31merror[39m] Cannot access 'profilePercentage' before initialization
+2025-01-22T17:47:20.813Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:47:20.824Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:47:20 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 552 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:48:13.558Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-22T17:48:13.561Z [:[31merror[39m] User not found!!!
+2025-01-22T17:48:13.570Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:48:13 +0000] "PATCH /api/users/update/5 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-22T17:48:19.219Z [:[32minfo[39m] Updated successfully
+2025-01-22T17:48:19.221Z [:[32minfo[39m] ::1 - - [22/Jan/2025:17:48:19 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 575 "-" "PostmanRuntime/7.43.0"

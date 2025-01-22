@@ -19,6 +19,22 @@ export const findUserByEmail=async(email)=>{
         logger.error(error.message);
     }
 }
+export const findUserByUserId=async(userId)=>{
+    try{
+        const userDetails=await prisma.users.findUnique({
+            where:{
+                id:userId
+            },
+            include:{
+                role:true
+            }
+        })
+        return userDetails;        
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
 
 export const createIntern=async(userDetails)=>{
     try{
@@ -52,7 +68,7 @@ export const getAllInterns=async()=>{
         const allInterns=await prisma.users.findMany({
             where:{
                 role:{
-                    roleName:"Interns"
+                    roleName:"Intern"
                 }
             }
         })
@@ -63,6 +79,21 @@ export const getAllInterns=async()=>{
     }
 }
 
-export const updateInternProfile=async()=>{
-    
+export const updateUser=async(userId,data)=>{
+    try{
+        console.log(userId)
+        const updatedInternProfile=await prisma.users.update({
+            where:{
+                id:userId
+            },
+            data:data
+        })
+        console.log(updatedInternProfile)
+        return updatedInternProfile;
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+
 }
+
