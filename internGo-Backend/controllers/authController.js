@@ -1,7 +1,7 @@
 import sendResponse from "../utils/response.js";
 import {createIntern, findUserByEmail} from "../models/userModel.js";
 import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
+import logger from "../utils/logger.js";
 import { jwtSign } from "../services/jwtService.js";
 
 
@@ -22,9 +22,10 @@ export const signUpController = async(req,res)=>{
         newUser.password=hashedPassword;
         await createIntern(newUser);
         sendResponse(res,201,"Sign Up successful!!!");
+        logger.info("Sign Up successful!!!");
     }
     catch(error){
-        console.log(error);
+        logger.error(error.message);
     }
 }
 
@@ -46,10 +47,11 @@ export const oauthController = async(req,res)=>{
         const token=await jwtSign(existingUser.name,existingUser.email);
         const response={name:existingUser.name,role:existingUser.role.roleName,permissions:existingUser.role.permissions,token:token}
         sendResponse(res,200,"Oauth Successful!!!",response);
+        logger.info("Oauth successful!!!");
     }
     catch(error)
     {
-        console.log(error);
+        logger.error(error.message);
     }
 }
 export const signInController=async(req,res)=>{
@@ -76,11 +78,11 @@ export const signInController=async(req,res)=>{
             ,permissions:existingUser.role.permissions
             ,token:token};
         sendResponse(res,200,"Login successful!!!",response);
-
+        logger.info("Login successful!!!");
     }
     catch(error)
     {
-        console.log(error)
+        logger.error(error.message);
     }
 }
 

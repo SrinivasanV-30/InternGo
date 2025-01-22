@@ -1,7 +1,10 @@
 import express from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
 import authRouter from './routes/authRoutes.js';
 import userRouter from './routes/userRoutes.js';
-import cors from 'cors';
+import logger from './utils/logger.js';
+
 
 const app=express();
 const PORT=process.env.PORT || 8000;
@@ -13,7 +16,12 @@ const corsOptions = {
 };
 
 
-app.use(express.json())
+app.use(express.json());
+app.use(morgan('combined',{
+    stream:{
+        write:(message)=>logger.info(message.trim)
+    }
+}))
 app.use(cors(corsOptions));
 
 
