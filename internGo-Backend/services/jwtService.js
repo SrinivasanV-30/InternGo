@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import sendResponse from '../utils/response.js';
+
 export const jwtSign=async(name,email)=>{
     const token=jwt.sign({name:name,email:email},process.env.SECRET_KEY,{expiresIn:process.env.EXPIRES_IN});
     return token

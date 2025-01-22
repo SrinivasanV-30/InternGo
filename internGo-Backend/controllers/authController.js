@@ -14,8 +14,10 @@ export const signUpController = async(req,res)=>{
         {
             if(!userDetails.password)
             {
+                logger.error("Already signed up with google. Please continue with google.");
                 return sendResponse(res,409,"Already signed up with google. Please continue with google.");
             }
+            logger.error("Already signed up. Please login.");
             return sendResponse(res,409,"Already signed up. Please login.");
         }
         const hashedPassword=await bcrypt.hash(newUser.password,10);
@@ -45,7 +47,7 @@ export const oauthController = async(req,res)=>{
         }
         existingUser=await findUserByEmail(user.email);
         const token=await jwtSign(existingUser.name,existingUser.email);
-        const response={name:existingUser.name,role:existingUser.role.roleName,permissions:existingUser.role.permissions,token:token}
+        const response={userId:existingUser.id,name:existingUser.name,role:existingUser.role.roleName,permissions:existingUser.role.permissions,token:token}
         sendResponse(res,200,"Oauth Successful!!!",response);
         logger.info("Oauth successful!!!");
     }
@@ -60,23 +62,28 @@ export const signInController=async(req,res)=>{
         const existingUser=await findUserByEmail(user.email);
         if(!existingUser)
         {
+            logger.error("User does not exist. Please sign up.");
             return sendResponse(res,404,"User does not exist. Please sign up.");
         }
         if(existingUser.password==="Nil")
         {
+            logger.error("User signed in with google. Please continue with google.");
             return sendResponse(res,409,"User signed in with google. Please continue with google.");
         }
         const passwordMatch=await bcrypt.compare(user.password,existingUser.password);
         if(!passwordMatch)
         {
+            logger.error("Invalid password");
             return sendResponse(res,401,"Invalid password");
         }
         const token=await jwtSign(existingUser.name,existingUser.email);
         const response={
-            name:existingUser.name
+             userId:existingUser.id
+            ,name:existingUser.name
             ,role:existingUser.role.roleName
             ,permissions:existingUser.role.permissions
-            ,token:token};
+            ,token:token}
+
         sendResponse(res,200,"Login successful!!!",response);
         logger.info("Login successful!!!");
     }

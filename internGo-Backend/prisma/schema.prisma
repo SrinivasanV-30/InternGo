@@ -16,8 +16,13 @@ model Users{
     profilePhoto String?
     resume String?
     leaves Int?
+    batch String?
+    year Int?
+    designation String?
+    phone_no Int?
+    education String[]
     asset_number Int?
-    certification_status Boolean?
+    certificates_submission_status Boolean?
     status Status?
     dateOfBirth DateTime?
     dateOfJoining DateTime?

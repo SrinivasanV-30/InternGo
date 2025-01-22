@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+import logger from "../utils/logger.js";
 
 const prisma = new PrismaClient();
 
@@ -15,7 +16,7 @@ export const findUserByEmail=async(email)=>{
         return userDetails;        
     }
     catch(error){
-        console.log(error)
+        logger.error(error.message);
     }
 }
 
@@ -42,7 +43,7 @@ export const createIntern=async(userDetails)=>{
         return createdUser;
     }
     catch(error){
-        console.log(error)
+        logger.error(error.message);
     }
 }
 
@@ -58,8 +59,10 @@ export const getAllInterns=async()=>{
         return allInterns;
     }
     catch(error){
-        console.log(error)
+        logger.error(error.message);
     }
 }
 
-// export const updateInternProfi
+export const updateInternProfile=async()=>{
+    
+}

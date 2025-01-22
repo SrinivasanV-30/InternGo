@@ -1,0 +1,9 @@
+[32minfo[39m: ::1 - - [22/Jan/2025:06:51:22 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0" {"timestamp":"2025-01-22T06:51:22.233Z"}
+[32minfo[39m: Login successful!!! {"timestamp":"2025-01-22T06:52:43.747Z"}
+[32minfo[39m: ::1 - - [22/Jan/2025:06:52:43 +0000] "POST /api/auth/signin HTTP/1.1" 200 523 "-" "PostmanRuntime/7.43.0" {"timestamp":"2025-01-22T06:52:43.749Z"}
+2025-01-22T06:53:37.977Z [:info] Login successful!!!
+2025-01-22T06:53:37.979Z [:info] ::1 - - [22/Jan/2025:06:53:37 +0000] "POST /api/auth/signin HTTP/1.1" 200 523 "-" "PostmanRuntime/7.43.0"
+2025-01-22T06:54:52.054Z [:[32minfo[39m] Login successful!!!
+2025-01-22T06:54:52.057Z [:[32minfo[39m] ::1 - - [22/Jan/2025:06:54:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 523 "-" "PostmanRuntime/7.43.0"
+2025-01-22T08:34:46.289Z [:[32minfo[39m] Login successful!!!
+2025-01-22T08:34:46.291Z [:[32minfo[39m] ::1 - - [22/Jan/2025:08:34:46 +0000] "POST /api/auth/signin HTTP/1.1" 200 534 "-" "PostmanRuntime/7.43.0"

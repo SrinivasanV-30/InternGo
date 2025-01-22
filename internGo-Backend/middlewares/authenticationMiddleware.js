@@ -1,5 +1,6 @@
 import { findUserByEmail } from "../models/userModel.js";
 import { jwtVerify } from "../services/jwtService.js";
+import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
 export const authenticateUser=async(req,res,next)=>{
@@ -18,6 +19,7 @@ export const checkPermission = (requiredPermission) => {
             const userEmail = req.user.email;
             const userDetails = await findUserByEmail(userEmail);
             if (!userDetails) {
+                logger.error("User not found!!!")
                 return sendResponse(res,404,"User not found!!!")
             }
 
@@ -28,11 +30,12 @@ export const checkPermission = (requiredPermission) => {
                 return next();
             } 
             else {
-                return res.status(403).send('Access Denied: Permission not found');
+                logger.error("Access Denied: Permission not found")
+                return sendResponse(res,403,"Access Denied: Permission not found");
             }
         }
         catch(error){
-            console.log(error);
+            logger.error(error.message)
         }
     };
   };
