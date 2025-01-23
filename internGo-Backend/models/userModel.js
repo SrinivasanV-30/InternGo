@@ -81,7 +81,7 @@ export const getAllInterns=async()=>{
 
 export const updateUser=async(userId,data)=>{
     try{
-        console.log(userId)
+        // console.log(userId)
         const updatedInternProfile=await prisma.users.update({
             where:{
                 id:userId

@@ -44,8 +44,8 @@ export const checkPermission = (requiredPermission) => {
                 }    
             });
             if(flag==0){
-            logger.error("Access Denied: Permission not found")
-            return sendResponse(res,403,"Access Denied: Permission not found");
+            logger.error("Access Denied. Permission not found");
+            return sendResponse(res,403,"Access Denied. Permission not found");
             }
 
         }
@@ -54,3 +54,17 @@ export const checkPermission = (requiredPermission) => {
         }
     };
   };
+
+export const checkUser=async(req,res,next)=>{
+    try{
+        const id=parseInt(req.params.id);
+        if(req.user.role != "Admin" && id===req.user.userId){
+            logger.error("Access Denied. Permission not found");
+            return sendResponse(res,403,"Access Denied. Can not access other interns.");
+        }
+        next();
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
