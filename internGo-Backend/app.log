@@ -544,3 +544,19 @@ Argument `where` of type RolesWhereUniqueInput needs at least one of `id` argume
 2025-01-23T11:33:02.456Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:33:02 +0000] "POST /api/auth/createUser HTTP/1.1" 409 75 "-" "PostmanRuntime/7.43.0"
 2025-01-23T11:38:11.970Z [:[32minfo[39m] Login successful!!!
 2025-01-23T11:38:11.971Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:38:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 412 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:06:33.121Z [:[31merror[39m] jwt expired
+2025-01-23T12:07:18.769Z [:[32minfo[39m] Login successful!!!
+2025-01-23T12:07:18.770Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:07:18 +0000] "POST /api/auth/signin HTTP/1.1" 200 549 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:07:35.006Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:07:35 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:07:38.337Z [:[32minfo[39m] Admins created successfully!!!
+2025-01-23T12:07:38.338Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:07:38 +0000] "POST /api/auth/createUser HTTP/1.1" 201 73 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:06.518Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:06 +0000] "POST /api/users/4 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:10.914Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T12:24:10.915Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:10 +0000] "GET /api/users/4 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:25.456Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T12:24:25.457Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:25 +0000] "GET /api/users/3 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:28.254Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T12:24:28.255Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:28 +0000] "GET /api/users/2 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:49.183Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:49 +0000] "GET /api/users/5 HTTP/1.1" 200 1013 "-" "PostmanRuntime/7.43.0"
+2025-01-23T12:24:53.275Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T12:24:53.276Z [:[32minfo[39m] ::1 - - [23/Jan/2025:12:24:53 +0000] "GET /api/users/6 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"

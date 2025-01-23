@@ -59,7 +59,8 @@ export const checkUser=async(req,res,next)=>{
     try{
         const id=parseInt(req.params.id);
         console.log("check",id)
-        if(req.user.role != "Admin" && id!=req.user.userId){
+
+        if(req.user.role != "Admins" && id!=req.user.userId){
             logger.error("Access Denied. Permission not found");
             return sendResponse(res,403,"Access Denied. Can not access other interns.");
         }
