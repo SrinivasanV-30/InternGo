@@ -33,15 +33,21 @@ export const checkPermission = (requiredPermission) => {
             }
 
             const userPermissions=userDetails.role.permissions;
+            let flag=0;
             // console.log(userPermissions)
-        
-            if (userPermissions.includes(requiredPermission)) {
-                return next();
-            } 
-            else {
-                logger.error("Access Denied: Permission not found")
-                return sendResponse(res,403,"Access Denied: Permission not found");
+            // console.log(requiredPermission,userPermissions)
+            await requiredPermission.forEach(item => {
+                
+                if (userPermissions.includes(item)) {
+                    flag=1;
+                    return next();
+                }    
+            });
+            if(flag==0){
+            logger.error("Access Denied: Permission not found")
+            return sendResponse(res,403,"Access Denied: Permission not found");
             }
+
         }
         catch(error){
             logger.error(error.message)

@@ -19,14 +19,28 @@ export const updateUserProfile = async(req,res)=>{
     try{
         const userId=parseInt(req.params.id);
         const userData=req.body;
-        console.log(userId,userData)
+        if ("dateOfJoining" in userData) {
+            if (isNaN(new Date(userData.dateOfJoining))) {
+                return sendResponse(res, 400, "Invalid dateOfJoining format. Please use a valid date.");
+            }
+            userData.dateOfJoining = new Date(userData.dateOfJoining);
+        }
+      
+        if ("dateOfBirth" in userData) {
+            if (isNaN(new Date(userData.dateOfBirth))) {
+                return sendResponse(res, 400, "Invalid dateOfBirth format. Please use a valid date.");
+            }
+            userData.dateOfBirth = new Date(userData.dateOfBirth);
+        }
         const userDetails=await findUserByUserId(userId);
-        // console.log(userDetails);
         if(!userDetails){
             logger.error("User not found!!!");
             return sendResponse(res,404,"User not found!!!");
         }
         const updatedUserProfile=await updateUser(userId,userData);
+        if(!updatedUserProfile){
+            return sendResponse(res,400,"Update unsuccessful");
+        }
         const percentage=await profilePercentage(updatedUserProfile);
         const response = {data:updatedUserProfile,profilePercentage:percentage};
         logger.info("Updated successfully");
