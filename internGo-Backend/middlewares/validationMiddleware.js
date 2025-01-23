@@ -1,4 +1,4 @@
-import { signUpValidationSchema,signInValidationSchema } from "../schema/authenticationSchema.js";
+import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
@@ -44,5 +44,22 @@ export const signInValidation = (req,res,next)=>{
     {
         logger.error(error.details);
         return sendResponse(res,400,error.details);
+    }
+}
+export const userCreateValidation = (req,res,next)=>{
+    try{
+        const result = userCreateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
     }
 }

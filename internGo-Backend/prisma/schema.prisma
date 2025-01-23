@@ -11,31 +11,38 @@ model Users{
     id Int @id @default(autoincrement())
     roleId Int @default(1)
     name String
-    email String @unique
     password String
+    email String @unique
+    gender String?
+    employeeId String?
+    personalEmail String? @unique
+    currentAddress String?
+    permanentAddress String?
     profilePhoto String?
     resume String?
-    leaves Int?
     batch String?
     year Int?
     designation String?
     phone_no Int?
-    education String[]
-    asset_number Int?
+    education Json?
+    assetId Int?
+    bankDetails Json?
     certificates_submission_status Boolean?
     status Status?
     dateOfBirth DateTime?
     dateOfJoining DateTime?
     bloodGroup String?
     phase String?
+    assets Assets[] @relation("UserAssets")
     role Roles @relation("UserRole",fields:[roleId],references:[id])
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    profilePercentage Int?
 }
 
 enum Status{
   ACTIVE
-  LEAVE
+  NOT_ACTIVE
   EXAMINATION
   SHADOWING
   DEPLOYED
@@ -49,4 +56,14 @@ model Roles{
     createdAt DateTime @default(now())
 
     users Users[] @relation("UserRole")
+}
+  
+model Assets{
+    id Int @id @default(autoincrement())
+    userId Int
+    user Users @relation("UserAssets",fields:[userId],references:[id])
+    assetType String
+    assetName String
+    givenOn DateTime
+    returnedOn DateTime?
 }

@@ -373,3 +373,174 @@ Invalid value for argument `status`. Expected Status.
 2025-01-23T06:02:01.780Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:02:01 +0000] "GET /api/users/3 HTTP/1.1" 200 762 "-" "PostmanRuntime/7.43.0"
 2025-01-23T06:02:23.682Z [:[31merror[39m] Access Denied. Permission not found
 2025-01-23T06:02:23.687Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:02:23 +0000] "GET /api/users/3 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:39:34.057Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-23T09:39:34.061Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:39:34 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:39:37.295Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-23T09:39:37.297Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:39:37 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:39:39.904Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-23T09:39:39.905Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:39:39 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:55:47.134Z [:[32minfo[39m] Login successful!!!
+2025-01-23T09:55:47.135Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:55:47 +0000] "POST /api/auth/signin HTTP/1.1" 200 549 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:56:29.433Z [:[31merror[39m] Already signed up. Please login.
+2025-01-23T09:56:29.436Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:56:29 +0000] "POST /api/auth/createUser HTTP/1.1" 409 75 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:56:44.061Z [:[31merror[39m] createAdminAndMentor is not defined
+2025-01-23T09:57:10.330Z [:[31merror[39m] createUser is not defined
+2025-01-23T09:59:02.442Z [:[31merror[39m] 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    email: "mentor@finestcoder.com",
+    password: "$2b$10$lc7qNnys6N/gYECM3Tfr/uKjV72sksaSPyLcxc6fYzGnyvnKIA1EK",
++   name: String
+  }
+}
+
+Argument `name` is missing.
+2025-01-23T09:59:02.445Z [:[32minfo[39m] undefined created successfully!!!
+2025-01-23T09:59:02.446Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:59:02 +0000] "POST /api/auth/createUser HTTP/1.1" 201 76 "-" "PostmanRuntime/7.43.0"
+2025-01-23T09:59:24.160Z [:[31merror[39m] 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    email: "mentor@finestcoder.com",
+    password: "$2b$10$7yltGxz4ZlyXlyregQyE/OuHirQctnQ26K3fsHuDgouGeoXAJhufy",
+    role: "Mentor",
++   name: String
+  }
+}
+
+Argument `name` is missing.
+2025-01-23T09:59:24.160Z [:[32minfo[39m] Mentor created successfully!!!
+2025-01-23T09:59:24.161Z [:[32minfo[39m] ::1 - - [23/Jan/2025:09:59:24 +0000] "POST /api/auth/createUser HTTP/1.1" 201 73 "-" "PostmanRuntime/7.43.0"
+2025-01-23T10:17:53.042Z [:[31merror[39m] Cannot access 'role' before initialization
+2025-01-23T10:18:19.740Z [:[31merror[39m] 
+Invalid `prisma.roles.findUnique()` invocation:
+
+{
+  where: {
+    roleName: "Mentor",
+?   id?: Int,
+?   AND?: RolesWhereInput | RolesWhereInput[],
+?   OR?: RolesWhereInput[],
+?   NOT?: RolesWhereInput | RolesWhereInput[],
+?   description?: StringFilter | String,
+?   permissions?: JsonFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   users?: UsersListRelationFilter
+  }
+}
+
+Argument `where` of type RolesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-01-23T10:18:19.742Z [:[31merror[39m] Database failed.
+2025-01-23T10:18:45.963Z [:[32minfo[39m] ::1 - - [23/Jan/2025:10:18:45 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T10:18:46.827Z [:[31merror[39m] 
+Invalid `prisma.roles.findUnique()` invocation:
+
+{
+  where: {
+    roleName: "Mentors",
+?   id?: Int,
+?   AND?: RolesWhereInput | RolesWhereInput[],
+?   OR?: RolesWhereInput[],
+?   NOT?: RolesWhereInput | RolesWhereInput[],
+?   description?: StringFilter | String,
+?   permissions?: JsonFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   users?: UsersListRelationFilter
+  }
+}
+
+Argument `where` of type RolesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-01-23T10:18:46.827Z [:[31merror[39m] Database failed.
+2025-01-23T10:18:56.954Z [:[32minfo[39m] ::1 - - [23/Jan/2025:10:18:56 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T10:19:05.237Z [:[31merror[39m] 
+Invalid `prisma.roles.findUnique()` invocation:
+
+{
+  where: {
+    roleName: "Mentors",
+?   id?: Int,
+?   AND?: RolesWhereInput | RolesWhereInput[],
+?   OR?: RolesWhereInput[],
+?   NOT?: RolesWhereInput | RolesWhereInput[],
+?   description?: StringFilter | String,
+?   permissions?: JsonFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   users?: UsersListRelationFilter
+  }
+}
+
+Argument `where` of type RolesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-01-23T10:19:05.239Z [:[31merror[39m] Database failed.
+2025-01-23T10:20:36.640Z [:[31merror[39m] 
+Invalid `prisma.roles.findUnique()` invocation:
+
+{
+  where: {
+    roleName: "Mentors",
+?   id?: Int,
+?   AND?: RolesWhereInput | RolesWhereInput[],
+?   OR?: RolesWhereInput[],
+?   NOT?: RolesWhereInput | RolesWhereInput[],
+?   description?: StringFilter | String,
+?   permissions?: JsonFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   users?: UsersListRelationFilter
+  }
+}
+
+Argument `where` of type RolesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-01-23T10:20:36.641Z [:[31merror[39m] Database failed.
+2025-01-23T10:22:47.842Z [:[31merror[39m] 
+Invalid `prisma.roles.findUnique()` invocation:
+
+{
+  where: {
+    roleName: "Mentors",
+?   id?: Int,
+?   AND?: RolesWhereInput | RolesWhereInput[],
+?   OR?: RolesWhereInput[],
+?   NOT?: RolesWhereInput | RolesWhereInput[],
+?   description?: StringFilter | String,
+?   permissions?: JsonFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   users?: UsersListRelationFilter
+  }
+}
+
+Argument `where` of type RolesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-01-23T10:22:47.843Z [:[31merror[39m] Database failed.
+2025-01-23T10:23:54.638Z [:[31merror[39m] Cannot access 'newUser' before initialization
+2025-01-23T10:24:20.631Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:25:12.300Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:25:50.695Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:28:10.479Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:56:31.898Z [:[31merror[39m] jwt expired
+2025-01-23T10:57:09.839Z [:[32minfo[39m] ::1 - - [23/Jan/2025:10:57:09 +0000] "GET /api/auth/signin HTTP/1.1" 404 154 "-" "PostmanRuntime/7.43.0"
+2025-01-23T10:57:14.253Z [:[31merror[39m] [object Object]
+2025-01-23T10:57:32.554Z [:[32minfo[39m] Login successful!!!
+2025-01-23T10:57:32.556Z [:[32minfo[39m] ::1 - - [23/Jan/2025:10:57:32 +0000] "POST /api/auth/signin HTTP/1.1" 200 549 "-" "PostmanRuntime/7.43.0"
+2025-01-23T10:57:50.696Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:58:32.424Z [:[31merror[39m] data and salt arguments required
+2025-01-23T10:58:53.135Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:00:05.453Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:15:10.062Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:15:23.635Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:15:23 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:15:24.927Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:15:30.653Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:15:30 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:16:55.324Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:22:23.951Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:22:23 +0000] "POST /api/auth/createUser HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:22:26.190Z [:[31merror[39m] [object Object]
+2025-01-23T11:25:51.597Z [:[31merror[39m] data and salt arguments required
+2025-01-23T11:28:13.093Z [:[32minfo[39m] Sign Up successful!!!
+2025-01-23T11:28:13.095Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:28:13 +0000] "POST /api/auth/signup HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:29:55.363Z [:[31merror[39m] Already signed up. Please login.
+2025-01-23T11:29:55.373Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:29:55 +0000] "POST /api/auth/signup HTTP/1.1" 409 75 "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:30:02.142Z [:[32minfo[39m] [object Object] created successfully!!!
+2025-01-23T11:30:02.144Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:30:02 +0000] "POST /api/auth/createUser HTTP/1.1" 201 82 "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:33:02.440Z [:[31merror[39m] Already signed up. Please login.
+2025-01-23T11:33:02.456Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:33:02 +0000] "POST /api/auth/createUser HTTP/1.1" 409 75 "-" "PostmanRuntime/7.43.0"
+2025-01-23T11:38:11.970Z [:[32minfo[39m] Login successful!!!
+2025-01-23T11:38:11.971Z [:[32minfo[39m] ::1 - - [23/Jan/2025:11:38:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 412 "-" "PostmanRuntime/7.43.0"

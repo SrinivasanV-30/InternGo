@@ -1,7 +1,8 @@
 import { PrismaClient } from "@prisma/client";
-import logger from "../utils/logger.js";
+import handleError from "../utils/handleError.js";
 
 const prisma = new PrismaClient();
+
 
 export const findUserByEmail=async(email)=>{
     try{
@@ -16,7 +17,7 @@ export const findUserByEmail=async(email)=>{
         return userDetails;        
     }
     catch(error){
-        logger.error(error.message);
+        handleError(error,"Database");
     }
 }
 export const findUserByUserId=async(userId)=>{
@@ -32,7 +33,7 @@ export const findUserByUserId=async(userId)=>{
         return userDetails;        
     }
     catch(error){
-        logger.error(error.message);
+        handleError(error,"Database");
     }
 }
 
@@ -59,7 +60,19 @@ export const createIntern=async(userDetails)=>{
         return createdUser;
     }
     catch(error){
-        logger.error(error.message);
+        handleError(error,"Database");
+    }
+}
+
+export const createUser=async(userDetails)=>{
+    try{
+        const createdUser=await prisma.users.create({
+            data:userDetails
+        })
+        return createdUser;
+    }
+    catch(error){
+        handleError(error,"Database");
     }
 }
 
@@ -75,7 +88,7 @@ export const getAllInterns=async()=>{
         return allInterns;
     }
     catch(error){
-        logger.error(error.message);
+        handleError(error,"Database");
     }
 }
 
@@ -92,7 +105,7 @@ export const updateUser=async(userId,data)=>{
         return updatedInternProfile;
     }
     catch(error){
-        logger.error(error.message);
+        handleError(error,"Database");
     }
 
 }
