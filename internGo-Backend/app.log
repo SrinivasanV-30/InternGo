@@ -354,3 +354,22 @@ Invalid value for argument `status`. Expected Status.
 2025-01-23T05:23:57.134Z [:[31merror[39m] Cannot set headers after they are sent to the client
 2025-01-23T05:25:07.688Z [:[32minfo[39m] Updated successfully
 2025-01-23T05:25:07.698Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:25:07 +0000] "PATCH /api/users/update/5 HTTP/1.1" 200 630 "-" "PostmanRuntime/7.43.0"
+2025-01-23T05:58:46.707Z [:[31merror[39m] Invalid password
+2025-01-23T05:58:46.712Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:58:46 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-01-23T05:58:58.106Z [:[31merror[39m] User signed in with google. Please continue with google.
+2025-01-23T05:58:58.109Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:58:58 +0000] "POST /api/auth/signin HTTP/1.1" 409 99 "-" "PostmanRuntime/7.43.0"
+2025-01-23T05:59:13.333Z [:[31merror[39m] Invalid password
+2025-01-23T05:59:13.335Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:59:13 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-01-23T05:59:22.480Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-23T05:59:22.482Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:59:22 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-23T05:59:59.412Z [:[31merror[39m] User does not exist. Please sign up.
+2025-01-23T05:59:59.414Z [:[32minfo[39m] ::1 - - [23/Jan/2025:05:59:59 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:00:04.435Z [:[32minfo[39m] Login successful!!!
+2025-01-23T06:00:04.436Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:00:04 +0000] "POST /api/auth/signin HTTP/1.1" 200 419 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:00:33.215Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T06:00:33.217Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:00:33 +0000] "GET /api/users/3 HTTP/1.1" 403 78 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:01:12.786Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:01:12 +0000] "GET /api/users/3 HTTP/1.1" 200 762 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:01:31.496Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:01:31 +0000] "GET /api/users/3 HTTP/1.1" 200 762 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:02:01.780Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:02:01 +0000] "GET /api/users/3 HTTP/1.1" 200 762 "-" "PostmanRuntime/7.43.0"
+2025-01-23T06:02:23.682Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-23T06:02:23.687Z [:[32minfo[39m] ::1 - - [23/Jan/2025:06:02:23 +0000] "GET /api/users/3 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"

@@ -6,7 +6,7 @@ import multer from 'multer';
 const userRouter = express.Router();
 
 userRouter.get('/',authenticateUser,checkPermission(['users.manage']),getAllIntern);
-userRouter.get('/:id',authenticateUser,checkUser,checkPermission(['users.view']),getUser);
+userRouter.get('/:id',authenticateUser,checkUser,checkPermission(['users.view','profile.update']),getUser);
 userRouter.patch('/update/:id',authenticateUser,checkUser,checkPermission(['users.manage','profile.update']),updateUserProfile);
 
 export default userRouter;

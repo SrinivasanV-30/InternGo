@@ -92,4 +92,28 @@ export const signInController=async(req,res)=>{
         logger.error(error.message);
     }
 }
+// export const createAdminController = async(req,res)=>{
+//     try{
+//         const newUser =req.body;
+//         const userDetails=await findUserByEmail(newUser.email);
+//         if(userDetails)
+//         {
+//             if(!userDetails.password)
+//             {
+//                 logger.error("Already signed up with google. Please continue with google.");
+//                 return sendResponse(res,409,"Already signed up with google. Please continue with google.");
+//             }
+//             logger.error("Already signed up. Please login.");
+//             return sendResponse(res,409,"Already signed up. Please login.");
+//         }
+//         const hashedPassword=await bcrypt.hash(newUser.password,10);
+//         newUser.password=hashedPassword;
+//         await createIntern(newUser);
+//         sendResponse(res,201,"Sign Up successful!!!");
+//         logger.info("Sign Up successful!!!");
+//     }
+//     catch(error){
+//         logger.error(error.message);
+//     }
+// }
 
