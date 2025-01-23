@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import GLogin from '../components/GLogin';
-import axios from '../api/axios';
-
+import GLogin from '../../components/authentication/GLogin';
+import axios from '../../api/axios';
+ 
 const SignUp = () => {
 
   const SIGNUP_URL = '/api/auth/signup';
@@ -49,7 +49,7 @@ const SignUp = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
     setErrors((prev) => ({ ...prev, [name]: error }));
   };
-
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};

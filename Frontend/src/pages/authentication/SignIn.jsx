@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import axios from '../api/axios';
-import GLogin from '../components/GLogin';
-
+import axios from '../../api/axios';
+import GLogin from '../../components/authentication/GLogin';
+import { useDispatch } from 'react-redux';
+import { setAuth } from '../../redux/authSlice';
+ 
 const SignIn = () => {
 
+  const dispatch = useDispatch();
   const SIGNIN_URL = "/api/auth/signin";
   const [formData, setFormData] = useState({
     email: '',
@@ -13,42 +16,62 @@ const SignIn = () => {
 
   const navigate = useNavigate();
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  try {
-    const response = await axios.post(
-      SIGNIN_URL, 
-      formData,
-      {
-        headers:{'Content-Type':'application/json'},
-        withCredentials:true
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(SIGNIN_URL, formData);
+      if (response.data) {
+        const user = response.data.data;
+        const { userId, name, token, role, permissions } = user;
+  
+        if (token) {
+          // Persist and set state
+          dispatch(setAuth({ user, userId, name, token, role, permissions }));
+  
+          // Navigate to dashboard
+          navigate('/dashboard', { replace: true });
+        }
+      } else {
+        alert('Invalid email or password. Please try again.');
       }
-    );
-    console.log(response,response.data.data);
-    // const accessToken = response?.data?.accessToken
-    if (response.data) {
-      const user=response.data.data;
-      console.log(user);
-      
-      if(user.token){
-        localStorage.setItem("token", user.token);
-        document.cookie = `token=${user.token}; path=/; secure; HttpOnly; max-age=60`;
-        // Store roles and permissions locally
-        localStorage.setItem('roles', JSON.stringify(user.role));
-        localStorage.setItem('permissions', JSON.stringify(user.permissions));
-
-        alert('Sign In Successful!');
-        navigate('/dashboard');
-      }
-      
-    } else {
-      alert('Invalid email or password. Please try again.');
+    } catch (error) {
+      console.error('Sign In Error:', error);
+      alert(error);
     }
-  } catch (error) {
-    console.error('Sign In Error:', error);
-    alert('An error occurred while signing in. Please try again.');
-  }
-};
+  };
+  
+
+// const handleSubmit = async (e) => {
+//   e.preventDefault();
+//   try {
+//     const response = await axios.post(
+//       SIGNIN_URL, 
+//       formData
+//     );
+//     console.log(response,response.data.data);
+//     if (response.data) {
+//       const user=response.data.data;
+//       console.log(user);
+      
+//       if(user.token){
+//         document.cookie = `token=${user.token}; path=/; secure; HttpOnly; max-age=60`;
+//         localStorage.setItem("token", user.token);
+//         localStorage.setItem('roles', JSON.stringify(user.role));
+//         localStorage.setItem('permissions', JSON.stringify(user.permissions));
+
+//         // After successful login
+//         dispatch(setAuth({ user, token: user.token, roles: user.role, permissions: user.permissions }));
+//         navigate('/dashboard', { replace: true });
+//       }
+      
+//     } else {
+//       alert('Invalid email or password. Please try again.');
+//     }
+//   } catch (error) {
+//     console.error('Sign In Error:', error);
+//     alert('An error occurred while signing in. Please try again.');
+//   }
+// };
 
 
   return (
@@ -84,7 +107,7 @@ const handleSubmit = async (e) => {
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
           >
-            Sign In
+            Sign In 
           </button>
           <GLogin />
           <p className="text-sm text-center text-gray-700 mt-4">
