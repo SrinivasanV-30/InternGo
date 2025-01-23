@@ -53,7 +53,7 @@ export const updateUserProfile = async(req,res)=>{
 
 export const getUser=async(req,res)=>{
     try{
-        const userId=req.params.id;
+        const userId=parseInt(req.params.id);
         console.log(userId)
         const internProfile=await findUserByUserId(userId);
         sendResponse(res,200,"Fetched successfully",internProfile);

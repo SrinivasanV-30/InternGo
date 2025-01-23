@@ -46,7 +46,7 @@ export const oauthController = async(req,res)=>{
             existingUser=await createIntern(newUser);  
         }
         existingUser=await findUserByEmail(user.email);
-        const token=await jwtSign(existingUser.name,existingUser.email);
+        const token=await jwtSign(existingUser.id,existingUser.name,existingUser.email);
         const response={userId:existingUser.id,name:existingUser.name,role:existingUser.role.roleName,permissions:existingUser.role.permissions,token:token}
         sendResponse(res,200,"Oauth Successful!!!",response);
         logger.info("Oauth successful!!!");
@@ -76,7 +76,7 @@ export const signInController=async(req,res)=>{
             logger.error("Invalid password");
             return sendResponse(res,401,"Invalid password");
         }
-        const token=await jwtSign(existingUser.name,existingUser.email);
+        const token=await jwtSign(existingUser.id,existingUser.name,existingUser.email);
         const response={
              userId:existingUser.id
             ,name:existingUser.name
