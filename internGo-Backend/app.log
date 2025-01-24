@@ -864,3 +864,5 @@ Argument `where` of type AssetsWhereUniqueInput needs at least one of `id` argum
 2025-01-24T06:33:15.662Z [:[31merror[39m] Error in Database
 2025-01-24T06:34:00.317Z [:[32minfo[39m] Updated permissions successfully
 2025-01-24T06:34:00.326Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:34:00 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-01-24T06:47:25.708Z [:[32minfo[39m] Updated permissions successfully
+2025-01-24T06:47:25.716Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:47:25 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"

@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import handleError from "../utils/handleError.js";
+import { profilePercentage } from "../utils/profilePercentage.js";
 
 const prisma = new PrismaClient();
 
@@ -11,7 +12,8 @@ export const findUserByEmail=async(email)=>{
                 email:email
             },
             include:{
-                role:true
+                role:true,
+                password:false,
             }
         })
         return userDetails;        
@@ -27,7 +29,8 @@ export const findUserByUserId=async(userId)=>{
                 id:userId
             },
             include:{
-                assets:true
+                assets:true,
+                password:false,
             }
         })
         return userDetails;        
@@ -82,6 +85,26 @@ export const getAllInterns=async()=>{
             where:{
                 role:{
                     roleName:"Interns"
+                },
+                include:{
+                    password:false,
+                    gender:false,
+                    personalEmail:false,
+                    currentAddress:false,
+                    permanentAddress:false,
+                    dateOfBirth:false,
+                    dateOfJoining:false,
+                    bloodGroup:false,
+                    profilePercentage:false,
+                    resume:false,
+                    bankDetails:false,
+                    createdAt:false,
+                    updatedAt:false,
+                    roleId:false,
+                    education:false,
+                    certificates_submission_status:false,
+
+
                 }
             }
         })
