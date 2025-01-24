@@ -1,5 +1,5 @@
 import sendResponse from "../utils/response.js";
-import { findUserByUserId, getAllInterns, updateUser } from "../models/userModel.js";
+import { findUserByUserId, getAllInterns, getInternBasedOnFilters, updateUser } from "../models/userModel.js";
 import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
 import { createAsset, getAssetByUserId } from "../models/assetModel.js";
@@ -101,10 +101,13 @@ export const createUserAsset=async(req,res)=>{
 
 export const getInternsWithFilters=async(req,res)=>{
     try{
-        const {limit,offset}=[req.query.limit,req.query.offset];
+        const limit=parseInt(req.query.limit);
+        const offset=parseInt(req.query.offset);
         const filters=req.body;
-        console.log(filters);
-
+        console.log(filters,limit,offset);
+        const interns=await getInternBasedOnFilters(filters,offset,limit);
+        logger.info("Fetched successfully!!");
+        sendResponse(res,200,"Fetched successfully",interns);
     }
     catch(error)
     {

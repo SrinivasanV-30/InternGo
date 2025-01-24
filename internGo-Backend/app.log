@@ -899,3 +899,166 @@ Argument `where` of type AssetsWhereUniqueInput needs at least one of `id` argum
 2025-01-24T08:45:17.363Z [:[32minfo[39m] ::1 - - [24/Jan/2025:08:45:17 +0000] "PATCH /api/users/update/6 HTTP/1.1" 200 1097 "-" "PostmanRuntime/7.43.0"
 2025-01-24T08:46:32.620Z [:[32minfo[39m] Updated successfully
 2025-01-24T08:46:32.628Z [:[32minfo[39m] ::1 - - [24/Jan/2025:08:46:32 +0000] "PATCH /api/users/update/6 HTTP/1.1" 200 1097 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:11:32.322Z [:[31merror[39m] Invalid password
+2025-01-24T09:11:32.329Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:11:32 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:11:37.151Z [:[31merror[39m] Invalid password
+2025-01-24T09:11:37.153Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:11:37 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:11:45.500Z [:[31merror[39m] Invalid password
+2025-01-24T09:11:45.502Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:11:45 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:12:46.671Z [:[32minfo[39m] Sign Up successful!!!
+2025-01-24T09:12:46.671Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:12:46 +0000] "POST /api/auth/signup HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:13:04.148Z [:[32minfo[39m] Login successful!!!
+2025-01-24T09:13:04.149Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:13:04 +0000] "POST /api/auth/signin HTTP/1.1" 200 448 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:14:54.382Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-24T09:14:54.384Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:14:54 +0000] "PATCH /api/users/update/6 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:15:05.235Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-24T09:15:05.236Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:15:05 +0000] "PATCH /api/users/update/8 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:15:09.541Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-24T09:15:09.541Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:15:09 +0000] "PATCH /api/users/update/9 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:15:14.666Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-24T09:15:14.668Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:15:14 +0000] "PATCH /api/users/update/10 HTTP/1.1" 403 87 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:15:20.369Z [:[32minfo[39m] Updated successfully
+2025-01-24T09:15:20.371Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:15:20 +0000] "PATCH /api/users/update/11 HTTP/1.1" 200 1094 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:15:48.077Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:15:48 +0000] "GET /api/users/11 HTTP/1.1" 200 1001 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:31:02.278Z [:[32minfo[39m] Login successful!!!
+2025-01-24T09:31:02.280Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:09:31:02 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T09:49:31.853Z [:[31merror[39m] Access Denied. Permission not found
+2025-01-24T09:49:31.862Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:49:31 +0000] "GET /api/users?offset=1&limit=10 HTTP/1.1" 403 78 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:49:50.659Z [:[32minfo[39m] Login successful!!!
+2025-01-24T09:49:50.660Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:49:50 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:50:04.932Z [:[31merror[39m] Error in Database
+2025-01-24T09:52:31.705Z [:[31merror[39m] Error in Database
+2025-01-24T09:52:31.707Z [:[31merror[39m] Database failed: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-24T09:52:39.010Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:52:39 +0000] "GET /api/users/6 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:52:40.907Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:52:40 +0000] "GET /api/users/6 HTTP/1.1" 200 1133 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:54:13.730Z [:[31merror[39m] Error in Database
+2025-01-24T09:55:18.387Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:55:18 +0000] "GET /api/users HTTP/1.1" 200 1259 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:55:54.066Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T09:55:54.067Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:55:54 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:57:05.543Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T09:57:05.544Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:57:05 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:57:11.145Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T09:57:11.147Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:57:11 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:58:22.129Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T09:58:22.140Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:58:22 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"
+2025-01-24T09:58:51.324Z [:[31merror[39m] Error in User Controller
+2025-01-24T09:59:06.968Z [:[31merror[39m] Error in User Controller
+2025-01-24T09:59:35.666Z [:[31merror[39m] Error in Database
+2025-01-24T09:59:56.643Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T09:59:56.654Z [:[32minfo[39m] ::1 - - [24/Jan/2025:09:59:56 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 720 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:01:46.750Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:01:46.760Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:01:46 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 720 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:02:12.727Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:02:12.729Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:02:12 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:29:35.850Z [:[31merror[39m] Token not present!!!
+2025-01-24T10:29:35.853Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:29:35 +0000] "GET /api/users/5 HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-24T10:30:05.126Z [:[32minfo[39m] Login successful!!!
+2025-01-24T10:30:05.126Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:30:05 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T10:30:06.678Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:30:06 +0000] "GET /api/users/5 HTTP/1.1" 200 606 "-" "okhttp/4.12.0"
+2025-01-24T10:30:24.312Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:30:24 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T10:32:46.556Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:32:46.558Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:32:46 +0000] "POST /api/users?offset=1&limit=1 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:33:01.792Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:33:01.794Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:33:01 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:33:20.710Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:33:20.719Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:33:20 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:35:14.019Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:35:14.026Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:35:14 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:36:12.676Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:36:12.683Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:36:12 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:42:01.646Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:42:01.656Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:42:01 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:43:35.778Z [:[32minfo[39m] Login successful!!!
+2025-01-24T10:43:35.779Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:43:35 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T10:43:36.488Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:43:36 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T10:43:50.844Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:43:50.846Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:43:50 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:45:04.814Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:45:04.818Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:45:04 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:47:12.194Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:47:12.198Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:47:12 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:49:01.654Z [:[31merror[39m] Token not present!!!
+2025-01-24T10:49:01.655Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:49:01 +0000] "GET /api/users HTTP/1.1" 403 63 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:49:23.649Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:49:23 +0000] "GET /api/auth/signin HTTP/1.1" 404 154 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:49:28.311Z [:[32minfo[39m] Login successful!!!
+2025-01-24T10:49:28.311Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:49:28 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:49:58.688Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:49:58 +0000] "GET /api/users?offset=1&limit=10 HTTP/1.1" 200 1259 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:50:23.222Z [:[31merror[39m] Token not present!!!
+2025-01-24T10:50:23.223Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:50:23 +0000] "GET /api/users/5 HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-24T10:50:24.761Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:50:24.763Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:50:24 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:50:33.875Z [:[31merror[39m] Token not present!!!
+2025-01-24T10:50:33.876Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:50:33 +0000] "GET /api/users/5 HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-24T10:50:53.498Z [:[31merror[39m] Token not present!!!
+2025-01-24T10:50:53.500Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:50:53 +0000] "GET /api/users/5 HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-24T10:50:57.026Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:50:57.028Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:50:57 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1066 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:51:32.795Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:51:32.796Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:51:32 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:51:42.436Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:51:42.437Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:51:42 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1065 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:52:31.959Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:52:31.961Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:52:31 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:54:48.223Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:54:48.225Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:54:48 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:54:56.817Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:54:56.818Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:54:56 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:56:13.789Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:56:13.790Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:56:13 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:56:36.365Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:56:36.376Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:56:36 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:56:48.208Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:56:48.209Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:56:48 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:56:55.155Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:56:55.157Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:56:55 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:57:05.645Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:57:05.653Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:57:05 +0000] "POST /api/users?offset=1&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:57:10.312Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:57:10.315Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:57:10 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:57:21.473Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:57:21.475Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:57:21 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1066 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:57:37.018Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T10:57:37.020Z [:[32minfo[39m] ::1 - - [24/Jan/2025:10:57:37 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1065 "-" "PostmanRuntime/7.43.0"
+2025-01-24T10:59:09.995Z [:[32minfo[39m] Login successful!!!
+2025-01-24T10:59:09.995Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:59:09 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T10:59:11.179Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:10:59:11 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T11:02:15.304Z [:[32minfo[39m] Login successful!!!
+2025-01-24T11:02:15.305Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:02:15 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T11:02:15.806Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:02:15 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T11:03:56.801Z [:[32minfo[39m] Login successful!!!
+2025-01-24T11:03:56.801Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:03:56 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T11:03:57.286Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:03:57 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T11:04:06.208Z [:[31merror[39m] Token not present!!!
+2025-01-24T11:04:06.210Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:04:06 +0000] "GET /api/users/5 HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-24T11:04:25.101Z [:[32minfo[39m] Login successful!!!
+2025-01-24T11:04:25.101Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:04:25 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "okhttp/4.12.0"
+2025-01-24T11:04:25.695Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:04:25 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T11:05:21.637Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:05:21 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T11:05:22.989Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [24/Jan/2025:11:05:22 +0000] "GET /api/users/5 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-24T12:53:48.766Z [:[31merror[39m] jwt expired
+2025-01-24T12:54:04.128Z [:[31merror[39m] Error in Database
+2025-01-24T12:54:04.129Z [:[31merror[39m] Database failed: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-24T12:54:07.232Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:54:07 +0000] "POST /api/auth/signin HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:54:09.208Z [:[32minfo[39m] Login successful!!!
+2025-01-24T12:54:09.209Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:54:09 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:54:14.969Z [:[32minfo[39m] Login successful!!!
+2025-01-24T12:54:14.970Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:54:14 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:54:26.959Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:54:26 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:54:28.111Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T12:54:28.113Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:54:28 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1065 "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:55:03.099Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T12:55:03.100Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:55:03 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 2071 "-" "PostmanRuntime/7.43.0"
+2025-01-24T12:55:19.286Z [:[32minfo[39m] Fetched successfully!!
+2025-01-24T12:55:19.288Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:55:19 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"

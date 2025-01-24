@@ -85,26 +85,26 @@ export const getAllInterns=async()=>{
                 role:{
                     roleName:"Interns"
                 },
-                include:{
-                    password:false,
-                    gender:false,
-                    personalEmail:false,
-                    currentAddress:false,
-                    permanentAddress:false,
-                    dateOfBirth:false,
-                    dateOfJoining:false,
-                    bloodGroup:false,
-                    profilePercentage:false,
-                    resume:false,
-                    bankDetails:false,
-                    createdAt:false,
-                    updatedAt:false,
-                    roleId:false,
-                    education:false,
-                    certificates_submission_status:false,
+            },
+            include:{
+                password:false,
+                gender:false,
+                personalEmail:false,
+                currentAddress:false,
+                permanentAddress:false,
+                dateOfBirth:false,
+                dateOfJoining:false,
+                bloodGroup:false,
+                profilePercentage:false,
+                resume:false,
+                bankDetails:false,
+                createdAt:false,
+                updatedAt:false,
+                roleId:false,
+                education:false,
+                certificates_submission_status:false,
 
 
-                }
             }
         })
         return allInterns;
@@ -116,7 +116,6 @@ export const getAllInterns=async()=>{
 
 export const updateUser=async(userId,data)=>{
     try{
-        
         const updatedInternProfile=await prisma.users.update({
             where:{
                 id:userId
@@ -132,3 +131,31 @@ export const updateUser=async(userId,data)=>{
 
 }
 
+export const getInternBasedOnFilters=async(filters,offset,limit)=>{
+    try{
+        console.log(filters.year)
+        const whereClause = {
+            role: { roleName: "Interns" },
+        };
+
+        if (filters.year && filters.year.length > 0) {
+            whereClause.year = { in: filters.year };
+        }
+        if (filters.batch && filters.batch.length > 0) {
+            whereClause.batch = { in: filters.batch };
+        }
+        if (filters.designation && filters.designation.length > 0) {
+            whereClause.designation = { in: filters.designation };
+        }
+        const internsBasedOnFilters=await prisma.users.findMany({
+            skip:offset,
+            take:limit,
+            where:whereClause
+        })
+        return internsBasedOnFilters; 
+    }
+    catch(error)
+    {
+        handleError(error,"Database");
+    }
+}
