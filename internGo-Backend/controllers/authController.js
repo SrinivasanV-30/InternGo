@@ -3,7 +3,8 @@ import {createIntern, findUserByEmail,createUser} from "../models/userModel.js";
 import bcrypt from 'bcrypt';
 import logger from "../utils/logger.js";
 import { jwtSign } from "../services/jwtService.js";
-import { findRoleByName } from "../models/roleModel.js";
+import { findRoleByName, updateRole } from "../models/roleModel.js";
+import handleError from "../utils/handleError.js";
 
 
 
@@ -123,6 +124,27 @@ export const createUserController = async(req,res)=>{
     }
     catch(error){
         logger.error(error.message);
+    }
+}
+
+export const updateUserPermission=async(req,res)=>{
+    try{
+
+        const {roleName,permissions}=req.body;
+        if(!permissions){
+            logger.error("Invalid permissions!!");
+            return sendResponse(res,400,"Invalid permissions!!")
+        }
+        const role=await findRoleByName(roleName);
+        const updatedPermissions={permissions:(role.permissions).concat(permissions)};
+
+        await updateRole(role.id,updatedPermissions);
+        logger.info("Updated permissions successfully");
+        return sendResponse(res,200,"Updated permissions successfully");
+
+    }
+    catch(error){
+        handleError(error,"Authentication Controller");
     }
 }
 

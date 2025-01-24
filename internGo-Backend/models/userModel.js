@@ -81,7 +81,7 @@ export const getAllInterns=async()=>{
         const allInterns=await prisma.users.findMany({
             where:{
                 role:{
-                    roleName:"Intern"
+                    roleName:"Interns"
                 }
             }
         })
@@ -94,7 +94,7 @@ export const getAllInterns=async()=>{
 
 export const updateUser=async(userId,data)=>{
     try{
-        // console.log(userId)
+        
         const updatedInternProfile=await prisma.users.update({
             where:{
                 id:userId

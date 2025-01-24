@@ -90,3 +90,16 @@ export const createUserAsset=async(req,res)=>{
         handleError(error,"User Controller");
     }
 }
+
+export const getInternsWithFilters=async(req,res)=>{
+    try{
+        const {limit,offset}=[req.query.limit,req.query.offset];
+        const filters=req.body;
+        console.log(filters);
+
+    }
+    catch(error)
+    {
+        handleError(error,"User Controller");
+    }
+}

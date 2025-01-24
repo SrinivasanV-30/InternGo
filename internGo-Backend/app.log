@@ -854,3 +854,13 @@ Invalid `prisma.assets.findUnique()` invocation:
 Argument `where` of type AssetsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
 2025-01-23T18:25:09.156Z [:[32minfo[39m] Assets fetched successfully
 2025-01-23T18:25:09.169Z [:[32minfo[39m] ::1 - - [23/Jan/2025:18:25:09 +0000] "GET /api/users/6/assets HTTP/1.1" 200 199 "-" "PostmanRuntime/7.43.0"
+2025-01-24T06:29:15.374Z [:[32minfo[39m] Login successful!!!
+2025-01-24T06:29:15.375Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:29:15 +0000] "POST /api/auth/signin HTTP/1.1" 200 571 "-" "PostmanRuntime/7.43.0"
+2025-01-24T06:30:24.788Z [:[31merror[39m] Token not present!!!
+2025-01-24T06:30:24.789Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:30:24 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 403 63 "-" "PostmanRuntime/7.43.0"
+2025-01-24T06:30:32.847Z [:[31merror[39m] Invalid permissions!!
+2025-01-24T06:30:32.848Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:30:32 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 400 64 "-" "PostmanRuntime/7.43.0"
+2025-01-24T06:31:20.643Z [:[31merror[39m] Error in Database
+2025-01-24T06:33:15.662Z [:[31merror[39m] Error in Database
+2025-01-24T06:34:00.317Z [:[32minfo[39m] Updated permissions successfully
+2025-01-24T06:34:00.326Z [:[32minfo[39m] ::1 - - [24/Jan/2025:06:34:00 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"

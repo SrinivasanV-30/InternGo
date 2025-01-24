@@ -60,6 +60,10 @@ export const checkUser=async(req,res,next)=>{
         const id=parseInt(req.params.id);
         console.log("check",id)
         console.log(req.user.userId,req.user.role)
+        if(isNaN(id)){
+            logger.error("Invalid ID format!!!");
+            return sendResponse(res,400,"Invalid ID format!!!");
+        }
         if(req.user.role == "Admins" || id==req.user.userId){
             return next();
         }
