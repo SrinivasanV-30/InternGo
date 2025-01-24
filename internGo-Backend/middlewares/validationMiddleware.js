@@ -1,4 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
+import { assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
@@ -49,6 +50,42 @@ export const signInValidation = (req,res,next)=>{
 export const userCreateValidation = (req,res,next)=>{
     try{
         const result = userCreateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const profileUpdateValidation = (req,res,next)=>{
+    try{
+        const result = profileUpdateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const assetValidation = (req,res,next)=>{
+    try{
+        const result = assetValidationSchema.validateAsync(req.body);
         result.then(()=>{
             next()
         })

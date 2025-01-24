@@ -3,10 +3,28 @@ import logger from "./logger.js"
 export const profilePercentage=async(userData)=>{
     try{
         const data=userData;
-        const totalFields=Object.keys(data).length-2;
+        const fields=[
+            "name",
+            "password",
+            "email",
+            "gender",
+            "personalEmail",
+            "currentAddress",
+            "permanentAddress",
+            "profilePhoto",
+            "resume",
+            "year",
+            "phone_no",
+            "education",
+            "bankDetails",
+            "dateOfBirth",
+            "dateOfJoining",
+            "bloodGroup"
+        ];
+        const totalFields=fields.length;
         let notNullCount=0;
         for(let [key,value] of Object.entries(data)){
-            if(value && !(["createdAt","updatedAt"].includes(key)))
+            if(value && fields.includes(key))
             {
                 notNullCount+=1;
             }

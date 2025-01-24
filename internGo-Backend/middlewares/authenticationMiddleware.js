@@ -13,7 +13,7 @@ export const authenticateUser=async(req,res,next)=>{
         const token=authHeader.split(" ")[1];
         const user=await jwtVerify(token);
         req.user=user;
-        // console.log(req.user);
+        console.log(req.user);
         next();
     }
     catch(error){
@@ -59,12 +59,12 @@ export const checkUser=async(req,res,next)=>{
     try{
         const id=parseInt(req.params.id);
         console.log("check",id)
-
-        if(req.user.role != "Admins" && id!=req.user.userId){
-            logger.error("Access Denied. Permission not found");
-            return sendResponse(res,403,"Access Denied. Can not access other interns.");
+        console.log(req.user.userId,req.user.role)
+        if(req.user.role == "Admins" || id==req.user.userId){
+            return next();
         }
-        next();
+        logger.error("Access Denied. Can not access other interns.");
+        return sendResponse(res,403,"Access Denied. Can not access other interns.");
     }
     catch(error){
         logger.error(error.message);

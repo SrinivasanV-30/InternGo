@@ -25,8 +25,8 @@ app.use(morgan('combined',{
 app.use(cors(corsOptions));
 
 
-app.use('/api/auth',authRouter);
-app.use('/api/users',userRouter);
+
+
 
 app.listen(PORT,()=>{
     console.log(`Successfully running on ${PORT}`)

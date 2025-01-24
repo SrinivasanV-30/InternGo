@@ -27,7 +27,7 @@ export const findUserByUserId=async(userId)=>{
                 id:userId
             },
             include:{
-                role:true
+                assets:true
             }
         })
         return userDetails;        
