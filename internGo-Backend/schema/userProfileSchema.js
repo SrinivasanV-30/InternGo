@@ -6,8 +6,8 @@ export const profileUpdateValidationSchema = Joi.object({
     personalEmail: Joi.string().email(),
     currentAddress: Joi.string().max(100),
     permanentAddress: Joi.string().max(100),
-    profilePhoto: Joi.string().uri(),
-    resume: Joi.string().uri(),
+    profilePhoto: Joi.string(),
+    resume: Joi.string(),
     batch: Joi.string().max(50),
     year: Joi.number().integer().min(1900).max(new Date().getFullYear()),
     bankDetails: Joi.object({

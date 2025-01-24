@@ -13,7 +13,6 @@ export const findUserByEmail=async(email)=>{
             },
             include:{
                 role:true,
-                password:false,
             }
         })
         return userDetails;        

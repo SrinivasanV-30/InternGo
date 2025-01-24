@@ -4,6 +4,7 @@ import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
 import { createAsset, getAssetByUserId } from "../models/assetModel.js";
 import handleError from "../utils/handleError.js";
+import { uploadImageToS3 } from "../services/s3Service.js";
 
 
 export const getAllIntern = async(req,res)=>{
@@ -21,11 +22,23 @@ export const updateUserProfile = async(req,res)=>{
     try{
         const userId=parseInt(req.params.id);
         const userData=req.body;
+        const userDetails=await findUserByUserId(userId);
+        if(!userDetails){
+            logger.error("User not found!!!");
+            return sendResponse(res,404,"User not found!!!");
+        }
         if ("dateOfJoining" in userData) {
             if (isNaN(new Date(userData.dateOfJoining))) {
                 return sendResponse(res, 400, "Invalid dateOfJoining format. Please use a valid date.");
             }
             userData.dateOfJoining = new Date(userData.dateOfJoining);
+        }
+        if(userData.profilePhoto){
+            const imageData=await uploadImageToS3(userData.profilePhoto,userDetails.name);
+            if(!imageData){
+                return sendResponse(res, 400, "Invalid image!!!");
+            }
+            userData.profilePhoto=imageData.Location;
         }
         if ("dateOfBirth" in userData) {
             if (isNaN(new Date(userData.dateOfBirth))) {
@@ -33,12 +46,7 @@ export const updateUserProfile = async(req,res)=>{
             }
             userData.dateOfBirth = new Date(userData.dateOfBirth);
         }
-        const userDetails=await findUserByUserId(userId);
-        if(!userDetails){
-            logger.error("User not found!!!");
-            return sendResponse(res,404,"User not found!!!");
-        }
-
+        console.log("Hello")
         const updatedUserProfile=await updateUser(userId,userData);
         if(!updatedUserProfile){
             return sendResponse(res,400,"Update unsuccessful");

@@ -40,12 +40,15 @@ export const checkPermission = (requiredPermission) => {
                 
                 if (userPermissions.includes(item)) {
                     flag=1;
-                    return next();
                 }    
             });
             if(flag==0){
             logger.error("Access Denied. Permission not found");
             return sendResponse(res,403,"Access Denied. Permission not found");
+            }
+            if(flag==1)
+            {
+                return next();
             }
 
         }
