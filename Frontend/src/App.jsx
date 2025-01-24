@@ -9,13 +9,15 @@ import DailyUpdate from '../src/components/users/DailyUpdate'
 import Feedback from '../src/components/users/Feedback'
 import Help from '../src/components/users/Help'
 import Interactions from '../src/components/users/Interactions'
-import Profile from '../src/components/users/Profile'
+import Profile from '../src/components/common/Profile'
 import InteractionSchedule from '../src/components/admin/InteractionSchedule'
 import Plan from '../src/components/admin/Plan'
-import Records from '../src/components/admin/Records'
+import Records from './components/admin/Resources'
 import EditProfile from './components/users/EditProfile';
 import Roadmap from './components/common/Roadmap';
-
+import UserDetail from './components/admin/UserDetail';
+import NotFound from './pages/NotFound';
+ 
 const App = () => {
     return (
         <Router>
@@ -23,6 +25,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
+                <Route path="*" element={<NotFound />} />
                 {/* Protected Dashboard Routes */}
                 <Route
                 path="/dashboard"
@@ -39,9 +42,10 @@ const App = () => {
                     <Route path="profile" element={<Profile />} />
                     <Route path="interaction-schedule" element={<InteractionSchedule />} />
                     <Route path="plan" element={<Plan />} />
-                    <Route path="records" element={<Records />} />
+                    <Route path="resources" element={<Records />} />
                     <Route path="edit-profile" element={<EditProfile />} />
                     <Route path="roadmap" element={<Roadmap />} />
+                    <Route path="resources/:id" element={<UserDetail />} />
                 </Route>
             </Routes>
         </Router>

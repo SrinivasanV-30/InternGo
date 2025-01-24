@@ -180,7 +180,9 @@ const EditProfile = () => {
             ))}
         </div>
         </div>
-
+        <div className="text-center">
+             <button className="bg-blue-600 hover:bg-blue-700 h-10 w-20 rounded border border-blue-900 text-center">Submit</button>
+       </div>
       </form>
     </div>
   );

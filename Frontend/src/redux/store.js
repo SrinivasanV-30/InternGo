@@ -7,7 +7,7 @@ const getParsedItem = (key, fallback) => {
     return item ? JSON.parse(item) : fallback;
   } catch {
     return fallback;
-  }
+  }  
 };
 
 const persistedState = {

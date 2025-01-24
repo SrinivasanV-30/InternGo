@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Outlet, NavLink } from "react-router-dom";
-import GLogout from "../../components/authentication/GLogout";
-import logo from "../../assets/logo.png";
 import {
   FaUser,
   FaTasks,
@@ -15,75 +13,85 @@ import {
   FaTicketAlt,
   FaBullhorn,
 } from "react-icons/fa";
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import GLogout from "../../components/authentication/GLogout";
+import logo from "../../assets/logo2.png";
 
 const DashboardLayout = () => {
   const { name, role, permissions } = useSelector((state) => state.auth);
-  const [isSidebarOpen, setSidebarOpen] = useState(true);
-
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const tabs = [
-    { name: "Profile", icon: FaUser, permission: "profile.update", path: "/dashboard/profile" },
-    { name: "Daily Update", icon: FaTasks, permission: "tasks.update", path: "/dashboard/daily-update" },
-    { name: "RoadMap", icon: FaMapMarkedAlt, permission: "roadmaps.view", path: "/dashboard/roadmap" },
-    { name: "Help", icon: FaHandsHelping, permission: "announcements.view", path: "/dashboard/help" },
-    { name: "FeedBack", icon: FaComments, permission: "feedback.view", path: "/dashboard/feedback" },
-    { name: "Interactions", icon: FaCalendarAlt, permission: "interactions.view", path: "/dashboard/interactions" },
-    { name: "Create Plan", icon: FaPlusSquare, permission: "plans.create", path: "/dashboard/create-plan" },
-    { name: "Interaction Schedule", icon: FaCalendarAlt, permission: "interactions.schedule", path: "/dashboard/interaction-schedule" },
-    { name: "Records", icon: FaFileAlt, permission: "users.view", path: "/dashboard/records" },
-    { name: "Pending Tickets", icon: FaTicketAlt, permission: "tickets.view", path: "/dashboard/pending-tickets" },
-    { name: "Create Announcement", icon: FaBullhorn, permission: "announcements.create", path: "/dashboard/create-announcement" },
+    { name: "Profile", permission: "profile.update", path: "/dashboard/profile", icon: <FaUser /> },
+    { name: "Daily Update", permission: "tasks.update", path: "/dashboard/daily-update", icon: <FaTasks /> },
+    { name: "RoadMap", permission: "roadmaps.view", path: "/dashboard/roadmap", icon: <FaMapMarkedAlt /> },
+    { name: "Help", permission: "announcements.view", path: "/dashboard/help", icon: <FaHandsHelping /> },
+    { name: "FeedBack", permission: "feedback.view", path: "/dashboard/feedback", icon: <FaComments /> },
+    { name: "Interactions", permission: "interactions.view", path: "/dashboard/interactions", icon: <FaCalendarAlt /> },
+    { name: "Create Plan", permission: "plans.create", path: "/dashboard/create-plan", icon: <FaPlusSquare /> },
+    { name: "Interaction Schedule", permission: "interactions.schedule", path: "/dashboard/interaction-schedule", icon: <FaCalendarAlt /> },
+    { name: "Resources", permission: "users.view", path: "/dashboard/resources", icon: <FaFileAlt /> },
+    { name: "Pending Tickets", permission: "tickets.view", path: "/dashboard/pending-tickets", icon: <FaTicketAlt /> },
+    { name: "Create Announcement", permission: "announcements.create", path: "/dashboard/create-announcement", icon: <FaBullhorn /> },
   ];
 
   const filteredTabs = tabs.filter((tab) => permissions.includes(tab.permission));
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <div
-        className={`${
-          isSidebarOpen ? "w-64" : "w-20"
-        } bg-white shadow-lg transition-all duration-300`}
+        className={`bg-white shadow-lg transition-all duration-300 ${
+          sidebarOpen ? "w-60" : "w-16"
+        }`}
       >
-        {/* Sidebar Header */}
-        <div className="flex items-center justify-between px-4 py-4">
+        <div className="flex flex-row items-center py-4">
           <img
             src={logo}
             alt="InternGO"
-            className={`transition-all duration-300 ${
-              isSidebarOpen ? "w-40" : "w-10"
-            }`}
+            className={`transition-all duration-300 w-11 h-11 ml-2`}
           />
-          <button
-            onClick={() => setSidebarOpen(!isSidebarOpen)}
-            className="p-2 rounded-md text-gray-600 hover:bg-gray-200 focus:outline-none"
-          >
-            {isSidebarOpen ? <HiX size={24} /> : <HiMenuAlt3 size={24} />}
-          </button>
+          <h1 className="ml-3">{sidebarOpen ? "InternGo" : ""}</h1>
         </div>
-
-        {/* Sidebar Links */}
-        <nav className="mt-4">
+        <nav className="mt-2">
           <ul>
             {filteredTabs.map((tab, index) => (
               <li key={index} className="flex items-center">
                 <NavLink
                   to={tab.path}
                   className={({ isActive }) =>
-                    `flex items-center px-4 py-2 text-gray-600 hover:bg-gray-200 rounded-lg ${
+                    `flex w-full items-center space-x-2 px-4 py-2 text-gray-600 hover:bg-gray-200 rounded-lg ${
                       isActive ? "bg-gray-200 font-semibold" : ""
                     }`
                   }
                 >
-                  <tab.icon className="w-6 h-6" />
-                  {isSidebarOpen && <span className="ml-4">{tab.name}</span>}
+                  <span className="text-xl">{tab.icon}</span>
+                  {sidebarOpen && <span>{tab.name}</span>}
                 </NavLink>
               </li>
             ))}
+            <li key={20} className="flex items-center">
+                <NavLink
+                  to={"/dashboard/profile"}
+                  className={({ isActive }) =>
+                    `flex w-full items-center space-x-2 px-4 py-2 text-gray-600 hover:bg-gray-200 rounded-lg ${
+                      isActive ? "bg-gray-200 font-semibold" : ""
+                    }`
+                  }
+                >
+                  <span className="text-xl">{<FaUser />}</span>
+                  {sidebarOpen && <span>{"profile"}</span>}
+                </NavLink>
+              </li>
           </ul>
         </nav>
+        <button
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+          className="absolute bottom-4 left-4 bg-gray-300 p-2 rounded-full hover:bg-gray-400"
+        >
+          {sidebarOpen ? "<" : ">"}
+        </button>
       </div>
 
       {/* Main Content */}
@@ -92,34 +100,20 @@ const DashboardLayout = () => {
         <header className="flex items-center justify-between bg-white px-6 py-4 shadow-md">
           <h1 className="text-2xl font-semibold text-gray-700">{role || ""} Dashboard</h1>
           <div className="relative flex items-center space-x-4">
-            {/* Notification Icon */}
             <button
               onClick={() => alert("Notification clicked")}
               className="relative w-8 h-8 bg-gray-300 text-white rounded-full flex items-center justify-center hover:bg-gray-400"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V4a2 2 0 10-4 0v1.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0a3 3 0 11-6 0m6 0H9"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V4a2 2 0 10-4 0v1.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0a3 3 0 11-6 0m6 0H9" />
               </svg>
               <span className="absolute top-0 right-0 inline-flex items-center justify-center w-3 h-3 text-xs font-bold leading-none text-white bg-red-500 rounded-full">
                 3
               </span>
             </button>
-
-            {/* Profile Dropdown */}
             <div className="relative">
               <button
-                onClick={() => setSidebarOpen(!dropdownOpen)}
+                onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="flex items-center space-x-2 bg-gray-300 text-white px-3 py-2 rounded-full cursor-pointer hover:bg-gray-400"
               >
                 <span>{name}</span>
@@ -127,10 +121,11 @@ const DashboardLayout = () => {
                   {name?.[0]?.toUpperCase()}
                 </div>
               </button>
-
-              {/* Dropdown Menu */}
               {dropdownOpen && (
-                <div className="absolute right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-48 z-50">
+                <div
+                  className="absolute right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-48 z-50"
+                  style={{ top: "calc(100% + 8px)" }}
+                >
                   <ul className="py-2">
                     <li
                       onClick={() => (window.location.href = "/dashboard/edit-profile")}
@@ -147,8 +142,6 @@ const DashboardLayout = () => {
             </div>
           </div>
         </header>
-
-        {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
           <Outlet />
         </main>
@@ -158,8 +151,6 @@ const DashboardLayout = () => {
 };
 
 export default DashboardLayout;
-
-
 
 // import React, { useState } from 'react';
 // import { useSelector } from 'react-redux';
