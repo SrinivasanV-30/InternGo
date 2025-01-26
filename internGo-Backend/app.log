@@ -1062,3 +1062,55 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-01-24T12:55:03.100Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:55:03 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 2071 "-" "PostmanRuntime/7.43.0"
 2025-01-24T12:55:19.286Z [:[32minfo[39m] Fetched successfully!!
 2025-01-24T12:55:19.288Z [:[32minfo[39m] ::1 - - [24/Jan/2025:12:55:19 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3339 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:09:24.468Z [:[32minfo[39m] Login successful!!!
+2025-01-25T17:09:24.469Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:09:24 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:10:03.834Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:10:03.838Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:10:03 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3323 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:10:22.487Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:10:22.489Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:10:22 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:10:38.570Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:10:38.572Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:10:38 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3323 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:11:09.734Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:11:09.736Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:11:09 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1056 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:11:28.353Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:11:28.355Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:11:28 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1056 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:11:56.120Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:11:56.122Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:11:56 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1063 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:12:23.657Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:12:23.659Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:12:23 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3323 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:41:57.611Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:41:57.614Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:41:57 +0000] "POST /api/users/search HTTP/1.1" 200 5284 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:42:43.625Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:42:43.628Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:42:43 +0000] "POST /api/users/search HTTP/1.1" 200 5284 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:43:21.700Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:43:21.710Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:43:21 +0000] "POST /api/users/search HTTP/1.1" 200 5284 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:43:40.914Z [:[31merror[39m] Error in Database
+2025-01-25T17:44:02.383Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:44:02.389Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:44:02 +0000] "POST /api/users/search HTTP/1.1" 200 1056 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:45:36.078Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:45:36.079Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:45:36 +0000] "POST /api/users/search HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:45:41.891Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:45:41.893Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:45:41 +0000] "POST /api/users/search HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:45:51.282Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:45:51.282Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:45:51 +0000] "POST /api/users/search HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:46:00.327Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:46:00.328Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:46:00 +0000] "POST /api/users/search HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:46:13.374Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:46:13.376Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:46:13 +0000] "POST /api/users/search HTTP/1.1" 200 1063 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:46:27.732Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:46:27 +0000] "GET /api/users HTTP/1.1" 200 1245 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:47:02.402Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:47:02.404Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:47:02 +0000] "POST /api/users/search HTTP/1.1" 200 718 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:51:43.839Z [:[32minfo[39m] Fetched successfully!!
+2025-01-25T17:51:43.840Z [:[32minfo[39m] ::1 - - [25/Jan/2025:17:51:43 +0000] "POST /api/users/search HTTP/1.1" 200 718 "-" "PostmanRuntime/7.43.0"
+2025-01-25T17:55:09.101Z [:[31merror[39m] Error in Database
+2025-01-26T16:42:07.436Z [:[31merror[39m] logger is not defined
+2025-01-26T16:42:54.721Z [:[32minfo[39m] Login successful!!!
+2025-01-26T16:42:54.723Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:42:54 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-26T16:43:42.839Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T16:43:42.842Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:43:42 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6989 "-" "PostmanRuntime/7.43.0"
+2025-01-26T16:44:05.405Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T16:44:05.407Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:44:05 +0000] "POST /api/users?offset=5&limit=5 HTTP/1.1" 200 3124 "-" "PostmanRuntime/7.43.0"
+2025-01-26T16:45:09.814Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T16:45:09.815Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:45:09 +0000] "POST /api/users?offset=0&limit=5 HTTP/1.1" 200 3925 "-" "PostmanRuntime/7.43.0"
+2025-01-26T16:45:35.411Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T16:45:35.413Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:45:35 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6989 "-" "PostmanRuntime/7.43.0"

@@ -1,6 +1,9 @@
 import Joi from 'joi';
 
 export const profileUpdateValidationSchema = Joi.object({
+    name: Joi.string().max(30),
+    email:Joi.string().email(),
+    password:Joi.string(),
     gender: Joi.string().valid("Male", "Female", "Other"),
     employeeId: Joi.string().max(20),
     personalEmail: Joi.string().email(),
@@ -10,6 +13,7 @@ export const profileUpdateValidationSchema = Joi.object({
     resume: Joi.string(),
     batch: Joi.string().max(50),
     year: Joi.number().integer().min(1900).max(new Date().getFullYear()),
+    skills:Joi.array(),
     bankDetails: Joi.object({
         accountNumber: Joi.number().integer(),
         branch: Joi.string().max(50),
@@ -17,9 +21,9 @@ export const profileUpdateValidationSchema = Joi.object({
         bankName: Joi.string().max(50)
     }),
     education: Joi.object({
-        degree: Joi.string().max(50),
-        college: Joi.string().max(100),
-        batch: Joi.string().max(50)
+            degree: Joi.string().max(50),
+            college: Joi.string().max(100),
+            batch: Joi.string().max(50)
     }),
     designation: Joi.string().max(50),
     phone_no: Joi.string().pattern(/^\d{10}$/),
@@ -35,5 +39,5 @@ export const assetValidationSchema = Joi.object({
     userId: Joi.number().integer().required(),
     assetType: Joi.string().max(50).required(),
     assetName: Joi.string().max(100).required(),
-    givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required() // Date in "YYYY-MM-DD" format
+    givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required() 
 });

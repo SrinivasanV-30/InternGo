@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
-import handleError from "../utils/handleError.js";
-import { profilePercentage } from "../utils/profilePercentage.js";
+import logger from "../utils/logger.js";
+
 
 const prisma = new PrismaClient();
 
@@ -18,7 +18,7 @@ export const findUserByEmail=async(email)=>{
         return userDetails;        
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 }
 export const findUserByUserId=async(userId)=>{
@@ -35,7 +35,7 @@ export const findUserByUserId=async(userId)=>{
         return userDetails;        
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 }
 
@@ -62,7 +62,7 @@ export const createIntern=async(userDetails)=>{
         return createdUser;
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 }
 
@@ -74,7 +74,7 @@ export const createUser=async(userDetails)=>{
         return createdUser;
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 }
 
@@ -110,7 +110,7 @@ export const getAllInterns=async()=>{
         return allInterns;
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 }
 
@@ -126,36 +126,53 @@ export const updateUser=async(userId,data)=>{
         return updatedInternProfile;
     }
     catch(error){
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 
 }
 
 export const getInternBasedOnFilters=async(filters,offset,limit)=>{
     try{
-        console.log(filters.year)
-        const whereClause = {
+        const whereCondition = {
             role: { roleName: "Interns" },
         };
 
         if (filters.year && filters.year.length > 0) {
-            whereClause.year = { in: filters.year };
+            whereCondition.year = { in: filters.year };
+        }
+        if (filters.status && filters.status.length > 0) {
+            whereCondition.status = { in: filters.status };
         }
         if (filters.batch && filters.batch.length > 0) {
-            whereClause.batch = { in: filters.batch };
+            whereCondition.batch = { in: filters.batch };
         }
         if (filters.designation && filters.designation.length > 0) {
-            whereClause.designation = { in: filters.designation };
+            whereCondition.designation = { in: filters.designation };
         }
         const internsBasedOnFilters=await prisma.users.findMany({
             skip:offset,
             take:limit,
-            where:whereClause
+            where:whereCondition
         })
         return internsBasedOnFilters; 
     }
     catch(error)
     {
-        handleError(error,"Database");
+        logger.error(error.message);
+    }
+}
+
+export const getInternBasedOnSearch=async(name)=>{
+    try{
+        const internsBasedOnSearch=await prisma.users.findMany({
+            where:{
+                name:name
+            }
+        })
+        return internsBasedOnSearch; 
+    }
+    catch(error)
+    {
+        logger.error(error.message);
     }
 }

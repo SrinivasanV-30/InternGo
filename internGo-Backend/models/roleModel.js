@@ -1,6 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import handleError from "../utils/handleError.js";
-
+import logger from "../utils/logger.js";
 const prisma = new PrismaClient();
 
 export const findRoleById = async (roleId) => {
@@ -11,7 +10,7 @@ export const findRoleById = async (roleId) => {
         return roleDetails;
     } 
     catch (error) {
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 };
 
@@ -25,7 +24,7 @@ export const findRoleByName = async (roleName) => {
         return roleDetails;
     } 
     catch (error) {
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 };
 
@@ -44,7 +43,7 @@ export const createRole = async (roleDetails) => {
         return createdRole;
     } 
     catch (error) {
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 };
 
@@ -54,7 +53,7 @@ export const getAllRoles = async () => {
         return allRoles;
     } 
     catch (error) {
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 };
 
@@ -67,6 +66,6 @@ export const updateRole = async (roleId, data) => {
         return updatedRole;
     } 
     catch (error) {
-        handleError(error,"Database");
+        logger.error(error.message);
     }
 };

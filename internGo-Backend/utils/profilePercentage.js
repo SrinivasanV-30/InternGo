@@ -10,6 +10,7 @@ export const profilePercentage=async(userData)=>{
             "gender",
             "personalEmail",
             "currentAddress",
+            "skills",
             "permanentAddress",
             "profilePhoto",
             "resume",

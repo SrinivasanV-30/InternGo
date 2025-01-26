@@ -1,9 +1,8 @@
 import sendResponse from "../utils/response.js";
-import { findUserByUserId, getAllInterns, getInternBasedOnFilters, updateUser } from "../models/userModel.js";
+import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, updateUser } from "../models/userModel.js";
 import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
 import { createAsset, getAssetByUserId } from "../models/assetModel.js";
-import handleError from "../utils/handleError.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
 
 
@@ -14,7 +13,7 @@ export const getAllIntern = async(req,res)=>{
         sendResponse(res,200,"Fetched successfully",allIntern);
     }
     catch(error){
-        handleError(error,"User Controller");
+        logger.error(error,"User Controller");
     }
 }
 
@@ -58,7 +57,7 @@ export const updateUserProfile = async(req,res)=>{
         sendResponse(res,200,"Updated successfully",response);
     }
     catch(error){
-        handleError(error,"User Controller");
+        logger.error(error.message);
     }
 }
 
@@ -70,7 +69,7 @@ export const getUser=async(req,res)=>{
         sendResponse(res,200,"Fetched successfully",internProfile);
     }
     catch(error){
-        handleError(error,"User Controller");
+        logger.error(error.message);
     }
 }
 export const getUserAssets=async(req,res)=>{
@@ -81,7 +80,7 @@ export const getUserAssets=async(req,res)=>{
         sendResponse(res,200,"Assets fetched successfully",assets)
     }
     catch(error){
-        handleError(error,"User Controller");
+        logger.error(error.message);
     }
 }
 
@@ -95,7 +94,7 @@ export const createUserAsset=async(req,res)=>{
         sendResponse(res,201,"Created asset successfully",createdAsset);
     }
     catch(error){
-        handleError(error,"User Controller");
+        logger.error(error.message);
     }
 }
 
@@ -111,6 +110,19 @@ export const getInternsWithFilters=async(req,res)=>{
     }
     catch(error)
     {
-        handleError(error,"User Controller");
+        logger.error(error.message);
+    }
+}
+
+export const searchInterns=async(req,res)=>{
+    try{
+        const internName=req.body;
+        console.log(internName);
+        const searchedInterns=await getInternBasedOnSearch(internName.name);
+        logger.info("Fetched successfully!!");
+        sendResponse(res,200,"Fetched successfully",searchedInterns);
+    }
+    catch(error){
+        logger.error(error.message);
     }
 }
