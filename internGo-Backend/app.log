@@ -1411,6 +1411,7 @@ Unknown argument `name`. Did you mean `lte`? Available options are marked with ?
 2025-01-27T05:03:34.816Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:03:34 +0000] "POST /api/users/search HTTP/1.1" 200 1054 "-" "PostmanRuntime/7.43.0"
 2025-01-27T05:20:17.203Z [:[32minfo[39m] Login successful!!!
 2025-01-27T05:20:17.205Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:20:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+<<<<<<< HEAD
 =======
 2025-01-25T09:48:22.857Z [:[32minfo[39m] Updated successfully
 2025-01-25T09:48:22.868Z [:[32minfo[39m] ::1 - - [25/Jan/2025:09:48:22 +0000] "PATCH /api/users/update/6 HTTP/1.1" 200 1094 "-" "PostmanRuntime/7.43.0"
@@ -4179,3 +4180,82 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-01-27T05:34:41.286Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:34:41 +0000] "GET /api/users/6 HTTP/1.1" 200 1214 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-01-27T05:34:42.108Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:34:42 +0000] "GET /api/users/6 HTTP/1.1" 200 1214 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 >>>>>>> 06c5c4b (Profile section)
+=======
+2025-01-27T06:13:08.288Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: "1",
+  take: "10",
+        ~~~~
+  where: {
+    name: "Srini"
+  }
+}
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2025-01-27T06:13:08.402Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T06:13:08.410Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:13:08 +0000] "POST /api/users/search?offset=1&limit=10 HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:20:18.608Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:20:18 +0000] "PATCH /api/users/update/assets/2 HTTP/1.1" 404 166 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:20:38.657Z [:[31merror[39m] jwt expired
+2025-01-27T06:20:38.658Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:20:38 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 403 54 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:20:49.288Z [:[32minfo[39m] Login successful!!!
+2025-01-27T06:20:49.289Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:20:49 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:20:54.688Z [:[31merror[39m] Error in Database
+2025-01-27T06:20:54.689Z [:[31merror[39m] Database failed: 
+Invalid `prisma.assets.update()` invocation:
+
+{
+  where: {
+    id: {
+      returnOn: new Date("2025-01-27T00:00:00.000Z")
+    }
+  },
++ data: AssetsUpdateInput | AssetsUncheckedUpdateInput
+}
+
+Argument `data` is missing.
+2025-01-27T06:23:03.151Z [:[31merror[39m] Error in Database
+2025-01-27T06:23:03.153Z [:[31merror[39m] Database failed: 
+Invalid `prisma.assets.update()` invocation:
+
+{
+  where: {
+    id: 2
+  },
+  data: {
+    returnOn: new Date("2025-01-27T00:00:00.000Z"),
+    ~~~~~~~~
+?   assetType?: String | StringFieldUpdateOperationsInput,
+?   assetName?: String | StringFieldUpdateOperationsInput,
+?   givenOn?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   returnedOn?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   user?: UsersUpdateOneRequiredWithoutAssetsNestedInput
+  }
+}
+
+Unknown argument `returnOn`. Did you mean `returnedOn`? Available options are marked with ?.
+2025-01-27T06:23:14.022Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:23:14 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:23:15.580Z [:[31merror[39m] Error in Database
+2025-01-27T06:23:15.581Z [:[31merror[39m] Database failed: 
+Invalid `prisma.assets.update()` invocation:
+
+{
+  where: {
+    id: 2
+  },
+  data: {
+    returnedOn: "2025-01-27"
+                ~~~~~~~~~~~~
+  }
+}
+
+Invalid value for argument `returnedOn`: premature end of input. Expected ISO-8601 DateTime.
+2025-01-27T06:23:32.982Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:23:32 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 400 92 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:24:02.057Z [:[32minfo[39m] Created asset successfully
+2025-01-27T06:24:02.066Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:24:02 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 217 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:28:02.630Z [:[32minfo[39m] Created asset successfully
+2025-01-27T06:28:02.631Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:28:02 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 209 "-" "PostmanRuntime/7.43.0"
+2025-01-27T06:28:44.523Z [:[32minfo[39m] Updated asset successfully
+2025-01-27T06:28:44.529Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:28:44 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 209 "-" "PostmanRuntime/7.43.0"
+>>>>>>> 0d79293 (update_asset_updated)

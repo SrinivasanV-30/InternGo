@@ -42,18 +42,16 @@ export const getAssetByUserId=async(userId)=>{
     }
 }
 
-export const updateAsset=async(id,returnedDate)=>{
+export const updateAsset=async(id,data)=>{
     try{    
-        const updateAsset = await prisma.assets.update({
+        const updatedAsset = await prisma.assets.update({
             where:{
                 id:id
             },
-            data:{
-                returnOn:returnedDate
-            }
+            data:data
 
         });
-        return asset;
+        return updatedAsset;
     }
     catch(error){
         handleError(error,"Database")

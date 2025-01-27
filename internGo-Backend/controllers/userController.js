@@ -2,7 +2,7 @@ import sendResponse from "../utils/response.js";
 import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, internsCount, updateUser } from "../models/userModel.js";
 import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
-import { createAsset, getAssetByUserId } from "../models/assetModel.js";
+import { createAsset, getAssetByUserId, updateAsset } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
 import cron from 'node-cron';
 
@@ -103,6 +103,31 @@ export const createUserAsset=async(req,res)=>{
     }
 }
 
+export const updateUserAsset=async(req,res)=>{
+    try{
+        const userId=parseInt(req.params.id);
+        const userAsset=req.body;
+        if ("givenOn" in userAsset) {
+            if (isNaN(new Date(userAsset.givenOn))) {
+                return sendResponse(res, 400, "Invalid givenOn format. Please use a valid date.");
+            }
+            userAsset.givenOn = new Date(userAsset.givenOn);
+        }
+        if ("returnedOn" in userAsset) {
+            if (isNaN(new Date(userAsset.returnedOn))) {
+                return sendResponse(res, 400, "Invalid returnedOn format. Please use a valid date.");
+            }
+            userAsset.returnedOn = new Date(userAsset.returnedOn);
+        }
+        const updatedAsset=await updateAsset(userId,userAsset);
+        logger.info("Updated asset successfully");
+        sendResponse(res,201,"Updated asset successfully",updatedAsset);
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
 export const getInternsWithFilters=async(req,res)=>{
     try{
         const limit=parseInt(req.query.limit);
@@ -145,10 +170,8 @@ export const getInternsWithFilters=async(req,res)=>{
 export const searchInterns=async(req,res)=>{
     try{
         const internName=req.body;
-        const offset=req.query.offset||0;
-        const limit=req.query.limit||10;
-        
-
+        const limit=parseInt(req.query.limit);
+        const offset=parseInt(req.query.offset);
         const searchedInterns=await getInternBasedOnSearch(internName.name,offset,limit);
         const total_items=await internsCount(internName);
         let total_pages;
