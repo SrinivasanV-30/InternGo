@@ -21,9 +21,15 @@ export const profileUpdateValidationSchema = Joi.object({
         bankName: Joi.string().max(50)
     }),
     education: Joi.object({
+<<<<<<< HEAD
             degree: Joi.string().max(50),
             college: Joi.string().max(100),
             batch: Joi.string().max(50)
+=======
+        degree: Joi.string().max(50),
+        college: Joi.string().max(100),
+        batch: Joi.string().max(50) 
+>>>>>>> 06c5c4b (Profile section)
     }),
     designation: Joi.string().max(50),
     phone_no: Joi.string().pattern(/^\d{10}$/),

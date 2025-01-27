@@ -20,7 +20,7 @@ const DashboardLayout = () => {
   const { name, role, permissions } = useSelector((state) => state.auth);
 
   const tabs = [
-    { name: "Profile", permission: "profile.update", path: "/dashboard/profile", icon: <FaUser /> },
+    { name: "Profile", permission: "profile.update", path: "/dashboard/my-profile", icon: <FaUser /> },
     { name: "Daily Update", permission: "tasks.update", path: "/dashboard/daily-update", icon: <FaTasks /> },
     { name: "RoadMap", permission: "roadmaps.view", path: "/dashboard/roadmap", icon: <FaMapMarkedAlt /> },
     { name: "Help", permission: "announcements.view", path: "/dashboard/help", icon: <FaHandsHelping /> },
@@ -71,19 +71,6 @@ const DashboardLayout = () => {
                 </NavLink>
               </li>
             ))}
-            <li key={20} className="flex items-center">
-                <NavLink
-                  to={"/dashboard/profile"}
-                  className={({ isActive }) =>
-                    `flex w-full items-center space-x-2 px-4 py-2 text-gray-600 hover:bg-gray-200 rounded-lg ${
-                      isActive ? "bg-gray-200 font-semibold" : ""
-                    }`
-                  }
-                >
-                  <span className="text-xl">{<FaUser />}</span>
-                  {sidebarOpen && <span>{"profile"}</span>}
-                </NavLink>
-              </li>
           </ul>
         </nav>
         <button

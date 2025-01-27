@@ -1,8 +1,9 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL:'https://interngo.onrender.com'
+    baseURL:'http://localhost:8000'
 })
 
 // https://interngo.onrender.com
 // http://192.168.0.141:8080
+// http://localhost:8000

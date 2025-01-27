@@ -14,8 +14,13 @@ export const getAllIntern = async(req,res)=>{
         sendResponse(res,200,"Fetched successfully",allIntern);
     }
     catch(error){
+<<<<<<< HEAD
         logger.error(error,"User Controller");
     }
+=======
+        handleError(error,"User Controller");
+    } 
+>>>>>>> 06c5c4b (Profile section)
 }
 
 export const updateUserProfile = async(req,res)=>{

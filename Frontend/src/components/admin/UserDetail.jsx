@@ -1,11 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import Profile from '../common/Profile';
 
 const UserDetail = () => {
   const { id } = useParams();
+  const {token} = useSelector((state) => state.auth);
   return (
     <div>
-      <h1>userdetail {id}</h1>
+      <Profile userId={id} token={token} />
     </div>
   )
 }

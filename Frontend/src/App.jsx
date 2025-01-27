@@ -17,6 +17,7 @@ import EditProfile from './components/users/EditProfile';
 import Roadmap from './components/common/Roadmap';
 import UserDetail from './components/admin/UserDetail';
 import NotFound from './pages/NotFound';
+import MyProfile from './components/common/MyProfile';
  
 const App = () => {
     return (
@@ -39,7 +40,7 @@ const App = () => {
                     <Route path="feedback" element={<Feedback />} />
                     <Route path="help" element={<Help />} />
                     <Route path="interactions" element={<Interactions />} />
-                    <Route path="profile" element={<Profile />} />
+                    <Route path="my-profile" element={<MyProfile />} />
                     <Route path="interaction-schedule" element={<InteractionSchedule />} />
                     <Route path="plan" element={<Plan />} />
                     <Route path="resources" element={<Records />} />
