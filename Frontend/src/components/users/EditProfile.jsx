@@ -146,7 +146,8 @@ const EditProfile = () => {
     }
 
     try {
-      const response = await axios.patch(`/api/users/update/${userId}`, updatedData, {
+      const response = await axios.patch(`/api/users/update/${userId
+      }`, updatedData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
