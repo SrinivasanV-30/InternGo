@@ -1,9 +1,10 @@
 import sendResponse from "../utils/response.js";
-import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, updateUser } from "../models/userModel.js";
+import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, internsCount, updateUser } from "../models/userModel.js";
 import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
 import { createAsset, getAssetByUserId } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
+import cron from 'node-cron';
 
 
 export const getAllIntern = async(req,res)=>{
@@ -45,7 +46,6 @@ export const updateUserProfile = async(req,res)=>{
             }
             userData.dateOfBirth = new Date(userData.dateOfBirth);
         }
-        console.log("Hello")
         const updatedUserProfile=await updateUser(userId,userData);
         if(!updatedUserProfile){
             return sendResponse(res,400,"Update unsuccessful");
@@ -103,10 +103,33 @@ export const getInternsWithFilters=async(req,res)=>{
         const limit=parseInt(req.query.limit);
         const offset=parseInt(req.query.offset);
         const filters=req.body;
-        console.log(filters,limit,offset);
-        const interns=await getInternBasedOnFilters(filters,offset,limit);
+        const whereCondition = {
+            role: { roleName: "Interns" },
+        };
+
+        if (filters.year && filters.year.length > 0) {
+            whereCondition.year = { in: filters.year };
+        }
+        if (filters.status && filters.status.length > 0) {
+            whereCondition.status = { in: filters.status };
+        }
+        if (filters.batch && filters.batch.length > 0) {
+            whereCondition.batch = { in: filters.batch };
+        }
+        if (filters.designation && filters.designation.length > 0) {
+            whereCondition.designation = { in: filters.designation };
+        }
+        const interns=await getInternBasedOnFilters(whereCondition,offset,limit);
+        const total_items=await internsCount(whereCondition);
+        // console.log(total_items)
+        const  total_pages = total_items==0 ? 0 : (total_items-1) / limit+1;
+        // console.log(total_pages);
+        const response={
+            data:interns,
+            total_pages:total_pages
+        }
         logger.info("Fetched successfully!!");
-        sendResponse(res,200,"Fetched successfully",interns);
+        sendResponse(res,200,"Fetched successfully",response);
     }
     catch(error)
     {
@@ -117,12 +140,31 @@ export const getInternsWithFilters=async(req,res)=>{
 export const searchInterns=async(req,res)=>{
     try{
         const internName=req.body;
-        console.log(internName);
-        const searchedInterns=await getInternBasedOnSearch(internName.name);
+        const offset=req.query.offset||0;
+        const limit=req.query.limit||10;
+        
+
+        const searchedInterns=await getInternBasedOnSearch(internName.name,offset,limit);
+        const total_items=await internsCount(internName);
+        let total_pages;
+        // console.log(total_items)
+        if(total_items==1){
+            total_pages=1;
+        }
+        else{
+            total_pages = total_items==0 ? 0 : (total_items-1) / limit+1;
+        }
+        console.log(total_pages);
+        const response={
+            data:searchedInterns,
+            total_pages:total_pages
+        }
         logger.info("Fetched successfully!!");
-        sendResponse(res,200,"Fetched successfully",searchedInterns);
+        sendResponse(res,200,"Fetched successfully",response);
     }
     catch(error){
         logger.error(error.message);
     }
 }
+
+

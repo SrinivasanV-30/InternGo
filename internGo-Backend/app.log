@@ -1114,3 +1114,153 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-01-26T16:45:09.815Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:45:09 +0000] "POST /api/users?offset=0&limit=5 HTTP/1.1" 200 3925 "-" "PostmanRuntime/7.43.0"
 2025-01-26T16:45:35.411Z [:[32minfo[39m] Fetched successfully!!
 2025-01-26T16:45:35.413Z [:[32minfo[39m] ::1 - - [26/Jan/2025:16:45:35 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6989 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:11:36.954Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:11:36.964Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:11:36 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6920 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:12:03.339Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:12:03.340Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:12:03 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6920 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:12:28.011Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:12:28.014Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:12:28 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6920 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:12:50.539Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:12:50.541Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:12:50 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6920 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:13:39.654Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:13:39.655Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:13:39 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6920 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:14:07.791Z [:[31merror[39m] whereCondition is not defined
+2025-01-26T17:14:07.794Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:14:07.802Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:14:07 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6948 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:16:23.071Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:16:23.080Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:16:23 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6945 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:29:09.392Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:29:09.404Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:29:09 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6947 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:29:27.917Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:29:27.928Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:29:27 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6948 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:29:42.750Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:29:42.760Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:29:42 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6945 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:30:08.228Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:30:08.235Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:30:08 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 6945 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:36:47.292Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    name: {
+      name: "Srini",
+      ~~~~
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-01-26T17:36:47.295Z [:[31merror[39m] interns is not defined
+2025-01-26T17:37:41.497Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-26T17:37:41.500Z [:[31merror[39m] User not found!!!
+2025-01-26T17:37:41.507Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:37:41 +0000] "POST /api/users/search HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:37:52.018Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    name: {
+      name: "Srini",
+      ~~~~
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-01-26T17:37:52.019Z [:[31merror[39m] interns is not defined
+2025-01-26T17:38:12.234Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    name: {
+      name: "Srini",
+      ~~~~
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-01-26T17:38:12.237Z [:[31merror[39m] interns is not defined
+2025-01-26T17:38:45.617Z [:[31merror[39m] whereCondition is not defined
+2025-01-26T17:39:00.995Z [:[31merror[39m] interns is not defined
+2025-01-26T17:39:26.359Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:39:26.369Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:39:26 +0000] "POST /api/users/search HTTP/1.1" 200 1013 "-" "PostmanRuntime/7.43.0"
+2025-01-26T17:42:04.151Z [:[32minfo[39m] Fetched successfully!!
+2025-01-26T17:42:04.161Z [:[32minfo[39m] ::1 - - [26/Jan/2025:17:42:04 +0000] "POST /api/users/search HTTP/1.1" 200 1010 "-" "PostmanRuntime/7.43.0"
+2025-01-27T04:58:14.530Z [:[31merror[39m] jwt expired
+2025-01-27T04:59:53.120Z [:[31merror[39m] jwt expired
+2025-01-27T04:59:53.123Z [:[32minfo[39m] ::1 - - [27/Jan/2025:04:59:53 +0000] "POST /api/users/search HTTP/1.1" 403 54 "-" "PostmanRuntime/7.43.0"
+2025-01-27T05:01:24.839Z [:[32minfo[39m] Login successful!!!
+2025-01-27T05:01:24.839Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:01:24 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T05:02:48.209Z [:[32minfo[39m] Login successful!!!
+2025-01-27T05:02:48.210Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:02:48 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T05:03:21.107Z [:[32minfo[39m] Login successful!!!
+2025-01-27T05:03:21.107Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:03:21 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T05:03:34.814Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T05:03:34.816Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:03:34 +0000] "POST /api/users/search HTTP/1.1" 200 1054 "-" "PostmanRuntime/7.43.0"
+2025-01-27T05:20:17.203Z [:[32minfo[39m] Login successful!!!
+2025-01-27T05:20:17.205Z [:[32minfo[39m] ::1 - - [27/Jan/2025:05:20:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"

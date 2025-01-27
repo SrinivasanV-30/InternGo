@@ -131,24 +131,9 @@ export const updateUser=async(userId,data)=>{
 
 }
 
-export const getInternBasedOnFilters=async(filters,offset,limit)=>{
+export const getInternBasedOnFilters=async(whereCondition,offset,limit)=>{
     try{
-        const whereCondition = {
-            role: { roleName: "Interns" },
-        };
-
-        if (filters.year && filters.year.length > 0) {
-            whereCondition.year = { in: filters.year };
-        }
-        if (filters.status && filters.status.length > 0) {
-            whereCondition.status = { in: filters.status };
-        }
-        if (filters.batch && filters.batch.length > 0) {
-            whereCondition.batch = { in: filters.batch };
-        }
-        if (filters.designation && filters.designation.length > 0) {
-            whereCondition.designation = { in: filters.designation };
-        }
+        
         const internsBasedOnFilters=await prisma.users.findMany({
             skip:offset,
             take:limit,
@@ -161,10 +146,30 @@ export const getInternBasedOnFilters=async(filters,offset,limit)=>{
         logger.error(error.message);
     }
 }
+export const internsCount = async(whereCondition)=>{
+    try{
+        const internsCount=await prisma.users.count({
+            where:whereCondition
+          })
+        return internsCount;
 
-export const getInternBasedOnSearch=async(name)=>{
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+
+
+
+
+
+
+export const getInternBasedOnSearch=async(name,offset,limit)=>{
     try{
         const internsBasedOnSearch=await prisma.users.findMany({
+            skip:offset,
+            take:limit,
             where:{
                 name:name
             }

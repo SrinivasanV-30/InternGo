@@ -12,12 +12,14 @@ export const authenticateUser=async(req,res,next)=>{
         }
         const token=authHeader.split(" ")[1];
         const user=await jwtVerify(token);
+
         req.user=user;
         console.log(req.user);
         next();
     }
     catch(error){
         logger.error(error.message);
+        return sendResponse(res,403,error.message);
     }
 }
 

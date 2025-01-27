@@ -33,6 +33,7 @@ model Users{
     dateOfJoining DateTime?
     bloodGroup String?
     phase String?
+    daysWorked Int @default(0)
     assets Assets[] @relation("UserAssets")
     role Roles @relation("UserRole",fields:[roleId],references:[id])
     createdAt DateTime @default(now())
@@ -67,3 +68,4 @@ model Assets{
     givenOn DateTime
     returnedOn DateTime?
 }
+
