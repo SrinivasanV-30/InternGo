@@ -4259,3 +4259,5 @@ Invalid value for argument `returnedOn`: premature end of input. Expected ISO-86
 2025-01-27T06:28:44.523Z [:[32minfo[39m] Updated asset successfully
 2025-01-27T06:28:44.529Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:28:44 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 209 "-" "PostmanRuntime/7.43.0"
 >>>>>>> 0d79293 (update_asset_updated)
+2025-01-27T06:32:58.013Z [:[32minfo[39m] Updated asset successfully
+2025-01-27T06:32:58.016Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:32:58 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 209 "-" "PostmanRuntime/7.43.0"

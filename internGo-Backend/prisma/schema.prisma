@@ -69,3 +69,4 @@ model Assets{
     returnedOn DateTime?
 }
 
+model Plans
