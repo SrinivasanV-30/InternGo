@@ -22,7 +22,7 @@ export const getAllIntern = async(req,res)=>{
 
 export const updateUserProfile = async(req,res)=>{
     try{
-        const userId=parseInt(req.params.id);
+        const userId=req.params.id;
         const userData=req.body;
         const userDetails=await findUserByUserId(userId);
         if(!userDetails){
@@ -65,7 +65,7 @@ export const updateUserProfile = async(req,res)=>{
 
 export const getUser=async(req,res)=>{
     try{
-        const userId=parseInt(req.params.id);
+        const userId=req.params.id;
         console.log(userId)
         const internProfile=await findUserByUserId(userId);
         sendResponse(res,200,"Fetched successfully",internProfile);
@@ -76,7 +76,7 @@ export const getUser=async(req,res)=>{
 }
 export const getUserAssets=async(req,res)=>{
     try{
-        const userId=parseInt(req.params.id);
+        const userId=req.params.id;
         const assets=await getAssetByUserId(userId);
         logger.info("Assets fetched successfully");
         sendResponse(res,200,"Assets fetched successfully",assets)
@@ -102,7 +102,7 @@ export const createUserAsset=async(req,res)=>{
 
 export const updateUserAsset=async(req,res)=>{
     try{
-        const userId=parseInt(req.params.id);
+        const userId=req.params.id;
         const userAsset=req.body;
         if ("givenOn" in userAsset) {
             if (isNaN(new Date(userAsset.givenOn))) {
