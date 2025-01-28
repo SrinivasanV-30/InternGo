@@ -4437,3 +4437,7 @@ Argument `search`: Invalid value provided. Expected String, provided Object.
 2025-01-28T04:54:10.892Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:10 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
 2025-01-28T04:54:34.287Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:34 +0000] "POST /api/users/5 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.43.0"
 2025-01-28T04:54:39.543Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:39 +0000] "GET /api/users/5 HTTP/1.1" 200 1340 "-" "PostmanRuntime/7.43.0"
+2025-01-28T11:44:30.494Z [:[32minfo[39m] Sign Up successful!!!
+2025-01-28T11:44:30.497Z [:[32minfo[39m] ::1 - - [28/Jan/2025:11:44:30 +0000] "POST /api/auth/signup HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-01-28T11:45:45.653Z [:[32minfo[39m] Sign Up successful!!!
+2025-01-28T11:45:45.657Z [:[32minfo[39m] ::1 - - [28/Jan/2025:11:45:45 +0000] "POST /api/auth/signup HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"

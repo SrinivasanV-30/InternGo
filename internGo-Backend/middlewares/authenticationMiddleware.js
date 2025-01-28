@@ -62,7 +62,7 @@ export const checkPermission = (requiredPermission) => {
 
 export const checkUser=async(req,res,next)=>{
     try{
-        const id=parseInt(req.params.id);
+        const id=req.params.id;
         console.log("check",id)
         console.log(req.user.userId,req.user.role)
         if(isNaN(id)){
