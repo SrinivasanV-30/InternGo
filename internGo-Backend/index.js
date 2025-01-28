@@ -7,7 +7,7 @@ import logger from './utils/logger.js';
 
 
 const app=express();
-const PORT=process.env.PORT || 8000;
+const PORT=process.env.PORT || 10000;
 
 const corsOptions = {
   origin: '*', 

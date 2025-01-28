@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearchPostgres"]
 }
 
 datasource db {
@@ -8,8 +9,9 @@ datasource db {
 }
 
 model Users{
-    id Int @id @default(autoincrement())
+    id String @id @default(uuid())
     roleId Int @default(1)
+    planId Int?
     name String
     password String
     email String @unique
@@ -35,10 +37,11 @@ model Users{
     phase String?
     daysWorked Int @default(0)
     assets Assets[] @relation("UserAssets")
-    role Roles @relation("UserRole",fields:[roleId],references:[id])
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     profilePercentage Int? @default(0)
+    role Roles @relation("UserRole",fields:[roleId],references:[id])
+    plan Plans? @relation("UserPlan",fields:[planId],references:[id])
 }
 
 enum Status{
@@ -61,7 +64,7 @@ model Roles{
 
 model Assets{
     id Int @id @default(autoincrement())
-    userId Int
+    userId String
     user Users @relation("UserAssets",fields:[userId],references:[id])
     assetType String
     assetName String
@@ -69,4 +72,25 @@ model Assets{
     returnedOn DateTime?
 }
 
-model Plans
+model Plans{
+    id Int @id @default(autoincrement()) 
+    name String
+    description String
+    objectives Objectives[] @relation("PlansObjectives")
+    users Users[] @relation("UserPlan")
+    noOfDays Int
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model Objectives{
+    id Int @id @default(autoincrement())
+    planId Int
+    name String
+    noOfDays Int
+    noOfInteractions Int
+    mentorName String
+    plan Plans @relation("PlansObjectives",fields:[planId],references:[id])
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

@@ -159,19 +159,16 @@ export const internsCount = async(whereCondition)=>{
     }
 }
 
-
-
-
-
-
-
 export const getInternBasedOnSearch=async(name,offset,limit)=>{
     try{
         const internsBasedOnSearch=await prisma.users.findMany({
             skip:offset,
             take:limit,
             where:{
-                name:name
+                name:{
+                    search:name
+                    
+                }
             }
         })
         return internsBasedOnSearch; 

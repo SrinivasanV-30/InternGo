@@ -40,4 +40,13 @@ export const assetValidationSchema = Joi.object({
     assetType: Joi.string().max(50).required(),
     assetName: Joi.string().max(100).required(),
     givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required() 
+    
+});
+
+export const assetUpdateValidationSchema = Joi.object({
+    assetType: Joi.string().max(50),
+    assetName: Joi.string().max(100),
+    givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
+    returnedOn:Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
+    
 });

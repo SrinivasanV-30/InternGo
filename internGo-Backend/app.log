@@ -4261,3 +4261,179 @@ Invalid value for argument `returnedOn`: premature end of input. Expected ISO-86
 >>>>>>> 0d79293 (update_asset_updated)
 2025-01-27T06:32:58.013Z [:[32minfo[39m] Updated asset successfully
 2025-01-27T06:32:58.016Z [:[32minfo[39m] ::1 - - [27/Jan/2025:06:32:58 +0000] "PATCH /api/users/update/asset/2 HTTP/1.1" 201 209 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:08:25.824Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: NaN,
+  take: NaN,
+  where: {
+    name: {
+      search: {
+      ~~~~~~
+        name: undefined
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  }
+}
+
+Unknown argument `search`. Available options are marked with ?.
+2025-01-27T07:08:25.924Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:08:25.932Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:08:25 +0000] "POST /api/users/search HTTP/1.1" 200 79 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:08:41.410Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: NaN,
+  take: NaN,
+  where: {
+    name: {
+      search: {
+      ~~~~~~
+        name: "Srini"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  }
+}
+
+Unknown argument `search`. Available options are marked with ?.
+2025-01-27T07:08:41.502Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:08:41.503Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:08:41 +0000] "POST /api/users/search HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:13:30.595Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: NaN,
+  take: NaN,
+  where: {
+    name: {
+      search: {
+        name: "Srini"
+      }
+      ~~~~~~~~~~~~~~~
+    }
+  }
+}
+
+Argument `search`: Invalid value provided. Expected String, provided Object.
+2025-01-27T07:13:30.728Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:13:30.735Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:13:30 +0000] "POST /api/users/search HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:13:38.855Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 1,
+  take: 10,
+  where: {
+    name: {
+      search: {
+        name: "Srini"
+      }
+      ~~~~~~~~~~~~~~~
+    }
+  }
+}
+
+Argument `search`: Invalid value provided. Expected String, provided Object.
+2025-01-27T07:13:38.907Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:13:38.908Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:13:38 +0000] "POST /api/users/search?offset=1&limit=10 HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:13:46.411Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    name: {
+      search: {
+        name: "Srini"
+      }
+      ~~~~~~~~~~~~~~~
+    }
+  }
+}
+
+Argument `search`: Invalid value provided. Expected String, provided Object.
+2025-01-27T07:13:46.472Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:13:46.473Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:13:46 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:14:44.982Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:14:44.992Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:14:44 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 1068 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:14:53.850Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:14:53.853Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:14:53 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 710 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:15:00.972Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:15:00.974Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:15:00 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 1084 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:16:50.491Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:16:50.492Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:16:50 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 710 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:16:57.785Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:16:57.788Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:16:57 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 1084 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:17:03.785Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:17:03.787Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:17:03 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:17:17.192Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:17:17.193Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:17:17 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:17:25.269Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:17:25.269Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:17:25 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 714 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:17:50.065Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:17:50.067Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:17:50 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 1084 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:20:14.501Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:20:14.511Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:20:14 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:20:30.783Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:20:30.791Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:20:30 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:21:21.752Z [:[31merror[39m] jwt expired
+2025-01-27T07:21:21.755Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:21:21 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 403 54 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:21:27.366Z [:[32minfo[39m] Login successful!!!
+2025-01-27T07:21:27.367Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:21:27 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:21:38.484Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:21:38.485Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:21:38 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:21:55.909Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:21:55.918Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:21:55 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:22:02.854Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:22:02.857Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:22:02 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:22:05.750Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:22:05.751Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:22:05 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T07:22:21.528Z [:[32minfo[39m] Fetched successfully!!
+2025-01-27T07:22:21.538Z [:[32minfo[39m] ::1 - - [27/Jan/2025:07:22:21 +0000] "POST /api/users/search?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:25:54.667Z [:[31merror[39m] jwt expired
+2025-01-27T08:25:54.671Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:25:54 +0000] "PATCH /api/users/update/6 HTTP/1.1" 403 54 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:26:00.129Z [:[32minfo[39m] Login successful!!!
+2025-01-27T08:26:00.129Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:26:00 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:26:02.575Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:26:02 +0000] "PATCH /api/users/update/6 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:26:02.840Z [:[32minfo[39m] Updated successfully
+2025-01-27T08:26:06.385Z [:[32minfo[39m] Updated successfully
+2025-01-27T08:26:06.387Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:26:06 +0000] "PATCH /api/users/update/6 HTTP/1.1" 200 1083 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:26:27.907Z [:[32minfo[39m] Updated successfully
+2025-01-27T08:26:27.908Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:26:27 +0000] "PATCH /api/users/update/6 HTTP/1.1" 200 1093 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:38:44.248Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:38:44 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1089 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:38:54.772Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:38:54 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 8527 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:39:03.993Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:39:03 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:39:15.358Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:39:15 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1103 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:39:26.221Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:39:26 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:39:40.108Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:39:40 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 1089 "-" "PostmanRuntime/7.43.0"
+2025-01-27T08:39:49.278Z [:[32minfo[39m] ::1 - - [27/Jan/2025:08:39:49 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 2101 "-" "PostmanRuntime/7.43.0"
+2025-01-28T04:54:10.891Z [:[32minfo[39m] Login successful!!!
+2025-01-28T04:54:10.892Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:10 +0000] "POST /api/auth/signin HTTP/1.1" 200 588 "-" "PostmanRuntime/7.43.0"
+2025-01-28T04:54:34.287Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:34 +0000] "POST /api/users/5 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.43.0"
+2025-01-28T04:54:39.543Z [:[32minfo[39m] ::1 - - [28/Jan/2025:04:54:39 +0000] "GET /api/users/5 HTTP/1.1" 200 1340 "-" "PostmanRuntime/7.43.0"

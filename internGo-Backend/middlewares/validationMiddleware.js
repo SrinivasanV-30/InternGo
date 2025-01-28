@@ -1,5 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
-import { assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
+import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
@@ -86,6 +86,24 @@ export const profileUpdateValidation = (req,res,next)=>{
 export const assetValidation = (req,res,next)=>{
     try{
         const result = assetValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const assetUpdateValidation = (req,res,next)=>{
+    try{
+        const result = assetUpdateValidationSchema.validateAsync(req.body);
         result.then(()=>{
             next()
         })
