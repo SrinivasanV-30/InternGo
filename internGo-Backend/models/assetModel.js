@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import handleError from "../utils/handleError.js";
 
 const prisma=new PrismaClient();
 
@@ -11,7 +10,7 @@ export const createAsset=async(data)=>{
         return newAsset;
     }
     catch(error){
-        handleError(error,"Database")
+        logger.error(error.message);
     }
 }
 
@@ -25,7 +24,7 @@ export const getAssetById=async(id)=>{
         return asset;
     }
     catch(error){
-        handleError(error,"Database")
+        logger.error(error.message);
     }
 }
 export const getAssetByUserId=async(userId)=>{
@@ -38,7 +37,7 @@ export const getAssetByUserId=async(userId)=>{
         return assets;
     }
     catch(error){
-        handleError(error,"Database")
+        logger.error(error.message);
     }
 }
 
@@ -54,6 +53,6 @@ export const updateAsset=async(id,data)=>{
         return updatedAsset;
     }
     catch(error){
-        handleError(error,"Database")
+        logger.error(error.message);
     }
 }

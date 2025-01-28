@@ -1,4 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
+import { objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
@@ -104,6 +105,79 @@ export const assetValidation = (req,res,next)=>{
 export const assetUpdateValidation = (req,res,next)=>{
     try{
         const result = assetUpdateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const planCreateValidation = (req,res,next)=>{
+    try{
+        const result = planCreateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const planUpdateValidation = (req,res,next)=>{
+    try{
+        const result = planUpdateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+
+export const objectiveCreateValidation = (req,res,next)=>{
+    try{
+        const result = objectiveCreateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const objectiveUpdateValidation = (req,res,next)=>{
+    try{
+        const result = objectiveUpdateValidationSchema.validateAsync(req.body);
         result.then(()=>{
             next()
         })

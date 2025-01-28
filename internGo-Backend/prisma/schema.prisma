@@ -87,6 +87,7 @@ model Objectives{
     id Int @id @default(autoincrement())
     planId Int
     name String
+    description String
     noOfDays Int
     noOfInteractions Int
     mentorName String
