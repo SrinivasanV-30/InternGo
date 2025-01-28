@@ -8,8 +8,34 @@ export const getPlans=async()=>{
         return allPlans;
     }
     catch(error){
-        logger.error(error.message)
+        logger.error(error.message);
     }
 }
 
-// expor
+export const createPlans=async(planData)=>{
+    try{
+        const createPlans=await prisma.plans.create({
+            data:planData
+        })
+        return createPlans;
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+    }
+}
+export const updatePlans=async(planData)=>{
+    try{
+        const updatedPlans=await prisma.plans.update({
+            where:{
+                id:planId
+            },
+            data:planData
+        })
+        return createPlans;
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+    }
+}

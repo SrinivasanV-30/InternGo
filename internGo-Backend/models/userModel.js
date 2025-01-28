@@ -56,6 +56,9 @@ export const createIntern=async(userDetails)=>{
                 email:email,
                 password:password,
                 profilePhoto:profilePhoto
+            },
+            select:{
+                id:true
             }
         })
 
@@ -69,7 +72,10 @@ export const createIntern=async(userDetails)=>{
 export const createUser=async(userDetails)=>{
     try{
         const createdUser=await prisma.users.create({
-            data:userDetails
+            data:userDetails,
+            select:{
+                id:true
+            }
         })
         return createdUser;
     }

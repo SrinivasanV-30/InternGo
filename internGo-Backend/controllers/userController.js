@@ -7,19 +7,6 @@ import { uploadImageToS3 } from "../services/s3Service.js";
 import cron from 'node-cron';
 
 
-export const getAllIntern = async(req,res)=>{
-    try{
-        const allIntern=await getAllInterns();
-        
-        sendResponse(res,200,"Fetched successfully",allIntern);
-    }
-    catch(error){
-
-        logger.error(error,"User Controller");
-    }
-
-}
-
 export const updateUserProfile = async(req,res)=>{
     try{
         const userId=req.params.id;
@@ -66,7 +53,11 @@ export const updateUserProfile = async(req,res)=>{
 export const getUser=async(req,res)=>{
     try{
         const userId=req.params.id;
-        console.log(userId)
+        const userDetails=await findUserByUserId(userId);
+        if(!userDetails){
+            logger.error("User not found!!!");
+            return sendResponse(res,404,"User not found!!!");
+        }
         const internProfile=await findUserByUserId(userId);
         sendResponse(res,200,"Fetched successfully",internProfile);
     }
@@ -77,6 +68,11 @@ export const getUser=async(req,res)=>{
 export const getUserAssets=async(req,res)=>{
     try{
         const userId=req.params.id;
+        const userDetails=await findUserByUserId(userId);
+        if(!userDetails){
+            logger.error("User not found!!!");
+            return sendResponse(res,404,"User not found!!!");
+        }
         const assets=await getAssetByUserId(userId);
         logger.info("Assets fetched successfully");
         sendResponse(res,200,"Assets fetched successfully",assets)
@@ -102,7 +98,7 @@ export const createUserAsset=async(req,res)=>{
 
 export const updateUserAsset=async(req,res)=>{
     try{
-        const userId=parseInt(req.params.id);
+        const userId=req.params.id;
         const userAsset=req.body;
         if ("givenOn" in userAsset) {
             if (isNaN(new Date(userAsset.givenOn))) {
@@ -125,91 +121,14 @@ export const updateUserAsset=async(req,res)=>{
     }
 }
 
-// export const getInternsWithFilters=async(req,res)=>{
-//     try{
-//         const limit=parseInt(req.query.limit);
-//         const offset=parseInt(req.query.offset);
-//         const filters=req.body;
-//         const whereCondition = {
-//             role: { roleName: "Interns" },
-//         };
-
-//         if (filters.year && filters.year.length > 0) {
-//             whereCondition.year = { in: filters.year };
-//         }
-//         if (filters.status && filters.status.length > 0) {
-//             whereCondition.status = { in: filters.status };
-//         }
-//         if (filters.batch && filters.batch.length > 0) {
-//             whereCondition.batch = { in: filters.batch };
-//         }
-//         if (filters.designation && filters.designation.length > 0) {
-//             whereCondition.designation = { in: filters.designation };
-//         }
-//         const interns=await getInternBasedOnFilters(whereCondition,offset,limit);
-//         const total_items=await internsCount(whereCondition);
-//         // console.log(total_items)
-//         const  total_pages = total_items==0 ? 0 : (total_items-1) / limit+1;
-//         // console.log(total_pages);
-//         const response={
-//             data:interns,
-//             total_pages:total_pages
-//         }
-//         logger.info("Fetched successfully!!");
-//         sendResponse(res,200,"Fetched successfully",response);
-//     }
-//     catch(error)
-//     {
-//         logger.error(error.message);
-//     }
-// }
-
-// export const searchInterns=async(req,res)=>{
-//     try{
-//         const intern=req.body;
-
-//         const limit=parseInt(req.query.limit);
-//         const offset=parseInt(req.query.offset);
-//         if(internName==""){
-            
-//             logger.info("Fetched successfully!!");
-//             return sendResponse(res,200,"Fetched successfully",interns);
-//         }
-//         console.log(internName.name)
-//         const searchedInterns=await getInternBasedOnSearch(internName.name,offset,limit);
-//         const total_items=await internsCount(internName);
-//         let total_pages;
-//         // console.log(total_items)
-//         if(total_items==1){
-//             total_pages=1;
-//         }
-//         else{
-//             total_pages = total_items==0 ? 0 : (total_items-1) / limit+1;
-//         }
-//         console.log(total_pages);
-//         const response={
-//             data:searchedInterns,
-//             total_pages:total_pages
-//         }
-//         logger.info("Fetched successfully!!");
-//         sendResponse(res,200,"Fetched successfully",response);
-//     }
-//     catch(error){
-//         logger.error(error.message);
-//     }
-// }
-
-
 export const getInterns = async (req, res) => {
     try {
         const { name, year, status, batch, designation } = req.body || {};
         const limit = parseInt(req.query.limit) || 10;
         const offset = parseInt(req.query.offset) || 0;
-
         const whereCondition = {
             role: { roleName: "Interns" },
         };
-
         if (name && name.trim() !== "") {
             const searchedInterns = await getInternBasedOnSearch(name.trim(), offset, limit);
             const total_items = await internsCount({ name: name.trim() });
@@ -220,7 +139,6 @@ export const getInterns = async (req, res) => {
                 total_pages,
             });
         }
-
         if (year && year.length > 0) {
             whereCondition.year = { in: year };
         }
@@ -233,11 +151,9 @@ export const getInterns = async (req, res) => {
         if (designation && designation.length > 0) {
             whereCondition.designation = { in: designation };
         }
-
         const interns = await getInternBasedOnFilters(whereCondition, offset, limit);
         const total_items = await internsCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
-
         sendResponse(res, 200, "Fetched successfully", {
             data: interns,
             total_pages,

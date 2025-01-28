@@ -90,6 +90,7 @@ model Objectives{
     noOfDays Int
     noOfInteractions Int
     mentorName String
+    roadmapType String
     plan Plans @relation("PlansObjectives",fields:[planId],references:[id])
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
