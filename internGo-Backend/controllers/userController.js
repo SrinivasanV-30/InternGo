@@ -102,7 +102,7 @@ export const createUserAsset=async(req,res)=>{
 
 export const updateUserAsset=async(req,res)=>{
     try{
-        const userId=req.params.id;
+        const userId=parseInt(req.params.id);
         const userAsset=req.body;
         if ("givenOn" in userAsset) {
             if (isNaN(new Date(userAsset.givenOn))) {
