@@ -3,6 +3,20 @@ import logger from "../utils/logger.js";
 
 const prisma = new PrismaClient();
 
+export const getObjectiveByName=async(name)=>{
+    try{
+        const objective=await prisma.objectives.findFirst({
+            where:{
+                name:name
+            }
+        });
+        return objective;
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
 export const createObjectives=async(objectivesData)=>{
     try{
         const createdObjectives=await prisma.objectives.create({
@@ -14,11 +28,10 @@ export const createObjectives=async(objectivesData)=>{
         logger.error(error.message);
     }
 }
-export const updateObjectives=async(planId,objectiveId,objectivesData)=>{
+export const updateObjectives=async(objectiveId,objectivesData)=>{
     try{
         const updatedObjectives=await prisma.objectives.update({
             where:{
-                planId:planId,
                 id:objectiveId
             },
             data:objectivesData

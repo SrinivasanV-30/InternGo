@@ -1,5 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
-import { objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
+import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
@@ -178,6 +178,42 @@ export const objectiveCreateValidation = (req,res,next)=>{
 export const objectiveUpdateValidation = (req,res,next)=>{
     try{
         const result = objectiveUpdateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const milestoneCreateValidation = (req,res,next)=>{
+    try{
+        const result = milestoneCreateValidationSchema.validateAsync(req.body);
+        result.then(()=>{
+            next()
+        })
+        result.catch((error)=>{
+            logger.error(error.details);
+            return sendResponse(res,400,error.details);
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.details);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const milestoneUpdateValidation = (req,res,next)=>{
+    try{
+        const result = milestoneUpdateValidationSchema.validateAsync(req.body);
         result.then(()=>{
             next()
         })

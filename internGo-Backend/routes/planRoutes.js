@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticateUser, checkPermission } from '../middlewares/authenticationMiddleware.js';
-import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, addUser } from '../controllers/planController.js';
+import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, addUser, createMilestone, updateMilestone } from '../controllers/planController.js';
 import { objectiveUpdateValidation,objectiveCreateValidation, planCreateValidation, planUpdateValidation } from '../middlewares/validationMiddleware.js';
 
 const planRouter=express.Router();
@@ -8,11 +8,12 @@ const planRouter=express.Router();
 planRouter.get('/',authenticateUser,checkPermission(["plans.view"]),getAllPlans);
 planRouter.get('/:id',authenticateUser,checkPermission(["plans.view"]),getPlan);
 planRouter.post('/create',authenticateUser,checkPermission(["plans.create"]),planCreateValidation,createPlan);
-planRouter.patch('/update/:id',authenticateUser,checkPermission(["plans.update"]),planUpdateValidation,updatePlan);
-planRouter.post('/create/objective/:id',authenticateUser,checkPermission(["plans.create"]),objectiveCreateValidation,createObjective);
-planRouter.patch('/update/objective/:id',authenticateUser,checkPermission(["plans.update"]),objectiveUpdateValidation,updateObjective);
+planRouter.patch('/:id/update',authenticateUser,checkPermission(["plans.update"]),planUpdateValidation,updatePlan);
+planRouter.post('/:id/create/objective',authenticateUser,checkPermission(["plans.create"]),objectiveCreateValidation,createObjective);
+planRouter.patch('/:id/update/objective',authenticateUser,checkPermission(["plans.update"]),objectiveUpdateValidation,updateObjective);
 planRouter.patch('/addUser/:id',authenticateUser,checkPermission(["plans.update"]),addUser);
-
+planRouter.post('/:id/create/milestone',authenticateUser,checkPermission(["plans.create"]),createMilestone);
+planRouter.post('/:id/update/milestone',authenticateUser,checkPermission(["plans.create"]),updateMilestone);
 
 
 export default planRouter;

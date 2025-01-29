@@ -77,28 +77,37 @@ model Plans{
     id Int @id @default(autoincrement()) 
     name String
     description String
-    objectives Objectives[] @relation("PlansObjectives")
+    milestones Milestones[] @relation("PlanMilestones")
     users Users[] @relation("UserPlan")
-    noOfDays Int
+    planDays Int
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
 
 model Milestones{
     id Int @id @default(autoincrement())
-    planId
+    planId Int
+    name String
+    milestoneDays Int
+    mentorName String
+    objectives Objectives[] @relation("PlanObjectives")
+    plan Plans @relation("PlanMilestones",fields:[planId],references:[id])
 }
 
 model Objectives{
     id Int @id @default(autoincrement())
-    planId Int
+    milestoneId Int
     name String
     description String
-    noOfDays Int
+    objectiveDays Int
     noOfInteractions Int
-    mentorName String
-    roadmapType String
-    plan Plans @relation("PlansObjectives",fields:[planId],references:[id])
+    roadmapType RoadmapType
+    milestone Milestones @relation("PlanObjectives",fields:[milestoneId],references:[id])
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+}
+
+enum RoadmapType{
+    DEFAULT
+    CUSTOM
 }

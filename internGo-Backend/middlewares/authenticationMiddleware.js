@@ -65,7 +65,7 @@ export const checkUser=async(req,res,next)=>{
         const id=req.params.id;
         console.log("check",id)
         console.log(req.user.userId,req.user.role)
-        if(isNaN(id)){
+        if(!id){
             logger.error("Invalid ID format!!!");
             return sendResponse(res,400,"Invalid ID format!!!");
         }

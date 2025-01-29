@@ -1,16 +1,13 @@
 import { PrismaClient } from "@prisma/client";
 import logger from "../utils/logger.js";
+import { createObjectives } from "./objectiveModel.js";
 const prisma= new PrismaClient();
 
 export const getPlans=async()=>{
     try{
         const allPlans=await prisma.plans.findMany({
             include:{
-                objectives:{
-                    orderBy:{
-                        createdAt:"asc"
-                    }
-                },
+                milestones:true,
                 users:true
             }
 
@@ -38,19 +35,20 @@ export const getPlanByName=async(name)=>{
 
 export const getPlanById=async(planId)=>{
     try{
-        const allPlans=await prisma.plans.findUnique({
-            where:{
-                id:planId
+        const allPlans = await prisma.plans.findUnique({
+            where: {
+                id: planId
             },
-            include:{
-                objectives:{
-                    orderBy:{
-                        createdAt:"asc"
+            include: {
+                milestones: {
+                    include: {
+                        objectives: true
                     }
                 },
-                users:true
+                users: true
             }
         });
+        
         return allPlans;
     }
     catch(error){

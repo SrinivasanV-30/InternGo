@@ -1,9 +1,10 @@
 
-import { createObjectives, updateObjectives } from "../models/objectiveModel.js";
+import { createObjectives, getObjectiveByName, updateObjectives } from "../models/objectiveModel.js";
 import { createPlans,getPlanByName,getPlanById,updatePlans, getPlans } from "../models/planModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { findUserByUserId, updateUser } from "../models/userModel.js";
+import { getMilestoneById,getMilestoneByName,createMilestones, updateMilestones } from "../models/milestoneModel.js";
 
 export const getAllPlans=async(req,res)=>{
     try{
@@ -84,20 +85,27 @@ export const updatePlan=async(req,res)=>{
 export const createObjective=async(req,res)=>{
     try{
         const planId=parseInt(req.params.id);
+        const milestoneId=req.body.milestoneId;
         const objectiveData=req.body;
-        const existingObjective=await getPlanByName(planData.name);
+        const existingObjective=await getObjectiveByName(objectiveData.name);
         if(existingObjective)
+            {
+                logger.error("Objective already exists");
+                return sendResponse(res,409,"Objective already exists");
+            }
+            const existingPlan=await getPlanById(planId);
+            if(!existingPlan)
+                {
+                    logger.error("Plan not found!!!");
+                    return sendResponse(res,404,"Plan not found!!!");
+                }
+                const existingMilestone=await getMilestoneById(milestoneId);
+                console.log(existingMilestone)
+        if(!existingMilestone)
         {
-            logger.error("Plan already exists");
-            return sendResponse(res,409,"Plan already exists");
+            logger.error("Milestone not found!!!");
+            return sendResponse(res,404,"Milestone not found!!!");
         }
-        const existingPlan=await getPlanById(planId);
-        if(!existingPlan)
-        {
-            logger.error("Plan not found!!!");
-            return sendResponse(res,404,"Plan not found!!!");
-        }
-        objectiveData.planId=planId;
         await createObjectives(objectiveData);
         logger.info("Objective added successfully!");
         return sendResponse(res,404,"Objective added successfully!");
@@ -118,7 +126,7 @@ export const updateObjective=async(req,res)=>{
             logger.error("Plan not found!!!");
             return sendResponse(res,404,"Plan not found!!!");
         }
-        const updatedObjective=await updateObjectives(planId,objectiveId,objectiveData);
+        const updatedObjective=await updateObjectives(objectiveId,objectiveData);
         if(!updatedObjective)
         {
             logger.info("Update unsuccessful");
@@ -127,6 +135,64 @@ export const updateObjective=async(req,res)=>{
         logger.info("Updated successfully");
         sendResponse(res,200,"Update successful",updatedObjective);
 
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+
+export const createMilestone=async(req,res)=>{
+    try{
+        const planId=parseInt(req.params.id);
+        const milestoneData=req.body;
+        const existingMilestone=await getMilestoneByName(milestoneData.name);
+        if(existingMilestone)
+        {
+            logger.error("Milestone already exists");
+            return sendResponse(res,409,"Milestone already exists");
+        }
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        milestoneData.planId=planId;
+        await createMilestones(milestoneData);
+
+        logger.info("Milestone added successfully!");
+        return sendResponse(res,404,"Milestone added successfully!");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+export const updateMilestone=async(req,res)=>{
+    try{
+        
+        const {milestoneId,milestoneData}=req.body;
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        const existingMilestone=await getMilestoneById(milestoneId);
+        if(!existingMilestone)
+        {
+            logger.error("Milestone not found!!!");
+            return sendResponse(res,404,"Milestone not found!!!");
+        }
+        const updatedMilestone=await updateMilestones(milestoneId,milestoneData);
+        if(!updatedMilestone)
+        {
+            logger.info("Update unsuccessful");
+            return sendResponse(res,500,"Update unsuccessful");
+        }
+        logger.info("Milestone updated successfully!");
+        return sendResponse(res,404,"Milestone updated successfully!");
     }
     catch(error){
         logger.error(error.message);
@@ -150,7 +216,7 @@ export const addUser=async(req,res)=>{
             return sendResponse(res,404,"User not found!!!");
         }
         const updatedUser=await updateUser(userId,{planId:planId})
-        if(!updatedObjective)
+        if(!updatedUser)
         {
             logger.info("Update unsuccessful");
             return sendResponse(res,500,"Update unsuccessful");
