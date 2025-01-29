@@ -83,3 +83,16 @@ export const updatePlans=async(planId,planData)=>{
         logger.error(error.message);
     }
 }
+
+export const deletePlan=async(planId)=>{
+    try{
+        await prisma.plans.delete({
+            where:{
+                id:planId
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

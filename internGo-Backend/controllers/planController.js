@@ -47,7 +47,7 @@ export const createPlan=async(req,res)=>{
         const createdPlan=await createPlans(planData);
         if(!createdPlan){
             logger.error("Plan create unsuccessful!!");
-            return sendResponse(res,201,"Plan create unsuccessful!!");
+            return sendResponse(res,400,"Plan create unsuccessful!!");
         }
         logger.info("Plan created successfully!!");
         sendResponse(res,201,"Plan created successfully!!",createdPlan);
@@ -71,7 +71,7 @@ export const updatePlan=async(req,res)=>{
         if(!updatedPlan)
         {
             logger.info("Update unsuccessful");
-            return sendResponse(res,500,"Update unsuccessful");
+            return sendResponse(res,400,"Update unsuccessful");
         }
         logger.info("Updated successfully");
         sendResponse(res,200,"Update successful",updatedPlan);
@@ -89,18 +89,18 @@ export const createObjective=async(req,res)=>{
         const objectiveData=req.body;
         const existingObjective=await getObjectiveByName(objectiveData.name);
         if(existingObjective)
-            {
-                logger.error("Objective already exists");
-                return sendResponse(res,409,"Objective already exists");
-            }
-            const existingPlan=await getPlanById(planId);
-            if(!existingPlan)
-                {
-                    logger.error("Plan not found!!!");
-                    return sendResponse(res,404,"Plan not found!!!");
-                }
-                const existingMilestone=await getMilestoneById(milestoneId);
-                console.log(existingMilestone)
+        {
+            logger.error("Objective already exists");
+            return sendResponse(res,409,"Objective already exists");
+        }
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        const existingMilestone=await getMilestoneById(milestoneId);
+        console.log(existingMilestone)
         if(!existingMilestone)
         {
             logger.error("Milestone not found!!!");
@@ -108,7 +108,7 @@ export const createObjective=async(req,res)=>{
         }
         await createObjectives(objectiveData);
         logger.info("Objective added successfully!");
-        return sendResponse(res,404,"Objective added successfully!");
+        return sendResponse(res,201,"Objective added successfully!");
     }
     catch(error){
         logger.error(error.message);
@@ -130,7 +130,7 @@ export const updateObjective=async(req,res)=>{
         if(!updatedObjective)
         {
             logger.info("Update unsuccessful");
-            return sendResponse(res,500,"Update unsuccessful");
+            return sendResponse(res,400,"Update unsuccessful");
         }
         logger.info("Updated successfully");
         sendResponse(res,200,"Update successful",updatedObjective);
@@ -162,7 +162,7 @@ export const createMilestone=async(req,res)=>{
         await createMilestones(milestoneData);
 
         logger.info("Milestone added successfully!");
-        return sendResponse(res,404,"Milestone added successfully!");
+        return sendResponse(res,201,"Milestone added successfully!");
     }
     catch(error){
         logger.error(error.message);
@@ -189,10 +189,10 @@ export const updateMilestone=async(req,res)=>{
         if(!updatedMilestone)
         {
             logger.info("Update unsuccessful");
-            return sendResponse(res,500,"Update unsuccessful");
+            return sendResponse(res,400,"Update unsuccessful");
         }
         logger.info("Milestone updated successfully!");
-        return sendResponse(res,404,"Milestone updated successfully!");
+        return sendResponse(res,200,"Milestone updated successfully!");
     }
     catch(error){
         logger.error(error.message);
@@ -219,10 +219,10 @@ export const addUser=async(req,res)=>{
         if(!updatedUser)
         {
             logger.info("Update unsuccessful");
-            return sendResponse(res,500,"Update unsuccessful");
+            return sendResponse(res,400,"Update unsuccessful");
         }
         logger.info("Updated successfully");
-        sendResponse(res,200,"Update successful",updatedObjective);
+        sendResponse(res,200,"Update successful",updatedUser);
     }
     catch(error){
         logger.error(error.message);

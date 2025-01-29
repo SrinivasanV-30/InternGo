@@ -81,3 +81,17 @@ export const updateMilestones=async(milestoneId,milestoneData)=>{
         logger.error(error.message);
     }
 }
+
+export const deleteMilestone=async(milestoneId)=>{
+    try{
+        await prisma.milestones.delete({
+            where:{
+                id:milestoneId
+            }
+        })
+
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

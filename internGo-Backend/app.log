@@ -4875,3 +4875,9 @@ Invalid value for argument `roadmapType`. Expected RoadmapType.
 2025-01-29T10:28:39.570Z [:[32minfo[39m] ::1 - - [29/Jan/2025:10:28:39 +0000] "GET /api/plans HTTP/1.1" 200 340 "-" "PostmanRuntime/7.43.0"
 2025-01-29T10:29:20.429Z [:[32minfo[39m] Fetched Successfully
 2025-01-29T10:29:20.431Z [:[32minfo[39m] ::1 - - [29/Jan/2025:10:29:20 +0000] "GET /api/plans/1 HTTP/1.1" 200 653 "-" "PostmanRuntime/7.43.0"
+2025-01-29T12:44:17.821Z [:[32minfo[39m] Login successful!!!
+2025-01-29T12:44:17.823Z [:[32minfo[39m] ::1 - - [29/Jan/2025:12:44:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:06:13.303Z [:[32minfo[39m] Login successful!!!
+2025-01-29T17:06:13.305Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:06:13 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:06:21.194Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T17:06:21.196Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:06:21 +0000] "GET /api/plans/1 HTTP/1.1" 200 653 "-" "PostmanRuntime/7.43.0"

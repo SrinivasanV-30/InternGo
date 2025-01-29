@@ -107,6 +107,11 @@ model Objectives{
     updatedAt DateTime @updatedAt
 }
 
+model DailyUpdates{
+    id Int @id @default(autoincrement())
+    
+}
+
 enum RoadmapType{
     DEFAULT
     CUSTOM

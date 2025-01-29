@@ -148,4 +148,13 @@ export const updateUserPermission=async(req,res)=>{
     }
 }
 
+// export const verifyToken=async(req,res)=>{
+//     try{
+//         const token=
+//     }
+//     catch(error){
+//         logger.error(error.message);
+//     }
+// }
+
 

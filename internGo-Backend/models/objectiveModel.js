@@ -42,3 +42,16 @@ export const updateObjectives=async(objectiveId,objectivesData)=>{
         logger.error(error.message);
     }
 }
+
+export const deleteObjective=async(objectiveId)=>{
+    try{
+        await prisma.objectives.delete({
+            where:{
+                id:objectiveId
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
