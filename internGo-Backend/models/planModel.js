@@ -6,9 +6,14 @@ export const getPlans=async()=>{
     try{
         const allPlans=await prisma.plans.findMany({
             include:{
-                objectives:true,
+                objectives:{
+                    orderBy:{
+                        createdAt:"asc"
+                    }
+                },
                 users:true
             }
+
         });
         return allPlans;
     }
@@ -38,7 +43,11 @@ export const getPlanById=async(planId)=>{
                 id:planId
             },
             include:{
-                objectives:true,
+                objectives:{
+                    orderBy:{
+                        createdAt:"asc"
+                    }
+                },
                 users:true
             }
         });

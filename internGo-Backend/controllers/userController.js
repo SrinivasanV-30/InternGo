@@ -163,3 +163,5 @@ export const getInterns = async (req, res) => {
         sendResponse(res, 500, "Internal server error");
     }
 };
+
+// cron.schedule('* 18 * ')

@@ -3,6 +3,7 @@ import { createObjectives, updateObjectives } from "../models/objectiveModel.js"
 import { createPlans,getPlanByName,getPlanById,updatePlans, getPlans } from "../models/planModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
+import { findUserByUserId, updateUser } from "../models/userModel.js";
 
 export const getAllPlans=async(req,res)=>{
     try{
@@ -132,3 +133,32 @@ export const updateObjective=async(req,res)=>{
     }
 }
 
+export const addUser=async(req,res)=>{
+    try{
+        const planId=parseInt(req.params.id);
+        const userId=req.body.userId;
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        const existingUser=await findUserByUserId(userId);
+        if(!existingUser)
+        {
+            logger.error("User not found!!!");
+            return sendResponse(res,404,"User not found!!!");
+        }
+        const updatedUser=await updateUser(userId,{planId:planId})
+        if(!updatedObjective)
+        {
+            logger.info("Update unsuccessful");
+            return sendResponse(res,500,"Update unsuccessful");
+        }
+        logger.info("Updated successfully");
+        sendResponse(res,200,"Update successful",updatedObjective);
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

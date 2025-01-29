@@ -4583,3 +4583,21 @@ Argument `data` is missing.
 2025-01-28T17:20:57.598Z [:[32minfo[39m] ::1 - - [28/Jan/2025:17:20:57 +0000] "PATCH /api/plans/update/objective/9 HTTP/1.1" 200 351 "-" "PostmanRuntime/7.43.0"
 2025-01-28T17:21:14.774Z [:[32minfo[39m] Updated successfully
 2025-01-28T17:21:14.777Z [:[32minfo[39m] ::1 - - [28/Jan/2025:17:21:14 +0000] "PATCH /api/plans/update/objective/9 HTTP/1.1" 200 350 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:40:01.277Z [:[31merror[39m] jwt expired
+2025-01-29T04:40:01.280Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:40:01 +0000] "POST /api/plans/create/objective/9 HTTP/1.1" 403 54 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:40:08.180Z [:[32minfo[39m] Login successful!!!
+2025-01-29T04:40:08.181Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:40:08 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:40:16.458Z [:[32minfo[39m] Updated successfully
+2025-01-29T04:40:16.460Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:40:16 +0000] "PATCH /api/plans/update/9 HTTP/1.1" 200 252 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:40:26.892Z [:[32minfo[39m] Updated successfully
+2025-01-29T04:40:26.894Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:40:26 +0000] "PATCH /api/plans/update/9 HTTP/1.1" 200 251 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:41:04.230Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:41:04 +0000] "PATCH /api/plans/create HTTP/1.1" 404 157 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:41:08.674Z [:[32minfo[39m] Plan created successfully!!
+2025-01-29T04:41:08.674Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:41:08 +0000] "POST /api/plans/create HTTP/1.1" 201 232 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:41:38.955Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:41:38 +0000] "POST /api/plans/update/11 HTTP/1.1" 404 159 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:41:43.572Z [:[32minfo[39m] Updated successfully
+2025-01-29T04:41:43.573Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:41:43 +0000] "PATCH /api/plans/update/11 HTTP/1.1" 200 225 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:42:50.520Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T04:42:50.523Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:42:50 +0000] "GET /api/plans/ HTTP/1.1" 200 1292 "-" "PostmanRuntime/7.43.0"
+2025-01-29T04:49:47.751Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T04:49:47.762Z [:[32minfo[39m] ::1 - - [29/Jan/2025:04:49:47 +0000] "GET /api/plans/ HTTP/1.1" 200 1292 "-" "PostmanRuntime/7.43.0"

@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticateUser, checkPermission } from '../middlewares/authenticationMiddleware.js';
-import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan } from '../controllers/planController.js';
+import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, addUser } from '../controllers/planController.js';
 import { objectiveUpdateValidation,objectiveCreateValidation, planCreateValidation, planUpdateValidation } from '../middlewares/validationMiddleware.js';
 
 const planRouter=express.Router();
@@ -11,6 +11,7 @@ planRouter.post('/create',authenticateUser,checkPermission(["plans.create"]),pla
 planRouter.patch('/update/:id',authenticateUser,checkPermission(["plans.update"]),planUpdateValidation,updatePlan);
 planRouter.post('/create/objective/:id',authenticateUser,checkPermission(["plans.create"]),objectiveCreateValidation,createObjective);
 planRouter.patch('/update/objective/:id',authenticateUser,checkPermission(["plans.update"]),objectiveUpdateValidation,updateObjective);
+planRouter.patch('/addUser/:id',authenticateUser,checkPermission(["plans.update"]),addUser);
 
 
 

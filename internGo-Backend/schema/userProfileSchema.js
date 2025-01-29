@@ -28,7 +28,7 @@ export const profileUpdateValidationSchema = Joi.object({
     designation: Joi.string().max(50),
     phone_no: Joi.string().pattern(/^\d{10}$/),
     certificates_submission_status: Joi.boolean(),
-    status: Joi.string().valid("ACTIVE","NOT_ACTIVE","EXAMINATION","SHADOWING","DEPLOYED"),
+    status: Joi.string().valid("ACTIVE","NOT_ACTIVE","EXAMINATION","SHADOWING","DEPLOYED","TERMINATED"),
     dateOfBirth: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
     dateOfJoining: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
     phase: Joi.string().max(50),
@@ -36,7 +36,7 @@ export const profileUpdateValidationSchema = Joi.object({
 });
 
 export const assetValidationSchema = Joi.object({
-    userId: Joi.number().integer().required(),
+    userId: Joi.string().required(),
     assetType: Joi.string().max(50).required(),
     assetName: Joi.string().max(100).required(),
     givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required() 
