@@ -82,7 +82,7 @@ export const updateMilestones=async(milestoneId,milestoneData)=>{
     }
 }
 
-export const deleteMilestone=async(milestoneId)=>{
+export const deleteMilestones=async(milestoneId)=>{
     try{
         await prisma.milestones.delete({
             where:{

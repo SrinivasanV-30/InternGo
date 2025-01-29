@@ -4881,3 +4881,61 @@ Invalid value for argument `roadmapType`. Expected RoadmapType.
 2025-01-29T17:06:13.305Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:06:13 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
 2025-01-29T17:06:21.194Z [:[32minfo[39m] Fetched Successfully
 2025-01-29T17:06:21.196Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:06:21 +0000] "GET /api/plans/1 HTTP/1.1" 200 653 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:47:19.633Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T17:47:19.636Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:47:19 +0000] "GET /api/plans/1 HTTP/1.1" 200 851 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:48:30.934Z [:[31merror[39m] Token not present!!!
+2025-01-29T17:48:30.935Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:48:30 +0000] "DELETE /api/plans/delete/objective/1 HTTP/1.1" 403 63 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:48:39.745Z [:[31merror[39m] 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+{
+  where: {
+    id: "1"
+        ~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided String.
+2025-01-29T17:48:39.745Z [:[31merror[39m] Objective not found!!!
+2025-01-29T17:48:39.747Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:48:39 +0000] "DELETE /api/plans/delete/objective/1 HTTP/1.1" 404 65 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:48:56.188Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T17:48:56.190Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:48:56 +0000] "GET /api/plans/1 HTTP/1.1" 200 851 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:49:09.674Z [:[31merror[39m] 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+{
+  where: {
+    id: "2"
+        ~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided String.
+2025-01-29T17:49:09.675Z [:[31merror[39m] Objective not found!!!
+2025-01-29T17:49:09.676Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:49:09 +0000] "DELETE /api/plans/delete/objective/2 HTTP/1.1" 404 65 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:49:34.405Z [:[31merror[39m] 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+{
+  where: {
+    id: "2"
+        ~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided String.
+2025-01-29T17:49:34.406Z [:[31merror[39m] Objective not found!!!
+2025-01-29T17:49:34.409Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:49:34 +0000] "DELETE /api/plans/delete/objective/2 HTTP/1.1" 404 65 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:50:14.483Z [:[31merror[39m] milestoneId is not defined
+2025-01-29T17:50:42.152Z [:[32minfo[39m] Deleted successfully!!!
+2025-01-29T17:50:42.161Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:50:42 +0000] "DELETE /api/plans/delete/objective/1 HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:50:52.080Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T17:50:52.083Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:50:52 +0000] "GET /api/plans/1 HTTP/1.1" 200 551 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:51:15.983Z [:[32minfo[39m] Deleted successfully!!!
+2025-01-29T17:51:15.985Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:51:15 +0000] "DELETE /api/plans/delete/milestone/1 HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:51:21.536Z [:[32minfo[39m] Fetched Successfully
+2025-01-29T17:51:21.538Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:51:21 +0000] "GET /api/plans/1 HTTP/1.1" 200 254 "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:52:04.543Z [:[32minfo[39m] Deleted successfully!!!
+2025-01-29T17:52:04.554Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:52:04 +0000] "DELETE /api/plans/delete/1 HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-01-29T17:52:09.933Z [:[31merror[39m] Plan not found!!!
+2025-01-29T17:52:09.937Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:52:09 +0000] "GET /api/plans/1 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"

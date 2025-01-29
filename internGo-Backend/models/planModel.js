@@ -84,7 +84,7 @@ export const updatePlans=async(planId,planData)=>{
     }
 }
 
-export const deletePlan=async(planId)=>{
+export const deletePlans=async(planId)=>{
     try{
         await prisma.plans.delete({
             where:{

@@ -1,10 +1,10 @@
 
-import { createObjectives, getObjectiveByName, updateObjectives } from "../models/objectiveModel.js";
-import { createPlans,getPlanByName,getPlanById,updatePlans, getPlans } from "../models/planModel.js";
+import { createObjectives, deleteObjectives, getObjectiveById, getObjectiveByName, updateObjectives } from "../models/objectiveModel.js";
+import { createPlans,getPlanByName,getPlanById,updatePlans, getPlans, deletePlans } from "../models/planModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { findUserByUserId, updateUser } from "../models/userModel.js";
-import { getMilestoneById,getMilestoneByName,createMilestones, updateMilestones } from "../models/milestoneModel.js";
+import { getMilestoneById,getMilestoneByName,createMilestones, updateMilestones, deleteMilestones } from "../models/milestoneModel.js";
 
 export const getAllPlans=async(req,res)=>{
     try{
@@ -229,4 +229,56 @@ export const addUser=async(req,res)=>{
     }
 }
 
+export const deletePlan=async(req,res)=>{
+    try{
+        const planId=parseInt(req.params.id);
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        await deletePlans(planId);
+        logger.info("Deleted successfully!!!");
+        sendResponse(res,204,"Deleted successfully");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
 
+export const deleteMilestone=async(req,res)=>{
+    try{
+        const milestoneId=parseInt(req.params.id);
+        const existingMilestone=await getMilestoneById(milestoneId);
+        if(!existingMilestone)
+        {
+            logger.error("Milestone not found!!!");
+            return sendResponse(res,404,"Milestone not found!!!");
+        }
+        await deleteMilestones(milestoneId);
+        logger.info("Deleted successfully!!!");
+        sendResponse(res,204,"Deleted successfully");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+export const deleteObjective=async(req,res)=>{
+    try{
+        const objectiveId=parseInt(req.params.id);
+        const existingObjective=await getObjectiveById(objectiveId);
+        if(!existingObjective)
+        {
+            logger.error("Objective not found!!!");
+            return sendResponse(res,404,"Objective not found!!!");
+        }
+        await deleteObjectives(objectiveId);
+        logger.info("Deleted successfully!!!");
+        sendResponse(res,204,"Deleted successfully");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

@@ -17,6 +17,20 @@ export const getObjectiveByName=async(name)=>{
     }
 }
 
+export const getObjectiveById=async(id)=>{
+    try{
+        const objective=await prisma.objectives.findUnique({
+            where:{
+                id:id
+            }
+        });
+        return objective;
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
 export const createObjectives=async(objectivesData)=>{
     try{
         const createdObjectives=await prisma.objectives.create({
@@ -43,7 +57,7 @@ export const updateObjectives=async(objectiveId,objectivesData)=>{
     }
 }
 
-export const deleteObjective=async(objectiveId)=>{
+export const deleteObjectives=async(objectiveId)=>{
     try{
         await prisma.objectives.delete({
             where:{
