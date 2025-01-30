@@ -109,6 +109,7 @@ model Objectives{
 
 model DailyUpdates{
     id Int @id @default(autoincrement())
+    
 
 }
 

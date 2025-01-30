@@ -1,5 +1,5 @@
 import express from 'express';
-import { signUpController, oauthController, signInController, createUserController } from '../controllers/authController.js';
+import { signUpController, oauthController, signInController, createUserController, verifyToken } from '../controllers/authController.js';
 import { emailValidation, signInValidation, signUpValidation, userCreateValidation } from '../middlewares/validationMiddleware.js';
 import { authenticateUser, checkPermission } from '../middlewares/authenticationMiddleware.js';
 
@@ -9,5 +9,6 @@ authRouter.post('/signup',signUpValidation,emailValidation,signUpController);
 authRouter.post('/signin',signInValidation,emailValidation,signInController);
 authRouter.post('/createUser',authenticateUser,checkPermission(['users.manage']),userCreateValidation,createUserController);
 authRouter.post('/oauth',oauthController);
+authRouter.post('/verify',verifyToken);
 
 export default authRouter;

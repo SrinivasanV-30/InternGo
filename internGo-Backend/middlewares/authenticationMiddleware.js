@@ -8,7 +8,7 @@ export const authenticateUser=async(req,res,next)=>{
         const authHeader=req.headers['authorization'];
         if(!authHeader){
             logger.error("Token not present!!!")
-            return sendResponse(res,403,"Token not present!!!");
+            return sendResponse(res,401,"Token not present!!!");
         }
         const token=authHeader.split(" ")[1];
         const user=await jwtVerify(token);
@@ -19,7 +19,7 @@ export const authenticateUser=async(req,res,next)=>{
     }
     catch(error){
         logger.error(error.message);
-        return sendResponse(res,403,error.message);
+        return sendResponse(res,401,error.message);
     }
 }
 
@@ -46,7 +46,7 @@ export const checkPermission = (requiredPermission) => {
             });
             if(flag==0){
             logger.error("Access Denied. Permission not found");
-            return sendResponse(res,403,"Access Denied. Permission not found");
+            return sendResponse(res,401,"Access Denied. Permission not found");
             }
             if(flag==1)
             {
@@ -63,7 +63,7 @@ export const checkPermission = (requiredPermission) => {
 export const checkUser=async(req,res,next)=>{
     try{
         const id=req.params.id;
-        console.log("check",id)
+        
         console.log(req.user.userId,req.user.role)
         if(!id){
             logger.error("Invalid ID format!!!");
@@ -73,7 +73,7 @@ export const checkUser=async(req,res,next)=>{
             return next();
         }
         logger.error("Access Denied. Can not access other interns.");
-        return sendResponse(res,403,"Access Denied. Can not access other interns.");
+        return sendResponse(res,401,"Access Denied. Can not access other interns.");
     }
     catch(error){
         logger.error(error.message);

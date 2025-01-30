@@ -2,7 +2,7 @@ import sendResponse from "../utils/response.js";
 import {createIntern, findUserByEmail,createUser} from "../models/userModel.js";
 import bcrypt from 'bcrypt';
 import logger from "../utils/logger.js";
-import { jwtSign } from "../services/jwtService.js";
+import { jwtSign, jwtVerify } from "../services/jwtService.js";
 import { findRoleByName, updateRole } from "../models/roleModel.js";
 import cron from 'node-cron';
 
@@ -107,7 +107,7 @@ export const createUserController = async(req,res)=>{
         }
         if(!role){
             logger.error("Invalid role.");
-            return sendResponse(res,409,"Invalid role.");
+            return sendResponse(res,404,"Invalid role.");
         }
         const password=req.body.password;
         const hashedPassword=await bcrypt.hash(password,10);
@@ -148,13 +148,22 @@ export const updateUserPermission=async(req,res)=>{
     }
 }
 
-// export const verifyToken=async(req,res)=>{
-//     try{
-//         const token=
-//     }
-//     catch(error){
-//         logger.error(error.message);
-//     }
-// }
+export const verifyToken = async (req, res) => {
+    try {
+        const token = req.body.token;
+
+        if (!token) {
+            return res.status(400).json({ error: "Token is required" });
+        }
+
+        const jwtResponse = await jwtVerify(token); 
+        return sendResponse(res,200,"Success");
+
+    } catch (error) {
+        logger.error("JWT Verification Error:", error.message);
+        return sendResponse(res,401,"Invalid token");
+    }
+};
+
 
 

@@ -4939,3 +4939,345 @@ Argument `id`: Invalid value provided. Expected Int, provided String.
 2025-01-29T17:52:04.554Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:52:04 +0000] "DELETE /api/plans/delete/1 HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
 2025-01-29T17:52:09.933Z [:[31merror[39m] Plan not found!!!
 2025-01-29T17:52:09.937Z [:[32minfo[39m] ::1 - - [29/Jan/2025:17:52:09 +0000] "GET /api/plans/1 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:07:18.794Z [:[32minfo[39m] Login successful!!!
+2025-01-30T05:07:18.796Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:07:18 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:08:12.651Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:08:12 +0000] "POST /api/auth/verify HTTP/1.1" 404 155 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:08:49.366Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:08:49 +0000] "POST /api/auth/verify HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:08:50.177Z [:[31merror[39m] invalid signature
+2025-01-30T05:09:00.626Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:09:00 +0000] "POST /api/auth/verify HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:13:12.824Z [:[31merror[39m] jwtResponse.then is not a function
+2025-01-30T05:13:24.947Z [:[32minfo[39m] Jwt successfully verified
+2025-01-30T05:13:24.952Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:13:24 +0000] "POST /api/auth/verify HTTP/1.1" 200 68 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:13:36.336Z [:[32minfo[39m] Not authorised
+2025-01-30T05:15:35.778Z [:[31merror[39m] Token not present!!!
+2025-01-30T05:15:35.787Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:05:15:35 +0000] "GET /api/plans HTTP/1.1" 403 63 "-" "okhttp/4.12.0"
+2025-01-30T05:15:39.164Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:05:15:39 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1362 "-" "okhttp/4.12.0"
+2025-01-30T05:16:27.307Z [:[32minfo[39m] Not authorised invalid signature
+2025-01-30T05:20:13.921Z [:[31merror[39m] Cannot read properties of undefined (reading 'then')
+2025-01-30T05:21:15.645Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:21:15 +0000] "POST /api/auth/verify HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:21:27.828Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:21:27 +0000] "POST /api/auth/verify HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:24:06.655Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:24:06 +0000] "POST /api/auth/verify HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:26:03.517Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:26:03 +0000] "POST /api/auth/verify HTTP/1.1" 401 25 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:27:38.873Z [:[31merror[39m] JWT Verification Error:
+2025-01-30T05:27:38.879Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:27:38 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:27:49.638Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:27:49 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:29:17.435Z [:[31merror[39m] JWT Verification Error:
+2025-01-30T05:29:17.440Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:29:17 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:29:25.350Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:29:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:36:43.862Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-30T05:36:43.868Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:36:43 +0000] "GET /api/users/5 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:36:55.992Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-30T05:36:55.993Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:36:55 +0000] "GET /api/users/5 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:37:01.379Z [:[32minfo[39m] Login successful!!!
+2025-01-30T05:37:01.379Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:37:01 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:37:08.375Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-30T05:37:08.376Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:37:08 +0000] "GET /api/users/5 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:37:08.795Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-30T05:37:08.796Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:37:08 +0000] "GET /api/users/5 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:37:19.073Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-01-30T05:37:19.074Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:37:19 +0000] "GET /api/users/6 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:38:09.974Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:38:09 +0000] "GET /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:39:57.119Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:39:57 +0000] "GET /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:40:01.982Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:40:01 +0000] "GET /api/users HTTP/1.1" 404 148 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:40:53.090Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:40:53 +0000] "GET /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:41:10.220Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:41:10.220Z [:[31merror[39m] User not found!!!
+2025-01-30T05:41:10.223Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:41:10 +0000] "POST /api/users/ HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:43:37.792Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:43:37.793Z [:[31merror[39m] User not found!!!
+2025-01-30T05:43:37.800Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:43:37 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:43:48.072Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:43:48.072Z [:[31merror[39m] User not found!!!
+2025-01-30T05:43:48.074Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:43:48 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:45:22.157Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:45:22.157Z [:[31merror[39m] User not found!!!
+2025-01-30T05:45:22.158Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:45:22 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:45:29.487Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:45:29.487Z [:[31merror[39m] User not found!!!
+2025-01-30T05:45:29.488Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:45:29 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:45:33.210Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T05:45:33.210Z [:[31merror[39m] User not found!!!
+2025-01-30T05:45:33.211Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:45:33 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:46:34.301Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:46:34 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3310 "-" "PostmanRuntime/7.43.0"
