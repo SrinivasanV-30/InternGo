@@ -1,10 +1,11 @@
 import sendResponse from "../utils/response.js";
-import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, internsCount, updateUser } from "../models/userModel.js";
+import { findUserByUserId, getAllInterns, getInternBasedOnFilters, getInternBasedOnSearch, getTrainingPlan, internsCount, updateUser } from "../models/userModel.js";
 import logger from "../utils/logger.js";
 import { profilePercentage } from "../utils/profilePercentage.js";
 import { createAsset, getAssetByUserId, updateAsset } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
 import cron from 'node-cron';
+import { getPlanById } from "../models/planModel.js";
 
 
 export const updateUserProfile = async(req,res)=>{
@@ -163,5 +164,33 @@ export const getInterns = async (req, res) => {
         sendResponse(res, 500, "Internal server error");
     }
 };
+
+export const getTrainingDetails=async(req,res)=>{
+    try{
+        const userId=req.params.id;
+        const userPlan=await getTrainingPlan(userId);
+        console.log(userPlan);
+        const trainingPlan=await getPlanById(userPlan.planId);
+        if(!trainingPlan){
+            logger.error("Training plan not found!!!");
+            return sendResponse(res,404,"Training plan not found!!!");
+        }
+        const milestones=trainingPlan.milestones;
+        console.log(userId,milestones);
+        if(!milestones){
+            logger.error("Milestones not found!!!");
+            return sendResponse(res,404,"Milestones not found!!!");
+        }
+        milestones.forEach((milestone) => {
+            if(milestone.milestoneDays>=userPlan.daysWorked){
+                logger.info("Training plan fetched!!");
+                return sendResponse(res,200,"Training fetched successfully",milestone);
+            }
+        });
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
 
 // cron.schedule('* 18 * ')

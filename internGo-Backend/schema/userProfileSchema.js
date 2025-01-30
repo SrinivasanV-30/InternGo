@@ -32,6 +32,7 @@ export const profileUpdateValidationSchema = Joi.object({
     dateOfBirth: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
     dateOfJoining: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
     phase: Joi.string().max(50),
+    daysWorked:Joi.number().integer(),
     bloodGroup: Joi.string().valid("A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-")
 });
 

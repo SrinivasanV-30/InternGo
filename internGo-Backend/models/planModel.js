@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import logger from "../utils/logger.js";
-import { createObjectives } from "./objectiveModel.js";
+
 const prisma= new PrismaClient();
 
 export const getPlans=async()=>{

@@ -37,6 +37,7 @@ model Users{
     phase String?
     daysWorked Int @default(0)
     assets Assets[] @relation("UserAssets")
+    dailyUpdates DailyUpdates[] @relation("UserDailyUpdates")
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     profilePercentage Int? @default(0)
@@ -107,13 +108,34 @@ model Objectives{
     updatedAt DateTime @updatedAt
 }
 
-model DailyUpdates{
-    id Int @id @default(autoincrement())
-    
-
-}
-
 enum RoadmapType{
     DEFAULT
     CUSTOM
+}
+
+model DailyUpdates{
+    id Int @id @default(autoincrement())
+    date DateTime @default(now())
+    userId String
+    user Users @relation("UserDailyUpdates",fields:[userId],references:[id])
+    tasks DailyUpdateTasks[] @relation("DailyUpdateTasks")
+    updatedAt DateTime @updatedAt
+}
+
+model DailyUpdateTasks{
+    id Int @id @default(autoincrement())
+    dailyUpdateId Int
+    taskName String
+    activitiesPlanned String
+    activitiesCompleted String
+    estimatedTime Int
+    actualTime Int
+    dailyUpdate DailyUpdates @relation("DailyUpdateTasks",fields:[dailyUpdateId],references:[id])
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+enum TaskProgress{
+    PENDING
+    COMPLETED
 }

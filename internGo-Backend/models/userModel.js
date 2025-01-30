@@ -21,6 +21,25 @@ export const findUserByEmail=async(email)=>{
         logger.error(error.message);
     }
 }
+
+export const getTrainingPlan=async(userId)=>{
+    try{
+        const trainingPlan=await prisma.users.findUnique({
+            where:{
+                id:userId
+            },
+            select:{
+                planId:true,
+                daysWorked:true
+            }
+        })
+        return trainingPlan;
+    }
+    catch(error){
+        logger.error(error.message)
+    }
+}
+
 export const findUserByUserId=async(userId)=>{
     try{
         const userDetails=await prisma.users.findUnique({
@@ -30,6 +49,7 @@ export const findUserByUserId=async(userId)=>{
             include:{
                 assets:true,
                 password:false,
+                plan:true
             }
         })
         return userDetails;        
@@ -109,8 +129,8 @@ export const getAllInterns=async()=>{
                 roleId:false,
                 education:false,
                 certificates_submission_status:false,
-
-
+                dailyUpdates:false,
+                plan:false
             }
         })
         return allInterns;

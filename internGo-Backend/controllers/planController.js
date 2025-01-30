@@ -199,30 +199,32 @@ export const updateMilestone=async(req,res)=>{
     }
 }
 
-export const addUser=async(req,res)=>{
+export const addUsers=async(req,res)=>{
     try{
         const planId=parseInt(req.params.id);
-        const userId=req.body.userId;
+        const userIds=req.body.userIds;
         const existingPlan=await getPlanById(planId);
         if(!existingPlan)
         {
             logger.error("Plan not found!!!");
             return sendResponse(res,404,"Plan not found!!!");
         }
-        const existingUser=await findUserByUserId(userId);
-        if(!existingUser)
-        {
-            logger.error("User not found!!!");
-            return sendResponse(res,404,"User not found!!!");
-        }
-        const updatedUser=await updateUser(userId,{planId:planId})
-        if(!updatedUser)
-        {
-            logger.info("Update unsuccessful");
-            return sendResponse(res,400,"Update unsuccessful");
-        }
+        userIds.forEach(async(userId) => {
+            const existingUser=await findUserByUserId(userId);
+            if(!existingUser)
+            {
+                logger.error("User not found!!!");
+                return sendResponse(res,404,"User not found!!!");
+            }
+            const updatedUser=await updateUser(userId,{planId:planId})
+            if(!updatedUser)
+            {
+                logger.info("Update unsuccessful");
+                return sendResponse(res,400,"Update unsuccessful");
+            }
+        });
         logger.info("Updated successfully");
-        sendResponse(res,200,"Update successful",updatedUser);
+        sendResponse(res,200,"Update successful");
     }
     catch(error){
         logger.error(error.message);

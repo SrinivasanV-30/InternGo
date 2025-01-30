@@ -10,7 +10,6 @@ const bucketName=process.env.AWS_BUCKET_NAME;
 
 export const uploadImageToS3 = async (image, userName) => {
     const buffer = Buffer.from(image.replace(/^data:.+;base64,/, ''), 'base64');
-    const contentType = image.match(/data:(.+?);base64/)?.[1];
     const key=`/profile-pictures/${userName}/${userName}-profilePicture_${Date.now()}`;
 
     const params = {

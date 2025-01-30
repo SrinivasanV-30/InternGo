@@ -5281,3 +5281,323 @@ Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `emai
 2025-01-30T05:45:33.210Z [:[31merror[39m] User not found!!!
 2025-01-30T05:45:33.211Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:45:33 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
 2025-01-30T05:46:34.301Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:46:34 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3310 "-" "PostmanRuntime/7.43.0"
+2025-01-30T05:47:10.906Z [:[32minfo[39m] ::1 - - [30/Jan/2025:05:47:10 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3310 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:18:32.880Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:18:32 +0000] "POST /api/plans/addUser/1 HTTP/1.1" 404 159 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:18:44.515Z [:[31merror[39m] Plan not found!!!
+2025-01-30T06:18:44.517Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:18:44 +0000] "PATCH /api/plans/addUser/1 HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:18:50.649Z [:[32minfo[39m] Updated successfully
+2025-01-30T06:18:50.650Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:18:50 +0000] "PATCH /api/plans/addUser/2 HTTP/1.1" 200 781 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:19:14.846Z [:[32minfo[39m] Updated successfully
+2025-01-30T06:19:14.852Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:19:14 +0000] "PATCH /api/plans/addUser/2 HTTP/1.1" 200 781 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:19:26.147Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:19:26 +0000] "POST /api/users?offset=0&limit=10 HTTP/1.1" 200 3307 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:19:40.393Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:19:40 +0000] "POST /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 404 186 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:19:45.444Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:19:45 +0000] "GET /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 200 1026 "-" "PostmanRuntime/7.43.0"
+2025-01-30T06:23:41.754Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T06:23:41.761Z [:[32minfo[39m] ::1 - - [30/Jan/2025:06:23:41 +0000] "GET /api/plans/2 HTTP/1.1" 200 2383 "-" "PostmanRuntime/7.43.0"
+2025-01-30T11:10:34.992Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:10:35.000Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:10:35 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:10:36.554Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:10:36 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "-" "okhttp/4.12.0"
+2025-01-30T11:10:55.014Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:10:55.017Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:10:55 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:11:33.086Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:11:33.094Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:11:33 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:11:37.217Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:11:37.219Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:11:37 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:11:57.117Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:11:57.123Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:11:57 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:12:59.781Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   assets?: AssetsListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  include: {
+    role: true
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-01-30T11:12:59.781Z [:[31merror[39m] User not found!!!
+2025-01-30T11:12:59.783Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:12:59 +0000] "GET /api/plans HTTP/1.1" 404 60 "-" "okhttp/4.12.0"
+2025-01-30T11:15:05.336Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:15:05.343Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:05 +0000] "GET /api/plans HTTP/1.1" 200 3800 "-" "okhttp/4.12.0"
+2025-01-30T11:15:05.507Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:05 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:15:25.620Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:15:25.622Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:25 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:15:25.681Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:25 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:15:37.006Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:15:37.007Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:37 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:15:37.020Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:15:37 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:02.730Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:02 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:02.732Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:16:02.733Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:02 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:21.391Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:21 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:21.394Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:16:21.397Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:21 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:30.209Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:16:30.212Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:30 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:30.410Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:30 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:35.223Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:16:35.226Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:35 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:16:35.275Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:16:35 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:17:23.945Z [:[31merror[39m] Token not present!!!
+2025-01-30T11:17:23.947Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:17:23 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T11:17:25.777Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:17:25.779Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:17:25 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:34:57.652Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:34:57 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:35:44.188Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:35:44.191Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:35:44 +0000] "GET /api/plans HTTP/1.1" 200 3873 "-" "okhttp/4.12.0"
+2025-01-30T11:52:09.621Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:52:09 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:52:12.723Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:52:12.725Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:52:12 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:54:56.311Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:54:56 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:54:59.356Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:54:59.358Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:54:59 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:56:42.169Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:56:42 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T11:56:48.540Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T11:56:48.542Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:11:56:48 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T12:05:15.503Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:05:15 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T12:05:19.877Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T12:05:19.879Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:05:19 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T12:05:29.136Z [:[31merror[39m] Token not present!!!
+2025-01-30T12:05:29.138Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:05:29 +0000] "GET /api/plans HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-01-30T12:05:32.083Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T12:05:32.085Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:05:32 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-30T12:06:43.159Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:06:43 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "-" "okhttp/4.12.0"
+2025-01-30T12:06:46.552Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T12:06:46.554Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [30/Jan/2025:12:06:46 +0000] "GET /api/plans HTTP/1.1" 200 3873 "-" "okhttp/4.12.0"
+2025-01-30T12:38:26.746Z [:[32minfo[39m] Login successful!!!
+2025-01-30T12:38:26.748Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:38:26 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:38:29.477Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:38:29 +0000] "GET /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:38:38.523Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:38:38 +0000] "POST /api/users/ HTTP/1.1" 200 3307 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:39:42.978Z [:[31merror[39m] userIds.forEach is not a function
+2025-01-30T12:40:06.402Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:40:06.403Z [:[31merror[39m] updatedUser is not defined
+2025-01-30T12:40:35.369Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:40:35.375Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:40:35 +0000] "PATCH /api/plans/addUser/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:40:52.895Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:40:52.898Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:40:52 +0000] "PATCH /api/plans/addUser/3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:43:04.722Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:43:04.725Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:43:04 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:43:09.047Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:43:09 +0000] "POST /api/users/ HTTP/1.1" 200 3301 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:46:17.935Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:46:17.942Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:46:17 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:46:31.125Z [:[31merror[39m] [object Object]
+2025-01-30T12:55:24.297Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:55:24.308Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:55:24 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:55:35.548Z [:[31merror[39m] [object Object]
+2025-01-30T12:57:04.557Z [:[32minfo[39m] Updated successfully
+2025-01-30T12:57:04.563Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:57:04 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:57:57.652Z [:[31merror[39m] [object Object]
+2025-01-30T12:57:57.660Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:57:57 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 400 181 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:58:09.024Z [:[31merror[39m] [object Object]
+2025-01-30T12:58:09.032Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:58:09 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 400 299 "-" "PostmanRuntime/7.43.0"
+2025-01-30T12:58:17.524Z [:[31merror[39m] [object Object]
+2025-01-30T12:58:17.533Z [:[32minfo[39m] ::1 - - [30/Jan/2025:12:58:17 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 400 181 "-" "PostmanRuntime/7.43.0"
+2025-01-30T13:03:34.052Z [:[31merror[39m] [object Object]
+2025-01-30T13:03:34.059Z [:[32minfo[39m] ::1 - - [30/Jan/2025:13:03:34 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 400 181 "-" "PostmanRuntime/7.43.0"
+2025-01-30T13:04:14.161Z [:[31merror[39m] [{"message":"\"userIds[0]\" must be a string","path":["userIds",0],"type":"string.base","context":{"label":"userIds[0]","value":1,"key":0}}]
+2025-01-30T13:04:14.169Z [:[32minfo[39m] ::1 - - [30/Jan/2025:13:04:14 +0000] "PATCH /api/plans/addUser/4 HTTP/1.1" 400 181 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:25:45.746Z [:[31merror[39m] Token not present!!!
+2025-01-30T16:25:45.758Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:25:45 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 401 63 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:25:55.328Z [:[32minfo[39m] Login successful!!!
+2025-01-30T16:25:55.329Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:25:55 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:26:03.315Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:26:03.316Z [:[31merror[39m] Cannot read properties of undefined (reading 'milestones')
+2025-01-30T16:26:47.288Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:26:47.291Z [:[31merror[39m] Cannot read properties of undefined (reading 'milestones')
+2025-01-30T16:27:03.668Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:27:03.671Z [:[31merror[39m] Cannot read properties of undefined (reading 'milestones')
+2025-01-30T16:27:21.651Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:27:21.654Z [:[31merror[39m] Cannot read properties of undefined (reading 'milestones')
+2025-01-30T16:28:07.132Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:28:07 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:29:20.173Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:29:20.176Z [:[31merror[39m] Training plan not found!!!
+2025-01-30T16:29:20.182Z [:[31merror[39m] Cannot read properties of undefined (reading 'milestones')
+2025-01-30T16:29:20.185Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:29:20 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 69 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:29:34.469Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-01-30T16:29:34.472Z [:[31merror[39m] Training plan not found!!!
+2025-01-30T16:29:34.481Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:29:34 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 69 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:30:10.715Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  select: {
+    plan: true,
+    dayWorked: true,
+    ~~~~~~~~~
+?   id?: true,
+?   roleId?: true,
+?   planId?: true,
+?   name?: true,
+?   password?: true,
+?   email?: true,
+?   gender?: true,
+?   employeeId?: true,
+?   skills?: true,
+?   personalEmail?: true,
+?   currentAddress?: true,
+?   permanentAddress?: true,
+?   profilePhoto?: true,
+?   resume?: true,
+?   batch?: true,
+?   year?: true,
+?   designation?: true,
+?   phone_no?: true,
+?   education?: true,
+?   bankDetails?: true,
+?   certificates_submission_status?: true,
+?   status?: true,
+?   dateOfBirth?: true,
+?   dateOfJoining?: true,
+?   bloodGroup?: true,
+?   phase?: true,
+?   daysWorked?: true,
+?   createdAt?: true,
+?   updatedAt?: true,
+?   profilePercentage?: true,
+?   assets?: true,
+?   dailyUpdates?: true,
+?   role?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `dayWorked` for select statement on model `Users`. Available options are marked with ?.
+2025-01-30T16:30:10.718Z [:[31merror[39m] Training plan not found!!!
+2025-01-30T16:30:10.725Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:30:10 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 69 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:30:43.897Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-01-30T16:31:40.936Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:31:40.968Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:31:40 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:31:55.880Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T16:31:55.883Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:31:55 +0000] "GET /api/plans/4 HTTP/1.1" 200 2718 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:32:11.367Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:32:11 +0000] "PATCH /api/plans/addUser/2 HTTP/1.1" 404 160 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:32:21.420Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:32:21 +0000] "PATCH /api/plans/addUser/2 HTTP/1.1" 404 160 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:32:49.579Z [:[32minfo[39m] Updated successfully
+2025-01-30T16:32:49.582Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:32:49 +0000] "PATCH /api/plans/addUsers/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:33:06.821Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:33:06.823Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:33:06 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:34:00.171Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:34:00.182Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:34:00 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:34:07.933Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T16:34:07.936Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:34:07 +0000] "GET /api/plans/4 HTTP/1.1" 200 942 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:34:14.034Z [:[32minfo[39m] Fetched Successfully
+2025-01-30T16:34:14.037Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:34:14 +0000] "GET /api/plans/2 HTTP/1.1" 200 3745 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:34:29.184Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:34:29.186Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:34:29 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:34:50.638Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:34:50.650Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:34:50 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:35:35.574Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:35:35.585Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:35:35 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:36:12.167Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:36:12.178Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:36:12 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:36:53.024Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:36:53.039Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:36:53 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:37:10.049Z [:[31merror[39m] Milestones not found!!!
+2025-01-30T16:37:10.062Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:37:10 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 66 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:44:26.690Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      planId: 2,
+      daysWorked: 0
+    }
+    ~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      include: {
+        objectives: true
+      }
+    },
+    users: true
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-01-30T16:44:26.693Z [:[31merror[39m] userPlan is not defined
+2025-01-30T16:45:34.838Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:45:34.848Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:45:34.849Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:45:34.852Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:45:34 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1405 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:46:30.049Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:46:30.059Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:46:30.060Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:46:30.064Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:46:30 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1405 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:49:44.380Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:49:44.382Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:49:44.383Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:49:44.384Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:49:44 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1405 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:50:54.793Z [:[32minfo[39m] Milestone added successfully!
+2025-01-30T16:50:54.794Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:50:54 +0000] "POST /api/plans/2/create/milestone HTTP/1.1" 201 72 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:51:21.525Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:51:21.526Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:51:21.527Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:51:21.527Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:51:21 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1405 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:52:37.870Z [:[31merror[39m] [{"message":"\"daysWorked\" is not allowed","path":["daysWorked"],"type":"object.unknown","context":{"child":"daysWorked","label":"daysWorked","value":30,"key":"daysWorked"}}]
+2025-01-30T16:52:37.871Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:52:37 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 400 216 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:53:26.635Z [:[31merror[39m] [{"message":"\"daysWorked\" is not allowed","path":["daysWorked"],"type":"object.unknown","context":{"child":"daysWorked","label":"daysWorked","value":30,"key":"daysWorked"}}]
+2025-01-30T16:53:26.645Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:53:26 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 400 216 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:53:48.258Z [:[31merror[39m] [{"message":"\"daysWorked\" is not allowed","path":["daysWorked"],"type":"object.unknown","context":{"child":"daysWorked","label":"daysWorked","value":30,"key":"daysWorked"}}]
+2025-01-30T16:53:48.262Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:53:48 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 400 216 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:53:57.191Z [:[31merror[39m] [{"message":"\"daysWorked\" is not allowed","path":["daysWorked"],"type":"object.unknown","context":{"child":"daysWorked","label":"daysWorked","value":30,"key":"daysWorked"}}]
+2025-01-30T16:53:57.201Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:53:57 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 400 216 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:54:51.431Z [:[32minfo[39m] Updated successfully
+2025-01-30T16:54:51.442Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:54:51 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 811 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:55:07.303Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:55:07.305Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:55:07.306Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:55:07.308Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:55:07 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:55:33.800Z [:[32minfo[39m] Updated successfully
+2025-01-30T16:55:33.802Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:55:33 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 811 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:55:39.914Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:55:39.916Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:55:39.916Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-01-30T16:55:39.917Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:55:39 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1405 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:57:49.023Z [:[32minfo[39m] Updated successfully
+2025-01-30T16:57:49.024Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:57:49 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 811 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:57:56.230Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:57:56.233Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:57:56 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 168 "-" "PostmanRuntime/7.43.0"
+2025-01-30T16:58:31.926Z [:[32minfo[39m] Training plan fetched!!
+2025-01-30T16:58:31.928Z [:[32minfo[39m] ::1 - - [30/Jan/2025:16:58:31 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 168 "-" "PostmanRuntime/7.43.0"

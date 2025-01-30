@@ -1,10 +1,10 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
-import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
+import { addUsersValidationSchema, milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
-export const emailValidation = (req,res,next)=>{
+export const emailValidation = async(req,res,next)=>{
     const authorizedDomain="finestcoder.com";
     const domain=req.body.email.split('@')[1];
     if(authorizedDomain!=domain)
@@ -14,217 +14,158 @@ export const emailValidation = (req,res,next)=>{
     }
     next();
 }
-export const signUpValidation = (req,res,next)=>{
+export const signUpValidation = async(req,res,next)=>{
     try{
-        const result = signUpValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await signUpValidationSchema.validateAsync(req.body);
+        next();
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
-export const signInValidation = (req,res,next)=>{
+export const signInValidation = async(req,res,next)=>{
     try{
-        const result = signInValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await signInValidationSchema.validateAsync(req.body);
+        next();
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details);
     }
 }
-export const userCreateValidation = (req,res,next)=>{
+export const userCreateValidation = async(req,res,next)=>{
     try{
-        const result = userCreateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await userCreateValidationSchema.validateAsync(req.body);
+        next();
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const profileUpdateValidation = (req,res,next)=>{
+export const profileUpdateValidation = async(req,res,next)=>{
     try{
-        const result = profileUpdateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await profileUpdateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const assetValidation = (req,res,next)=>{
+export const assetValidation = async(req,res,next)=>{
     try{
-        const result = assetValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await assetValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const assetUpdateValidation = (req,res,next)=>{
+export const assetUpdateValidation = async(req,res,next)=>{
     try{
-        const result = assetUpdateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await assetUpdateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const planCreateValidation = (req,res,next)=>{
+export const planCreateValidation = async(req,res,next)=>{
     try{
-        const result = planCreateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await planCreateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const planUpdateValidation = (req,res,next)=>{
+export const planUpdateValidation = async(req,res,next)=>{
     try{
-        const result = planUpdateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await planUpdateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
 
-export const objectiveCreateValidation = (req,res,next)=>{
+export const objectiveCreateValidation = async(req,res,next)=>{
     try{
-        const result = objectiveCreateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await objectiveCreateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const objectiveUpdateValidation = (req,res,next)=>{
+export const objectiveUpdateValidation = async(req,res,next)=>{
     try{
-        const result = objectiveUpdateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await objectiveUpdateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const milestoneCreateValidation = (req,res,next)=>{
+export const milestoneCreateValidation = async(req,res,next)=>{
     try{
-        const result = milestoneCreateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await milestoneCreateValidationSchema.validateAsync(req.body);
+        next(); 
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }
 
-export const milestoneUpdateValidation = (req,res,next)=>{
+export const milestoneUpdateValidation = async(req,res,next)=>{
     try{
-        const result = milestoneUpdateValidationSchema.validateAsync(req.body);
-        result.then(()=>{
-            next()
-        })
-        result.catch((error)=>{
-            logger.error(error.details);
-            return sendResponse(res,400,error.details);
-        })
+        await milestoneUpdateValidationSchema.validateAsync(req.body);
+        next();     
     }
     catch(error)
     {
-        logger.error(error.details);
+        logger.error(`${JSON.stringify(error.details)}`);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+
+export const addUsersValidation = async(req,res,next)=>{
+    try{
+        await addUsersValidationSchema.validateAsync(req.body);
+        next(); 
+    }
+    catch(error)
+    {
+        logger.error(`${JSON.stringify(error.details)}`);
         return sendResponse(res,400,error.details)
     }
 }

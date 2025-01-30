@@ -1,7 +1,7 @@
 import express from 'express';
 import { authenticateUser, checkPermission } from '../middlewares/authenticationMiddleware.js';
-import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, addUser, createMilestone, updateMilestone, deleteObjective, deleteMilestone, deletePlan } from '../controllers/planController.js';
-import { objectiveUpdateValidation,objectiveCreateValidation, planCreateValidation, planUpdateValidation } from '../middlewares/validationMiddleware.js';
+import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, createMilestone, updateMilestone, deleteObjective, deleteMilestone, deletePlan, addUsers } from '../controllers/planController.js';
+import { objectiveUpdateValidation,objectiveCreateValidation, planCreateValidation, planUpdateValidation, addUsersValidation } from '../middlewares/validationMiddleware.js';
 
 const planRouter=express.Router();
 
@@ -16,7 +16,7 @@ planRouter.delete('/delete/objective/:id',authenticateUser,checkPermission(["pla
 planRouter.post('/:id/create/milestone',authenticateUser,checkPermission(["plans.create"]),createMilestone);
 planRouter.patch('/:id/update/milestone',authenticateUser,checkPermission(["plans.update"]),updateMilestone);
 planRouter.delete('/delete/milestone/:id',authenticateUser,checkPermission(["plans.delete"]),deleteMilestone);
-planRouter.patch('/addUser/:id',authenticateUser,checkPermission(["plans.update"]),addUser);
+planRouter.patch('/addUsers/:id',authenticateUser,checkPermission(["plans.update"]),addUsersValidation,addUsers);
 
 
 export default planRouter;

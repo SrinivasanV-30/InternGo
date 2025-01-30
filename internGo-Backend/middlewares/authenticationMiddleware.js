@@ -15,10 +15,10 @@ export const authenticateUser=async(req,res,next)=>{
 
         req.user=user;
         console.log(req.user);
-        next();
+        return next();
     }
     catch(error){
-        logger.error(error.message);
+        logger.error(error);
         return sendResponse(res,401,error.message);
     }
 }
