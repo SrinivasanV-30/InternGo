@@ -6268,3 +6268,112 @@ Argument `objectiveDays`: Invalid value provided. Expected Int, provided String.
 2025-01-31T10:54:54.359Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:10:54:54 +0000] "GET /api/plans HTTP/1.1" 200 3245 "-" "okhttp/4.12.0"
 2025-01-31T10:54:55.991Z [:[32minfo[39m] Fetched Successfully
 2025-01-31T10:54:55.992Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:10:54:55 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:08:53.971Z [:[32minfo[39m] Login successful!!!
+2025-01-31T11:08:53.972Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:08:53 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-01-31T11:08:54.194Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:08:54.196Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:08:54 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:08:54.554Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:08:54 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:09:34.612Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:09:34.613Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:09:34 +0000] "GET /api/plans HTTP/1.1" 200 3323 "-" "okhttp/4.12.0"
+2025-01-31T11:09:38.403Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:09:38.405Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:09:38 +0000] "GET /api/plans/12 HTTP/1.1" 200 360 "-" "okhttp/4.12.0"
+2025-01-31T11:29:22.316Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:29:22.318Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:22 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:29:23.503Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:23 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:29:26.575Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:29:26.577Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:26 +0000] "GET /api/plans HTTP/1.1" 200 3554 "-" "okhttp/4.12.0"
+2025-01-31T11:29:38.952Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:29:38.952Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:38 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:29:39.300Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:39 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:29:45.152Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:29:45.153Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:29:45 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:30:07.513Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:30:07.515Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:07 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:30:07.833Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:07 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:30:27.095Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:30:27.097Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:27 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:30:42.836Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:30:42.838Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:42 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:30:43.157Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:43 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:30:45.910Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:30:45.912Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:45 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:30:47.673Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:30:47.675Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:30:47 +0000] "GET /api/plans/12 HTTP/1.1" 200 451 "-" "okhttp/4.12.0"
+2025-01-31T11:32:37.365Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:32:37.366Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:32:37 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:32:37.692Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:32:37 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:32:40.334Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:32:40.335Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:32:40 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:32:42.250Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:32:42.252Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:32:42 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:38:06.108Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:38:06.108Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:38:06 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:38:07.280Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:38:07 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:50:24.000Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:50:24.001Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:50:24 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:50:25.366Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:50:25 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:50:31.168Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:50:31.169Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:50:31 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:50:52.827Z [:[32minfo[39m] Successfully verified
+2025-01-31T11:50:52.828Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:50:52 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T11:50:53.174Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:50:53 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:51:00.559Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:51:00.560Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:51:00 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T11:51:01.987Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T11:51:01.988Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:11:51:01 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:05:25.980Z [:[32minfo[39m] Successfully verified
+2025-01-31T12:05:25.981Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T12:05:27.108Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:27 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:05:30.838Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:05:30.839Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:30 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:05:33.790Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:05:33.792Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:33 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:05:47.714Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:05:47.716Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:47 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:05:52.724Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:05:52.725Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:05:52 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:09:42.218Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:09:42 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-01-31T12:09:42.221Z [:[31merror[39m] jwt expired
+2025-01-31T12:09:42.222Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:09:42 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-01-31T12:34:30.188Z [:[32minfo[39m] Login successful!!!
+2025-01-31T12:34:30.188Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:34:30 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-01-31T12:34:30.521Z [:[32minfo[39m] Successfully verified
+2025-01-31T12:34:30.522Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:34:30 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T12:34:30.886Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:34:30 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:35:02.829Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:35:02.831Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:35:02 +0000] "GET /api/plans HTTP/1.1" 200 3858 "-" "okhttp/4.12.0"
+2025-01-31T12:35:05.152Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:35:05.153Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:35:05 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:38:03.087Z [:[31merror[39m] User is not a mentor!!
+2025-01-31T12:38:03.088Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:38:03 +0000] "POST /api/plans/12/create/milestone HTTP/1.1" 403 65 "-" "okhttp/4.12.0"
+2025-01-31T12:38:32.435Z [:[32minfo[39m] Successfully verified
+2025-01-31T12:38:32.436Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:38:32 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T12:38:32.824Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:38:32 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:38:41.831Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:38:41.832Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:38:41 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:38:43.326Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:38:43.327Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:38:43 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:39:04.905Z [:[31merror[39m] Mentor not found!!!
+2025-01-31T12:39:04.906Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:39:04 +0000] "POST /api/plans/12/create/milestone HTTP/1.1" 404 62 "-" "okhttp/4.12.0"
+2025-01-31T12:40:15.114Z [:[32minfo[39m] Milestone added successfully!
+2025-01-31T12:40:15.115Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:40:15 +0000] "POST /api/plans/12/create/milestone HTTP/1.1" 201 72 "-" "okhttp/4.12.0"
+2025-01-31T12:43:33.391Z [:[32minfo[39m] Successfully verified
+2025-01-31T12:43:33.392Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:43:33 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T12:43:33.879Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:43:33 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:46:38.869Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:46:38.871Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:46:38 +0000] "GET /api/plans HTTP/1.1" 200 3937 "-" "okhttp/4.12.0"
+2025-01-31T12:48:46.187Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:48:46.188Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:48:46 +0000] "GET /api/plans/12 HTTP/1.1" 200 546 "-" "okhttp/4.12.0"
+2025-01-31T12:48:56.021Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:48:56.022Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:48:56 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:53:03.461Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:53:03.473Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:53:03 +0000] "GET /api/plans/14 HTTP/1.1" 200 256 "-" "okhttp/4.12.0"
+2025-01-31T12:53:18.452Z [:[32minfo[39m] Successfully verified
+2025-01-31T12:53:18.454Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:53:18 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-01-31T12:53:18.885Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:53:18 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:53:22.105Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:53:22.108Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:53:22 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:53:23.743Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:53:23.745Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:53:23 +0000] "GET /api/plans/12 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T12:55:35.977Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T12:55:35.979Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:12:55:35 +0000] "GET /api/plans/14 HTTP/1.1" 304 - "-" "okhttp/4.12.0"

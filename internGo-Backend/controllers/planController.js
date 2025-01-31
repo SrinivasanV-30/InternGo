@@ -116,10 +116,10 @@ export const createObjective = async (req, res) => {
             logger.error("Milestone not found!!!");
             return sendResponse(res, 404, "Milestone not found!!!");
         }
-        await createObjectives(objectiveData);
+        const createdObjectives=await createObjectives(objectiveData);
         
         logger.info("Objective added successfully!");
-        return sendResponse(res, 201, "Objective added successfully!");
+        return sendResponse(res, 201, "Objective added successfully!",createdObjectives);
     } catch (error) {
         logger.error(error.message);
     }
@@ -166,10 +166,9 @@ export const createMilestone = async (req, res) => {
             return sendResponse(res, 403, "User is not a mentor!!");
         }
         milestoneData.planId = planId;
-        await createMilestones(milestoneData);
-
+        const updatedMilestone=await createMilestones(milestoneData);
         logger.info("Milestone added successfully!");
-        return sendResponse(res, 201, "Milestone added successfully!");
+        return sendResponse(res, 201, "Milestone added successfully!",updatedMilestone);
     } catch (error) {
         logger.error(error.message);
     }
