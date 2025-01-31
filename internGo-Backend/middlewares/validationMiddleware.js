@@ -1,5 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
-import { addUsersValidationSchema, milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema } from "../schema/planSchema.js";
+import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema, usersPlanValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
@@ -158,9 +158,9 @@ export const milestoneUpdateValidation = async(req,res,next)=>{
 }
 
 
-export const addUsersValidation = async(req,res,next)=>{
+export const usersPlanValidation = async(req,res,next)=>{
     try{
-        await addUsersValidationSchema.validateAsync(req.body);
+        await usersPlanValidationSchema.validateAsync(req.body);
         next(); 
     }
     catch(error)

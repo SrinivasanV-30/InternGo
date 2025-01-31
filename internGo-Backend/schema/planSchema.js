@@ -48,7 +48,7 @@ export const objectiveUpdateValidationSchema = Joi.object({
     })
 });
 
-export const addUsersValidationSchema=Joi.object({
+export const usersPlanValidationSchema=Joi.object({
     userIds:Joi.array().items(Joi.string())
 })
 

@@ -98,7 +98,7 @@ export const createUserController = async(req,res)=>{
     try{
         const userDetails=await findUserByEmail(req.body.email);
         const roleName=req.body.role;
-        console.log(roleName)
+        // console.log(roleName)
         const role=await findRoleByName(roleName);
         if(userDetails)
         {
@@ -151,16 +151,17 @@ export const updateUserPermission=async(req,res)=>{
 export const verifyToken = async (req, res) => {
     try {
         const token = req.body.token;
-
+        console.log(token)
         if (!token) {
             return res.status(400).json({ error: "Token is required" });
         }
 
         const jwtResponse = await jwtVerify(token); 
+        logger.info("Successfully verified")
         return sendResponse(res,200,"Success");
 
     } catch (error) {
-        logger.error("JWT Verification Error:", error.message);
+        console.error("JWT Verification Error:", error);
         return sendResponse(res,401,"Invalid token");
     }
 };

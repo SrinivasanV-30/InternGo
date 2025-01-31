@@ -27,6 +27,7 @@ export const getPlan=async(req,res)=>{
             return sendResponse(res,404,"Plan not found!!!");
         }
         const plan=await getPlanById(planId);
+        plan.count=plan.users.length;
         logger.info("Fetched Successfully");
         sendResponse(res,200,"Fetched Successfully",plan)
     }
@@ -223,8 +224,8 @@ export const addUsers=async(req,res)=>{
                 return sendResponse(res,400,"Update unsuccessful");
             }
         });
-        logger.info("Updated successfully");
-        sendResponse(res,200,"Update successful");
+        logger.info("Added interns successfully");
+        sendResponse(res,200,"Added interns successfully");
     }
     catch(error){
         logger.error(error.message);
@@ -279,6 +280,112 @@ export const deleteObjective=async(req,res)=>{
         await deleteObjectives(objectiveId);
         logger.info("Deleted successfully!!!");
         sendResponse(res,204,"Deleted successfully");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+export const removeUsers=async(req,res)=>{
+    try{
+        const planId=parseInt(req.params.id);
+        const userIds=req.body.userIds;
+        const existingPlan=await getPlanById(planId);
+        if(!existingPlan)
+        {
+            logger.error("Plan not found!!!");
+            return sendResponse(res,404,"Plan not found!!!");
+        }
+        userIds.forEach(async(userId) => {
+            const existingUser=await findUserByUserId(userId);
+            if(!existingUser)
+            {
+                logger.error("User not found!!!");
+                return sendResponse(res,404,"User not found!!!");
+            }
+            const updatedUser=await updateUser(userId,{planId:null});
+            if(!updatedUser)
+            {
+                logger.info("Update unsuccessful");
+                return sendResponse(res,400,"Update unsuccessful");
+            }
+        });
+        logger.info("Removed interns successfully");
+        sendResponse(res,200,"Removed interns successfully");
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+export const getPlanUsers=async(req,res)=>{
+    try {
+        const { name, year, status, batch, designation } = req.body || {};
+        const limit = parseInt(req.query.limit) || 10;
+        const offset = parseInt(req.query.offset) || 0;
+        const whereCondition = {
+            role: { roleName: "Interns" },
+        };
+        if (name && name.trim() !== "") {
+            const searchedInterns = await getInternBasedOnSearch(name.trim(), offset, limit);
+            const total_items = await internsCount({ name: name.trim() });
+            const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
+
+            return sendResponse(res, 200, "Fetched successfully", {
+                data: searchedInterns,
+                total_pages,
+            });
+        }
+        // if(planStatus){
+            // if(planStatus==)
+        // }
+        if (year && year.length > 0) {
+            whereCondition.year = { in: year };
+        }
+        if (status && status.length > 0) {
+            whereCondition.status = { in: status };
+        }
+        if (batch && batch.length > 0) {
+            whereCondition.batch = { in: batch };
+        }
+        if (designation && designation.length > 0) {
+            whereCondition.designation = { in: designation };
+        }
+        const interns = await getInternBasedOnFilters(whereCondition, offset, limit);
+        const total_items = await internsCount(whereCondition);
+        const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
+        sendResponse(res, 200, "Fetched successfully", {
+            data: interns,
+            total_pages,
+        });
+    } catch (error) {
+        logger.error(`Error fetching interns: ${error.message}`);
+        sendResponse(res, 500, "Internal server error");
+    }
+};
+
+export const getTrainingDetails=async(req,res)=>{
+    try{
+        const userId=req.params.id;
+        const userPlan=await getTrainingPlan(userId);
+        console.log(userPlan);
+        const trainingPlan=await getPlanById(userPlan.planId);
+        if(!trainingPlan){
+            logger.error("Training plan not found!!!");
+            return sendResponse(res,404,"Training plan not found!!!");
+        }
+        const milestones=trainingPlan.milestones;
+        console.log(userId,milestones);
+        if(!milestones){
+            logger.error("Milestones not found!!!");
+            return sendResponse(res,404,"Milestones not found!!!");
+        }
+        milestones.forEach((milestone) => {
+            if(milestone.milestoneDays>=userPlan.daysWorked){
+                logger.info("Training plan fetched!!");
+                return sendResponse(res,200,"Training fetched successfully",milestone);
+            }
+        });
     }
     catch(error){
         logger.error(error.message);
