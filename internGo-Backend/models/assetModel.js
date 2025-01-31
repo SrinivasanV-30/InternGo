@@ -1,59 +1,58 @@
 import { PrismaClient } from "@prisma/client";
 import logger from "../utils/logger.js";
 
-const prisma=new PrismaClient();
+const prisma = new PrismaClient();
 
-export const createAsset=async(data)=>{
-    try{    
+export const createAsset = async (data) => {
+    try {
         const newAsset = await prisma.assets.create({
-            data:data
+            data: data,
         });
         return newAsset;
-    }
-    catch(error){
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const getAssetById=async(id)=>{
-    try{    
+export const getAssetById = async (id) => {
+    try {
         const asset = await prisma.assets.findUnique({
-            where:{
-                id:id
-            }
+            where: {
+                id: id,
+            },
         });
         return asset;
-    }
-    catch(error){
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
-export const getAssetByUserId=async(userId)=>{
-    try{    
+};
+export const getAssetByUserId = async (userId) => {
+    try {
         const assets = await prisma.assets.findMany({
-            where:{
-                userId:userId
-            }
+            where: {
+                userId: userId,
+            },
         });
         return assets;
-    }
-    catch(error){
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const updateAsset=async(id,data)=>{
-    try{    
+export const updateAsset = async (id, data) => {
+    try {
         const updatedAsset = await prisma.assets.update({
-            where:{
-                id:id
+            where: {
+                id: id,
             },
-            data:data
-
+            data: data,
         });
         return updatedAsset;
-    }
-    catch(error){
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};

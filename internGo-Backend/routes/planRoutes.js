@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticateUser, checkPermission } from '../middlewares/authenticationMiddleware.js';
-import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, createMilestone, updateMilestone, deleteObjective, deleteMilestone, deletePlan, addUsers, removeUsers } from '../controllers/planController.js';
+import { createObjective, createPlan, getAllPlans, updateObjective, updatePlan, getPlan, createMilestone, updateMilestone, deleteObjective, deleteMilestone, deletePlan, addUsers, removeUsers, getPlanUsers } from '../controllers/planController.js';
 import { objectiveUpdateValidation,objectiveCreateValidation, planCreateValidation, planUpdateValidation, usersPlanValidation } from '../middlewares/validationMiddleware.js';
 
 const planRouter=express.Router();
@@ -18,6 +18,7 @@ planRouter.patch('/:id/update/milestone',authenticateUser,checkPermission(["plan
 planRouter.delete('/delete/milestone/:id',authenticateUser,checkPermission(["plans.delete"]),deleteMilestone);
 planRouter.patch('/:id/addUsers',authenticateUser,checkPermission(["plans.update"]),usersPlanValidation,addUsers);
 planRouter.patch('/:id/removeUsers',authenticateUser,checkPermission(["plans.update"]),usersPlanValidation,removeUsers);
+planRouter.post('/:id/users',authenticateUser,checkPermission(["plans.view"]),getPlanUsers);
 
 export default planRouter;
 

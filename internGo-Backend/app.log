@@ -5745,3 +5745,472 @@ Argument `id`: Invalid value provided. Expected Int, provided Object.
 2025-01-31T07:01:17.581Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:07:01:17 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-01-31T07:01:54.160Z [:[32minfo[39m] Fetched Successfully
 2025-01-31T07:01:54.162Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:07:01:54 +0000] "GET /api/plans/7 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-01-31T08:29:36.918Z [:[31merror[39m] jwt expired
+2025-01-31T08:29:36.923Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:29:36 +0000] "POST /api/plans/2/users HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:29:42.702Z [:[32minfo[39m] Login successful!!!
+2025-01-31T08:29:42.703Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:29:42 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:29:50.859Z [:[31merror[39m] Error fetching interns: getInternBasedOnFilters is not defined
+2025-01-31T08:29:50.861Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:29:50 +0000] "POST /api/plans/2/users HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:30:24.074Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: "2"
+            ~~~
+  }
+}
+
+Argument `planId`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+2025-01-31T08:30:24.077Z [:[31merror[39m] Error fetching interns: internsCount is not defined
+2025-01-31T08:30:24.081Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:30:24 +0000] "POST /api/plans/2/users HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:30:44.604Z [:[31merror[39m] Error fetching interns: internsCount is not defined
+2025-01-31T08:30:44.611Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:30:44 +0000] "POST /api/plans/2/users HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:31:22.489Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:31:22.490Z [:[31merror[39m] User not found!!!
+2025-01-31T08:31:22.493Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:31:22 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:31:45.714Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:31:45.715Z [:[31merror[39m] User not found!!!
+2025-01-31T08:31:45.717Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:31:45 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:32:09.611Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:32:09.612Z [:[31merror[39m] User not found!!!
+2025-01-31T08:32:09.613Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:32:09 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:32:18.760Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:32:18.760Z [:[31merror[39m] User not found!!!
+2025-01-31T08:32:18.761Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:32:18 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:32:47.044Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:32:47.046Z [:[31merror[39m] User not found!!!
+2025-01-31T08:32:47.054Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:32:47 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:32:57.647Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:32:57.648Z [:[31merror[39m] User not found!!!
+2025-01-31T08:32:57.650Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:32:57 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:33:26.143Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-01-31T08:33:26.144Z [:[31merror[39m] User not found!!!
+2025-01-31T08:33:26.146Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:33:26 +0000] "POST /api/plans/2/users HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:33:59.824Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:33:59 +0000] "POST /api/plans/2/users HTTP/1.1" 200 1862 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:34:26.690Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:34:26 +0000] "POST /api/plans/2/users HTTP/1.1" 200 1528 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:41:23.121Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:41:23 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:41:36.084Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:41:36 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:44:05.873Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:44:05 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:47:22.588Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:47:22 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:48:25.123Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:48:25 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:48:39.561Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:48:39 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:53:07.589Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:53:07 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:53:51.155Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:53:51 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:57:04.134Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:57:04 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:59:11.488Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: 2
+             ~
+    }
+  },
+  select: {
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected Int[], ListIntFieldRefInput or Null, provided Int.
+2025-01-31T08:59:11.495Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: 2
+             ~
+    }
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected Int[], ListIntFieldRefInput or Null, provided Int.
+2025-01-31T08:59:11.503Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:59:11 +0000] "POST /api/plans/2/users HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-31T08:59:32.049Z [:[32minfo[39m] ::1 - - [31/Jan/2025:08:59:32 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:00:22.371Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:00:22 +0000] "POST /api/plans/2/users HTTP/1.1" 200 514 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:00:48.058Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:00:48 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:01:32.032Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  },
+  select: {
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:01:32.042Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:01:32.049Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:01:32 +0000] "POST /api/plans/2/users HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:01:45.790Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  },
+  select: {
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:01:45.799Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:01:45.807Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:01:45 +0000] "POST /api/plans/2/users HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:02:13.621Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:02:13 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:02:26.536Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  },
+  select: {
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:02:26.546Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      notIn: [
+        2,
+        null
+      ]
+      ~~~~~~
+    }
+  }
+}
+
+Argument `notIn`: Invalid value provided. Expected ListIntFieldRefInput or Null, provided (Int, Null).
+2025-01-31T09:02:26.553Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:02:26 +0000] "POST /api/plans/2/users HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:07:45.245Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:07:45 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:07:56.565Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:07:56 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:08:50.728Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:08:50 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:20:01.143Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:20:01 +0000] "POST /api/plans/2/users HTTP/1.1" 200 514 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:21:08.441Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:21:08 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:21:16.087Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      NOT: 2,
+      ~~~
+?     equals?: Int | IntFieldRefInput | Null,
+?     in?: Int[] | ListIntFieldRefInput | Null,
+?     notIn?: Int[] | ListIntFieldRefInput | Null,
+?     lt?: Int | IntFieldRefInput,
+?     lte?: Int | IntFieldRefInput,
+?     gt?: Int | IntFieldRefInput,
+?     gte?: Int | IntFieldRefInput,
+?     not?: Int | NestedIntNullableFilter | Null
+    },
+    year: {
+      in: [
+        2025,
+        2024
+      ]
+    }
+  },
+  select: {
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `NOT`. Did you mean `in`? Available options are marked with ?.
+2025-01-31T09:21:16.095Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    planId: {
+      NOT: 2,
+      ~~~
+?     equals?: Int | IntFieldRefInput | Null,
+?     in?: Int[] | ListIntFieldRefInput | Null,
+?     notIn?: Int[] | ListIntFieldRefInput | Null,
+?     lt?: Int | IntFieldRefInput,
+?     lte?: Int | IntFieldRefInput,
+?     gt?: Int | IntFieldRefInput,
+?     gte?: Int | IntFieldRefInput,
+?     not?: Int | NestedIntNullableFilter | Null
+    },
+    year: {
+      in: [
+        2025,
+        2024
+      ]
+    }
+  }
+}
+
+Unknown argument `NOT`. Did you mean `in`? Available options are marked with ?.
+2025-01-31T09:21:16.102Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:21:16 +0000] "POST /api/plans/2/users HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:21:44.490Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:21:44 +0000] "POST /api/plans/2/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:24:40.768Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:24:40 +0000] "POST /api/plans/2/users HTTP/1.1" 200 420 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:25:03.315Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T09:25:03.319Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:25:03 +0000] "GET /api/plans/ HTTP/1.1" 200 3147 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:32:41.752Z [:[31merror[39m] jwt expired
+2025-01-31T09:32:41.763Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:32:41 +0000] "GET /api/plans/ HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:32:50.159Z [:[32minfo[39m] Login successful!!!
+2025-01-31T09:32:50.160Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:32:50 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-01-31T09:32:54.746Z [:[32minfo[39m] ::1 - - [31/Jan/2025:09:32:54 +0000] "POST /api/plans/2/users HTTP/1.1" 200 420 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:13:35.592Z [:[31merror[39m] Plan not found!!!
+2025-01-31T10:13:35.603Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:13:35 +0000] "POST /api/plans/1/create/objective HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:13:48.603Z [:[31merror[39m] Milestone not found!!!
+2025-01-31T10:13:48.604Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:13:48 +0000] "POST /api/plans/2/create/objective HTTP/1.1" 404 65 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:13:57.632Z [:[31merror[39m] 
+Invalid `prisma.objectives.create()` invocation:
+
+{
+  data: {
+    name: "Learn React Components",
+    milestoneId: 4,
+    description: "Understand the basics of React components, including functional and class components.",
+    objectiveDays: "10",
+                   ~~~~
+    noOfInteractions: 3,
+    roadmapType: "CUSTOM"
+  }
+}
+
+Argument `objectiveDays`: Invalid value provided. Expected Int, provided String.
+2025-01-31T10:13:57.632Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.objectives.create()` invocation:
+
+{
+  data: {
+    name: "Learn React Components",
+    milestoneId: 4,
+    description: "Understand the basics of React components, including functional and class components.",
+    objectiveDays: "10",
+                   ~~~~
+    noOfInteractions: 3,
+    roadmapType: "CUSTOM"
+  }
+}
+
+Argument `objectiveDays`: Invalid value provided. Expected Int, provided String.
+2025-01-31T10:14:43.275Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:14:43 +0000] "POST /api/plans/2/create/objective HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:14:44.806Z [:[32minfo[39m] Objective added successfully!
+2025-01-31T10:14:44.808Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:14:44 +0000] "POST /api/plans/2/create/objective HTTP/1.1" 201 72 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:16:06.624Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T10:16:06.628Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:16:06 +0000] "GET /api/plans/ HTTP/1.1" 200 3147 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:17:08.617Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T10:17:08.619Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:17:08 +0000] "GET /api/plans/2 HTTP/1.1" 200 2877 "-" "PostmanRuntime/7.43.0"
+2025-01-31T10:17:52.748Z [:[32minfo[39m] Fetched Successfully
+2025-01-31T10:17:52.751Z [:[32minfo[39m] ::1 - - [31/Jan/2025:10:17:52 +0000] "GET /api/plans/ HTTP/1.1" 200 3147 "-" "PostmanRuntime/7.43.0"

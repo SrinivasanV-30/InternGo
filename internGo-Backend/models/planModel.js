@@ -1,98 +1,112 @@
 import { PrismaClient } from "@prisma/client";
 import logger from "../utils/logger.js";
 
-const prisma= new PrismaClient();
+const prisma = new PrismaClient();
 
-export const getPlans=async()=>{
-    try{
-        const allPlans=await prisma.plans.findMany({
-            include:{
-                milestones:true,
-                users:true
-            }
-
+export const getPlans = async () => {
+    try {
+        const allPlans = await prisma.plans.findMany({
+            include: {
+                milestones: true,
+                users: true,
+            },
         });
         return allPlans;
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const getPlanByName=async(name)=>{
-    try{
-        const allPlans=await prisma.plans.findFirst({
-            where:{
-                name:name
-            }
+export const getPlanByName = async (name) => {
+    try {
+        const allPlans = await prisma.plans.findFirst({
+            where: {
+                name: name,
+            },
         });
         return allPlans;
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const getPlanById=async(planId)=>{
-    try{
+export const getPlanById = async (planId) => {
+    try {
         const allPlans = await prisma.plans.findUnique({
             where: {
-                id: planId
+                id: planId,
             },
             include: {
                 milestones: {
                     include: {
-                        objectives: true
+                        objectives: true,
+                    },
+                },
+                users: {
+                    select: {
+                        name: true,
+                        profilePhoto: true,
+                        email: true,
+                        batch: true,
+                        year: true,
+                        designation: true,
+                        status: true,
+                        employeeId: true,
                     }
                 },
-                users: true
-            }
+            },
         });
-        
+
         return allPlans;
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const createPlans=async(planData)=>{
-    try{
-        const createPlans=await prisma.plans.create({
-            data:planData
-        })
+export const createPlans = async (planData) => {
+    try {
+        const createPlans = await prisma.plans.create({
+            data: planData,
+        });
         return createPlans;
     }
-    catch(error)
-    {
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
-export const updatePlans=async(planId,planData)=>{
-    try{
-        const updatedPlans=await prisma.plans.update({
-            where:{
-                id:planId
+};
+export const updatePlans = async (planId, planData) => {
+    try {
+        const updatedPlans = await prisma.plans.update({
+            where: {
+                id: planId,
             },
-            data:planData
-        })
+            data: planData,
+        });
         return updatedPlans;
     }
-    catch(error)
-    {
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};
 
-export const deletePlans=async(planId)=>{
-    try{
+export const deletePlans = async (planId) => {
+    try {
         await prisma.plans.delete({
-            where:{
-                id:planId
-            }
-        })
+            where: {
+                id: planId,
+            },
+        });
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
-}
+};

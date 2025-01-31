@@ -8,23 +8,23 @@ export const findRoleById = async (roleId) => {
             where: { id: roleId },
         });
         return roleDetails;
-    } 
-    catch (error) {
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
 };
 
 export const findRoleByName = async (roleName) => {
     try {
         const roleDetails = await prisma.roles.findFirst({
-            where: { 
-                roleName:roleName 
+            where: {
+                roleName: roleName,
             },
         });
         return roleDetails;
-    } 
-    catch (error) {
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
 };
 
@@ -41,9 +41,9 @@ export const createRole = async (roleDetails) => {
         });
 
         return createdRole;
-    } 
-    catch (error) {
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
 };
 
@@ -51,9 +51,9 @@ export const getAllRoles = async () => {
     try {
         const allRoles = await prisma.roles.findMany();
         return allRoles;
-    } 
-    catch (error) {
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
 };
 
@@ -64,8 +64,8 @@ export const updateRole = async (roleId, data) => {
             data,
         });
         return updatedRole;
-    } 
-    catch (error) {
+    } catch (error) {
         logger.error(error.message);
+        throw new Error(error);
     }
 };
