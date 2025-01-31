@@ -104,11 +104,7 @@ export const createObjective = async (req, res) => {
         const planId = parseInt(req.params.id);
         const milestoneId = req.body.milestoneId;
         const objectiveData = req.body;
-        const existingObjective = await getObjectiveByName(objectiveData.name);
-        if (existingObjective) {
-            logger.error("Objective already exists");
-            return sendResponse(res, 409, "Objective already exists");
-        }
+        
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");
@@ -155,11 +151,6 @@ export const createMilestone = async (req, res) => {
     try {
         const planId = parseInt(req.params.id);
         const milestoneData = req.body;
-        const existingMilestone = await getMilestoneByName(milestoneData.name);
-        if (existingMilestone) {
-            logger.error("Milestone already exists");
-            return sendResponse(res, 409, "Milestone already exists");
-        }
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");

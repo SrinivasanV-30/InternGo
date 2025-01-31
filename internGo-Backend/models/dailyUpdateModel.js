@@ -13,7 +13,19 @@ export const getDailyUpdateByDate = async (date) => {
             },
         });
         return allDailyUpdates;
-    } catch (error) { }
+    } catch (error) { 
+        logger.error(error.message);
+        throw new Error(error);
+        
+    }
 };
 
-export const createDailyUpdate = async ()
+export const createDailyUpdate = async (updateData)=>{
+    try{
+        
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error);
+    }
+}
