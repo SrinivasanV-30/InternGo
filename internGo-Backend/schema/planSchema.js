@@ -44,7 +44,7 @@ export const objectiveUpdateValidationSchema = Joi.object({
         objectiveDays: Joi.number().integer().min(1),
         noOfInteractions: Joi.number().integer().min(1),
         mentorName: Joi.string().min(3).max(255),
-        roadmapType: Joi.string().valid("Custom","Default"),
+        roadmapType: Joi.string().valid("CUSTOM","DEFAULT"),
     })
 });
 

@@ -21,6 +21,24 @@ export const getDailyUpdateByDate = async (date) => {
     }
 };
 
+export const getDailyUpdateByUserId = async (userId) => {
+    try {
+        const allDailyUpdates = await prisma.dailyUpdates.findMany({
+            where: {
+                userId:userId,
+            },
+            include: {
+                tasks: true,
+            },
+        });
+        return allDailyUpdates;
+    } catch (error) { 
+        logger.error(error.message);
+        throw new Error(error);
+        
+    }
+};
+
 export const createDailyUpdate = async (dailyUpdateData)=>{
     try{
         const createdDailyUpdate=await prisma.dailyUpdates.create({
