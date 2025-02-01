@@ -147,6 +147,67 @@ export const updateObjective = async (req, res) => {
     }
 };
 
+
+export const createMultipleObjectives = async (req, res) => {
+    try {
+        const planId = parseInt(req.params.id);
+        const milestoneId = req.body.objectiveDatas[0].milestoneId;
+        const objectiveDatas = req.body.objectiveDatas;
+        
+        const existingPlan = await getPlanById(planId);
+        if (!existingPlan) {
+            logger.error("Plan not found!!!");
+            return sendResponse(res, 404, "Plan not found!!!");
+        }
+        const existingMilestone = await getMilestoneById(milestoneId);
+        console.log(existingMilestone);
+        if (!existingMilestone) {
+            logger.error("Milestone not found!!!");
+            return sendResponse(res, 404, "Milestone not found!!!");
+        }
+
+        const createdObjectives=await createObjectives(objectiveDatas);
+        
+        logger.info("Objectives added successfully!");
+        return sendResponse(res, 201, "Objectives added successfully!",createdObjectives);
+    } catch (error) {
+        logger.error(error.message);
+    }
+};
+
+export const updateMultipleObjectives = async (req, res) => {
+    try {
+        const planId = parseInt(req.params.id);
+        const objectiveDatas = req.body.objectiveDatas;
+        const existingPlan = await getPlanById(planId);
+        if (!existingPlan) {
+            logger.error("Plan not found!!!");
+            return sendResponse(res, 404, "Plan not found!!!");
+        }
+        let updatedDatas=[];
+        await objectiveDatas.forEach(async(objectiveData)=>{
+            console.log(objectiveData)
+            const objective=await getObjectiveById(objectiveData.objectiveId)
+            if(!objective){
+                logger.error("Objective not found!!!");
+                sendResponse(res, 404, "Objective not found!!!",objectiveData);
+                throw new Error("Objective not found!!!");
+                
+            }
+            const updatedObjective = await updateObjectives(objectiveData.objectiveId, objectiveData.objectiveData);
+            if (!updatedObjective) {
+                logger.info("Update unsuccessful");
+                return sendResponse(res, 400, "Update unsuccessful");
+            }
+            updatedDatas.push(updatedObjective);
+        })
+        logger.info("Updated successfully");
+        sendResponse(res, 200, "Update successful", updatedDatas);
+    } catch (error) {
+        logger.error(error.message);
+    }
+};
+
 export const createMilestone = async (req, res) => {
     try {
         const planId = parseInt(req.params.id);

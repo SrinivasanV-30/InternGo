@@ -6442,3 +6442,236 @@ Argument `objectiveDays`: Invalid value provided. Expected Int, provided String.
 2025-01-31T13:03:01.409Z [:[32minfo[39m] Successfully verified
 2025-01-31T13:03:01.410Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:13:03:01 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
 2025-01-31T13:03:01.699Z [:[32minfo[39m] ::ffff:192.168.0.123 - - [31/Jan/2025:13:03:01 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-01T18:01:56.281Z [:[31merror[39m] jwt expired
+2025-02-01T18:01:56.284Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:01:56 +0000] "POST /api/plans/2/create/objective HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:02:01.854Z [:[32minfo[39m] Login successful!!!
+2025-02-01T18:02:01.854Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:02:01 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:02:07.638Z [:[31merror[39m] [{"message":"\"name\" is required","path":["name"],"type":"any.required","context":{"label":"name","key":"name"}}]
+2025-02-01T18:02:07.640Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:02:07 +0000] "POST /api/plans/2/create/objective HTTP/1.1" 400 155 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:02:20.283Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:02:20 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 404 169 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:03:00.850Z [:[31merror[39m] [{"message":"\"objectiveDatas\" is not allowed","path":["objectiveDatas"],"type":"object.unknown","context":{"child":"objectiveDatas","label":"objectiveDatas","value":[{"name":"Learn React Components","milestoneId":4,"description":"Understand the basics of React components, including functional and class components.","objectiveDays":10,"noOfInteractions":3,"roadmapType":"CUSTOM"},{"name":"Learn Reants","milestoneId":4,"description":"Understand the basics of Rlass components.","objectiveDays":10,"noOfInteractions":3,"roadmapType":"CUSTOM"}],"key":"objectiveDatas"}}]
+2025-02-01T18:03:00.859Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:03:00 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 400 612 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:04:44.554Z [:[31merror[39m] 
+Invalid `prisma.milestones.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: MilestonesWhereInput | MilestonesWhereInput[],
+?   OR?: MilestonesWhereInput[],
+?   NOT?: MilestonesWhereInput | MilestonesWhereInput[],
+?   planId?: IntFilter | Int,
+?   name?: StringFilter | String,
+?   milestoneDays?: IntFilter | Int,
+?   mentorName?: StringFilter | String,
+?   objectives?: ObjectivesListRelationFilter,
+?   plan?: PlansScalarRelationFilter | PlansWhereInput
+  },
+  include: {
+    objectives: true
+  }
+}
+
+Argument `where` of type MilestonesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-01T18:04:44.555Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.milestones.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: MilestonesWhereInput | MilestonesWhereInput[],
+?   OR?: MilestonesWhereInput[],
+?   NOT?: MilestonesWhereInput | MilestonesWhereInput[],
+?   planId?: IntFilter | Int,
+?   name?: StringFilter | String,
+?   milestoneDays?: IntFilter | Int,
+?   mentorName?: StringFilter | String,
+?   objectives?: ObjectivesListRelationFilter,
+?   plan?: PlansScalarRelationFilter | PlansWhereInput
+  },
+  include: {
+    objectives: true
+  }
+}
+
+Argument `where` of type MilestonesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-01T18:08:01.913Z [:[31merror[39m] 
+Invalid `prisma.objectives.createManyAndReturn()` invocation:
+
+{
+  data: {
+    objectiveDatas: [
+      {
+        name: "Learn React Components",
+        milestoneId: 4,
+        description: "Understand the basics of React components, including functional and class components.",
+        objectiveDays: 10,
+        noOfInteractions: 3,
+        roadmapType: "CUSTOM"
+      },
+      {
+        name: "Learn Reants",
+        milestoneId: 4,
+        description: "Understand the basics of Rlass components.",
+        objectiveDays: 10,
+        noOfInteractions: 3,
+        roadmapType: "CUSTOM"
+      }
+    ],
++   milestoneId: Int
+  }
+}
+
+Argument `milestoneId` is missing.
+2025-02-01T18:08:01.916Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.objectives.createManyAndReturn()` invocation:
+
+{
+  data: {
+    objectiveDatas: [
+      {
+        name: "Learn React Components",
+        milestoneId: 4,
+        description: "Understand the basics of React components, including functional and class components.",
+        objectiveDays: 10,
+        noOfInteractions: 3,
+        roadmapType: "CUSTOM"
+      },
+      {
+        name: "Learn Reants",
+        milestoneId: 4,
+        description: "Understand the basics of Rlass components.",
+        objectiveDays: 10,
+        noOfInteractions: 3,
+        roadmapType: "CUSTOM"
+      }
+    ],
++   milestoneId: Int
+  }
+}
+
+Argument `milestoneId` is missing.
+2025-02-01T18:08:59.057Z [:[32minfo[39m] Objectives added successfully!
+2025-02-01T18:08:59.066Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:08:59 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 201 619 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:11:10.564Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:11:10 +0000] "POST /api/plans/2/update/objectives HTTP/1.1" 404 169 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:11:17.799Z [:[31merror[39m] [{"message":"\"objectiveDatas[0].objectiveId\" is required","path":["objectiveDatas",0,"objectiveId"],"type":"any.required","context":{"label":"objectiveDatas[0].objectiveId","key":"objectiveId"}}]
+2025-02-01T18:11:17.804Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:11:17 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 400 238 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:11:45.676Z [:[31merror[39m] [{"message":"\"objectiveDatas[0].name\" is not allowed","path":["objectiveDatas",0,"name"],"type":"object.unknown","context":{"child":"name","label":"objectiveDatas[0].name","value":"Learnonents","key":"name"}}]
+2025-02-01T18:11:45.679Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:11:45 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 400 252 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:13:24.244Z [:[31merror[39m] objectiveId is not defined
+2025-02-01T18:14:18.660Z [:[31merror[39m] objectiveDatas.forEach is not a function
+2025-02-01T18:15:06.304Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:15:06.315Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:15:06 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:15:07.121Z [:[31merror[39m] 
+Invalid `prisma.objectives.update()` invocation:
+
+{
+  where: {
+    id: 2
+  },
+  data: {
+    name: "Master React",
+    description: "An advanced course to build scalable React applications.",
+    objectiveDays: 45,
+    noOfInteractions: 15,
+    mentorName: "Jane Smith",
+    ~~~~~~~~~~
+    roadmapType: "DEFAULT",
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   milestone?: MilestonesUpdateOneRequiredWithoutObjectivesNestedInput
+  }
+}
+
+Unknown argument `mentorName`. Available options are marked with ?.
+2025-02-01T18:16:03.401Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:16:03.414Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:16:03 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:16:04.420Z [:[31merror[39m] 
+Invalid `prisma.objectives.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-01T18:17:40.716Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:17:40.724Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:17:40 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:17:42.312Z [:[31merror[39m] 
+Invalid `prisma.objectives.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-01T18:18:19.285Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:18:19.294Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:18:19 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:18:20.591Z [:[31merror[39m] 
+Invalid `prisma.objectives.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-01T18:21:30.353Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:21:30.356Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:21:30 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:22:04.659Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:22:04.665Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:22:04 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:22:07.502Z [:[31merror[39m] 
+Invalid `prisma.objectives.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-01T18:22:55.705Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:23:52.296Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:25:08.782Z [:[31merror[39m] Objective not found!!!
+2025-02-01T18:26:55.882Z [:[31merror[39m] Objective not found!!!
+2025-02-01T18:29:30.859Z [:[31merror[39m] Objective not found!!!
+2025-02-01T18:30:51.331Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:30:51.341Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:30:51 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:30:56.390Z [:[31merror[39m] 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:31:36.169Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:31:36.170Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:31:54.545Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:31:54 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:32:00.207Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:32:00.207Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:32:02.063Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:32:02 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:32:08.698Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:32:08.699Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-01T18:32:18.646Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:32:18 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-01T18:32:21.463Z [:[32minfo[39m] Updated successfully
+2025-02-01T18:32:21.471Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:32:21 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"

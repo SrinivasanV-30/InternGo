@@ -31,7 +31,7 @@ export const getObjectiveById = async (id) => {
     }
 };
 
-export const createObjectives = async (objectivesData) => {
+export const createObjective = async (objectivesData) => {
     try {
         const createdObjectives = await prisma.objectives.create({
             data: objectivesData,
@@ -42,6 +42,20 @@ export const createObjectives = async (objectivesData) => {
         throw new Error(error);
     }
 };
+
+export const createObjectives = async (objectivesData) => {
+    try {
+        const createdObjectives = await prisma.objectives.createManyAndReturn({
+            data: objectivesData,
+        });
+        return createdObjectives;
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error);
+    }
+};
+
+
 export const updateObjectives = async (objectiveId, objectivesData) => {
     try {
         const updatedObjectives = await prisma.objectives.update({

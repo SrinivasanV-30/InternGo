@@ -37,6 +37,9 @@ export const getPlanById = async (planId) => {
             },
             include: {
                 milestones: {
+                    // orderBy:{
+                    //     cre
+                    // },
                     include: {
                         objectives: true,
                     },

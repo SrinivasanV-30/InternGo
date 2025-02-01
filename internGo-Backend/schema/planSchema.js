@@ -16,7 +16,6 @@ export const milestoneCreateValidationSchema = Joi.object({
     mentorName: Joi.string().min(3).max(255).required(),
     milestoneDays: Joi.number().integer().min(1)
 })
-
 export const milestoneUpdateValidationSchema = Joi.object({
     milestoneId:Joi.number().integer().min(1).required(),
     objectiveData:Joi.object({
@@ -43,11 +42,16 @@ export const objectiveUpdateValidationSchema = Joi.object({
         description: Joi.string().max(1000),
         objectiveDays: Joi.number().integer().min(1),
         noOfInteractions: Joi.number().integer().min(1),
-        mentorName: Joi.string().min(3).max(255),
         roadmapType: Joi.string().valid("CUSTOM","DEFAULT"),
     })
 });
 
+export const objectivesCreateValidationSchema = Joi.object({
+    objectiveDatas:Joi.array().items(objectiveCreateValidationSchema)
+})
+export const objectivesUpdateValidationSchema = Joi.object({
+    objectiveDatas:Joi.array().items(objectiveUpdateValidationSchema)
+})
 export const usersPlanValidationSchema=Joi.object({
     userIds:Joi.array().items(Joi.string())
 })

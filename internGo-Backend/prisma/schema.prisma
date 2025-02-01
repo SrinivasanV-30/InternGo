@@ -93,6 +93,8 @@ model Milestones{
     mentorName String
     objectives Objectives[] @relation("PlanObjectives")
     plan Plans @relation("PlanMilestones",fields:[planId],references:[id],onDelete:Cascade)
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }
 
 model Objectives{

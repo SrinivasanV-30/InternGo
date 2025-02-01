@@ -1,5 +1,5 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
-import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema, objectiveUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema, usersPlanValidationSchema } from "../schema/planSchema.js";
+import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema,objectivesCreateValidationSchema, objectiveUpdateValidationSchema,objectivesUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema, usersPlanValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
@@ -132,6 +132,31 @@ export const objectiveUpdateValidation = async(req,res,next)=>{
         return sendResponse(res,400,error.details)
     }
 }
+
+export const objectivesCreateValidation = async(req,res,next)=>{
+    try{
+        await objectivesCreateValidationSchema.validateAsync(req.body);
+        next(); 
+    }
+    catch(error)
+    {
+        logger.error(`${JSON.stringify(error.details)}`);
+        return sendResponse(res,400,error.details)
+    }
+}
+
+export const objectivesUpdateValidation = async(req,res,next)=>{
+    try{
+        await objectivesUpdateValidationSchema.validateAsync(req.body);
+        next(); 
+    }
+    catch(error)
+    {
+        logger.error(`${JSON.stringify(error.details)}`);
+        return sendResponse(res,400,error.details)
+    }
+}
+
 
 export const milestoneCreateValidation = async(req,res,next)=>{
     try{
