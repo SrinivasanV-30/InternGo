@@ -5,12 +5,7 @@ const prisma = new PrismaClient();
 
 export const getPlans = async () => {
     try {
-        const allPlans = await prisma.plans.findMany({
-            include: {
-                milestones: true,
-                users: true,
-            },
-        });
+        const allPlans = await prisma.plans.findMany();
         return allPlans;
     }
     catch (error) {
