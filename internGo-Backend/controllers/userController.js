@@ -116,6 +116,12 @@ export const getUserAssets = async (req, res) => {
 export const createUserAsset = async (req, res) => {
     try {
         const userAsset = req.body;
+        const userDetails = await findUserByUserId(userAsset.userId);
+        if(!userDetails)
+        {
+            logger.error("User not found!!!");
+            return sendResponse(res, 404, "User not found!!!");
+        }
         userAsset.givenOn = new Date(userAsset.givenOn);
         console.log(userAsset);
         const createdAsset = await createAsset(userAsset);
@@ -128,7 +134,7 @@ export const createUserAsset = async (req, res) => {
 
 export const updateUserAsset = async (req, res) => {
     try {
-        const userId = req.params.id;
+        const assetId = parseInt(req.params.id);
         const userAsset = req.body;
         if ("givenOn" in userAsset) {
             if (isNaN(new Date(userAsset.givenOn))) {
@@ -150,7 +156,7 @@ export const updateUserAsset = async (req, res) => {
             }
             userAsset.returnedOn = new Date(userAsset.returnedOn);
         }
-        const updatedAsset = await updateAsset(userId, userAsset);
+        const updatedAsset = await updateAsset(assetId, userAsset);
         logger.info("Updated asset successfully");
         sendResponse(res, 201, "Updated asset successfully", updatedAsset);
     } catch (error) {

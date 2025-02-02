@@ -7476,3 +7476,109 @@ Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.re
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
 2025-02-02T17:54:35.061Z [:[32minfo[39m] Updated successfully
 2025-02-02T17:54:35.065Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:54:35 +0000] "PATCH /api/plans/1/update/objective HTTP/1.1" 200 330 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:03:57.423Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T18:03:57.426Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T18:04:07.350Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:04:07 +0000] "PATCH /api/users/update/asset/6 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:04:10.346Z [:[32minfo[39m] Updated asset successfully
+2025-02-02T18:04:10.354Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:04:10 +0000] "PATCH /api/users/update/asset/6 HTTP/1.1" 201 233 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:05:48.753Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:05:48 +0000] "PATCH /api/users/create/asset/ HTTP/1.1" 404 164 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:05:56.469Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:05:56 +0000] "POST /api/users/create/asset/ HTTP/1.1" 404 163 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:06:04.214Z [:[31merror[39m] [{"message":"\"userId\" must be a string","path":["userId"],"type":"string.base","context":{"label":"userId","value":6,"key":"userId"}}]
+2025-02-02T18:06:04.215Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:06:04 +0000] "POST /api/users/create/assets/ HTTP/1.1" 400 177 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:06:45.395Z [:[31merror[39m] 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:06:45.396Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:08:11.179Z [:[31merror[39m] 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:08:11.182Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:09:12.398Z [:[31merror[39m] userId is not defined
+2025-02-02T18:09:34.986Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T18:09:34.988Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T18:09:37.461Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:09:37 +0000] "POST /api/users/create/assets/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:09:41.810Z [:[31merror[39m] 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:09:41.811Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:10:40.370Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:10:40 +0000] "POST /api/users/create/assets/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:10:41.449Z [:[31merror[39m] 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:10:41.449Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:18:06.188Z [:[31merror[39m] 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:18:06.190Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.assets.create()` invocation:
+
+
+Unique constraint failed on the fields: (`id`)
+2025-02-02T18:19:03.167Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:03 +0000] "GET /api/users HTTP/1.1" 404 148 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:10.414Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:10 +0000] "POST /api/users HTTP/1.1" 200 1025 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:32.935Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:32 +0000] "POST /api/users/create/assets/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:34.164Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:19:34.165Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:34 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 234 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:46.480Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:19:46.482Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:46 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 227 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:56.220Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:56 +0000] "POST /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 404 186 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:19:59.959Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:19:59 +0000] "GET /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 200 1231 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:20:36.510Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:20:36.511Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:36 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 218 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:20:40.340Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:20:40.342Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:40 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 216 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:20:44.116Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:20:44.118Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:44 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 214 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:20:48.505Z [:[32minfo[39m] Created asset successfully
+2025-02-02T18:20:48.507Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:48 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 225 "-" "PostmanRuntime/7.43.0"
+2025-02-02T18:20:58.793Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:58 +0000] "GET /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 200 1848 "-" "PostmanRuntime/7.43.0"
