@@ -180,6 +180,7 @@ export const getInternBasedOnFilters = async (whereCondition, offset, limit) => 
             take: limit,
             where: whereCondition,
             select: {
+                id:true,
                 name: true,
                 profilePhoto: true,
                 email: true,
@@ -219,6 +220,7 @@ export const getInternBasedOnSearch = async (name, offset, limit) => {
                 },
             },
             select: {
+                id:true,    
                 name: true,
                 profilePhoto: true,
                 email: true,

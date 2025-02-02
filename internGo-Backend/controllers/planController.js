@@ -388,6 +388,11 @@ export const getPlanUsers = async (req, res) => {
                 offset,
                 limit
             );
+            searchedInterns.forEach((intern)=>{
+                if(intern.profilePhoto)
+                {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+                console.log(intern.profilePhoto)}
+            })
             const total_items = await internsCount({ name: name.trim() });
             const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
 
@@ -426,6 +431,11 @@ export const getPlanUsers = async (req, res) => {
             offset,
             limit
         );
+        interns.forEach((intern)=>{
+            if(intern.profilePhoto)
+            {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+            console.log(intern.profilePhoto)}
+        })
         const total_items = await internsCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
         sendResponse(res, 200, "Fetched successfully", {

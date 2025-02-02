@@ -15,6 +15,7 @@ import {
     updateAsset,
 } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
+import url from 'url';
 // import cron from "node-cron";
 import { getPlanById } from "../models/planModel.js";
 
@@ -38,14 +39,15 @@ export const updateUserProfile = async (req, res) => {
             userData.dateOfJoining = new Date(userData.dateOfJoining);
         }
         if (userData.profilePhoto) {
-            const imageData = await uploadImageToS3(
+            const key = await uploadImageToS3(
                 userData.profilePhoto,
                 userDetails.name
             );
             if (!imageData) {
                 return sendResponse(res, 400, "Invalid image!!!");
             }
-            userData.profilePhoto = imageData.Location;
+            
+            userData.profilePhoto = key;
         }
         if ("dateOfBirth" in userData) {
             if (isNaN(new Date(userData.dateOfBirth))) {
@@ -85,6 +87,11 @@ export const getUser = async (req, res) => {
             return sendResponse(res, 404, "User not found!!!");
         }
         const internProfile = await findUserByUserId(userId);
+        if(internProfile.profilePhoto)
+        {
+            internProfile.profilePhoto=process.env.AWS_BUCKET_DOMAIN+internProfile.profilePhoto;
+            console.log(internProfile.profilePhoto)
+        }
         sendResponse(res, 200, "Fetched successfully", internProfile);
     } catch (error) {
         logger.error(error.message);
@@ -165,9 +172,14 @@ export const getInterns = async (req, res) => {
                 offset,
                 limit
             );
+            searchedInterns.forEach((intern)=>{
+                if(intern.profilePhoto)
+                {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+                console.log(intern.profilePhoto)}
+            })
             const total_items = await internsCount({ name: name.trim() });
             const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
-
+           
             return sendResponse(res, 200, "Fetched successfully", {
                 data: searchedInterns,
                 total_pages,
@@ -190,6 +202,11 @@ export const getInterns = async (req, res) => {
             offset,
             limit
         );
+        interns.forEach((intern)=>{
+            if(intern.profilePhoto)
+            {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+            console.log(intern.profilePhoto)}
+        })
         const total_items = await internsCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
         sendResponse(res, 200, "Fetched successfully", {

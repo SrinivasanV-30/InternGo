@@ -37,15 +37,20 @@ export const getPlanById = async (planId) => {
             },
             include: {
                 milestones: {
-                    // orderBy:{
-                    //     cre
-                    // },
+                    orderBy:{
+                        createdAt:"asc"
+                    },
                     include: {
-                        objectives: true,
+                        objectives: {
+                            orderBy:{
+                            createdAt:"asc"
+                            },
+                        },
                     },
                 },
                 users: {
                     select: {
+                        id:true,
                         name: true,
                         profilePhoto: true,
                         email: true,

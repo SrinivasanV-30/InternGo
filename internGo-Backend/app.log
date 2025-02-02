@@ -6675,3 +6675,286 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-01T18:32:18.646Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:32:18 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
 2025-02-01T18:32:21.463Z [:[32minfo[39m] Updated successfully
 2025-02-01T18:32:21.471Z [:[32minfo[39m] ::1 - - [01/Feb/2025:18:32:21 +0000] "PATCH /api/plans/2/update/objectives HTTP/1.1" 200 58 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:26:35.432Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:26:35 +0000] "GET /api/plans/2/users HTTP/1.1" 404 156 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:26:40.112Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:26:40 +0000] "PATCH /api/plans/2/users HTTP/1.1" 404 158 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:26:43.779Z [:[31merror[39m] jwt expired
+2025-02-02T03:26:43.780Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:26:43 +0000] "POST /api/plans/2/users HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:26:53.754Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:26:53.754Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:27:02.162Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:27:02 +0000] "POST /api/auth/signin HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:27:04.298Z [:[32minfo[39m] Login successful!!!
+2025-02-02T03:27:04.298Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:27:04 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:27:09.861Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:27:09 +0000] "POST /api/plans/2/users HTTP/1.1" 200 849 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:31:21.249Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:31:21.251Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:31:26.618Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:31:26 +0000] "POST /api/plans/2/users HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:31:28.915Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:31:28 +0000] "POST /api/plans/2/users HTTP/1.1" 200 849 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:32:40.219Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    }
+  },
+  select: {
+    userId: true,
+    ~~~~~~
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true,
+?   id?: true,
+?   roleId?: true,
+?   planId?: true,
+?   password?: true,
+?   gender?: true,
+?   skills?: true,
+?   personalEmail?: true,
+?   currentAddress?: true,
+?   permanentAddress?: true,
+?   resume?: true,
+?   phone_no?: true,
+?   education?: true,
+?   bankDetails?: true,
+?   certificates_submission_status?: true,
+?   dateOfBirth?: true,
+?   dateOfJoining?: true,
+?   bloodGroup?: true,
+?   phase?: true,
+?   daysWorked?: true,
+?   createdAt?: true,
+?   updatedAt?: true,
+?   profilePercentage?: true,
+?   assets?: true,
+?   dailyUpdates?: true,
+?   role?: true,
+?   plan?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `userId` for select statement on model `Users`. Available options are marked with ?.
+2025-02-02T03:32:40.221Z [:[31merror[39m] Error fetching interns: PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 10,
+  where: {
+    role: {
+      roleName: "Interns"
+    }
+  },
+  select: {
+    userId: true,
+    ~~~~~~
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true,
+?   id?: true,
+?   roleId?: true,
+?   planId?: true,
+?   password?: true,
+?   gender?: true,
+?   skills?: true,
+?   personalEmail?: true,
+?   currentAddress?: true,
+?   permanentAddress?: true,
+?   resume?: true,
+?   phone_no?: true,
+?   education?: true,
+?   bankDetails?: true,
+?   certificates_submission_status?: true,
+?   dateOfBirth?: true,
+?   dateOfJoining?: true,
+?   bloodGroup?: true,
+?   phase?: true,
+?   daysWorked?: true,
+?   createdAt?: true,
+?   updatedAt?: true,
+?   profilePercentage?: true,
+?   assets?: true,
+?   dailyUpdates?: true,
+?   role?: true,
+?   plan?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `userId` for select statement on model `Users`. Available options are marked with ?.
+2025-02-02T03:32:40.226Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:32:40 +0000] "POST /api/plans/2/users HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:33:21.118Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:33:21.121Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T03:33:24.980Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:33:24 +0000] "POST /api/plans/2/users HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T03:33:27.048Z [:[32minfo[39m] ::1 - - [02/Feb/2025:03:33:27 +0000] "POST /api/plans/2/users HTTP/1.1" 200 1025 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:15:51.786Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:15:51.789Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:15:55.140Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:15:55 +0000] "POST /api/plans/2/users HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:16:01.075Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:16:01.075Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:16:05.458Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:16:05 +0000] "POST /api/plans/2/users HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:16:08.678Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:16:08 +0000] "POST /api/plans/2/users HTTP/1.1" 200 979 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:17:01.646Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:17:01 +0000] "POST /api/users HTTP/1.1" 200 979 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:18:45.668Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:18:45 +0000] "POST /api/plans/2/users HTTP/1.1" 200 979 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:19:30.793Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:19:30 +0000] "POST /api/plans/2/users HTTP/1.1" 200 979 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:20:51.283Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:20:51 +0000] "POST /api/plans/2/users HTTP/1.1" 200 1169 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:21:50.428Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:21:50 +0000] "POST /api/plans/2/users HTTP/1.1" 200 1025 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:22:53.716Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:22:53.718Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:22:57.067Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:22:57 +0000] "POST /api/plans/2/users HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:22:59.096Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:22:59 +0000] "POST /api/plans/2/users HTTP/1.1" 200 389 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:36:14.645Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:36:14 +0000] "POST /api/users/3 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:36:21.621Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:36:21 +0000] "GET /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:36:25.316Z [:[31merror[39m] jwt expired
+2025-02-02T04:36:25.319Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:36:25 +0000] "POST /api/users/ HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:36:29.866Z [:[32minfo[39m] Login successful!!!
+2025-02-02T04:36:29.866Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:36:29 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:36:42.039Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:36:42 +0000] "POST /api/users HTTP/1.1" 200 1025 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:37:00.047Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:37:00 +0000] "POST /api/users/d3d0c812-970f-4b0c-8bcf-50c6f8eeba64 HTTP/1.1" 404 186 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:37:04.174Z [:[31merror[39m] intern is not defined
+2025-02-02T04:37:29.113Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:37:29 +0000] "GET /api/users/d3d0c812-970f-4b0c-8bcf-50c6f8eeba64 HTTP/1.1" 200 1067 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:44:35.301Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:44:35.301Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:44:39.952Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:44:39 +0000] "POST /api/plans/2/create/milestone HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:44:45.843Z [:[32minfo[39m] Milestone added successfully!
+2025-02-02T04:44:45.844Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:44:45 +0000] "POST /api/plans/2/create/milestone HTTP/1.1" 201 228 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:45:32.693Z [:[31merror[39m] [{"message":"\"objectiveDatas[0].name\" is required","path":["objectiveDatas",0,"name"],"type":"any.required","context":{"label":"objectiveDatas[0].name","key":"name"}}]
+2025-02-02T04:45:32.694Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:45:32 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 400 210 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:46:21.328Z [:[31merror[39m] [{"message":"\"objectiveDatas[0].milestoneId\" is required","path":["objectiveDatas",0,"milestoneId"],"type":"any.required","context":{"label":"objectiveDatas[0].milestoneId","key":"milestoneId"}}]
+2025-02-02T04:46:21.330Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:46:21 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 400 238 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:46:57.707Z [:[32minfo[39m] Objectives added successfully!
+2025-02-02T04:46:57.708Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:46:57 +0000] "POST /api/plans/2/create/objectives HTTP/1.1" 201 878 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:47:14.737Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:47:14 +0000] "POST /api/plans/2 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:47:20.285Z [:[32minfo[39m] Fetched Successfully
+2025-02-02T04:47:20.286Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:47:20 +0000] "GET /api/plans/2 HTTP/1.1" 200 1285 "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:49:50.630Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:49:50.632Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:49:54.774Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:49:54 +0000] "GET /api/plans/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:49:56.854Z [:[31merror[39m] asc is not defined
+2025-02-02T04:49:56.855Z [:[31merror[39m] ReferenceError: asc is not defined
+2025-02-02T04:50:19.929Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:50:19.933Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T04:50:21.568Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:50:21 +0000] "GET /api/plans/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T04:50:25.289Z [:[32minfo[39m] Fetched Successfully
+2025-02-02T04:50:25.297Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:50:25 +0000] "GET /api/plans/2 HTTP/1.1" 200 1285 "-" "PostmanRuntime/7.43.0"
