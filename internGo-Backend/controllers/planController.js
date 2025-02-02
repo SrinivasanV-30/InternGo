@@ -135,6 +135,11 @@ export const updateObjective = async (req, res) => {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
         }
+        const existingObjective = await getObjectiveById(objectiveId);
+        if (!existingObjective) {
+            logger.error("Objective not found!!!");
+            return sendResponse(res, 404, "Objective not found!!!");
+        }
         const updatedObjective = await updateObjectives(objectiveId, objectiveData);
         if (!updatedObjective) {
             logger.info("Update unsuccessful");
@@ -237,7 +242,9 @@ export const createMilestone = async (req, res) => {
 
 export const updateMilestone = async (req, res) => {
     try {
+        const planId=parseInt(req.params.id);
         const { milestoneId, milestoneData } = req.body;
+        console.log(milestoneId)
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");

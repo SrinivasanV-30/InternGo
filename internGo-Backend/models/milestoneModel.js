@@ -37,7 +37,7 @@ export const getMilestoneByName = async (name) => {
 
 export const getMilestoneById = async (id) => {
     try {
-        console.log(id);
+        // console.log(id);
         const milestone = await prisma.milestones.findUnique({
             where: {
                 id: id,

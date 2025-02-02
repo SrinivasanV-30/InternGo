@@ -6958,3 +6958,521 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-02T04:50:21.568Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:50:21 +0000] "GET /api/plans/2 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
 2025-02-02T04:50:25.289Z [:[32minfo[39m] Fetched Successfully
 2025-02-02T04:50:25.297Z [:[32minfo[39m] ::1 - - [02/Feb/2025:04:50:25 +0000] "GET /api/plans/2 HTTP/1.1" 200 1285 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:42:34.208Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:42:34 +0000] "POST /api/plans/1/update/milestone HTTP/1.1" 404 168 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:42:37.914Z [:[31merror[39m] jwt expired
+2025-02-02T17:42:37.916Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:42:37 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:42:43.415Z [:[32minfo[39m] Login successful!!!
+2025-02-02T17:42:43.416Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:42:43 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:42:50.331Z [:[31merror[39m] [{"message":"\"milestoneData\" is not allowed","path":["milestoneData"],"type":"object.unknown","context":{"child":"milestoneData","label":"milestoneData","value":{"name":"React Basics","mentorName":"Arshad","milestoneDays":50},"key":"milestoneData"}}]
+2025-02-02T17:42:50.333Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:42:50 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" 400 293 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:43:29.019Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:43:29.022Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:44:21.057Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:44:21.058Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:45:47.518Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:45:47.520Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:46:48.699Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:46:48.702Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:48:11.201Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:48:11.203Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:48:13.562Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:48:13 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:48:15.185Z [:[31merror[39m] 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:48:15.186Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.plans.findUnique()` invocation:
+
+{
+  where: {
+    id: {
+      milestoneId: 1,
+      milestoneData: {
+        name: "React Basics",
+        mentorName: "Arshad",
+        milestoneDays: 50
+      }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  },
+  include: {
+    milestones: {
+      orderBy: {
+        createdAt: "asc"
+      },
+      include: {
+        objectives: {
+          orderBy: {
+            createdAt: "asc"
+          }
+        }
+      }
+    },
+    users: {
+      select: {
+        id: true,
+        name: true,
+        profilePhoto: true,
+        email: true,
+        batch: true,
+        year: true,
+        designation: true,
+        status: true,
+        employeeId: true
+      }
+    }
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+2025-02-02T17:49:31.164Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:49:31.168Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:49:32.775Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:49:32 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:49:39.222Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:49:39 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:49:41.986Z [:[31merror[39m] Milestone not found!!!
+2025-02-02T17:49:42.133Z [:[31merror[39m] Milestone not found!!!
+2025-02-02T17:49:42.138Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:49:42 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" 404 65 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:49:57.660Z [:[32minfo[39m] Milestone updated successfully!
+2025-02-02T17:49:57.662Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:49:57 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" 200 74 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:52:35.878Z [:[31merror[39m] [{"message":"\"milestoneId\" is required","path":["milestoneId"],"type":"any.required","context":{"label":"milestoneId","key":"milestoneId"}}]
+2025-02-02T17:52:35.886Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:52:35 +0000] "PATCH /api/plans/1/update/milestone HTTP/1.1" 400 183 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:52:52.290Z [:[31merror[39m] [{"message":"\"objectiveData.milestoneId\" is not allowed","path":["objectiveData","milestoneId"],"type":"object.unknown","context":{"child":"milestoneId","label":"objectiveData.milestoneId","value":1,"key":"milestoneId"}}]
+2025-02-02T17:52:52.292Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:52:52 +0000] "PATCH /api/plans/3/update/objective HTTP/1.1" 400 264 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:53:09.297Z [:[31merror[39m] Plan not found!!!
+2025-02-02T17:53:09.299Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:53:09 +0000] "PATCH /api/plans/3/update/objective HTTP/1.1" 404 60 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:53:19.473Z [:[32minfo[39m] Updated successfully
+2025-02-02T17:53:19.475Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:53:19 +0000] "PATCH /api/plans/1/update/objective HTTP/1.1" 200 330 "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:54:32.488Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:54:32 +0000] "PATCH /api/plans/1/update/objective HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-02T17:54:33.421Z [:[31merror[39m] 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:54:33.422Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.objectives.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-02T17:54:35.061Z [:[32minfo[39m] Updated successfully
+2025-02-02T17:54:35.065Z [:[32minfo[39m] ::1 - - [02/Feb/2025:17:54:35 +0000] "PATCH /api/plans/1/update/objective HTTP/1.1" 200 330 "-" "PostmanRuntime/7.43.0"
