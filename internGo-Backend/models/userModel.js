@@ -20,6 +20,27 @@ export const findUserByName = async (name) => {
     }
 };
 
+export const findUserForDailyUpdate = async (whereCondition) => {
+    try {
+        const userDetails = await prisma.users.findMany({
+            where:whereCondition,
+            select:{
+                dailyUpdates:{
+                    include:{
+                    tasks:true
+                    }
+                }
+            }
+        });
+        return userDetails;
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error);
+    }
+};
+
+
+
 export const findUserByEmail = async (email) => {
     try {
         const userDetails = await prisma.users.findUnique({

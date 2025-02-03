@@ -133,6 +133,7 @@ model DailyUpdateTasks{
     activitiesCompleted String
     estimatedTime Int
     actualTime Int
+    taskProgress TaskProgress
     dailyUpdate DailyUpdates @relation("DailyUpdateTasks",fields:[dailyUpdateId],references:[id])
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt

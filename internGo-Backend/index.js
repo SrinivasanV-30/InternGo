@@ -5,6 +5,7 @@ import authRouter from './routes/authRoutes.js';
 import userRouter from './routes/userRoutes.js';
 import planRouter from './routes/planRoutes.js';
 import logger from './utils/logger.js';
+import dailyUpdateRouter from './routes/dailyUpdateRoutes.js';
 
 
 const app=express();
@@ -29,6 +30,7 @@ app.use(cors(corsOptions));
 app.use('/api/auth',authRouter);
 app.use('/api/users',userRouter);
 app.use('/api/plans',planRouter);
+app.use('/api/dailyUpdates',dailyUpdateRouter);
 
 app.listen(PORT,()=>{
     console.log(`Successfully running on ${PORT}`)

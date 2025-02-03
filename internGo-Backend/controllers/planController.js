@@ -390,23 +390,27 @@ export const getPlanUsers = async (req, res) => {
             role: { roleName: "Interns" },
         };
         if (name && name.trim() !== "") {
-            const searchedInterns = await getInternBasedOnSearch(
-                name.trim(),
-                offset,
-                limit
-            );
-            searchedInterns.forEach((intern)=>{
-                if(intern.profilePhoto)
-                {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
-                console.log(intern.profilePhoto)}
-            })
-            const total_items = await internsCount({ name: name.trim() });
-            const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
+            // const searchedInterns = await getInternBasedOnSearch(
+            //     name.trim(),
+            //     offset,
+            //     limit
+            // );
+            // searchedInterns.forEach((intern)=>{
+            //     if(intern.profilePhoto)
+            //     {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+            //     console.log(intern.profilePhoto)}
+            // })
+            // const total_items = await internsCount({ name: name.trim() });
+            // const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
 
-            return sendResponse(res, 200, "Fetched successfully", {
-                data: searchedInterns,
-                total_pages,
-            });
+            // return sendResponse(res, 200, "Fetched successfully", {
+            //     data: searchedInterns,
+            //     total_pages,
+            // });
+            whereCondition.name={
+                contains: name,
+                mode:'insensitive'
+            };
         }
         if (planStatus) {
             if (planStatus === "Present") {
@@ -432,16 +436,18 @@ export const getPlanUsers = async (req, res) => {
         if (designation && designation.length > 0) {
             whereCondition.designation = { in: designation };
         }
-        console.log(whereCondition);
+        // console.log(whereCondition);
         const interns = await getInternBasedOnFilters(
             whereCondition,
             offset,
             limit
         );
         interns.forEach((intern)=>{
-            if(intern.profilePhoto)
-            {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
-            console.log(intern.profilePhoto)}
+            if(intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/")))
+            {
+                intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+                // console.log(intern.profilePhoto)
+            }
         })
         const total_items = await internsCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;

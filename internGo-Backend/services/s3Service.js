@@ -20,7 +20,7 @@ export const uploadImageToS3 = async (image, userName) => {
     };
 
     try {
-        const data = await s3.upload(params).promise();
+        await s3.upload(params).promise();
         return key;
     } catch (error) {
         throw error;

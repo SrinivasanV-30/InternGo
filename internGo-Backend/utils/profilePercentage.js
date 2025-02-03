@@ -13,13 +13,10 @@ export const profilePercentage=async(userData)=>{
             "skills",
             "permanentAddress",
             "profilePhoto",
-            "resume",
-            "year",
             "phone_no",
             "education",
             "bankDetails",
             "dateOfBirth",
-            "dateOfJoining",
             "bloodGroup"
         ];
         const totalFields=fields.length;
@@ -27,8 +24,10 @@ export const profilePercentage=async(userData)=>{
         for(let [key,value] of Object.entries(data)){
             if(value && fields.includes(key))
             {
+                console.log(key,value)
                 notNullCount+=1;
             }
+            console.log(key,value)
         }
         const percentage=(notNullCount/totalFields)*100;
         console.log(notNullCount,totalFields,percentage)

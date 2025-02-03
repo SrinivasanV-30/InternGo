@@ -7582,3 +7582,1402 @@ Unique constraint failed on the fields: (`id`)
 2025-02-02T18:20:48.505Z [:[32minfo[39m] Created asset successfully
 2025-02-02T18:20:48.507Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:48 +0000] "POST /api/users/create/assets/ HTTP/1.1" 201 225 "-" "PostmanRuntime/7.43.0"
 2025-02-02T18:20:58.793Z [:[32minfo[39m] ::1 - - [02/Feb/2025:18:20:58 +0000] "GET /api/users/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 200 1848 "-" "PostmanRuntime/7.43.0"
+2025-02-03T04:56:58.512Z [:[31merror[39m] Token not present!!!
+2025-02-03T04:56:58.516Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:56:58 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T04:56:58.517Z [:[31merror[39m] Token not present!!!
+2025-02-03T04:56:58.517Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:56:58 +0000] "GET /api/plans/2 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T04:56:58.520Z [:[32minfo[39m] Successfully verified
+2025-02-03T04:56:58.521Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:56:58 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T04:56:58.522Z [:[31merror[39m] Token not present!!!
+2025-02-03T04:56:58.523Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:56:58 +0000] "GET /api/plans/2 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T04:57:00.850Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:00 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:01.133Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:01 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:01.535Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:01 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:01.536Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:01 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:01.599Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:01 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "-" "okhttp/4.12.0"
+2025-02-03T04:57:03.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:03 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:03.928Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T04:57:03.930Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:03 +0000] "GET /api/plans HTTP/1.1" 200 204 "-" "okhttp/4.12.0"
+2025-02-03T04:57:05.880Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T04:57:05.882Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:05 +0000] "GET /api/plans/2 HTTP/1.1" 200 1961 "-" "okhttp/4.12.0"
+2025-02-03T04:57:06.478Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T04:57:06.480Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:06 +0000] "GET /api/plans/2 HTTP/1.1" 200 1961 "-" "okhttp/4.12.0"
+2025-02-03T04:57:08.499Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:08 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 489 "-" "okhttp/4.12.0"
+2025-02-03T04:57:16.756Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:16 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T04:57:22.586Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:22 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1153 "-" "okhttp/4.12.0"
+2025-02-03T04:57:29.490Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:29 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T04:57:41.544Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T04:57:41.546Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:41 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T04:57:43.730Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:43 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:57:47.811Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:47 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T04:57:52.837Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:57:52 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:05.699Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:05 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:14.796Z [:[32minfo[39m] Login successful!!!
+2025-02-03T04:58:14.796Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:14 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T04:58:15.088Z [:[32minfo[39m] Successfully verified
+2025-02-03T04:58:15.089Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:15 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T04:58:15.445Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:15 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T04:58:18.435Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:18 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:22.057Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:22 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T04:58:47.899Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:47 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:54.447Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:54 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:55.000Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:55 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:55.506Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:55 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:58:56.024Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:58:56 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:59:22.960Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:22 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:59:23.879Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:23 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T04:59:32.923Z [:[32minfo[39m] Login successful!!!
+2025-02-03T04:59:32.923Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:32 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T04:59:33.203Z [:[32minfo[39m] Successfully verified
+2025-02-03T04:59:33.205Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:33 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T04:59:33.822Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:33 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T04:59:36.845Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:04:59:36 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:00:18.819Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:00:18.821Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:18 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:00:21.547Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:00:21.549Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:21 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:00:21.921Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:21 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 489 "-" "okhttp/4.12.0"
+2025-02-03T05:00:22.083Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:00:22.085Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:22 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:00:24.451Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:00:24.452Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:24 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:00:24.767Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:24 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:00:36.842Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:36 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:00:41.246Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:00:41.248Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:41 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:00:41.592Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:00:41 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:02:17.530Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:02:17.532Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:02:17 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:02:17.897Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:02:17 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 822 "-" "okhttp/4.12.0"
+2025-02-03T05:02:24.938Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:02:24.940Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:02:24 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:02:25.175Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:02:25 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 822 "-" "okhttp/4.12.0"
+2025-02-03T05:02:44.389Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:02:44 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 618 "-" "okhttp/4.12.0"
+2025-02-03T05:03:25.289Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:03:25.291Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:03:25 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:03:25.607Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:03:25 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 618 "-" "okhttp/4.12.0"
+2025-02-03T05:04:52.684Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:04:52.686Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:04:52 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:04:52.938Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:04:52 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 276 "-" "okhttp/4.12.0"
+2025-02-03T05:04:54.888Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T05:04:54.889Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:04:54 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T05:04:55.116Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:04:55 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:05:04.863Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:05:04.864Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:04 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:05:05.297Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:05 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:05:12.399Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:05:12.400Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:12 +0000] "GET /api/plans HTTP/1.1" 200 355 "-" "okhttp/4.12.0"
+2025-02-03T05:05:14.380Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:05:14.381Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:14 +0000] "GET /api/plans/2 HTTP/1.1" 200 986 "-" "okhttp/4.12.0"
+2025-02-03T05:05:15.625Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:05:15.627Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:15 +0000] "GET /api/plans/2 HTTP/1.1" 200 986 "-" "okhttp/4.12.0"
+2025-02-03T05:05:38.007Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:38 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1557 "-" "okhttp/4.12.0"
+2025-02-03T05:05:40.809Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:05:40.810Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:40 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:05:42.061Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:42 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1338 "-" "okhttp/4.12.0"
+2025-02-03T05:05:42.337Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:05:42.339Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:42 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:05:42.824Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:42 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1338 "-" "okhttp/4.12.0"
+2025-02-03T05:05:43.925Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:05:43.927Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:43 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:05:44.155Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:44 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1035 "-" "okhttp/4.12.0"
+2025-02-03T05:05:45.969Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:05:45.971Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:45 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:05:46.207Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:05:46 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 831 "-" "okhttp/4.12.0"
+2025-02-03T05:06:05.472Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:05 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 831 "-" "okhttp/4.12.0"
+2025-02-03T05:06:08.207Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:08 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 831 "-" "okhttp/4.12.0"
+2025-02-03T05:06:10.481Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:06:10.482Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:10 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:06:10.485Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:10 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 831 "-" "okhttp/4.12.0"
+2025-02-03T05:06:10.696Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:10 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 489 "-" "okhttp/4.12.0"
+2025-02-03T05:06:11.870Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:06:11.872Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:11 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:06:12.081Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:12 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:06:13.905Z [:[32minfo[39m] Added interns successfully
+2025-02-03T05:06:13.906Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:13 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T05:06:14.402Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:06:14 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:09:52.003Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:09:52 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:15:40.776Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:15:40.777Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:15:40 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:15:44.651Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:15:44 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:15:54.969Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:15:54.970Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:15:54 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:15:57.639Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:15:57.641Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:15:57 +0000] "GET /api/plans/2 HTTP/1.1" 200 2365 "-" "okhttp/4.12.0"
+2025-02-03T05:15:58.183Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:15:58.184Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:15:58 +0000] "GET /api/plans/2 HTTP/1.1" 200 2365 "-" "okhttp/4.12.0"
+2025-02-03T05:16:01.877Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:01 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:17.030Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:17 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:17.901Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:17 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:21.239Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:21 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:25.339Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:25 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:39.922Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:16:39.923Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:39 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:16:40.850Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:40 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:16:43.781Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:16:43.782Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:43 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:16:45.682Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:16:45.683Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:45 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:16:46.202Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:46 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:16:46.522Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:16:46.524Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:16:46 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:20:47.638Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:20:47.639Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:20:47 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:20:48.963Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:20:48 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:21:01.489Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:21:01 +0000] "GET /api/plans HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-03T05:21:01.566Z [:[31merror[39m] 
+Invalid `prisma.plans.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-03T05:21:01.567Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.plans.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-03T05:21:24.377Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:21:24.379Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:21:24 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:21:26.736Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:21:26.737Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:21:26 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:21:27.319Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:21:27.321Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:21:27 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:21:42.779Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:21:42 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:22:12.568Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:22:12.568Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:12 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:22:14.326Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:14 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:22:18.790Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:22:18.791Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:18 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:22:23.537Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:22:23.538Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:23 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:22:24.592Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:22:24.593Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:24 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:22:46.325Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:46 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:22:56.720Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:56 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:22:59.826Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:22:59 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:23:12.534Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:23:12 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:23:23.445Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:23:23 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:23:31.182Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:23:31 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:24:00.423Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:00 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:24:06.644Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:06 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:24:07.147Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:07 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:24:13.819Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:13 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:24:52.508Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:24:52.510Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:52 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:24:54.165Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:24:54 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:25:52.898Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:25:52.900Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:25:52 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:25:55.871Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:25:55.873Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:25:55 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:25:55.951Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:25:55.952Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:25:55 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:26:41.803Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:26:41.804Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:26:41 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:27:14.187Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:27:14.192Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:27:14 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:27:20.706Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:27:20 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:27:21.929Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:27:21 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:27:27.570Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:27:27 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:27:39.682Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:27:39 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:28:05.520Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:05 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:28:17.677Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:28:17.677Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:28:18.135Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:28:18.137Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:18 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:28:18.563Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:18 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:28:21.387Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:21 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:28:25.803Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:25 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:28:27.150Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:27 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:28:35.698Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:28:35.699Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:35 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:28:35.954Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:28:35.955Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:35 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:28:36.326Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:36 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:28:41.206Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:41 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:28:53.562Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:28:53 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:29:16.737Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:16 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:29:31.771Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:29:31.771Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:31 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:29:32.085Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:29:32.086Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:32 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:29:32.445Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:32 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:29:35.747Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:29:35.748Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:35 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:29:38.511Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:38 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:29:49.117Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:49 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:29:57.682Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:29:57 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:01.360Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:01 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:30:05.500Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:05 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:30:11.390Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:11 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:30:14.293Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:14 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:30:17.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:17 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:22.086Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:22 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:25.103Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:25 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:27.461Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:27 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:35.254Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:35 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:30:41.655Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:41 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T05:30:43.844Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:43 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:30:50.305Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:50 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:30:58.486Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:30:58 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:31:07.979Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:31:07 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:31:09.753Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:31:09 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:31:26.815Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:31:26 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:31:30.413Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:31:30 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:31:32.284Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:31:32 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:32:15.297Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:32:15 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:33:10.325Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:33:10.330Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:10 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:33:18.005Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:18 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:33:26.893Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:26 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:33:48.976Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:33:48.978Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:48 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:33:49.406Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:33:49.408Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:49 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:33:49.809Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:49 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:33:53.109Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:53 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:33:58.700Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:58 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:33:59.839Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:33:59 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:34:00.143Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:00 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:34:01.923Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:01 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:34:09.391Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:09 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:34:20.761Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:20 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:34:39.652Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:39 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:34:41.489Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:34:41 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:37:16.771Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:37:16 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:37:33.978Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:37:33 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:37:49.036Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:37:49 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:38:15.241Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:38:15 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1344 "-" "okhttp/4.12.0"
+2025-02-03T05:39:18.321Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:39:18 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:39:21.488Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:39:21 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:39:33.229Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:39:33 +0000] "POST /api/users/search?limit=5&offset=0 HTTP/1.1" 404 156 "-" "okhttp/4.12.0"
+2025-02-03T05:40:35.151Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:40:35 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:40:45.864Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:40:45 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:40:48.190Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:40:48 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T05:40:54.521Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:40:54 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:41:04.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:41:04 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T05:41:08.846Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:41:08 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 298 "-" "okhttp/4.12.0"
+2025-02-03T05:42:14.360Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:14 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 517 "-" "okhttp/4.12.0"
+2025-02-03T05:42:21.068Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:21 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:42:29.360Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:29.361Z [:[31merror[39m] Error fetching interns: PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:29.362Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:29 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-03T05:42:30.638Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:30 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:42:39.138Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:39.138Z [:[31merror[39m] Error fetching interns: PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:39.140Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:39 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-03T05:42:48.705Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:48 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1298 "-" "okhttp/4.12.0"
+2025-02-03T05:42:52.459Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:52.459Z [:[31merror[39m] Error fetching interns: PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  skip: 0,
+  take: 5,
+  where: {
+    role: {
+      roleName: "Interns"
+    },
+    name: {
+      name: {
+      ~~~~
+        search: "Sano"
+      },
+?     equals?: String | StringFieldRefInput,
+?     in?: String[] | ListStringFieldRefInput,
+?     notIn?: String[] | ListStringFieldRefInput,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringFilter
+    }
+  },
+  select: {
+    id: true,
+    name: true,
+    profilePhoto: true,
+    email: true,
+    batch: true,
+    year: true,
+    designation: true,
+    status: true,
+    employeeId: true
+  }
+}
+
+Unknown argument `name`. Did you mean `lte`? Available options are marked with ?.
+2025-02-03T05:42:52.460Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:42:52 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-03T05:43:07.277Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:07 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T05:43:13.534Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:13 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T05:43:17.022Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:17 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:43:39.937Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:39 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:43:43.415Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:43 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 388 "-" "okhttp/4.12.0"
+2025-02-03T05:43:45.892Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:45 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:43:51.434Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:51 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 517 "-" "okhttp/4.12.0"
+2025-02-03T05:43:58.430Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:43:58 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T05:45:12.278Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:45:12.284Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:45:12 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:45:15.921Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:45:15.924Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:45:15 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:45:16.585Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:45:16.588Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:45:16 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:48:11.112Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:48:11.113Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:48:11 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:48:11.574Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:48:11 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:48:16.902Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:48:16.904Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:48:16 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:48:19.320Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:48:19.322Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:48:19 +0000] "GET /api/plans/2 HTTP/1.1" 200 2369 "-" "okhttp/4.12.0"
+2025-02-03T05:48:20.453Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:48:20.455Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:48:20 +0000] "GET /api/plans/2 HTTP/1.1" 200 2369 "-" "okhttp/4.12.0"
+2025-02-03T05:49:01.098Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:49:01.099Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:01 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:49:01.580Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:01 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:05.437Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:05.439Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:05 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:08.066Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:08.068Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:08 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:08.190Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:08.192Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:08 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:33.989Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:33.991Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:33 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:35.304Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:35.306Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:35 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:49:35.412Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:49:35.414Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:49:35 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:50:50.121Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:50:50.122Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:50:50 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:50:52.953Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:50:52 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:50:56.294Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:50:56.296Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:50:56 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:51:06.365Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:51:06.375Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:06 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:51:10.623Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:51:10.625Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:10 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:51:17.667Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:51:17.668Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T05:51:17.982Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:51:17.984Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:17 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:51:19.905Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:19 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:51:21.067Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:51:21.070Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:21 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:51:23.531Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:51:23.533Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:23 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:51:26.858Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:51:26.860Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:51:26 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:52:32.877Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:52:32.880Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:52:32 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:52:35.444Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:52:35 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:52:53.851Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:52:53.853Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:52:53 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:52:58.027Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:52:58.029Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:52:58 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:52:59.095Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:52:59.097Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:52:59 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:53:04.442Z [:[31merror[39m] Token not present!!!
+2025-02-03T05:53:04.443Z [:[32minfo[39m] ::1 - - [03/Feb/2025:05:53:04 +0000] "GET /api/dailyUpdates/ HTTP/1.1" 401 63 "-" "PostmanRuntime/7.43.0"
+2025-02-03T05:53:11.095Z [:[31merror[39m] jwt expired
+2025-02-03T05:53:11.095Z [:[32minfo[39m] ::1 - - [03/Feb/2025:05:53:11 +0000] "GET /api/dailyUpdates/ HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-03T05:53:16.265Z [:[32minfo[39m] Login successful!!!
+2025-02-03T05:53:16.266Z [:[32minfo[39m] ::1 - - [03/Feb/2025:05:53:16 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-03T05:53:23.368Z [:[32minfo[39m] Successfully verified
+2025-02-03T05:53:23.368Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:53:23 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T05:53:24.054Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:53:24 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:53:26.987Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:53:26.989Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:53:26 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:53:28.257Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:53:28.258Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:53:28 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:53:28.439Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T05:53:28.440Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:05:53:28 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T05:54:09.817Z [:[32minfo[39m] ::1 - - [03/Feb/2025:05:54:09 +0000] "GET /api/dailyUpdates/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-03T05:54:54.229Z [:[31merror[39m] dateStr is not defined
+2025-02-03T05:55:23.302Z [:[31merror[39m] dailyUpdateData.date.toLocaleDateString is not a function
+2025-02-03T05:55:38.328Z [:[31merror[39m] dailyUpdateData.date.toLocaleDateString is not a function
+2025-02-03T05:56:09.400Z [:[31merror[39m] dailyUpdateData.date.toLocaleDateString is not a constructor
+2025-02-03T06:13:08.094Z [:[32minfo[39m] Login successful!!!
+2025-02-03T06:13:08.096Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:08 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T06:13:08.381Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:13:08.383Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:08 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:13:08.733Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:08 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:13:17.308Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:13:17.309Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:17 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:13:20.332Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:13:20.333Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:20 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:13:20.851Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:13:20.851Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:20 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:13:23.147Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:23 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 279 "-" "okhttp/4.12.0"
+2025-02-03T06:13:30.242Z [:[32minfo[39m] Added interns successfully
+2025-02-03T06:13:30.244Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:30 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T06:13:30.712Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:30 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 279 "-" "okhttp/4.12.0"
+2025-02-03T06:13:38.765Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:13:38 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:14:03.027Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:03 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1772 "-" "okhttp/4.12.0"
+2025-02-03T06:14:58.178Z [:[31merror[39m] Token not present!!!
+2025-02-03T06:14:58.179Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:58 +0000] "GET /api/plans/2 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T06:14:58.179Z [:[31merror[39m] Token not present!!!
+2025-02-03T06:14:58.180Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:58 +0000] "GET /api/plans/2 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T06:14:58.184Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:14:58.185Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:58 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:14:58.186Z [:[31merror[39m] Token not present!!!
+2025-02-03T06:14:58.187Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:58 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-03T06:14:58.648Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:58 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:14:59.493Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:14:59 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:15:05.886Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:15:05.888Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:05 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:15:12.543Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:15:12.545Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:12 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:15:14.626Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:14 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:15:14.896Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:15:14.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:14 +0000] "GET /api/plans/2 HTTP/1.1" 200 2602 "-" "okhttp/4.12.0"
+2025-02-03T06:15:15.554Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:15:15.556Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:15 +0000] "GET /api/plans/2 HTTP/1.1" 200 2602 "-" "okhttp/4.12.0"
+2025-02-03T06:15:21.066Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:21 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1794 "-" "okhttp/4.12.0"
+2025-02-03T06:15:27.229Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T06:15:27.231Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:27 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T06:15:27.471Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:27 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1794 "-" "okhttp/4.12.0"
+2025-02-03T06:15:37.740Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T06:15:37.742Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:37 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T06:15:38.031Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:38 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1057 "-" "okhttp/4.12.0"
+2025-02-03T06:15:45.092Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:45 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 392 "-" "okhttp/4.12.0"
+2025-02-03T06:15:54.534Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:54 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:15:59.841Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:15:59 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 392 "-" "okhttp/4.12.0"
+2025-02-03T06:16:02.439Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:02 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:16:18.691Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:18 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:16:21.181Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:21 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 392 "-" "okhttp/4.12.0"
+2025-02-03T06:16:25.193Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:16:25.194Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:16:25.670Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:25 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:16:28.981Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:28 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1322 "-" "okhttp/4.12.0"
+2025-02-03T06:16:31.221Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:16:31.223Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:31 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:16:32.872Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:16:32.874Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:32 +0000] "GET /api/plans/2 HTTP/1.1" 200 1911 "-" "okhttp/4.12.0"
+2025-02-03T06:16:33.164Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:33 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 822 "-" "okhttp/4.12.0"
+2025-02-03T06:16:33.727Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:16:33.728Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:33 +0000] "GET /api/plans/2 HTTP/1.1" 200 1911 "-" "okhttp/4.12.0"
+2025-02-03T06:16:44.505Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:16:44 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 822 "-" "okhttp/4.12.0"
+2025-02-03T06:17:32.554Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:17:32 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1076 "-" "okhttp/4.12.0"
+2025-02-03T06:18:22.357Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:18:22 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 822 "-" "okhttp/4.12.0"
+2025-02-03T06:18:26.718Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:18:26 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1030 "-" "okhttp/4.12.0"
+2025-02-03T06:18:54.618Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:18:54 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:18:58.766Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:18:58 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:19:02.437Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:02 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:19:04.749Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:04 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:19:16.215Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:16 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:19:19.980Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:19 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:19:30.328Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:30 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:19:44.717Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:44 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1767 "-" "okhttp/4.12.0"
+2025-02-03T06:19:50.445Z [:[32minfo[39m] Added interns successfully
+2025-02-03T06:19:50.448Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:50 +0000] "PATCH /api/plans/2/addUsers HTTP/1.1" 200 69 "-" "okhttp/4.12.0"
+2025-02-03T06:19:53.174Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:19:53 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:20:04.405Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:04 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1767 "-" "okhttp/4.12.0"
+2025-02-03T06:20:24.930Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:24 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T06:20:29.424Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:29 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:20:29.675Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:29 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:20:32.212Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:32 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:20:32.558Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:32 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 400 "-" "okhttp/4.12.0"
+2025-02-03T06:20:42.324Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:20:42.325Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:42 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:20:42.799Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:20:42 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:21:11.171Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:21:11.172Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:11 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:21:26.472Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:21:26.474Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:26 +0000] "GET /api/plans/2 HTTP/1.1" 200 2141 "-" "okhttp/4.12.0"
+2025-02-03T06:21:27.387Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:27 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 611 "-" "okhttp/4.12.0"
+2025-02-03T06:21:27.996Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:21:27.999Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:27 +0000] "GET /api/plans/2 HTTP/1.1" 200 2141 "-" "okhttp/4.12.0"
+2025-02-03T06:21:41.632Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:41 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1241 "-" "okhttp/4.12.0"
+2025-02-03T06:21:48.942Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:48 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1241 "-" "okhttp/4.12.0"
+2025-02-03T06:21:51.849Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:21:51 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1241 "-" "okhttp/4.12.0"
+2025-02-03T06:22:01.306Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T06:22:01.308Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:22:01 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T06:22:01.721Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:22:01 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 1241 "-" "okhttp/4.12.0"
+2025-02-03T06:22:16.557Z [:[32minfo[39m] Removed interns successfully
+2025-02-03T06:22:16.558Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:22:16 +0000] "PATCH /api/plans/2/removeUsers HTTP/1.1" 200 71 "-" "okhttp/4.12.0"
+2025-02-03T06:22:16.969Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:22:16 +0000] "POST /api/plans/2/users?limit=10&offset=0 HTTP/1.1" 200 715 "-" "okhttp/4.12.0"
+2025-02-03T06:22:27.955Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:22:27.957Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:22:27 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:23:27.859Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:23:27.862Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:23:27 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:23:29.691Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:23:29 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:23:32.961Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:23:32.963Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:23:32 +0000] "PATCH /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1111 "-" "okhttp/4.12.0"
+2025-02-03T06:23:33.349Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:23:33 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "-" "okhttp/4.12.0"
+2025-02-03T06:29:40.971Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:29:40 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T06:39:24.436Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:39:24.439Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:39:24 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:39:27.282Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:39:27 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1373 "-" "okhttp/4.12.0"
+2025-02-03T06:39:43.959Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:39:43.961Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:39:43 +0000] "PATCH /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1111 "-" "okhttp/4.12.0"
+2025-02-03T06:40:54.958Z [:[32minfo[39m] Login successful!!!
+2025-02-03T06:40:54.959Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:40:54 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-03T06:40:55.285Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:40:55.287Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:40:55 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:40:55.661Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:40:55 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1015 "-" "okhttp/4.12.0"
+2025-02-03T06:41:06.675Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:41:06.677Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:06 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 819 "-" "okhttp/4.12.0"
+2025-02-03T06:41:07.233Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:07 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1023 "-" "okhttp/4.12.0"
+2025-02-03T06:41:09.502Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:41:09.504Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:09 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 819 "-" "okhttp/4.12.0"
+2025-02-03T06:41:10.108Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:10 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1023 "-" "okhttp/4.12.0"
+2025-02-03T06:41:16.026Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:41:16.028Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:16 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 827 "-" "okhttp/4.12.0"
+2025-02-03T06:41:18.047Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:18 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1031 "-" "okhttp/4.12.0"
+2025-02-03T06:41:51.733Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:41:51.735Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:51 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 850 "-" "okhttp/4.12.0"
+2025-02-03T06:41:52.158Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:41:52 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1054 "-" "okhttp/4.12.0"
+2025-02-03T06:42:16.114Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:42:16.115Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:16 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 870 "-" "okhttp/4.12.0"
+2025-02-03T06:42:17.976Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:17 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1074 "-" "okhttp/4.12.0"
+2025-02-03T06:42:34.309Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:34 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:42:38.775Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:38 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:42:57.238Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:42:57.240Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:57 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 922 "-" "okhttp/4.12.0"
+2025-02-03T06:42:58.345Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:42:58 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1126 "-" "okhttp/4.12.0"
+2025-02-03T06:43:19.502Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:43:19 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:44:26.307Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:44:26.318Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:44:26 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1007 "-" "okhttp/4.12.0"
+2025-02-03T06:44:26.804Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:44:26 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1211 "-" "okhttp/4.12.0"
+2025-02-03T06:48:07.289Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:48:07.299Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:48:07 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1007 "-" "okhttp/4.12.0"
+2025-02-03T06:48:07.837Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:48:07 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1211 "-" "okhttp/4.12.0"
+2025-02-03T06:50:33.242Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:50:33.253Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:33 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1007 "-" "okhttp/4.12.0"
+2025-02-03T06:50:36.142Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:36 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1211 "-" "okhttp/4.12.0"
+2025-02-03T06:50:36.987Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:50:36.989Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:36 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1007 "-" "okhttp/4.12.0"
+2025-02-03T06:50:37.461Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:37 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1211 "-" "okhttp/4.12.0"
+2025-02-03T06:50:52.025Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:50:52.026Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:52 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:50:52.523Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:50:52 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:51:32.233Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-03T06:51:32.234Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-03T06:51:35.750Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:51:35 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-03T06:51:36.635Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:51:36.643Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:51:36 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1007 "-" "okhttp/4.12.0"
+2025-02-03T06:51:37.046Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:51:37 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1211 "-" "okhttp/4.12.0"
+2025-02-03T06:52:59.734Z [:[31merror[39m] imageData is not defined
+2025-02-03T06:53:06.803Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:53:06 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-03T06:53:26.740Z [:[31merror[39m] imageData is not defined
+2025-02-03T06:53:34.750Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:53:34 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-03T06:55:55.256Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:55:55.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:55:55 +0000] "PATCH /api/users/update/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1066 "-" "okhttp/4.12.0"
+2025-02-03T06:55:55.752Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:55:55 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1316 "-" "okhttp/4.12.0"
+2025-02-03T06:56:51.379Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:56:51.379Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:56:51 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:56:53.403Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:56:53 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:57:27.353Z [:[32minfo[39m] Login successful!!!
+2025-02-03T06:57:27.353Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:27 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "okhttp/4.12.0"
+2025-02-03T06:57:27.613Z [:[32minfo[39m] Successfully verified
+2025-02-03T06:57:27.614Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:27 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T06:57:27.932Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:27 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "-" "okhttp/4.12.0"
+2025-02-03T06:57:33.767Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:33 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T06:57:36.291Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:36 +0000] "GET /api/users/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 729 "-" "okhttp/4.12.0"
+2025-02-03T06:57:47.567Z [:[32minfo[39m] Updated successfully
+2025-02-03T06:57:47.569Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:47 +0000] "PATCH /api/users/update/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 811 "-" "okhttp/4.12.0"
+2025-02-03T06:57:49.130Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:57:49 +0000] "GET /api/users/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 729 "-" "okhttp/4.12.0"
+2025-02-03T06:59:02.865Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:59:02.866Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:59:02 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T06:59:06.673Z [:[31merror[39m] jwt expired
+2025-02-03T06:59:06.674Z [:[32minfo[39m] ::1 - - [03/Feb/2025:06:59:06 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-03T06:59:11.506Z [:[32minfo[39m] Login successful!!!
+2025-02-03T06:59:11.506Z [:[32minfo[39m] ::1 - - [03/Feb/2025:06:59:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-03T06:59:15.714Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:59:15.714Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:59:15 +0000] "GET /api/plans/2 HTTP/1.1" 200 1673 "-" "okhttp/4.12.0"
+2025-02-03T06:59:16.373Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T06:59:16.374Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:06:59:16 +0000] "GET /api/plans/2 HTTP/1.1" 200 1673 "-" "okhttp/4.12.0"
+2025-02-03T06:59:16.945Z [:[31merror[39m] Cannot set properties of undefined (setting 'date')
+2025-02-03T07:02:47.840Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:47 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:49.795Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:49 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:51.784Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:51 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1374 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:54.255Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:54 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:57.960Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:57 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:57.973Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:57 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:58.308Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:58 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:02:58.336Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:02:58 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:01.179Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:01 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:04.088Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:04 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:04.331Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:04 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:10.392Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:10 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:12.077Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:12 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:12.360Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:12 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:14.765Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:14 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:18.020Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:18 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:30.429Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:30 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:31.094Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:31 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:39.685Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:39 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:03:40.123Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:03:40 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:02.254Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:02 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:02.256Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:02 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:02.671Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:02 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:03.328Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:03 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:08.017Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:08 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:08.083Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:08 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:09.940Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:09 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:09.941Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:09 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:10.594Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:10 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:10.595Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:10 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:04:13.564Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:04:13 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:10.448Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:10 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:10.903Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:10 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:14.830Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:14 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:17.232Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:17 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:17.606Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:17 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:17.613Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:17 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:24.981Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:24 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:26.579Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:26 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:38.777Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:38 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:40.008Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:40 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:44.405Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:44 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:51.776Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:51 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:52.098Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:52 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:05:55.875Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:05:55 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:01.390Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:01 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:01.694Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:01 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:09.544Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:09 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:09.864Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:09 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:13.082Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:13 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:16.354Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:16 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:16.659Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:16 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:22.644Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:22 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:22.849Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:22 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:24.698Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:24 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1043 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:29.535Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:29 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:31.162Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:31 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:34.715Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:34 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:34.925Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:34 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1667 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:06:38.176Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:06:38 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 707 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:07:05.052Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:07:05 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:07:07.615Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:07:07 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:07:13.611Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:07:13 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:07:14.062Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:07:14 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:07:34.108Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:07:34.111Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:07:34 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:07:43.404Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:07:43 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 296 "-" "okhttp/4.12.0"
+2025-02-03T07:08:15.993Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:08:15 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 296 "-" "okhttp/4.12.0"
+2025-02-03T07:08:23.621Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:08:23 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 707 "-" "okhttp/4.12.0"
+2025-02-03T07:08:33.174Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:08:33 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T07:08:49.476Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:08:49 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T07:08:51.030Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:08:51 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:08:51.267Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:08:51 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:08:52.471Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:08:52 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 304 "-" "okhttp/4.12.0"
+2025-02-03T07:08:53.730Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:08:53 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:08:54.473Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:08:54 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:03.727Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:03 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T07:09:08.444Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:08 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:08.753Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:08 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:09.394Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:09 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:23.515Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:23 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:23.855Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:23 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:24.444Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:24 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:25.244Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:25 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-03T07:09:30.100Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:30 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T07:09:38.650Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:38 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:38.996Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:38 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 289 "-" "okhttp/4.12.0"
+2025-02-03T07:09:39.934Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:39 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:42.154Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:42 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 1036 "-" "okhttp/4.12.0"
+2025-02-03T07:09:42.207Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:09:42 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:09:47.415Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:09:47 +0000] "POST /api/users/?limit=5&offset=0 HTTP/1.1" 200 1341 "-" "okhttp/4.12.0"
+2025-02-03T07:10:10.048Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:10 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:11.274Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:11 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:13.489Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:13 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:14.409Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:14 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:17.261Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:10:17.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:10:17 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:10:19.294Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:19 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:19.303Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:19 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:19.714Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:19 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:20.116Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:20 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:26.619Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:26 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:26.622Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:26 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:27.183Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:27 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:27.371Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:27 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:28.408Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:28 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:28.409Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:28 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:28.949Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:28 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 1644 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:29.498Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:29 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:37.330Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:10:37.332Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:10:37 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:10:38.192Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:10:38.194Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:10:38 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:10:43.877Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:43 +0000] "OPTIONS /api/create/assets HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:10:43.908Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:10:43 +0000] "POST /api/create/assets HTTP/1.1" 404 157 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:26.282Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:26 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:28.693Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:28 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:30.766Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:30 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:30.863Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:30 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:33.856Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:11:33 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:11:34.145Z [:[32minfo[39m] Successfully verified
+2025-02-03T07:11:34.146Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:11:34 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-03T07:11:36.603Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:36 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:36.768Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:11:36.769Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:11:36 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:11:36.854Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:36 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:38.338Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:11:38.340Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:11:38 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:11:38.388Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:11:38.390Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:11:38 +0000] "GET /api/plans/2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:11:40.728Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:40 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:47.307Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:47 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:47.308Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:47 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:47.856Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:47 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:47.857Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:47 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:11:49.923Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:11:49 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:12:04.223Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:12:04 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:12:04.611Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:12:04 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:13:57.282Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:13:57 +0000] "OPTIONS /api/users/?limit=6&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:13:57.838Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:13:57 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:14:01.995Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:14:01 +0000] "POST /api/users/?limit=6&offset=0 HTTP/1.1" 200 296 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:16:45.207Z [:[32minfo[39m] Training plan fetched!!
+2025-02-03T07:16:45.208Z [:[32minfo[39m] Training plan fetched!!
+2025-02-03T07:16:45.209Z [:[31merror[39m] Cannot set headers after they are sent to the client
+2025-02-03T07:16:45.210Z [:[32minfo[39m] ::1 - - [03/Feb/2025:07:16:45 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 644 "-" "PostmanRuntime/7.43.0"
+2025-02-03T07:17:14.312Z [:[31merror[39m] Cannot set properties of undefined (setting 'date')
+2025-02-03T07:18:09.353Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:09.354Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:36.723Z [:[32minfo[39m] ::1 - - [03/Feb/2025:07:18:36 +0000] "POST /api/dailyUpdates/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-03T07:18:37.315Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:37.315Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:38.245Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:38.245Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      date: "2025-02-01",
+      ~~~~
+?     every?: DailyUpdatesWhereInput,
+?     some?: DailyUpdatesWhereInput,
+?     none?: DailyUpdatesWhereInput
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `date`. Did you mean `some`? Available options are marked with ?.
+2025-02-03T07:18:38.380Z [:[32minfo[39m] Fetched Successfully
+2025-02-03T07:18:38.384Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [03/Feb/2025:07:18:38 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-03T07:22:27.742Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: {
+          contains: "2025-02-01",
+          ~~~~~~~~
+?         equals?: DateTime | DateTimeFieldRefInput,
+?         in?: DateTime[] | ListDateTimeFieldRefInput,
+?         notIn?: DateTime[] | ListDateTimeFieldRefInput,
+?         lt?: DateTime | DateTimeFieldRefInput,
+?         lte?: DateTime | DateTimeFieldRefInput,
+?         gt?: DateTime | DateTimeFieldRefInput,
+?         gte?: DateTime | DateTimeFieldRefInput,
+?         not?: DateTime | NestedDateTimeFilter
+        }
+      }
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+2025-02-03T07:22:27.743Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: {
+          contains: "2025-02-01",
+          ~~~~~~~~
+?         equals?: DateTime | DateTimeFieldRefInput,
+?         in?: DateTime[] | ListDateTimeFieldRefInput,
+?         notIn?: DateTime[] | ListDateTimeFieldRefInput,
+?         lt?: DateTime | DateTimeFieldRefInput,
+?         lte?: DateTime | DateTimeFieldRefInput,
+?         gt?: DateTime | DateTimeFieldRefInput,
+?         gte?: DateTime | DateTimeFieldRefInput,
+?         not?: DateTime | NestedDateTimeFilter
+        }
+      }
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+2025-02-03T07:22:49.156Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: "2025-02-01"
+              ~~~~~~~~~~~~
+      }
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Invalid value for argument `date`: premature end of input. Expected ISO-8601 DateTime.
+2025-02-03T07:22:49.159Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: "2025-02-01"
+              ~~~~~~~~~~~~
+      }
+    }
+  },
+  select: {
+    dailyUpdates: true
+  }
+}
+
+Invalid value for argument `date`: premature end of input. Expected ISO-8601 DateTime.
+2025-02-03T07:27:26.729Z [:[32minfo[39m] ::1 - - [03/Feb/2025:07:27:26 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 196 "-" "PostmanRuntime/7.43.0"
+2025-02-03T07:31:00.458Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:31:00 +0000] "OPTIONS /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:31:00.466Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:31:00 +0000] "GET /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 404 192 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:31:02.444Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:31:02 +0000] "GET /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 404 192 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:31:02.454Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:07:31:02 +0000] "GET /api/users/update/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 404 192 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T07:55:20.802Z [:[32minfo[39m] ::1 - - [03/Feb/2025:07:55:20 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 196 "-" "PostmanRuntime/7.43.0"
+2025-02-03T07:56:04.327Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      dailyUpdateTasks: true,
+      ~~~~~~~~~~~~~~~~
+?     where?: DailyUpdatesWhereInput,
+?     orderBy?: DailyUpdatesOrderByWithRelationInput[] | DailyUpdatesOrderByWithRelationInput,
+?     cursor?: DailyUpdatesWhereUniqueInput,
+?     take?: Int,
+?     skip?: Int,
+?     distinct?: DailyUpdatesScalarFieldEnum | DailyUpdatesScalarFieldEnum[]
+    }
+  }
+}
+
+Unknown argument `dailyUpdateTasks`. Available options are marked with ?.
+2025-02-03T07:56:04.330Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      dailyUpdateTasks: true,
+      ~~~~~~~~~~~~~~~~
+?     where?: DailyUpdatesWhereInput,
+?     orderBy?: DailyUpdatesOrderByWithRelationInput[] | DailyUpdatesOrderByWithRelationInput,
+?     cursor?: DailyUpdatesWhereUniqueInput,
+?     take?: Int,
+?     skip?: Int,
+?     distinct?: DailyUpdatesScalarFieldEnum | DailyUpdatesScalarFieldEnum[]
+    }
+  }
+}
+
+Unknown argument `dailyUpdateTasks`. Available options are marked with ?.
+2025-02-03T07:56:35.363Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      tasks: true,
+      ~~~~~
+?     where?: DailyUpdatesWhereInput,
+?     orderBy?: DailyUpdatesOrderByWithRelationInput[] | DailyUpdatesOrderByWithRelationInput,
+?     cursor?: DailyUpdatesWhereUniqueInput,
+?     take?: Int,
+?     skip?: Int,
+?     distinct?: DailyUpdatesScalarFieldEnum | DailyUpdatesScalarFieldEnum[]
+    }
+  }
+}
+
+Unknown argument `tasks`. Did you mean `take`? Available options are marked with ?.
+2025-02-03T07:56:35.366Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      tasks: true,
+      ~~~~~
+?     where?: DailyUpdatesWhereInput,
+?     orderBy?: DailyUpdatesOrderByWithRelationInput[] | DailyUpdatesOrderByWithRelationInput,
+?     cursor?: DailyUpdatesWhereUniqueInput,
+?     take?: Int,
+?     skip?: Int,
+?     distinct?: DailyUpdatesScalarFieldEnum | DailyUpdatesScalarFieldEnum[]
+    }
+  }
+}
+
+Unknown argument `tasks`. Did you mean `take`? Available options are marked with ?.
+2025-02-03T08:00:01.411Z [:[31merror[39m] jwt expired
+2025-02-03T08:00:01.414Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:00:01 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:00:09.188Z [:[32minfo[39m] Login successful!!!
+2025-02-03T08:00:09.188Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:00:09 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:00:10.658Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:00:10 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 510 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:06:23.100Z [:[31merror[39m] Cannot set properties of undefined (setting 'dailyUpdates')
+2025-02-03T08:07:02.188Z [:[31merror[39m] Cannot set properties of undefined (setting 'dailyUpdates')
+2025-02-03T08:07:51.380Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:07:51 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 510 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:08:33.020Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    batch: {
+      batch: {
+      ~~~~~
+        in: [
+          "Batch-1"
+        ]
+      },
+?     equals?: String | StringFieldRefInput | Null,
+?     in?: String[] | ListStringFieldRefInput | Null,
+?     notIn?: String[] | ListStringFieldRefInput | Null,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringNullableFilter | Null
+    },
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      include: {
+        tasks: true
+      }
+    }
+  }
+}
+
+Unknown argument `batch`. Did you mean `search`? Available options are marked with ?.
+2025-02-03T08:08:33.021Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    batch: {
+      batch: {
+      ~~~~~
+        in: [
+          "Batch-1"
+        ]
+      },
+?     equals?: String | StringFieldRefInput | Null,
+?     in?: String[] | ListStringFieldRefInput | Null,
+?     notIn?: String[] | ListStringFieldRefInput | Null,
+?     lt?: String | StringFieldRefInput,
+?     lte?: String | StringFieldRefInput,
+?     gt?: String | StringFieldRefInput,
+?     gte?: String | StringFieldRefInput,
+?     contains?: String | StringFieldRefInput,
+?     startsWith?: String | StringFieldRefInput,
+?     endsWith?: String | StringFieldRefInput,
+?     search?: String,
+?     mode?: QueryMode,
+?     not?: String | NestedStringNullableFilter | Null
+    },
+    dailyUpdates: {
+      some: {
+        date: new Date("2025-02-01T00:00:00.000Z")
+      }
+    }
+  },
+  select: {
+    dailyUpdates: {
+      include: {
+        tasks: true
+      }
+    }
+  }
+}
+
+Unknown argument `batch`. Did you mean `search`? Available options are marked with ?.
+2025-02-03T08:09:03.727Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:03 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:09:12.539Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:12 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:09:17.565Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:17 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:09:22.649Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:22 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:09:27.784Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:27 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 510 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:09:49.708Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:09:49 +0000] "POST /api/users HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:10:01.297Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:10:01 +0000] "POST /api/users HTTP/1.1" 200 1871 "-" "PostmanRuntime/7.43.0"
