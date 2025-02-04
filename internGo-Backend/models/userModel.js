@@ -20,24 +20,24 @@ export const findUserByName = async (name) => {
     }
 };
 
-export const findUserForDailyUpdate = async (whereCondition) => {
-    try {
-        const userDetails = await prisma.users.findMany({
-            where:whereCondition,
-            select:{
-                dailyUpdates:{
-                    include:{
-                    tasks:true
-                    }
-                }
-            }
-        });
-        return userDetails;
-    } catch (error) {
-        logger.error(error.message);
-        throw new Error(error);
-    }
-};
+// export const findUserForDailyUpdate = async (whereCondition) => {
+//     try {
+//         const userDetails = await prisma.users.findMany({
+//             where:whereCondition,
+//             select:{
+//                 dailyUpdates:{
+//                     include:{
+//                     tasks:true
+//                     }
+//                 }
+//             }
+//         });
+//         return userDetails;
+//     } catch (error) {
+//         logger.error(error.message);
+//         throw new Error(error);
+//     }
+// };
 
 
 
@@ -204,6 +204,7 @@ export const getInternBasedOnFilters = async (whereCondition, offset, limit) => 
                 id:true,
                 name: true,
                 profilePhoto: true,
+                phone_no:true,
                 email: true,
                 batch: true,
                 year: true,
@@ -241,9 +242,10 @@ export const getInternBasedOnSearch = async (name, offset, limit) => {
                 },
             },
             select: {
-                id:true,    
+                id:true,
                 name: true,
                 profilePhoto: true,
+                phone_no:true,
                 email: true,
                 batch: true,
                 year: true,

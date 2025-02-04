@@ -1,19 +1,25 @@
 import { PrismaClient } from "@prisma/client";
-import { updateAsset } from "./assetModel";
+import logger from "../utils/logger.js";
 
 const prisma = new PrismaClient();
 
-export const getDailyUpdateByDate = async (date) => {
+export const getDailyUpdatesByDate = async (whereCondition) => {
     try {
-        const allDailyUpdates = await prisma.dailyUpdates.findMany({
-            where: {
-                date: date,
-            },
+        return await prisma.dailyUpdates.findMany({
+            where:whereCondition,
             include: {
+                user:{
+                    select:{
+                        name:true,
+                        id:true,
+                        designation:true,
+
+                    }
+                },
                 tasks: true,
             },
         });
-        return allDailyUpdates;
+        
     } catch (error) { 
         logger.error(error.message);
         throw new Error(error);
@@ -23,7 +29,7 @@ export const getDailyUpdateByDate = async (date) => {
 
 export const getDailyUpdateByUserId = async (userId) => {
     try {
-        const allDailyUpdates = await prisma.dailyUpdates.findMany({
+        return await prisma.dailyUpdates.findMany({
             where: {
                 userId:userId,
             },
@@ -31,7 +37,7 @@ export const getDailyUpdateByUserId = async (userId) => {
                 tasks: true,
             },
         });
-        return allDailyUpdates;
+        
     } catch (error) { 
         logger.error(error.message);
         throw new Error(error);
@@ -39,12 +45,39 @@ export const getDailyUpdateByUserId = async (userId) => {
     }
 };
 
-export const createDailyUpdate = async (dailyUpdateData)=>{
+export const getDailyUpdateByUserIdAndDate = async (userId,date) => {
+    try {
+        const startDate = new Date(date);
+        startDate.setHours(0, 0, 0, 0);
+        const endDate = new Date(date);
+        endDate.setHours(23, 59, 59, 999);
+        
+        return await prisma.dailyUpdates.findFirst({
+            where: {
+                userId:userId,
+                date:{
+                    gte:startDate,
+                    lte:endDate
+                }
+            },select:{
+                tasks:true
+            }
+            
+        });
+        
+    } catch (error) { 
+        logger.error(error.message);
+        throw new Error(error);
+        
+    }
+};
+
+export const createDailyUpdates = async (dailyUpdateData)=>{
     try{
-        const createdDailyUpdate=await prisma.dailyUpdates.create({
+        return await prisma.dailyUpdates.create({
             data:dailyUpdateData
         })
-        return createdDailyUpdate;
+        
     }
     catch(error){
         logger.error(error.message);
@@ -54,13 +87,12 @@ export const createDailyUpdate = async (dailyUpdateData)=>{
 
 export const updateDailyUpdate = async (dailyUpdateId,dailyUpdateData)=>{
     try{
-        const updatedDailyUpdate=await prisma.dailyUpdates.update({
+        return await prisma.dailyUpdates.update({
             where:{
                 id:dailyUpdateId
             },
             data:dailyUpdateData
         })
-        return updatedDailyUpdate;
     }
     catch(error){
         logger.error(error.message);

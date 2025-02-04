@@ -9050,3 +9050,660 @@ Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.re
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
 2025-02-03T08:19:49.595Z [:[32minfo[39m] Fetched Successfully
 2025-02-03T08:19:49.597Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Feb/2025:08:19:49 +0000] "GET /api/plans HTTP/1.1" 200 355 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-03T08:29:03.519Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:29:03 +0000] "POST /api/users HTTP/1.1" 200 1871 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:29:19.996Z [:[31merror[39m] logger is not defined
+2025-02-03T08:29:44.515Z [:[31merror[39m] whereCondition is not defined
+2025-02-03T08:29:44.516Z [:[31merror[39m] ReferenceError: whereCondition is not defined
+2025-02-03T08:31:16.863Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:31:16 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 1474 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:32:14.808Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:32:14 +0000] "POST /api/dailyUpdates/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:32:16.424Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:32:16 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 1474 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:32:17.192Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:32:17 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 1474 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:48:43.903Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.findMany()` invocation:
+
+{
+  where: {
+    date: new Date("2025-02-01T00:00:00.000Z")
+  },
+  include: {
+    user: {
+      select: {
+        name: true,
+        userId: true,
+        ~~~~~~
+        designation: true,
+?       id?: true,
+?       roleId?: true,
+?       planId?: true,
+?       password?: true,
+?       email?: true,
+?       gender?: true,
+?       employeeId?: true,
+?       skills?: true,
+?       personalEmail?: true,
+?       currentAddress?: true,
+?       permanentAddress?: true,
+?       profilePhoto?: true,
+?       resume?: true,
+?       batch?: true,
+?       year?: true,
+?       phone_no?: true,
+?       education?: true,
+?       bankDetails?: true,
+?       certificates_submission_status?: true,
+?       status?: true,
+?       dateOfBirth?: true,
+?       dateOfJoining?: true,
+?       bloodGroup?: true,
+?       phase?: true,
+?       daysWorked?: true,
+?       createdAt?: true,
+?       updatedAt?: true,
+?       profilePercentage?: true,
+?       assets?: true,
+?       dailyUpdates?: true,
+?       role?: true,
+?       plan?: true,
+?       _count?: true
+      }
+    },
+    tasks: true
+  }
+}
+
+Unknown field `userId` for select statement on model `Users`. Available options are marked with ?.
+2025-02-03T08:48:43.905Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.findMany()` invocation:
+
+{
+  where: {
+    date: new Date("2025-02-01T00:00:00.000Z")
+  },
+  include: {
+    user: {
+      select: {
+        name: true,
+        userId: true,
+        ~~~~~~
+        designation: true,
+?       id?: true,
+?       roleId?: true,
+?       planId?: true,
+?       password?: true,
+?       email?: true,
+?       gender?: true,
+?       employeeId?: true,
+?       skills?: true,
+?       personalEmail?: true,
+?       currentAddress?: true,
+?       permanentAddress?: true,
+?       profilePhoto?: true,
+?       resume?: true,
+?       batch?: true,
+?       year?: true,
+?       phone_no?: true,
+?       education?: true,
+?       bankDetails?: true,
+?       certificates_submission_status?: true,
+?       status?: true,
+?       dateOfBirth?: true,
+?       dateOfJoining?: true,
+?       bloodGroup?: true,
+?       phase?: true,
+?       daysWorked?: true,
+?       createdAt?: true,
+?       updatedAt?: true,
+?       profilePercentage?: true,
+?       assets?: true,
+?       dailyUpdates?: true,
+?       role?: true,
+?       plan?: true,
+?       _count?: true
+      }
+    },
+    tasks: true
+  }
+}
+
+Unknown field `userId` for select statement on model `Users`. Available options are marked with ?.
+2025-02-03T08:49:09.134Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:49:09 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 585 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:49:39.782Z [:[31merror[39m] Cannot set properties of undefined (setting 'designation')
+2025-02-03T08:50:47.597Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:50:47 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.43.0"
+2025-02-03T08:51:08.523Z [:[32minfo[39m] ::1 - - [03/Feb/2025:08:51:08 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 585 "-" "PostmanRuntime/7.43.0"
+2025-02-03T09:34:21.846Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-03T09:34:21.857Z [:[32minfo[39m] ::1 - - [03/Feb/2025:09:34:21 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-02-03T09:34:33.304Z [:[31merror[39m] Invalid password
+2025-02-03T09:34:33.305Z [:[32minfo[39m] ::1 - - [03/Feb/2025:09:34:33 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-03T09:34:39.746Z [:[32minfo[39m] Login successful!!!
+2025-02-03T09:34:39.746Z [:[32minfo[39m] ::1 - - [03/Feb/2025:09:34:39 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-03T09:35:07.173Z [:[32minfo[39m] ::1 - - [03/Feb/2025:09:35:07 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" 404 199 "-" "PostmanRuntime/7.43.0"
+2025-02-03T09:35:13.019Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.create()` invocation:
+
+{
+  data: {
+    date: 1738368000000,
+          ~~~~~~~~~~~~~
+    userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+  }
+}
+
+Argument `date`: Invalid value provided. Expected DateTime, provided Int.
+2025-02-03T09:35:13.019Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.create()` invocation:
+
+{
+  data: {
+    date: 1738368000000,
+          ~~~~~~~~~~~~~
+    userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+  }
+}
+
+Argument `date`: Invalid value provided. Expected DateTime, provided Int.
+2025-02-03T09:35:56.158Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.create()` invocation:
+
+{
+  data: {
+    date: 1738368000000,
+          ~~~~~~~~~~~~~
+    userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+  }
+}
+
+Argument `date`: Invalid value provided. Expected DateTime, provided Int.
+2025-02-03T09:35:56.161Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.create()` invocation:
+
+{
+  data: {
+    date: 1738368000000,
+          ~~~~~~~~~~~~~
+    userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+  }
+}
+
+Argument `date`: Invalid value provided. Expected DateTime, provided Int.
+2025-02-03T09:36:47.669Z [:[32minfo[39m] Daily update created successfully
+2025-02-03T09:36:47.679Z [:[32minfo[39m] ::1 - - [03/Feb/2025:09:36:47 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" 201 201 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:19:25.079Z [:[31merror[39m] jwt expired
+2025-02-04T05:19:25.084Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:19:25 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:19:35.498Z [:[32minfo[39m] Login successful!!!
+2025-02-04T05:19:35.498Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:19:35 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:19:48.307Z [:[31merror[39m] dailyUpdateTasks.map is not a function
+2025-02-04T05:20:07.685Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:20:08.335Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.update()` invocation:
+
+{
+  id: 1,
+  ~~
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING"
+  },
+? where?: DailyUpdateTasksWhereUniqueInput
+}
+
+Unknown argument `id`. Available options are marked with ?.
+2025-02-04T05:20:58.375Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-04T05:20:58.990Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:24:30.208Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:24:30.927Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.update()` invocation:
+
+
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2025-02-04T05:25:16.915Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:25:16 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:25:19.255Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:25:19.256Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:27:03.940Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:27:05.011Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:27:38.867Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:27:39.429Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:28:06.851Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-04T05:28:06.854Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-04T05:28:10.315Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:28:10 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:28:16.032Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:28:16.650Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:30:00.872Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:30:02.425Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:30:43.343Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:30:44.931Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:31:08.988Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:31:11.953Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:31:25.887Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Fix authentication bug",
+    activitiesPlanned: "Investigate session timeout issue",
+    activitiesCompleted: "",
+    estimatedTime: 3,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:31:26.463Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdateTasks.create()` invocation:
+
+{
+  data: {
+    taskName: "Write API documentation",
+    activitiesPlanned: "Complete Swagger API documentation",
+    activitiesCompleted: "",
+    estimatedTime: 2,
+    actualTime: 0,
+    taskProgress: "PENDING",
+    dailyUpdateId: undefined,
++   dailyUpdate: {
++     create: DailyUpdatesCreateWithoutTasksInput | DailyUpdatesUncheckedCreateWithoutTasksInput,
++     connectOrCreate: DailyUpdatesCreateOrConnectWithoutTasksInput,
++     connect: DailyUpdatesWhereUniqueInput
++   }
+  }
+}
+
+Argument `dailyUpdate` is missing.
+2025-02-04T05:33:48.064Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:33:48 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:34:36.366Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:34:36 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:36:53.868Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:36:53 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" 200 615 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:37:03.343Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:37:03 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 818 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:37:35.022Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:37:35 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 3657 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:38:14.577Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:38:14 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 818 "-" "PostmanRuntime/7.43.0"
+2025-02-04T05:38:28.206Z [:[32minfo[39m] ::1 - - [04/Feb/2025:05:38:28 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 3657 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:32:09.877Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:32:09 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-03%22 HTTP/1.1" 404 193 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:32:14.509Z [:[31merror[39m] jwt expired
+2025-02-04T06:32:14.511Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:32:14 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-03%22 HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:32:19.851Z [:[32minfo[39m] Login successful!!!
+2025-02-04T06:32:19.852Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:32:19 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:32:23.770Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:32:23 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-03%22 HTTP/1.1" 200 188 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:32:52.779Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:32:52 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-03%22 HTTP/1.1" 200 3448 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:52:21.453Z [:[32minfo[39m] Fetched successfully
+2025-02-04T06:52:21.460Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:52:21 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-03%22 HTTP/1.1" 200 3448 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:52:28.048Z [:[32minfo[39m] Fetched successfully
+2025-02-04T06:52:28.051Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:52:28 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-04%22 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-02-04T06:52:39.177Z [:[32minfo[39m] Fetched successfully
+2025-02-04T06:52:39.179Z [:[32minfo[39m] ::1 - - [04/Feb/2025:06:52:39 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=%20%222025-02-05%22 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:08:50.652Z [:[31merror[39m] Access Denied. Permission not found
+2025-02-04T07:08:50.659Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:08:50 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 401 78 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:09:11.154Z [:[32minfo[39m] Login successful!!!
+2025-02-04T07:09:11.154Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:09:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 674 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:09:18.208Z [:[32minfo[39m] Updated permissions successfully
+2025-02-04T07:09:18.210Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:09:18 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:09:41.117Z [:[31merror[39m] Access Denied. Permission not found
+2025-02-04T07:09:41.119Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:09:41 +0000] "POST /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3/create HTTP/1.1" 401 78 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:11:04.031Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:11:04 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 3657 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:11:16.847Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:11:16 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 200 3657 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:11:41.645Z [:[32minfo[39m] Login successful!!!
+2025-02-04T07:11:41.645Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:11:41 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-04T07:11:46.218Z [:[31merror[39m] Access Denied. Permission not found
+2025-02-04T07:11:46.220Z [:[32minfo[39m] ::1 - - [04/Feb/2025:07:11:46 +0000] "POST /api/dailyUpdates/ HTTP/1.1" 401 78 "-" "PostmanRuntime/7.43.0"
