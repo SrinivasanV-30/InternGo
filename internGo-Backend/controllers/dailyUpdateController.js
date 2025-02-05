@@ -1,14 +1,17 @@
 import { Prisma } from "@prisma/client";
-import { createDailyUpdates, getDailyUpdateByUserIdAndDate, getDailyUpdatesByDate } from "../models/dailyUpdateModel.js";
+import { createDailyUpdates, dailyUpdateCount, getDailyUpdateByUserIdAndDate, getDailyUpdatesByDate } from "../models/dailyUpdateModel.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 import { findUserByUserId } from "../models/userModel.js";
-import { createDailyUpdateTask, updateDailyUpdateTask } from "../models/dailyUpdateTaskModel.js";
+import { createDailyUpdateTask, deleteDailyUpdateTasks, getTaskById, updateDailyUpdateTask } from "../models/dailyUpdateTaskModel.js";
 
 //Admin
 export const getDailyUpdateByDateAndFiltering=async(req,res)=>{
     try{
         const dailyUpdateData=req.body;
+        const limit=parseInt(req.query.limit)||10;
+        const offset=parseInt(req.query.offset)||0;
+    
         let whereCondition={user:{},date:{}};
         if(dailyUpdateData.name && dailyUpdateData.name.trim!=""){
             whereCondition.user.name={
@@ -31,23 +34,21 @@ export const getDailyUpdateByDateAndFiltering=async(req,res)=>{
         }
         if(dailyUpdateData.date)
         {   
-            const startDate = new Date(dailyUpdateData.date);
-            startDate.setHours(0, 0, 0, 0);
-            const endDate = new Date(dailyUpdateData.date);
-            endDate.setHours(23, 59, 59, 999);
-            
             whereCondition.date={
-                gte:startDate,
-                lte:endDate
+                gte: new Date(dailyUpdateData.date + "T00:00:00.000Z"),
+                lte: new Date(dailyUpdateData.date + "T23:59:59.999Z")
             };
-            
+  
         }
-        console.log(dailyUpdateData.date)
-        const userWithDailyUpdates= await getDailyUpdatesByDate(whereCondition);
-        sendResponse(res,200,"Success",userWithDailyUpdates)
-        console.log(userWithDailyUpdates);
-    
-
+        const userWithDailyUpdates= await getDailyUpdatesByDate(offset,limit,whereCondition);
+        const total_items = await dailyUpdateCount(whereCondition);
+        const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
+        
+        sendResponse(res,200,"Success",{
+            data:userWithDailyUpdates,
+            total_pages
+        });
+        
     }
     catch(error){
         logger.error(error.message);
@@ -108,7 +109,7 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
         const userId=req.params.id;
         const dailyUpdateTasks=req.body;
         let dailyUpdate=await getDailyUpdateByUserIdAndDate(userId,dailyUpdateTasks.date);
-        
+        console.log(dailyUpdate);
         if(!dailyUpdate){
             const userDetails=await findUserByUserId(userId);
             if(!userDetails)
@@ -134,7 +135,26 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
             }
         });
         const tasks=await Promise.all(tasksPromises);
-        sendResponse(res,200,"Upserted successfully",tasks)
+        logger.info("Upserted successfully");
+        sendResponse(res,200,"Upserted successfully",tasks);
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
+export const deleteDailyUpdateTask=async(req,res)=>{
+    try{
+        const taskId=parseInt(req.params.id);
+        const taskDetails=await getTaskById(taskId);
+        if(!taskDetails)
+        {
+            logger.info("Task not found!!");
+            return sendResponse(res,404,"Task not found!!!");
+        }
+        await deleteDailyUpdateTasks(taskId);
+        logger.info("Deleted successfully");
+        sendResponse(res,204,"Deleted successfully");       
     }
     catch(error){
         logger.error(error.message);

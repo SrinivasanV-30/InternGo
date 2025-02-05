@@ -37,6 +37,8 @@ model Users{
     phase String?
     daysWorked Int @default(0)
     assets Assets[] @relation("UserAssets")
+    interactionsAttended Interactions[] @relation("Interaction-Intern")
+    interactionsTaken Interactions[] @relation("Interaction-Interviewer")
     dailyUpdates DailyUpdates[] @relation("UserDailyUpdates")
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
@@ -142,4 +144,20 @@ model DailyUpdateTasks{
 enum TaskProgress{
     PENDING
     COMPLETED
+}
+
+model Interactions{
+    id Int @id @default(autoincrement())
+    name String
+    assignedIntern String
+    assignedMentor String
+    assignedInterviewer String 
+    internId String
+    interviewerId String
+    intern Users @relation("Interaction-Intern",fields:[internId],references:[id])
+    interviewer Users @relation("Interaction-Interviewer",fields:[interviewerId],references:[id])
+    date DateTime
+    time String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }

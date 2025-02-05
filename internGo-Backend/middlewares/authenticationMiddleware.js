@@ -30,6 +30,7 @@ export const checkPermission = (requiredPermission) => {
             const userEmail = req.user.email;
             const userDetails = await findUserByEmail(userEmail);
             if (!userDetails) {
+                console.log(userDetails)
                 logger.error("User not found!!!")
                 return sendResponse(res,404,"User not found!!!")
             }
@@ -39,7 +40,6 @@ export const checkPermission = (requiredPermission) => {
             // console.log(userPermissions)
             // console.log(requiredPermission,userPermissions)
             await requiredPermission.forEach(item => {
-                
                 if (userPermissions.includes(item)) {
                     flag=1;
                 }    

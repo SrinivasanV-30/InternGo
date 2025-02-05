@@ -1,6 +1,7 @@
 import sendResponse from "../utils/response.js";
 import {
     findUserByUserId,
+    getFilters,
     getInternBasedOnFilters,
     getInternBasedOnSearch,
     getTrainingPlan,
@@ -15,7 +16,7 @@ import {
     updateAsset,
 } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
-import url from 'url';
+// import url from 'url';
 // import cron from "node-cron";
 import { getPlanById } from "../models/planModel.js";
 
@@ -262,5 +263,16 @@ export const getTrainingDetails = async (req, res) => {
         logger.error(error.message);
     }
 };
+
+export const getDistinctFilters=async(req,res)=>{
+    try{
+        const filterData=await getFilters();
+        logger.info("Fetched Successfully")
+        sendResponse(res,200,"Fetched Successfully",filterData);
+    }
+    catch(error){
+
+    }
+}
 
 // cron.schedule('* 18 * ')

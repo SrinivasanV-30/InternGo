@@ -260,3 +260,38 @@ export const getInternBasedOnSearch = async (name, offset, limit) => {
         throw new Error(error);
     }
 };
+
+export const getFilters = async()=>{
+    try{
+        const years = await prisma.users.findMany({
+            select: { year: true },
+            distinct: ['year']
+        }).then(results => results.map(user => user.year));
+        
+        const statuses = await prisma.users.findMany({
+            select: { status: true },
+            distinct: ['status']
+        }).then(results => results.map(user => user.status));
+        
+        const designations = await prisma.users.findMany({
+            select: { designation: true },
+            distinct: ['designation']
+        }).then(results => results.map(user => user.designation));
+        
+        const batches = await prisma.users.findMany({
+            select: { batch: true },
+            distinct: ['batch']
+        }).then(results => results.map(user => user.batch));
+        
+        return {
+            years:years,
+            statuses:statuses,
+            designations:designations,
+            batches:batches
+        };
+
+    }
+    catch(error){
+
+    }
+}

@@ -3,9 +3,11 @@ import logger from "../utils/logger.js";
 
 const prisma = new PrismaClient();
 
-export const getDailyUpdatesByDate = async (whereCondition) => {
+export const getDailyUpdatesByDate = async (offset,limit,whereCondition) => {
     try {
         return await prisma.dailyUpdates.findMany({
+            skip:offset,
+            take:limit,
             where:whereCondition,
             include: {
                 user:{
@@ -13,7 +15,6 @@ export const getDailyUpdatesByDate = async (whereCondition) => {
                         name:true,
                         id:true,
                         designation:true,
-
                     }
                 },
                 tasks: true,
@@ -60,7 +61,8 @@ export const getDailyUpdateByUserIdAndDate = async (userId,date) => {
                     lte:endDate
                 }
             },select:{
-                tasks:true
+                tasks:true,
+                id:true
             }
             
         });
@@ -69,6 +71,18 @@ export const getDailyUpdateByUserIdAndDate = async (userId,date) => {
         logger.error(error.message);
         throw new Error(error);
         
+    }
+};
+
+export const dailyUpdateCount = async (whereCondition) => {
+    try {
+        const dailyUpdatesCount = await prisma.dailyUpdates.count({
+            where: whereCondition,
+        });
+        return dailyUpdatesCount;
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error);
     }
 };
 

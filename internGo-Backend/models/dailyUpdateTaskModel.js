@@ -15,6 +15,19 @@ export const createDailyUpdateTask=async(tasks)=>{
     }
 }
 
+export const getTaskById=async(taskId)=>{
+    try{
+        return await prisma.dailyUpdateTasks.findUnique({
+            where:{
+                id:taskId
+            }
+        })   
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
+
 export const updateDailyUpdateTask=async(taskId,taskData)=>{
     try{
         return await prisma.dailyUpdateTasks.update({
@@ -24,6 +37,19 @@ export const updateDailyUpdateTask=async(taskId,taskData)=>{
     }
     catch(error)
     {
+        logger.error(error.message);
+    }
+}
+
+export const deleteDailyUpdateTasks=async(taskId)=>{
+    try{
+        return await prisma.dailyUpdateTasks.delete({
+            where:{
+                id:taskId
+            }
+        })
+    }
+    catch(error){
         logger.error(error.message);
     }
 }
