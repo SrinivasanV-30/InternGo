@@ -98,7 +98,7 @@ export const getInteractionByDateAndFiltering=async(req,res)=>{
         if (interactionData.year && interactionData.year.length > 0) {
             whereCondition.intern.year = { in: interactionData.year };
         }
-        if (interactionData.status && interactionData.status.length > 0) {
+        if (interactionData.interactionStatus && interactionData.interactionStatus.length > 0) {
             whereCondition.interactionStatus = { in: interactionData.interactionStatus };
         }
         if (interactionData.designation && interactionData.designation.length > 0) {
