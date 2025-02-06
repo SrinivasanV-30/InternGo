@@ -50,9 +50,23 @@ export const getInteractionById = async (id) => {
     }
 };
 
+export const getInteractionsTaken=async(userId)=>{
+    try{
+        return await prisma.interactions.findMany({
+            where:{
+                interviewerId:userId,
+                interactionStatus:"PENDING"
+            },
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
 
-
-export const updateInteraction = async (id, data) => {
+export const updateInteractions = async (id, data) => {
     try {
         return await prisma.interactions.update({
             where: { id },

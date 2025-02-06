@@ -347,11 +347,7 @@ export const getInteractionsTaken=async(userId)=>{
                 id:userId
             },
             select:{
-                interactionsTaken:{
-                    where:{
-                        status:"PENDING"
-                    }
-                }
+                interactionsTaken:true
             }
         })
     }

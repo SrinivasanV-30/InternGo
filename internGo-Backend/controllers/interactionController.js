@@ -1,5 +1,5 @@
-import { createInteractions, getInteractions, interactionCount } from "../models/interactionModel.js";
-import { findUserByEmail, findUserByName, findUserByUserId, getInteractionsAttended, getInteractionsTaken } from "../models/userModel.js";
+import { createInteractions, getInteractions, interactionCount, getInteractionsTaken, getInteractionById, updateInteractions } from "../models/interactionModel.js";
+import { findUserByEmail, findUserByName, findUserByUserId, getInteractionsAttended } from "../models/userModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 
@@ -53,6 +53,25 @@ export const scheduleInteraction=async(req,res)=>{
     }
     catch(error){
         logger.error(error.message);
+    }
+}
+
+export const updateInteraction=async(req,res)=>{
+    try{
+        const id=parseInt(req.params.id);
+        const data=req.body;
+        const interactionDetails=await getInteractionById(id);
+        if(!interactionDetails){
+            logger.error("Interaction not found");
+            sendResponse(res,404,"Interaction not found")
+        }
+        await updateInteractions(id,data);
+        logger.info("Updated interaction details");
+        sendResponse(res,200,"Updated interaction details");
+
+    }
+    catch(error){
+        logger.error(error.message)
     }
 }
 

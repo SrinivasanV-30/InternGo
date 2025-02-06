@@ -11470,3 +11470,235 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-06T04:36:16.373Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:36:16 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
 2025-02-06T04:36:29.164Z [:[32minfo[39m] Fetched successfully
 2025-02-06T04:36:29.254Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:36:29 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 1056 "-" "PostmanRuntime/7.43.0"
+2025-02-06T04:42:37.224Z [:[31merror[39m] Invalid password
+2025-02-06T04:42:37.226Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:42:37 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-06T04:42:43.767Z [:[32minfo[39m] Login successful!!!
+2025-02-06T04:42:43.768Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:42:43 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "PostmanRuntime/7.43.0"
+2025-02-06T04:42:50.522Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-06T04:42:50.523Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:42:50 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-02-06T04:43:15.160Z [:[32minfo[39m] Fetched successfully
+2025-02-06T04:43:15.169Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    id: "5ce9b859-a0ef-484e-b743-685ffdbec37a"
+  },
+  select: {
+    interactionsTaken: {
+      where: {
+        status: "PENDING",
+        ~~~~~~
+?       AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?       OR?: InteractionsWhereInput[],
+?       NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?       id?: IntFilter | Int,
+?       name?: StringFilter | String,
+?       assignedIntern?: StringFilter | String,
+?       internEmail?: StringFilter | String,
+?       assignedMentor?: StringFilter | String,
+?       assignedInterviewer?: StringFilter | String,
+?       interviewerEmail?: StringFilter | String,
+?       internId?: StringFilter | String,
+?       interviewerId?: StringFilter | String,
+?       date?: DateTimeFilter | DateTime,
+?       time?: StringFilter | String,
+?       duration?: StringFilter | String,
+?       interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?       createdAt?: DateTimeFilter | DateTime,
+?       updatedAt?: DateTimeFilter | DateTime,
+?       intern?: UsersScalarRelationFilter | UsersWhereInput,
+?       interviewer?: UsersScalarRelationFilter | UsersWhereInput
+      }
+    }
+  }
+}
+
+Unknown argument `status`. Available options are marked with ?.
+2025-02-06T04:43:15.170Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    id: "5ce9b859-a0ef-484e-b743-685ffdbec37a"
+  },
+  select: {
+    interactionsTaken: {
+      where: {
+        status: "PENDING",
+        ~~~~~~
+?       AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?       OR?: InteractionsWhereInput[],
+?       NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?       id?: IntFilter | Int,
+?       name?: StringFilter | String,
+?       assignedIntern?: StringFilter | String,
+?       internEmail?: StringFilter | String,
+?       assignedMentor?: StringFilter | String,
+?       assignedInterviewer?: StringFilter | String,
+?       interviewerEmail?: StringFilter | String,
+?       internId?: StringFilter | String,
+?       interviewerId?: StringFilter | String,
+?       date?: DateTimeFilter | DateTime,
+?       time?: StringFilter | String,
+?       duration?: StringFilter | String,
+?       interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?       createdAt?: DateTimeFilter | DateTime,
+?       updatedAt?: DateTimeFilter | DateTime,
+?       intern?: UsersScalarRelationFilter | UsersWhereInput,
+?       interviewer?: UsersScalarRelationFilter | UsersWhereInput
+      }
+    }
+  }
+}
+
+Unknown argument `status`. Available options are marked with ?.
+2025-02-06T04:46:02.037Z [:[32minfo[39m] Fetched successfully
+2025-02-06T04:46:02.763Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    id: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    status: "PENDING"
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided String.
+2025-02-06T04:46:02.763Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    id: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    status: "PENDING"
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided String.
+2025-02-06T04:46:55.700Z [:[32minfo[39m] Fetched successfully
+2025-02-06T04:46:56.676Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    status: "PENDING",
+    ~~~~~~
+?   id?: Int,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  }
+}
+
+Unknown argument `status`. Available options are marked with ?.
+2025-02-06T04:46:56.676Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    status: "PENDING",
+    ~~~~~~
+?   id?: Int,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  }
+}
+
+Unknown argument `status`. Available options are marked with ?.
+2025-02-06T04:47:39.221Z [:[32minfo[39m] Fetched successfully
+2025-02-06T04:47:40.044Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interactionStatus: "PENDING",
+?   id?: Int,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-06T04:47:40.044Z [:[31merror[39m] 
+Invalid `prisma.interactions.findUnique()` invocation:
+
+{
+  where: {
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interactionStatus: "PENDING",
+?   id?: Int,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-06T04:48:13.691Z [:[32minfo[39m] Fetched successfully
+2025-02-06T04:48:14.404Z [:[32minfo[39m] ::1 - - [06/Feb/2025:04:48:14 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 2006 "-" "PostmanRuntime/7.43.0"

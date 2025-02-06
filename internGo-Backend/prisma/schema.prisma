@@ -162,6 +162,7 @@ model Interactions{
     time String
     duration String
     interactionStatus InteractionStatus @default(PENDING)
+    isScheduled Boolean @default(true)
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
