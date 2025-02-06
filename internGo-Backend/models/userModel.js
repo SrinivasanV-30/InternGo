@@ -76,6 +76,25 @@ export const getTrainingPlan = async (userId) => {
     }
 };
 
+export const findUserByRole = async (roleName) => {
+    try {
+        return await prisma.users.findMany({
+            where: {
+                role:{
+                    roleName:roleName
+                }
+            },
+            select:{
+                name:true
+            }
+        }).then((results)=>results.map((result)=> result.name));
+        
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error);
+    }
+};
+
 export const findUserByUserId = async (userId) => {
     try {
         const userDetails = await prisma.users.findUnique({
@@ -86,6 +105,7 @@ export const findUserByUserId = async (userId) => {
                 assets: true,
                 password: false,
                 plan: true,
+                role:true
             },
         });
         return userDetails;
@@ -129,13 +149,13 @@ export const createIntern = async (userDetails) => {
 
 export const createUser = async (userDetails) => {
     try {
-        const createdUser = await prisma.users.create({
+        return await prisma.users.create({
             data: userDetails,
             // select:{
             //     id:true
             // }
         });
-        return createdUser;
+    
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -292,6 +312,52 @@ export const getFilters = async()=>{
 
     }
     catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
 
+export const getInteractionsAttended=async(userId)=>{
+    try{
+        return await prisma.users.findUnique({
+            where:{
+                id:userId
+            },
+            select:{
+                interactionsAttended:{
+                    orderBy:{
+                        createdAt:"desc"
+                    }
+                }
+            }
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+
+export const getInteractionsTaken=async(userId)=>{
+    try{
+        return await prisma.users.findUnique({
+            where:{
+                id:userId
+            },
+            select:{
+                interactionsTaken:{
+                    where:{
+                        status:"PENDING"
+                    }
+                }
+            }
+        })
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+        throw new Error(error.message);
     }
 }

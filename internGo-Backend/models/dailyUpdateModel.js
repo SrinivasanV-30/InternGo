@@ -19,6 +19,9 @@ export const getDailyUpdatesByDate = async (offset,limit,whereCondition) => {
                 },
                 tasks: true,
             },
+            orderBy:{
+                date:"desc"
+            }
         });
         
     } catch (error) { 

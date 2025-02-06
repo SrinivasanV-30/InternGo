@@ -1,5 +1,5 @@
 import express from 'express';
-import { createUserAsset, getDistinctFilters, getInterns, getTrainingDetails, getUser, getUserAssets, updateUserAsset, updateUserProfile } from '../controllers/userController.js';
+import { createUserAsset, getDistinctFilters, getInterns, getMentors, getTrainingDetails, getUser, getUserAssets, updateUserAsset, updateUserProfile } from '../controllers/userController.js';
 import { authenticateUser, checkPermission, checkUser } from '../middlewares/authenticationMiddleware.js';
 import { assetUpdateValidation, assetValidation, profileUpdateValidation } from '../middlewares/validationMiddleware.js';
 import { updateUserPermission } from '../controllers/authController.js';
@@ -15,6 +15,7 @@ userRouter.post('/',authenticateUser,checkPermission(['users.manage']),getIntern
 userRouter.patch('/update/asset/:id',authenticateUser,checkPermission(['users.manage']),assetUpdateValidation,updateUserAsset);
 userRouter.get('/training/:id',authenticateUser,checkUser,checkPermission(['profile.update']),getTrainingDetails);
 userRouter.get('/distinct/filters',authenticateUser,checkPermission(['users.manage']),getDistinctFilters);
+userRouter.get('/role/mentors',authenticateUser,getMentors);
 
 export default userRouter;
 

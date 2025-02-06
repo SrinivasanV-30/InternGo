@@ -150,14 +150,23 @@ model Interactions{
     id Int @id @default(autoincrement())
     name String
     assignedIntern String
+    internEmail String
     assignedMentor String
-    assignedInterviewer String 
+    assignedInterviewer String
+    interviewerEmail String 
     internId String
     interviewerId String
     intern Users @relation("Interaction-Intern",fields:[internId],references:[id])
     interviewer Users @relation("Interaction-Interviewer",fields:[interviewerId],references:[id])
     date DateTime
     time String
+    duration String
+    interactionStatus InteractionStatus @default(PENDING)
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+}
+
+enum InteractionStatus{
+    PENDING
+    COMPLETED
 }

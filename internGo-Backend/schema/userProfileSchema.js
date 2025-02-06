@@ -29,8 +29,8 @@ export const profileUpdateValidationSchema = Joi.object({
     phone_no: Joi.string().pattern(/^\d{10}$/),
     certificates_submission_status: Joi.boolean(),
     status: Joi.string().valid("ACTIVE","NOT_ACTIVE","EXAMINATION","SHADOWING","DEPLOYED","TERMINATED"),
-    dateOfBirth: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
-    dateOfJoining: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
+    dateOfBirth: Joi.date().iso(),
+    dateOfJoining: Joi.date().iso(),
     phase: Joi.string().max(50),
     daysWorked:Joi.number().integer(),
     bloodGroup: Joi.string().valid("A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-")
@@ -40,14 +40,14 @@ export const assetValidationSchema = Joi.object({
     userId: Joi.string().required(),
     assetType: Joi.string().max(50).required(),
     assetName: Joi.string().max(100).required(),
-    givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required() 
+    givenOn:Joi.date().iso() 
     
 });
 
 export const assetUpdateValidationSchema = Joi.object({
     assetType: Joi.string().max(50),
     assetName: Joi.string().max(100),
-    givenOn: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
-    returnedOn:Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/),
+    givenOn:Joi.date().iso(),
+    returnedOn:Joi.date().iso(),
     
 });

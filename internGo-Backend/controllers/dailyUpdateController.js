@@ -43,8 +43,8 @@ export const getDailyUpdateByDateAndFiltering=async(req,res)=>{
         const userWithDailyUpdates= await getDailyUpdatesByDate(offset,limit,whereCondition);
         const total_items = await dailyUpdateCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
-        
-        sendResponse(res,200,"Success",{
+        logger.info("Fetched successfully")
+        sendResponse(res,200,"Fetched successfully",{
             data:userWithDailyUpdates,
             total_pages
         });

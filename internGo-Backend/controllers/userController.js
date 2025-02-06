@@ -1,5 +1,6 @@
 import sendResponse from "../utils/response.js";
 import {
+    findUserByRole,
     findUserByUserId,
     getFilters,
     getInternBasedOnFilters,
@@ -272,6 +273,18 @@ export const getDistinctFilters=async(req,res)=>{
     }
     catch(error){
 
+    }
+}
+
+export const getMentors=async(req,res)=>{
+    try{
+        const mentors = await findUserByRole("Mentors");
+        logger.info("Fetched successfully")
+        sendResponse(res,200,"Fetched successfully",mentors);
+    }
+    catch(error)
+    {
+        logger.error(error.message);
     }
 }
 

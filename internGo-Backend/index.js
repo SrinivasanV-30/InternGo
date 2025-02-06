@@ -6,6 +6,7 @@ import userRouter from './routes/userRoutes.js';
 import planRouter from './routes/planRoutes.js';
 import logger from './utils/logger.js';
 import dailyUpdateRouter from './routes/dailyUpdateRoutes.js';
+import interactionRouter from './routes/interactionRoutes.js';
 
 
 const app=express();
@@ -31,6 +32,7 @@ app.use('/api/auth',authRouter);
 app.use('/api/users',userRouter);
 app.use('/api/plans',planRouter);
 app.use('/api/dailyUpdates',dailyUpdateRouter);
+app.use('/api/interactions',interactionRouter);
 
 app.listen(PORT,()=>{
     console.log(`Successfully running on ${PORT}`)
