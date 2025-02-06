@@ -1,13 +1,15 @@
-import { createInteractions, getInteractions, interactionCount, getInteractionsTaken, getInteractionById, updateInteractions } from "../models/interactionModel.js";
-import { findUserByEmail, findUserByName, findUserByUserId, getInteractionsAttended } from "../models/userModel.js";
+import { createInteractions, getInteractions, interactionCount, getInteractionById, updateInteractions } from "../models/interactionModel.js";
+import { findUserByEmail, findUserByName, findUserByUserId, getInteractionsAttended, getInteractionsTaken } from "../models/userModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
+import { sendNotification } from "../services/notificationService.js";
+import { convertTimeStringandDate } from "../services/dateTimeService.js";
 
 
 export const scheduleInteraction=async(req,res)=>{
     try{
         const interactionData=req.body;
-        console.log(interactionData)
+        // console.log(interactionData)
         const internNameDetails = await findUserByName(interactionData.assignedIntern);
         const internEmailDetails = await findUserByEmail(interactionData.internEmail);
         const mentorDetails= await findUserByName(interactionData.assignedMentor);
@@ -45,9 +47,10 @@ export const scheduleInteraction=async(req,res)=>{
         interactionData.internId=internEmailDetails.id;
         interactionData.interviewerId=interviewerDetails.id;
         interactionData.interviewerEmail=interviewerDetails.email;
-        interactionData.date=new Date(interactionData.date);
-        await createInteractions(interactionData);
+        interactionData.date=convertTimeStringandDate(interactionData.date,interactionData.time);
+        const createdInteraction=await createInteractions(interactionData);
         logger.info("Scheduled interaction successfully");
+        sendNotification(interactionData.internId,"interaction",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${interactionData.date} at ${interactionData.time}. Please be prepared.`)
         sendResponse(res,201,"Scheduled interaction successfully");
 
     }
@@ -96,7 +99,7 @@ export const getInteractionByDateAndFiltering=async(req,res)=>{
             whereCondition.intern.year = { in: interactionData.year };
         }
         if (interactionData.status && interactionData.status.length > 0) {
-            whereCondition.status = { in: interactionData.status };
+            whereCondition.interactionStatus = { in: interactionData.interactionStatus };
         }
         if (interactionData.designation && interactionData.designation.length > 0) {
             whereCondition.intern.designation = { in: interactionData.designation };
@@ -127,13 +130,13 @@ export const getInteractionByDateAndFiltering=async(req,res)=>{
 export const getInteractionByUserId=async(req,res)=>{
     try{
         const userId=req.params.id;
+        
         const userDetails=await findUserByUserId(userId);
         if(!userDetails){
             logger.error("User not found")
             return sendResponse(res,404,"User not found")
         }
         if(userDetails.role.roleName === "Mentors"){
-            logger.info("Fetched successfully");
             return sendResponse(res,200,"Fetched successfully",await getInteractionsTaken(userId));
         }
         if(userDetails.role.roleName === "Interns"){
@@ -145,3 +148,25 @@ export const getInteractionByUserId=async(req,res)=>{
         logger.error(error.message);
     }
 }
+
+export const toggleScheduleStatus = async (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        const interactionDetails = await getInteractionById(id);
+
+        if (!interactionDetails) {
+            logger.error("Interaction not found");
+            return sendResponse(res, 404, "Interaction not found");
+        }
+
+        const newStatus = interactionDetails.isScheduled ? false : true;
+        await updateInteractions(id, { isScheduled: newStatus });
+
+        logger.info("Interaction schedule status updated");
+        sendResponse(res, 200, "Schedule status updated successfully");
+    } catch (error) {
+        logger.error(error.message);
+        sendResponse(res, 500, "Internal Server Error");
+    }
+};
+

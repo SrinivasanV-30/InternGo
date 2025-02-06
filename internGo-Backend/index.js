@@ -7,10 +7,17 @@ import planRouter from './routes/planRoutes.js';
 import logger from './utils/logger.js';
 import dailyUpdateRouter from './routes/dailyUpdateRoutes.js';
 import interactionRouter from './routes/interactionRoutes.js';
+import http from "http";
+import { webSocket } from './services/webSocketService.js';
+import { sendRemaindersForInteraction } from './controllers/notificationController.js';
 
 
 const app=express();
-const PORT=process.env.PORT || 10000;
+const PORT=process.env.PORT || 8080;
+const server = http.createServer(app);
+webSocket(server);
+// sendRemaindersForInteraction()
+
 
 const corsOptions = {
   origin: '*', 
@@ -34,6 +41,8 @@ app.use('/api/plans',planRouter);
 app.use('/api/dailyUpdates',dailyUpdateRouter);
 app.use('/api/interactions',interactionRouter);
 
-app.listen(PORT,()=>{
+server.listen(PORT,()=>{
     console.log(`Successfully running on ${PORT}`)
 })
+
+export {server};

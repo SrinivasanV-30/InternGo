@@ -40,6 +40,7 @@ model Users{
     interactionsAttended Interactions[] @relation("Interaction-Intern")
     interactionsTaken Interactions[] @relation("Interaction-Interviewer")
     dailyUpdates DailyUpdates[] @relation("UserDailyUpdates")
+    notifications Notifications[] @relation("User-Notifications")
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     profilePercentage Int? @default(0)
@@ -170,4 +171,16 @@ model Interactions{
 enum InteractionStatus{
     PENDING
     COMPLETED
+}
+
+model Notifications{
+    id Int @id @default(autoincrement())
+    userId String
+    type String
+    referencesId Int?
+    message String
+    isRead Boolean @default(false)
+    createdAt DateTime @default(now())
+
+    user Users @relation("User-Notifications",fields:[userId],references:[id])
 }

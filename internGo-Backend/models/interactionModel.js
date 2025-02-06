@@ -50,21 +50,6 @@ export const getInteractionById = async (id) => {
     }
 };
 
-export const getInteractionsTaken=async(userId)=>{
-    try{
-        return await prisma.interactions.findMany({
-            where:{
-                interviewerId:userId,
-                interactionStatus:"PENDING"
-            },
-        })
-    }
-    catch(error)
-    {
-        logger.error(error.message);
-        throw new Error(error.message);
-    }
-}
 
 export const updateInteractions = async (id, data) => {
     try {
@@ -86,3 +71,19 @@ export const deleteInteraction = async (id) => {
         throw new Error(error.message);
     }
 };
+
+export const getUpcomingInteractions=async()=>{
+    try{
+        const date=new Date();
+        return await prisma.interactions.findMany({
+            where:{
+                date:{
+                    gte:date
+                }
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

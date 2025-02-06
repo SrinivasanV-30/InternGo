@@ -1,3 +1,4 @@
+import { InteractionStatus } from '@prisma/client';
 import Joi from 'joi';
 
 export const interactionValidationSchema = Joi.object({
@@ -13,5 +14,6 @@ export const interactionValidationSchema = Joi.object({
         .messages({
             "string.pattern.base": "Time must be in the format HH:MM AM/PM",
         }),
-    duration:Joi.string().required()
+    duration:Joi.string().required(),
+    interactionStatus: Joi.string().valid("COMPLETED","PENDING")
 });
