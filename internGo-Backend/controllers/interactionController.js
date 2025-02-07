@@ -63,10 +63,11 @@ export const updateInteraction=async(req,res)=>{
     try{
         const id=parseInt(req.params.id);
         const interactionData=req.body;
+        console.log(req.body)
         const interactionDetails=await getInteractionById(id);
         if(!interactionDetails){
             logger.error("Interaction not found");
-            sendResponse(res,404,"Interaction not found")
+            return sendResponse(res,404,"Interaction not found")
         }
         if(interactionData.date){
             if(interactionData.time){
@@ -181,6 +182,7 @@ export const getInteractionByUserId=async(req,res)=>{
 export const toggleScheduleStatus = async (req, res) => {
     try {
         const id = parseInt(req.params.id);
+        const isScheduled=req.query.isScheduled;
         const interactionDetails = await getInteractionById(id);
 
         if (!interactionDetails) {
@@ -188,8 +190,8 @@ export const toggleScheduleStatus = async (req, res) => {
             return sendResponse(res, 404, "Interaction not found");
         }
 
-        const newStatus = interactionDetails.isScheduled ? false : true;
-        await updateInteractions(id, { isScheduled: newStatus });
+
+        await updateInteractions(id, { isScheduled:isScheduled });
 
         logger.info("Interaction schedule status updated");
         sendResponse(res, 200, "Schedule status updated successfully");
