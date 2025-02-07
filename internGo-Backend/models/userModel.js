@@ -162,6 +162,20 @@ export const createUser = async (userDetails) => {
     }
 };
 
+export const getUsersByStatus=async(status)=>{
+    try{
+        return await prisma.users.findMany({
+            where:{
+                status:status
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error);
+    }
+} 
+
 export const getAllInterns = async () => {
     try {
         const allInterns = await prisma.users.findMany({

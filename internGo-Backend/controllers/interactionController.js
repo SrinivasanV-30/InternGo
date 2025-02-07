@@ -62,13 +62,33 @@ export const scheduleInteraction=async(req,res)=>{
 export const updateInteraction=async(req,res)=>{
     try{
         const id=parseInt(req.params.id);
-        const data=req.body;
+        const interactionData=req.body;
         const interactionDetails=await getInteractionById(id);
         if(!interactionDetails){
             logger.error("Interaction not found");
             sendResponse(res,404,"Interaction not found")
         }
-        await updateInteractions(id,data);
+        if(interactionData.date){
+            if(interactionData.time){
+                interactionData.date=convertTimeStringandDate(interactionData.date,interactionData.time);
+                console.log(interactionData.date)
+            }
+            else{
+                interactionData.date=convertTimeStringandDate(interactionData.date,interactionDetails.time);
+            }
+        }
+        if(interactionData.assignedInterviewer){
+            const interviewerDetails= await findUserByName(interactionData.assignedInterviewer);
+            interactionData.interviewerId=interviewerDetails.id;
+            interactionData.interviewerEmail=interviewerDetails.email;
+        }
+        if(interactionData.assignedIntern){
+            const interviewerDetails= await findUserByName(interactionData.assignedInterviewer);
+            interactionData.interviewerId=interviewerDetails.id;
+            interactionData.interviewerEmail=interviewerDetails.email;
+        }
+
+        await updateInteractions(id,interactionData);
         logger.info("Updated interaction details");
         sendResponse(res,200,"Updated interaction details");
 

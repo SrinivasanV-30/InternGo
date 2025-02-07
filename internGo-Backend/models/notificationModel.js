@@ -11,10 +11,10 @@ export const createNotification = async (userId, type, referencesId, message) =>
             type,
             referencesId,
             message,
-        },
-    });
-    console.log(noti);
-    return noti
+            },
+        });
+    
+        return noti
     }
     catch(error){
         logger.error(error.message)

@@ -6,7 +6,7 @@ export const sendNotification = async (userId, type, referenceId, message) => {
         if (userId === "ALL") {
             const userIds = await getAllUserIds();
             for (const id of userIds) {
-                await createNotification(id, type, referenceId, message);
+                const createdNoti=await createNotification(id, type, referenceId, message);
                 io.to(id).emit("notification", { message, type });
             }
         } else {

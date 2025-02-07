@@ -1,4 +1,3 @@
-import { InteractionStatus } from '@prisma/client';
 import Joi from 'joi';
 
 export const interactionValidationSchema = Joi.object({
