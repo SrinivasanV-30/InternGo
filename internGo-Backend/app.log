@@ -11994,3 +11994,109 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-06T12:34:58.073Z [:[31merror[39m] Invalid time value
 2025-02-06T12:35:01.117Z [:[31merror[39m] Invalid time value
 2025-02-06T12:35:05.353Z [:[31merror[39m] Invalid time value
+2025-02-06T12:36:25.200Z [:[32minfo[39m] Login successful!!!
+2025-02-06T12:36:25.201Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:25 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-06T12:36:25.410Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:36:25.412Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T12:36:29.953Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:29.955Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:29 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:36:30.534Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:30.536Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:30 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:36:39.736Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:39.738Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:39 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:36:42.558Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:42.560Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:42 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 5105 "-" "okhttp/4.12.0"
+2025-02-06T12:36:43.800Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:43.801Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:43 +0000] "POST /api/interactions?limit=10&offset=20 HTTP/1.1" 200 1091 "-" "okhttp/4.12.0"
+2025-02-06T12:36:49.949Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:36:49.951Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:36:49 +0000] "POST /api/interactions?limit=10&offset=30 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-06T12:37:04.592Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:37:04.594Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:37:04 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T12:37:23.514Z [:[31merror[39m] Invalid time value
+2025-02-06T12:38:08.705Z [:[31merror[39m] Invalid time value
+2025-02-06T12:38:14.640Z [:[31merror[39m] Invalid time value
+2025-02-06T12:38:15.247Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:38:15.253Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:38:15 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:38:18.031Z [:[31merror[39m] Invalid time value
+2025-02-06T12:38:20.750Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:38:20.754Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:38:20 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:44:19.848Z [:[32minfo[39m] Login successful!!!
+2025-02-06T12:44:19.851Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:44:19 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-06T12:44:20.019Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:44:20.021Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:44:20 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T12:44:31.673Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:44:31.675Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:44:31 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:44:47.772Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:44:47.775Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:44:47 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:45:24.528Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:45:24.529Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:45:24 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:45:34.520Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:45:34.521Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:45:34 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T12:45:40.200Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:45:40.201Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:45:40 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:46:04.365Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:46:04.366Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:04 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:46:10.358Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:46:10.360Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:10 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 5105 "-" "okhttp/4.12.0"
+2025-02-06T12:46:17.545Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:46:17.547Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:17 +0000] "POST /api/interactions?limit=10&offset=20 HTTP/1.1" 200 1091 "-" "okhttp/4.12.0"
+2025-02-06T12:46:34.107Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:46:34.109Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:34 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T12:46:47.282Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:46:47.284Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:47 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:46:57.004Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:46:57.006Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:46:57 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:47:03.356Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:47:03.358Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:47:03 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5103 "-" "okhttp/4.12.0"
+2025-02-06T12:47:04.151Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:47:04.153Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:47:04 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 5105 "-" "okhttp/4.12.0"
+2025-02-06T12:48:30.646Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:48:30.647Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:48:30 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 1091 "-" "okhttp/4.12.0"
+2025-02-06T12:48:30.999Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:48:31.001Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:48:31 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 1091 "-" "okhttp/4.12.0"
+2025-02-06T12:48:31.378Z [:[32minfo[39m] Fetched successfully
+2025-02-06T12:48:31.379Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:48:31 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-06T12:49:11.011Z [:[31merror[39m] interactionName is not defined
+2025-02-06T12:50:25.854Z [:[32minfo[39m] Successfully verified
+2025-02-06T12:50:25.858Z [:[32minfo[39m] ::ffff:192.168.0.102 - - [06/Feb/2025:12:50:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-06T13:00:13.655Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-06T13:00:13.658Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-06T13:13:17.547Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-06T13:13:17.550Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T04:49:35.769Z [:[31merror[39m] jwt expired
+2025-02-07T04:49:35.774Z [:[32minfo[39m] ::1 - - [07/Feb/2025:04:49:35 +0000] "POST /api/interactions/schedule HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-07T04:49:45.905Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T04:49:45.905Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T04:49:45.989Z [:[31merror[39m] jwt expired
+2025-02-07T04:49:45.990Z [:[32minfo[39m] ::1 - - [07/Feb/2025:04:49:45 +0000] "POST /api/interactions/schedule HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-07T04:49:49.748Z [:[32minfo[39m] ::1 - - [07/Feb/2025:04:49:49 +0000] "POST /api/auth/signin HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-07T04:49:52.881Z [:[32minfo[39m] Login successful!!!
+2025-02-07T04:49:52.882Z [:[32minfo[39m] ::1 - - [07/Feb/2025:04:49:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-07T04:49:58.653Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-07T04:49:58.657Z [:[32minfo[39m] ::1 - - [07/Feb/2025:04:49:58 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-07T05:11:17.891Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-07T05:11:17.902Z [:[32minfo[39m] ::1 - - [07/Feb/2025:05:11:17 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"

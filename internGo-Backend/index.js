@@ -9,14 +9,17 @@ import dailyUpdateRouter from './routes/dailyUpdateRoutes.js';
 import interactionRouter from './routes/interactionRoutes.js';
 import http from "http";
 import { webSocket } from './services/webSocketService.js';
-import { sendRemaindersForInteraction } from './controllers/notificationController.js';
+
+import { startCronJobs } from './cron.js';
 
 
 const app=express();
 const PORT=process.env.PORT || 8080;
 const server = http.createServer(app);
 webSocket(server);
-// sendRemaindersForInteraction()
+
+startCronJobs()
+
 
 
 const corsOptions = {

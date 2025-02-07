@@ -35,9 +35,30 @@ export const markNotificationAsRead = async (notificationId) => {
     });
 };
 
+export const markNotificationAsSent = async (notificationId) => {
+    return await prisma.notifications.update({
+        where: { id: notificationId },
+        data: { notificationSent: true },
+    });
+};
+
 export const getAllUserIds = async () => {
     const users = await prisma.users.findMany({
         select: { id: true },
     });
     return users.map((user) => user.id);
 };
+
+export const existingNotification=async(id,type)=>{
+    try{
+        return await prisma.notifications.findFirst({
+            where:{
+                referencesId:id,
+                type:type
+            },
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

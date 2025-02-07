@@ -3,8 +3,9 @@ export const convertTimeStringandDate=(date,timeString)=>{
     let [hours,minutes]=time.split(":");
 
     const updatedDate = new Date(date);
+    ``
     updatedDate.setHours(hours,minutes,0,0);
-    return updatedDate.toISOString();
+    return updatedDate;
 }
 
 export const convertUTCToLocal24Hour = (utcString) => {

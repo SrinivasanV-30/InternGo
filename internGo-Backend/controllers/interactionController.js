@@ -50,7 +50,7 @@ export const scheduleInteraction=async(req,res)=>{
         interactionData.date=convertTimeStringandDate(interactionData.date,interactionData.time);
         const createdInteraction=await createInteractions(interactionData);
         logger.info("Scheduled interaction successfully");
-        sendNotification(interactionData.internId,"interaction",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${interactionData.date} at ${interactionData.time}. Please be prepared.`)
+        sendNotification(interactionData.internId,"interaction-scheduled",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${interactionData.date} at ${interactionData.time}. Please be prepared.`)
         sendResponse(res,201,"Scheduled interaction successfully");
 
     }

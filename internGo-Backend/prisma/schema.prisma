@@ -180,6 +180,7 @@ model Notifications{
     referencesId Int?
     message String
     isRead Boolean @default(false)
+    notificationSent Boolean @default(false)
     createdAt DateTime @default(now())
 
     user Users @relation("User-Notifications",fields:[userId],references:[id])
