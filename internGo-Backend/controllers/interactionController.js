@@ -79,6 +79,15 @@ export const updateInteraction=async(req,res)=>{
         }
         if(interactionData.assignedInterviewer){
             const interviewerDetails= await findUserByName(interactionData.assignedInterviewer);
+            if(!interviewerDetails)
+            {
+                logger.error("Interviewer not found");
+                return sendResponse(res,404,"Interviewer not found");
+            }
+            if(!(interviewerDetails.role.roleName==='Mentors')){
+                logger.error("The given interviewer name must be of a mentor");
+                return sendResponse(res,403,"The given interviewer name must be of a mentor");
+            }
             interactionData.interviewerId=interviewerDetails.id;
             interactionData.interviewerEmail=interviewerDetails.email;
         }
