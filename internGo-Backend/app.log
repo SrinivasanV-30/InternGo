@@ -12481,3 +12481,4585 @@ Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.re
 
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
 2025-02-07T08:28:05.010Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T08:35:16.446Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:35:16.449Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:35:16 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:35:44.612Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:35:44.613Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:35:44 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:41:11.899Z [:[31merror[39m] jwt expired
+2025-02-07T08:41:11.903Z [:[32minfo[39m] ::1 - - [07/Feb/2025:08:41:11 +0000] "POST /api/interactions/schedule HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-07T08:41:17.369Z [:[32minfo[39m] Login successful!!!
+2025-02-07T08:41:17.369Z [:[32minfo[39m] ::1 - - [07/Feb/2025:08:41:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-07T08:41:22.482Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-07T08:41:22.485Z [:[32minfo[39m] ::1 - - [07/Feb/2025:08:41:22 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-07T08:46:52.535Z [:[32minfo[39m] Login successful!!!
+2025-02-07T08:46:52.538Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:46:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T08:46:52.694Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:46:52.695Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:46:52 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:46:57.101Z [:[32minfo[39m] Fetched successfully
+2025-02-07T08:46:57.102Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:46:57 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3072 "-" "okhttp/4.12.0"
+2025-02-07T08:48:34.446Z [:[32minfo[39m] Login successful!!!
+2025-02-07T08:48:34.446Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:48:34 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T08:48:34.653Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:48:34.655Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:48:34 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:56:16.109Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:56:16.111Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:56:16 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:57:27.037Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:57:27.039Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:57:27 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T08:57:51.708Z [:[32minfo[39m] Successfully verified
+2025-02-07T08:57:51.710Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:08:57:51 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:03:51.011Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:03:51.013Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:03:51 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:21:12.367Z [:[32minfo[39m] Login successful!!!
+2025-02-07T09:21:12.368Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:21:12 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T09:21:12.657Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:21:12.659Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:21:12 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:21:25.278Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:21:25.279Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:21:25 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:22:01.322Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:22:01 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 1829 "-" "okhttp/4.12.0"
+2025-02-07T09:22:40.350Z [:[32minfo[39m] Login successful!!!
+2025-02-07T09:22:40.351Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:22:40 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T09:22:40.496Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:22:40.497Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:22:40 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:22:49.545Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:22:49 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 1924 "-" "okhttp/4.12.0"
+2025-02-07T09:29:15.394Z [:[32minfo[39m] Login successful!!!
+2025-02-07T09:29:15.396Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:29:15 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T09:29:15.651Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:29:15.652Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:29:15 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:30:15.116Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:30:15.120Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:30:15 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:30:18.595Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:30:18.598Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:30:18 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3072 "-" "okhttp/4.12.0"
+2025-02-07T09:30:30.209Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    assignedInterviewer: "Arshad",
+    date: new Date("2025-02-08T06:10:00.000Z"),
+    time: "11:40 AM",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T09:30:30.210Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    assignedInterviewer: "Arshad",
+    date: new Date("2025-02-08T06:10:00.000Z"),
+    time: "11:40 AM",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T09:30:38.439Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:30:38 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:31:34.139Z [:[32minfo[39m] Updated interaction details
+2025-02-07T09:31:34.141Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:31:34 +0000] "PATCH /api/interactions/64/update HTTP/1.1" 200 70 "-" "okhttp/4.12.0"
+2025-02-07T09:31:49.225Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:31:49.226Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:31:49 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:31:55.896Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:31:55.898Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:31:55 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3071 "-" "okhttp/4.12.0"
+2025-02-07T09:32:25.830Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:32:25.830Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:32:34.572Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:32:34 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:33:00.078Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:33:00.079Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:33:09.436Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:33:09 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:33:12.506Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:33:12.507Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:33:21.905Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:33:21 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:33:52.479Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:33:52.480Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "10:50 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:34:00.393Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:00 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:34:08.691Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:34:08.695Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:08 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:34:20.767Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:34:20.768Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:20 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:34:31.572Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:34:31.574Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:31 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3071 "-" "okhttp/4.12.0"
+2025-02-07T09:34:43.081Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:34:43.083Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:43 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:34:43.372Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "8:40 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:34:43.372Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "8:40 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:34:52.916Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:34:52 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:37:17.916Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:07 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:37:17.919Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:07 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:37:25.595Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:37:25 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:38:27.916Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:43 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:38:27.919Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:43 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:38:34.830Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:38:34 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:38:51.415Z [:[32minfo[39m] Successfully verified
+2025-02-07T09:38:51.419Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:38:51 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T09:41:13.857Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:41:13.865Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:41:13 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3565 "-" "okhttp/4.12.0"
+2025-02-07T09:41:37.036Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:45 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:41:37.037Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:45 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:41:46.631Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:41:46 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:42:20.263Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:42:20.270Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:42:20 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 3565 "-" "okhttp/4.12.0"
+2025-02-07T09:42:23.950Z [:[32minfo[39m] Fetched successfully
+2025-02-07T09:42:23.952Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:42:23 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-07T09:42:37.573Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:42:37.574Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:42:47.032Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:42:47 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:43:35.328Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:43:35.330Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:43:39.354Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:43:39 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:44:36.337Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:44:36.339Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:44:43.577Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:44:43 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:45:09.353Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:45:09.356Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:45:16.129Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:45:16 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:45:45.378Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:45:45.381Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:45:52.387Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:45:52 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:46:07.437Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:46:07.440Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:46:15.681Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:46:15 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:47:11.061Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:47:11.063Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:47:18.394Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:47:18 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:47:38.686Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:47:38.689Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:47:44.630Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:47:44 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:48:08.730Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:08.732Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:18.534Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:18.537Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:26.009Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:48:26 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:48:31.990Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:31.993Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:48:37.954Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:48:37 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:49:07.861Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:49:07.864Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:49:14.900Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:49:14 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:50:04.304Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:50:04.306Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:50:12.948Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:50:12 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:50:28.469Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:50:28.473Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "9:41 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:50:36.236Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:50:36 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:52:43.274Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "8:22 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:52:43.275Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "8:22 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:52:52.907Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:52:52 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:55:49.156Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:55:49.157Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:55:54.521Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:55:54 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:58:48.307Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:58:48.308Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:58:56.412Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:09:58:56 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T09:59:50.633Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T09:59:50.634Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:00:00.331Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:00:00 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T10:00:02.464Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:00:02.464Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:00:11.900Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:00:11 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T10:00:15.627Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:00:15.627Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    id: 64,
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "3:25 pm",
+    duration: "2 hour",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:00:19.684Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:00:19 +0000] "PATCH /api/interactions/64/update HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T10:31:09.375Z [:[31merror[39m] Token not present!!!
+2025-02-07T10:31:09.379Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:31:09 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-07T10:31:09.383Z [:[32minfo[39m] Successfully verified
+2025-02-07T10:31:09.384Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:31:09 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T10:31:09.386Z [:[31merror[39m] Token not present!!!
+2025-02-07T10:31:09.387Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:31:09 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-07T10:31:11.680Z [:[32minfo[39m] Fetched successfully
+2025-02-07T10:31:11.682Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:31:11 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-07T10:31:13.705Z [:[31merror[39m] 
+Invalid `prisma.interactions.create()` invocation:
+
+{
+  data: {
+    name: "Chumma",
+    assignedIntern: "Selvam",
+    internEmail: "selvam@finestcoder.com",
+    assignedMentor: "Arshad",
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "4:00 pm",
+    duration: "2 hour",
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:31:13.705Z [:[31merror[39m] 
+Invalid `prisma.interactions.create()` invocation:
+
+{
+  data: {
+    name: "Chumma",
+    assignedIntern: "Selvam",
+    internEmail: "selvam@finestcoder.com",
+    assignedMentor: "Arshad",
+    assignedInterviewer: "Arshad",
+    date: new Date("Invalid Date"),
+          ~~~~~~~~~~~~~~~~~~~~~~~~
+    time: "4:00 pm",
+    duration: "2 hour",
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405",
+    interviewerId: "5ce9b859-a0ef-484e-b743-685ffdbec37a",
+    interviewerEmail: "arshad@finestcoder.com"
+  }
+}
+
+Invalid value for argument `date`: Provided Date object is invalid. Expected Date.
+2025-02-07T10:31:22.134Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:31:22 +0000] "POST /api/interactions/schedule HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-07T10:36:17.926Z [:[32minfo[39m] Successfully verified
+2025-02-07T10:36:17.927Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:36:17 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T10:36:22.496Z [:[32minfo[39m] Fetched successfully
+2025-02-07T10:36:22.499Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:36:22 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4057 "-" "okhttp/4.12.0"
+2025-02-07T10:36:28.239Z [:[32minfo[39m] Updated interaction details
+2025-02-07T10:36:28.240Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:36:28 +0000] "PATCH /api/interactions/64/update HTTP/1.1" 200 70 "-" "okhttp/4.12.0"
+2025-02-07T10:39:24.637Z [:[32minfo[39m] Login successful!!!
+2025-02-07T10:39:24.637Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:39:24 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T10:39:24.803Z [:[32minfo[39m] Successfully verified
+2025-02-07T10:39:24.804Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:39:24 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T10:39:28.324Z [:[32minfo[39m] Fetched successfully
+2025-02-07T10:39:28.326Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:39:28 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4057 "-" "okhttp/4.12.0"
+2025-02-07T10:45:32.734Z [:[32minfo[39m] Successfully verified
+2025-02-07T10:45:32.736Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:45:32 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T10:45:38.231Z [:[32minfo[39m] Fetched successfully
+2025-02-07T10:45:38.233Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:45:38 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4545 "-" "okhttp/4.12.0"
+2025-02-07T10:51:18.261Z [:[32minfo[39m] Updated interaction details
+2025-02-07T10:51:18.262Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:51:18 +0000] "PATCH /api/interactions/64/update HTTP/1.1" 200 70 "-" "okhttp/4.12.0"
+2025-02-07T10:54:24.036Z [:[32minfo[39m] Updated interaction details
+2025-02-07T10:54:24.038Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:10:54:24 +0000] "PATCH /api/interactions/65/update HTTP/1.1" 200 70 "-" "okhttp/4.12.0"
+2025-02-07T11:05:08.993Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:05:09.000Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:05:08 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:05:29.048Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:05:29.049Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:05:29 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:05:29.196Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:05:29.197Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:05:29 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:05:58.403Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:05:58.405Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:05:58 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:06:53.702Z [:[31merror[39m] jwt expired
+2025-02-07T11:06:53.704Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:06:53 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:08:58.883Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:08:58 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:08:58.885Z [:[31merror[39m] jwt expired
+2025-02-07T11:08:58.885Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:08:58 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:09:59.497Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:09:59.498Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:09:59 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "okhttp/4.12.0"
+2025-02-07T11:09:59.792Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:09:59.793Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:09:59 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:12:34.366Z [:[31merror[39m] jwt expired
+2025-02-07T11:12:34.368Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:12:34 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:13:51.359Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:13:51 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:13:51.363Z [:[31merror[39m] jwt expired
+2025-02-07T11:13:51.365Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:13:51 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:14:15.452Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:14:15.452Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:14:15 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:14:15.717Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:14:15.718Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:14:15 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:15:33.895Z [:[31merror[39m] jwt expired
+2025-02-07T11:15:33.897Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:15:33 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:16:12.913Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:16:12 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:16:12.951Z [:[31merror[39m] jwt expired
+2025-02-07T11:16:12.952Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:16:12 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:17:32.252Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:17:32.253Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:17:32 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:17:32.550Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:17:32.552Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:17:32 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:18:33.784Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:18:33 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1251 "-" "okhttp/4.12.0"
+2025-02-07T11:19:45.409Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:19:45 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:19:49.301Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:19:49.301Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:19:49 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:19:49.438Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:19:49.439Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:19:49 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:20:44.457Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:20:44.459Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:20:44 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:20:46.288Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:20:46.289Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:20:46 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:20:51.832Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:20:51 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:21:07.723Z [:[31merror[39m] jwt expired
+2025-02-07T11:21:07.726Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:21:07 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:21:27.899Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:21:27 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:21:45.641Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:21:45 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:21:52.387Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:21:52 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:21:58.008Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:21:58 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:22:01.466Z [:[31merror[39m] jwt expired
+2025-02-07T11:22:01.468Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:22:01 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:22:12.416Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:22:12 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:23:56.512Z [:[31merror[39m] jwt expired
+2025-02-07T11:23:56.513Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:23:56 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:24:15.193Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:24:15 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:26:58.014Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:26:58 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:27:04.676Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:27:04 +0000] "POST /api/auth/verify HTTP/1.1" 401 56 "-" "okhttp/4.12.0"
+2025-02-07T11:27:51.537Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:27:51.537Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:27:51 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:27:51.662Z [:[32minfo[39m] Successfully verified
+2025-02-07T11:27:51.663Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:27:51 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "-" "okhttp/4.12.0"
+2025-02-07T11:29:34.290Z [:[31merror[39m] jwt expired
+2025-02-07T11:29:34.292Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:29:34 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:32:46.482Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:32:46.483Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:32:46 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:36:05.519Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    role: {
+      roleName: "Admins"
+    }
+  },
+  select: {
+    role: true,
+    userId: true,
+    ~~~~~~
+    name: true,
+?   id?: true,
+?   roleId?: true,
+?   planId?: true,
+?   password?: true,
+?   email?: true,
+?   gender?: true,
+?   employeeId?: true,
+?   skills?: true,
+?   personalEmail?: true,
+?   currentAddress?: true,
+?   permanentAddress?: true,
+?   profilePhoto?: true,
+?   resume?: true,
+?   batch?: true,
+?   year?: true,
+?   designation?: true,
+?   phone_no?: true,
+?   education?: true,
+?   bankDetails?: true,
+?   certificates_submission_status?: true,
+?   status?: true,
+?   dateOfBirth?: true,
+?   dateOfJoining?: true,
+?   bloodGroup?: true,
+?   phase?: true,
+?   daysWorked?: true,
+?   createdAt?: true,
+?   updatedAt?: true,
+?   profilePercentage?: true,
+?   assets?: true,
+?   interactionsAttended?: true,
+?   interactionsTaken?: true,
+?   dailyUpdates?: true,
+?   notifications?: true,
+?   plan?: true,
+?   _count?: true
+  }
+}
+
+Unknown field `userId` for select statement on model `Users`. Available options are marked with ?.
+2025-02-07T11:37:04.345Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "590ea4fd-b105-490a-9120-e516715e3fbf",
+    type: "dailyUpdate-delay",
+    referencesId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3",
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    message: "Srini from batch Batch 1-2024 has not submitted their daily task updates."
+  }
+}
+
+Argument `referencesId`: Invalid value provided. Expected Int or Null, provided String.
+2025-02-07T11:37:05.181Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "590ea4fd-b105-490a-9120-e516715e3fbf",
+    type: "dailyUpdate-delay",
+    referencesId: "3948c2fc-c9be-486e-969e-e23d66a70212",
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    message: "Guru prasad from batch Batch 1-2025 has not submitted their daily task updates."
+  }
+}
+
+Argument `referencesId`: Invalid value provided. Expected Int or Null, provided String.
+2025-02-07T11:38:05.164Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T11:38:05.165Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T11:42:35.419Z [:[31merror[39m] jwt expired
+2025-02-07T11:42:35.421Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:42:35 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T11:47:26.186Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:47:26.187Z [:[32minfo[39m] ::1 - - [07/Feb/2025:11:47:26 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-07T11:53:34.817Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:53:34.819Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:53:34 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-07T11:56:13.238Z [:[32minfo[39m] Login successful!!!
+2025-02-07T11:56:13.239Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:56:13 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T11:56:22.544Z [:[32minfo[39m] Fetched successfully
+2025-02-07T11:56:22.546Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:56:22 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T11:56:28.014Z [:[32minfo[39m] Fetched successfully
+2025-02-07T11:56:28.015Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:56:28 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 579 "-" "okhttp/4.12.0"
+2025-02-07T11:56:28.497Z [:[32minfo[39m] Fetched successfully
+2025-02-07T11:56:28.498Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:56:28 +0000] "POST /api/interactions?limit=10&offset=20 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-07T11:56:33.436Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:11:56:33 +0000] "GET / HTTP/1.1" 404 139 "-" "okhttp/4.12.0"
+2025-02-07T11:57:06.001Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T11:57:06.007Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:00:00.495Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:00 +0000] "GET / HTTP/1.1" 404 139 "-" "okhttp/4.12.0"
+2025-02-07T12:00:14.072Z [:[31merror[39m] jwt expired
+2025-02-07T12:00:14.073Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:14 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:00:22.475Z [:[32minfo[39m] Login successful!!!
+2025-02-07T12:00:22.476Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:22 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T12:00:30.376Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:00:30.379Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:30 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:00:30.750Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:30.751Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:30.752Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:30 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:30.913Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:30.913Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:30.915Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:30 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:31.073Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.074Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.075Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:31 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:31.247Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.248Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.249Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:31 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:31.620Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.620Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.622Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:31 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:31.981Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.981Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:31.982Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:31 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.266Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.266Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.268Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.646Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.646Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.648Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.649Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.649Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.651Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.692Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.693Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.694Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.896Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.896Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.897Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:32.898Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.898Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:32.898Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:32 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.258Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.258Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.259Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.259Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.259Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.260Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.526Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.526Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.527Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.668Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.668Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.668Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.922Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.922Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.923Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:33.924Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.924Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:33.924Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:33 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:34.077Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.077Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.077Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:34 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:34.127Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.127Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.127Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:34 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:34.261Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.261Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:34.262Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:34 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.401Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.402Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.403Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.406Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.407Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.408Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.409Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.409Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.410Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.412Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.412Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.414Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.469Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.470Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.471Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.708Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.709Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.710Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.711Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.711Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.713Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.714Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.714Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.715Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.716Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.717Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.718Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.775Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.775Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.776Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:00:43.900Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.900Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:00:43.901Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:00:43 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.363Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.364Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.367Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.368Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.371Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.372Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.375Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.376Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.458Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.459Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.461Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.462Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.476Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.477Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.480Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.480Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.491Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.491Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:26.962Z [:[31merror[39m] jwt expired
+2025-02-07T12:01:26.963Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:26 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=true HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-07T12:01:44.641Z [:[32minfo[39m] Login successful!!!
+2025-02-07T12:01:44.642Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:44 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-07T12:01:49.776Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:01:49.779Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:49 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.136Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.136Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.138Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.289Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.290Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.292Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.450Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.451Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.452Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.655Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.656Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.657Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.814Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.815Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.816Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.890Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.891Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.892Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:50.977Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.978Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:50.979Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:50 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.065Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.065Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.067Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.164Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.164Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.166Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.238Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.238Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.240Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.325Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.325Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.326Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.413Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.414Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.415Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/69/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.485Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.486Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.487Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/70/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.490Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.490Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.491Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/65/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.576Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.576Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.577Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/71/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.646Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.646Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.647Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/72/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.742Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.743Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.744Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/74/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:51.745Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.745Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:51.746Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:51 +0000] "GET /api/interactions/66/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:52.158Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:52.158Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "true"
+                 ~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:52.159Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:52 +0000] "GET /api/interactions/73/toggleSchedule?isScheduled=true HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:01:52.525Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:52.525Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:01:52.527Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:01:52 +0000] "GET /api/interactions/67/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:02:35.037Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:02:35.045Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:02:35 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:03:04.172Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:03:04.175Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:03:04 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:04:00.291Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    isScheduled: true
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T12:04:00.292Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    isScheduled: true
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T12:04:00.294Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:04:00 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:04:20.260Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:04:20.260Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:04:20 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:04:22.545Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    isScheduled: true
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T12:04:22.546Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: InteractionsWhereInput | InteractionsWhereInput[],
+?   OR?: InteractionsWhereInput[],
+?   NOT?: InteractionsWhereInput | InteractionsWhereInput[],
+?   name?: StringFilter | String,
+?   assignedIntern?: StringFilter | String,
+?   internEmail?: StringFilter | String,
+?   assignedMentor?: StringFilter | String,
+?   assignedInterviewer?: StringFilter | String,
+?   interviewerEmail?: StringFilter | String,
+?   internId?: StringFilter | String,
+?   interviewerId?: StringFilter | String,
+?   date?: DateTimeFilter | DateTime,
+?   time?: StringFilter | String,
+?   duration?: StringFilter | String,
+?   interactionStatus?: EnumInteractionStatusFilter | InteractionStatus,
+?   isScheduled?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   intern?: UsersScalarRelationFilter | UsersWhereInput,
+?   interviewer?: UsersScalarRelationFilter | UsersWhereInput
+  },
+  data: {
+    isScheduled: true
+  }
+}
+
+Argument `where` of type InteractionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-07T12:04:22.546Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:04:22 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:05:05.016Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:05:05.024Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:05:05 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 200 79 "-" "okhttp/4.12.0"
+2025-02-07T12:05:06.699Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:05:06.701Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:05:06 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 200 79 "-" "okhttp/4.12.0"
+2025-02-07T12:05:07.384Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:05:07.385Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:05:07 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 200 79 "-" "okhttp/4.12.0"
+2025-02-07T12:05:29.194Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:05:29.196Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:05:29 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:06:04.804Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:06:04.807Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:06:04 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:06:09.599Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:06:09.601Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:06:09 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:06:51.451Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:06:51.458Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:06:51 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:06:56.273Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:06:56.276Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:06:56 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:07:31.130Z [:[32minfo[39m] Fetched successfully
+2025-02-07T12:07:31.132Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:07:31 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5032 "-" "okhttp/4.12.0"
+2025-02-07T12:07:36.472Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:07:36.473Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:07:36 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:07:41.753Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:07:41.755Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:07:41 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:07:56.494Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:07:56.496Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:07:56 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:07:57.812Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-07T12:07:57.813Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:07:57 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=true HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-07T12:08:20.246Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:08:20.248Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 64
+  },
+  data: {
+    isScheduled: "false"
+                 ~~~~~~~
+  }
+}
+
+Argument `isScheduled`: Invalid value provided. Expected Boolean or BoolFieldUpdateOperationsInput, provided String.
+2025-02-07T12:08:20.252Z [:[32minfo[39m] ::ffff:192.168.0.104 - - [07/Feb/2025:12:08:20 +0000] "GET /api/interactions/64/toggleSchedule?isScheduled=false HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-07T12:37:10.890Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-07T12:37:10.893Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:38:05.952Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:38:05.953Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:39:05.013Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:39:05.014Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:40:05.077Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:40:05.078Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:41:05.140Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:41:05.141Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:42:05.204Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:42:05.205Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:43:05.268Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:43:05.269Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:44:05.331Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:44:05.332Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:45:05.389Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:45:05.389Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:46:05.452Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:46:05.453Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:47:05.511Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:47:05.512Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:48:05.572Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:48:05.573Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:49:05.634Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:49:05.634Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:50:05.696Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:50:05.697Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:51:05.756Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:51:05.757Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:52:05.814Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:52:05.815Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:53:05.874Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:53:05.875Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:54:05.937Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:54:05.938Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:55:05.995Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:55:05.996Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:56:05.059Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:56:05.060Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:57:05.121Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:57:05.122Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:58:05.184Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:58:05.185Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T12:59:05.247Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T12:59:05.248Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:00:05.310Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:00:05.311Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:01:05.370Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:01:05.370Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:02:05.430Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:02:05.431Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:03:05.492Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:03:05.493Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:04:05.555Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:04:05.556Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:05:05.618Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:05:05.619Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:06:05.680Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:06:05.681Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:07:05.743Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:07:05.743Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:08:05.800Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:08:05.801Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:09:05.862Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:09:05.863Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:10:05.919Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:10:05.920Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:11:05.982Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:11:05.982Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:12:05.048Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:12:05.048Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:13:05.107Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:13:05.108Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:14:05.171Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T13:14:05.172Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T13:25:10.836Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-07T13:25:10.837Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-07T17:23:05.086Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-07T17:23:05.087Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T04:23:10.030Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-08T04:23:10.031Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T04:24:00.091Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T04:24:00.092Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T04:37:05.051Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T04:37:05.052Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T04:50:05.558Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T04:50:05.559Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T05:03:05.498Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T05:03:05.499Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T05:10:05.993Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T05:10:05.994Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T05:19:05.649Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T05:19:05.651Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T05:26:05.182Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T05:26:05.183Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:40:05.536Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:40:05.537Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:41:05.607Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:41:05.608Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:42:05.681Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:42:05.682Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:50:10.240Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-08T06:50:10.241Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:51:00.320Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:51:00.320Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:52:00.396Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:52:00.397Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:53:00.469Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:53:00.471Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:54:00.543Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:54:00.544Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:55:00.616Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:55:00.616Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:56:00.682Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:56:00.683Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:57:00.757Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:57:00.757Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:58:00.832Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:58:00.833Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T06:59:00.910Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T06:59:00.911Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:00:00.984Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:00:00.985Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:01:00.054Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:01:00.054Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:02:00.127Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:02:00.128Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:03:00.197Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:03:00.198Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:04:00.262Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:04:00.263Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:17:05.192Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:17:05.193Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T07:54:05.872Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T07:54:05.875Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:25:05.699Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:25:05.700Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:35:10.353Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-08T08:35:10.353Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:36:00.414Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:36:00.415Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:37:00.480Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:37:00.481Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:38:00.544Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:38:00.545Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:39:00.611Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:39:00.612Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:40:00.677Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:40:00.677Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:41:00.746Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:41:00.747Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:42:00.810Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:42:00.811Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:43:00.879Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:43:00.880Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:44:00.945Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:44:00.945Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:45:00.012Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:45:00.013Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:46:00.079Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:46:00.080Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:47:00.147Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:47:00.147Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:48:00.214Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:48:00.215Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:49:00.279Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:49:00.280Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:50:00.352Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:50:00.353Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:51:00.420Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:51:00.421Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:52:00.488Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:52:00.489Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:53:00.558Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:53:00.558Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:54:00.630Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:54:00.631Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:55:00.697Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:55:00.698Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:56:00.765Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:56:00.765Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:57:00.834Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:57:00.834Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:58:00.901Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:58:00.902Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T08:59:00.969Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T08:59:00.970Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:00:00.036Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:00:00.037Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:01:00.105Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:01:00.105Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:02:00.168Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:02:00.169Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:03:00.239Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:03:00.239Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:04:00.302Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:04:00.303Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:05:00.368Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:05:00.369Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:06:00.441Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:06:00.441Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:07:00.508Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:07:00.508Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:08:00.572Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:08:00.573Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:09:00.640Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:09:00.640Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:10:00.699Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:10:00.699Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:11:00.767Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:11:00.768Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:12:00.837Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:12:00.838Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:13:00.905Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:13:00.906Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:14:00.976Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:14:00.977Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:15:00.044Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:15:00.045Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:16:00.108Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:16:00.108Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:17:00.176Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:17:00.176Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:18:00.237Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:18:00.238Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:19:00.308Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:19:00.308Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:20:00.369Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:20:00.370Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:21:00.440Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:21:00.441Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:22:00.370Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:22:00.372Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:23:00.428Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:23:00.429Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:24:00.500Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:24:00.501Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:25:00.576Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:25:00.577Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:26:00.651Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:26:00.651Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:27:00.724Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:27:00.725Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:28:00.789Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:28:00.789Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:29:00.866Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:29:00.867Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:30:00.930Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:30:00.930Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:31:01.006Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:31:01.006Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:32:00.082Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:32:00.083Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:33:00.155Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:33:00.155Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:34:00.222Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:34:00.222Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:35:00.297Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:35:00.297Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:36:00.367Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:36:00.367Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:37:00.435Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:37:00.436Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:38:00.500Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:38:00.500Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:39:00.558Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:39:00.558Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:40:00.629Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:40:00.630Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:41:00.700Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:41:00.700Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T09:42:00.773Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T09:42:00.773Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T14:58:00.053Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T14:58:00.053Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T14:59:00.118Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T14:59:00.118Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T15:00:00.196Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T15:00:00.196Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T15:01:00.256Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T15:01:00.256Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T15:02:00.334Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T15:02:00.334Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T15:03:00.405Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T15:03:00.406Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T15:04:00.473Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T15:04:00.474Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T16:07:41.883Z [:[32minfo[39m] Login successful!!!
+2025-02-08T16:07:41.885Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:07:41 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:07:59.201Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:07:59 +0000] "GET /api/notifications HTTP/1.1" 404 156 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:08:19.820Z [:[31merror[39m] Token not present!!!
+2025-02-08T16:08:19.822Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:08:19 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 63 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:08:27.045Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-02-08T16:08:27.045Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:08:27.047Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:08:27 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 77 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:09:57.665Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+{
+  where: {
+    OR: [
+      {
+        userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+      },
+      {
+        userId: null
+      }
+    ]
+  },
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Argument `userId` is missing.
+2025-02-08T16:09:57.667Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:09:57.671Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:09:57 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 77 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:11:00.705Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+{
+  where: {
+    OR: [
+      {
+        userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+      },
+      {
+        userId: null
+      }
+    ]
+  },
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Argument `userId` is missing.
+2025-02-08T16:11:00.707Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:11:00.714Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:11:00 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 77 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:11:29.021Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+{
+  where: {
+    OR: [
+      {
+        userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+      },
+      {
+        userId: null
+      }
+    ]
+  },
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Argument `userId` is missing.
+2025-02-08T16:11:29.024Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+{
+  where: {
+    OR: [
+      {
+        userId: "e89be629-b24c-45f2-89e1-95b2cb3f21c3"
+      },
+      {
+        userId: null
+      }
+    ]
+  },
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Argument `userId` is missing.
+2025-02-08T16:14:28.224Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:14:28.234Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:14:28 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2573 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:16:32.290Z [:[31merror[39m] Invalid ID format!!!
+2025-02-08T16:16:32.292Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:16:32 +0000] "POST /api/notifications/markAsRead HTTP/1.1" 400 63 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:17:19.118Z [:[31merror[39m] readNotifications.forEach is not a function
+2025-02-08T16:17:51.126Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:17:51 +0000] "POST /api/notifications/markAsRead HTTP/1.1" 200 62 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:18:03.053Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:18:03.055Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:18:03 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2571 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:20:51.365Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-02-08T16:20:51.366Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:20:51.368Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:20:51 +0000] "DELETE /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:21:20.067Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:21:20.069Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:21:20 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2571 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:22:05.961Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-08T16:22:05.966Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-08T16:22:10.861Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-02-08T16:22:10.861Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:22:10.869Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:22:10 +0000] "DELETE /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:23:31.343Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:23:31.351Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:23:31 +0000] "DELETE /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:24:22.871Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:24:22.882Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:24:22 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:24:54.359Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-08T16:24:54.361Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:24:54 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:24:59.747Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-08T16:24:59.748Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:24:59 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:25:12.369Z [:[31merror[39m] Invalid password
+2025-02-08T16:25:12.370Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:25:12 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:25:18.722Z [:[31merror[39m] Invalid password
+2025-02-08T16:25:18.723Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:25:18 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:25:35.347Z [:[32minfo[39m] Login successful!!!
+2025-02-08T16:25:35.347Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:25:35 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:25:52.606Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:25:52.608Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:25:52 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 3541 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:26:16.158Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:26:16 +0000] "DELETE /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 196 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:26:29.021Z [:[31merror[39m] Invalid ID format!!!
+2025-02-08T16:26:29.022Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:26:29 +0000] "DELETE /api/notifications/delete HTTP/1.1" 400 63 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:26:41.682Z [:[31merror[39m] Invalid ID format!!!
+2025-02-08T16:26:41.688Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:26:41 +0000] "DELETE /api/notifications/delete HTTP/1.1" 400 63 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:26:58.357Z [:[31merror[39m] notificationIds.forEach is not a function
+2025-02-08T16:27:22.977Z [:[31merror[39m] Cannot read properties of undefined (reading 'notificationIds')
+2025-02-08T16:27:22.979Z [:[31merror[39m] Cannot read properties of undefined (reading 'notificationIds')
+2025-02-08T16:27:22.979Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:27:22.983Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:27:22 +0000] "DELETE /api/notifications/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:27:33.634Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:27:33.639Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:27:33 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 3541 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:28:11.882Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:28:11.891Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:28:11 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 3541 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:28:29.476Z [:[31merror[39m] Cannot read properties of undefined (reading 'notificationIds')
+2025-02-08T16:28:29.477Z [:[31merror[39m] Cannot read properties of undefined (reading 'notificationIds')
+2025-02-08T16:28:29.477Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:28:29.478Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:28:29 +0000] "DELETE /api/notifications/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:29:43.968Z [:[32minfo[39m] Deleted sucessfully
+2025-02-08T16:29:43.978Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:29:43 +0000] "DELETE /api/notifications/delete HTTP/1.1" 204 - "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:29:59.340Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-08T16:29:59.342Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:29:59 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 87 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:30:31.431Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:30:31.433Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:30:31 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 3011 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:33:40.168Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:33:40 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 404 207 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:33:49.518Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:33:49 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "PostmanRuntime/7.43.0"
+2025-02-08T16:33:58.320Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-08T16:33:58.322Z [:[32minfo[39m] ::1 - - [08/Feb/2025:16:33:58 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 3001 "-" "PostmanRuntime/7.43.0"

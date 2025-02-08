@@ -54,7 +54,7 @@ export const getInteractionById = async (id) => {
 export const updateInteractions = async (id, data) => {
     try {
         return await prisma.interactions.update({
-            where: { id },
+            where: { id:id },
             data,
         });
     } catch (error) {

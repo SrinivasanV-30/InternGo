@@ -6,13 +6,13 @@ export const sendNotification = async (userId, type, referenceId, message) => {
         if (userId === "ALL") {
             const userIds = await getAllUserIds();
             for (const id of userIds) {
-                const createdNoti=await createNotification(id, type, referenceId, message);
-                io.to(id).emit("notification", { message, type });
+                const createdNotification=await createNotification(id, type, referenceId, message);
+                io.to(id).emit("notification", {createdNotification});
             }
         } else {
             console.log(lookUps[userId])
-            await createNotification(userId, type, referenceId, message);
-            io.to(lookUps[userId]).emit("notification", { message, type });
+            const createdNotification=await createNotification(userId, type, referenceId, message);
+            io.to(lookUps[userId]).emit("notification", {createdNotification});
         }
     } catch (error) {
         console.error("Error sending notification:", error.message);

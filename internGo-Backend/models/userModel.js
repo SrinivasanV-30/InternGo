@@ -105,7 +105,12 @@ export const findUserByUserId = async (userId) => {
                 assets: true,
                 password: false,
                 plan: true,
-                role:true
+                role:true,
+                notifications:{
+                    orderBy:{
+                        createdAt:"desc"
+                    }
+                }
             },
         });
         return userDetails;
@@ -166,7 +171,13 @@ export const getUsersByStatus=async(status)=>{
     try{
         return await prisma.users.findMany({
             where:{
-                status:status
+                status:status,
+                role:{
+                    roleName:"Interns"
+                }
+            },
+            include:{
+                role:true
             }
         })
     }
@@ -367,6 +378,27 @@ export const getInteractionsTaken=async(userId)=>{
     }
     catch(error)
     {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+export const getUserByRole=async(role)=>{
+    try{
+        return await prisma.users.findMany({
+            where:{
+                role:{
+                    roleName:role
+                },
+            },
+            select:{
+                role:true,
+                id:true,
+                name:true
+            }
+        })
+    }
+    catch(error){
         logger.error(error.message);
         throw new Error(error.message);
     }

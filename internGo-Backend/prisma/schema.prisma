@@ -44,6 +44,8 @@ model Users{
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     profilePercentage Int? @default(0)
+    feedbacksReceived Feedbacks[] @relation("Intern-Feedbacks")
+    feedbacksGiven Feedbacks[] @relation("Mentor-Feedback")
     role Roles @relation("UserRole",fields:[roleId],references:[id])
     plan Plans? @relation("UserPlan",fields:[planId],references:[id])
 }
@@ -162,6 +164,7 @@ model Interactions{
     date DateTime
     time String
     duration String
+    feedback Feedbacks[] @relation("Interaction-Feedback")
     interactionStatus InteractionStatus @default(PENDING)
     isScheduled Boolean @default(true)
     createdAt DateTime @default(now())
@@ -184,4 +187,19 @@ model Notifications{
     createdAt DateTime @default(now())
 
     user Users @relation("User-Notifications",fields:[userId],references:[id])
+}
+
+model Feedbacks {
+    id             Int    @id @default(autoincrement())
+    interactionId  Int    
+    internId       String    
+    interviewerId  String    
+    ratings        Json      
+    descriptive_feedback  String
+    createdAt      DateTime  @default(now())
+    updatedAt      DateTime  @updatedAt
+
+    interaction    Interactions @relation("Interaction-Feedback",fields: [interactionId], references: [id])
+    intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id])
+    interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
 }

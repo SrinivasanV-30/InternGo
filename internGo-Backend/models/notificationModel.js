@@ -5,7 +5,7 @@ const prisma=new PrismaClient();
 
 export const createNotification = async (userId, type, referencesId, message) => {
     try{
-        const noti= await prisma.notifications.create({
+        const notification= await prisma.notifications.create({
         data: {
             userId: userId || null,
             type,
@@ -14,39 +14,55 @@ export const createNotification = async (userId, type, referencesId, message) =>
             },
         });
     
-        return noti
+        return notification
     }
     catch(error){
         logger.error(error.message)
     }
 };
 
-export const getNotificationsByUserId = async (userId) => {
-    return await prisma.notifications.findMany({
-        where: { OR: [{ userId }, { userId: null }] },
-        orderBy: { createdAt: "desc" },
-    });
+export const getUserNotifications = async (userId) => {
+    try{
+        return await prisma.notifications.findMany({
+            where: { userId:userId },
+            orderBy: { createdAt: "desc" },
+        });
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+        
+    }
 };
+
 
 export const markNotificationAsRead = async (notificationId) => {
-    return await prisma.notifications.update({
+    try{
+        return await prisma.notifications.update({
         where: { id: notificationId },
         data: { isRead: true },
-    });
+        });
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
 };
 
-export const markNotificationAsSent = async (notificationId) => {
-    return await prisma.notifications.update({
-        where: { id: notificationId },
-        data: { notificationSent: true },
-    });
-};
+
 
 export const getAllUserIds = async () => {
-    const users = await prisma.users.findMany({
-        select: { id: true },
-    });
-    return users.map((user) => user.id);
+    try{
+        const users = await prisma.users.findMany({
+            select: { id: true },
+        });
+        return users.map((user) => user.id);        
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+    
 };
 
 export const existingNotification=async(id,type)=>{
@@ -56,9 +72,44 @@ export const existingNotification=async(id,type)=>{
                 referencesId:id,
                 type:type
             },
-        })
+        });
     }
     catch(error){
         logger.error(error.message);
+        throw new Error(error.message);
     }
 }
+
+export const markAllNotificationsAsRead = async (userId) => {
+    try {
+        return await prisma.notifications.updateMany({
+            where: { userId:userId, isRead: false },
+            data: { isRead: true },
+        });
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+};
+
+export const deleteSingleNotification = async (id) => {
+    try {
+        return await prisma.notifications.delete({
+            where: { id },
+        });
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+};
+
+export const deleteAllNotifications = async (userId) => {
+    try {
+        return await prisma.notifications.deleteMany({
+            where: { userId:userId },
+        });
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+};

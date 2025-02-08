@@ -9,6 +9,6 @@ interactionRouter.post('/schedule',authenticateUser,checkPermission(["interactio
 interactionRouter.post('/',authenticateUser,checkPermission(["interactions.schedule"]),getInteractionByDateAndFiltering);
 interactionRouter.get('/:id',authenticateUser,checkPermission(['interactions.view']),checkUser,getInteractionByUserId);
 interactionRouter.patch('/:id/update',authenticateUser,checkPermission(['interactions.schedule']),updateInteraction);
-interactionRouter.get('/toggle/schedule',authenticateUser,checkPermission(['interactions.schedule']),toggleScheduleStatus);
+interactionRouter.get('/:id/toggleSchedule',authenticateUser,checkPermission(['interactions.schedule']),toggleScheduleStatus);
 
 export default interactionRouter;
