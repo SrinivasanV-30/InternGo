@@ -1,12 +1,12 @@
 import { PrismaClient } from "@prisma/client";
-import logger from "../utils/logger.js"; 
+import logger from "../utils/logger.js";
 
-const prisma=new PrismaClient();
+const prisma = new PrismaClient();
 
 export const createFeedback = async (feedbackData) => {
     try {
         return await prisma.feedbacks.create({
-            data: feedbackData,
+             data: feedbackData 
         });
     } catch (error) {
         logger.error(error.message);
@@ -17,7 +17,7 @@ export const createFeedback = async (feedbackData) => {
 export const getFeedbackByInteraction = async (interactionId) => {
     try {
         return await prisma.feedbacks.findMany({
-            where: { interactionId },
+            where: { interactionId: interactionId },
             include: {
                 intern: { select: { name: true, email: true } },
                 interviewer: { select: { name: true, email: true } },
@@ -33,7 +33,7 @@ export const getFeedbackByInteraction = async (interactionId) => {
 export const getFeedbackByIntern = async (internId) => {
     try {
         return await prisma.feedbacks.findMany({
-            where: { internId },
+            where: { internId: internId },
             include: { interaction: true },
         });
     } catch (error) {
@@ -45,7 +45,7 @@ export const getFeedbackByIntern = async (internId) => {
 export const updateFeedback = async (id, updatedData) => {
     try {
         return await prisma.feedbacks.update({
-            where: { id },
+            where: { id: id },
             data: updatedData,
         });
     } catch (error) {
@@ -56,9 +56,7 @@ export const updateFeedback = async (id, updatedData) => {
 
 export const deleteFeedback = async (id) => {
     try {
-        return await prisma.feedbacks.delete({
-            where: { id },
-        });
+        return await prisma.feedbacks.delete({ where: { id } });
     } catch (error) {
         logger.error(error.message);
         throw new Error(error.message);

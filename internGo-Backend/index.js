@@ -12,6 +12,7 @@ import { webSocket } from './services/webSocketService.js';
 
 import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
+import feedbackRouter from './routes/feedbackRoutes.js';
 
 
 const app=express();
@@ -44,7 +45,8 @@ app.use('/api/users',userRouter);
 app.use('/api/plans',planRouter);
 app.use('/api/dailyUpdates',dailyUpdateRouter);
 app.use('/api/interactions',interactionRouter);
-app.use('/api/notifications',notificationRouter)
+app.use('/api/notifications',notificationRouter);
+app.use('/api/feedbacks',feedbackRouter)
 
 server.listen(PORT,()=>{
     console.log(`Successfully running on ${PORT}`)
