@@ -21,7 +21,7 @@ export const sendRemaindersForInteraction = async () => {
                     const existingNotifications = await existingNotification(interaction.id, 'interaction-remainder');
                     console.log("Existing Notifications: ", existingNotifications);
 
-                    if (!existingNotifications) {
+                    if (!existingNotifications && interaction.isScheduled) {
                         console.log("Sending Notifications...");
                         sendNotification(interaction.internId, "interaction-remainder", interaction.id, `Your ${interaction.name} interaction is scheduled to start at ${interaction.time}. Your mentor is ${interaction.assignedInterviewer}. Be prepared!`);
                         sendNotification(interaction.interviewerId, "interaction-remainder", interaction.id, `Your ${interaction.name} interaction with intern ${interaction.assignedIntern} is scheduled to start at ${interaction.time}. Get ready!`);

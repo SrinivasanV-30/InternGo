@@ -17167,3 +17167,302 @@ Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.re
 
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
 2025-02-09T06:38:05.752Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T09:36:10.020Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-09T09:36:10.023Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T09:49:05.838Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T09:49:05.839Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T10:26:05.159Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T10:26:05.160Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T10:51:05.729Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T10:51:05.730Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T11:10:05.904Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T11:10:05.905Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T11:23:05.726Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T11:23:05.727Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:04:10.491Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-09T13:04:10.492Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:05:00.552Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:05:00.553Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:06:00.616Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:06:00.617Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:07:00.682Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:07:00.683Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:08:00.747Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:08:00.748Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:09:00.810Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:09:00.810Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:10:00.873Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:10:00.874Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:11:00.938Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:11:00.939Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:12:00.998Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:12:00.999Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:13:00.061Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:13:00.061Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:14:00.120Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:14:00.121Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:15:00.184Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:15:00.185Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:16:00.245Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:16:00.246Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:17:00.306Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:17:00.306Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:18:00.364Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:18:00.365Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:19:00.425Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:19:00.426Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:20:00.484Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:20:00.485Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:21:05.547Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:21:05.548Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:28:05.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:28:05.989Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T13:30:06.390Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T13:56:29.026Z [:[32minfo[39m] Login successful!!!
+2025-02-09T13:56:29.029Z [:[32minfo[39m] ::1 - - [09/Feb/2025:13:56:29 +0000] "POST /api/auth/signin HTTP/1.1" 200 532 "-" "PostmanRuntime/7.43.0"
+2025-02-09T13:57:59.685Z [:[31merror[39m] Invalid password
+2025-02-09T13:57:59.688Z [:[32minfo[39m] ::1 - - [09/Feb/2025:13:57:59 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-09T13:58:06.268Z [:[32minfo[39m] Login successful!!!
+2025-02-09T13:58:06.268Z [:[32minfo[39m] ::1 - - [09/Feb/2025:13:58:06 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:00:42.720Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:00:42.722Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:00:42 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:03:01.784Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:03:01.794Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:03:01 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:03:36.293Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:03:36.301Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:03:36 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:03:47.266Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:03:47.274Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:03:47 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:03:52.347Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:05:47.555Z [:[31merror[39m] 
+Invalid `prisma.interactions.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:05:47.557Z [:[31merror[39m] 
+Invalid `prisma.interactions.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:06:05.745Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:06:05.746Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-09T14:06:56.738Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:06:56.741Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:07:16.342Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:07:16 +0000] "POST /api/interactions/schedule HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:07:22.124Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:07:22.127Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:07:24.524Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:07:24 +0000] "POST /api/interactions/schedule HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:07:30.349Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:07:30.350Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-09T14:07:31.993Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:07:31 +0000] "POST /api/interactions/schedule HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:07:35.714Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:07:35.722Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:07:35 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:08:29.423Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:08:29.425Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:08:29 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:08:54.672Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:08:54.680Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:08:54 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-09T14:09:03.471Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-09T14:09:03.473Z [:[32minfo[39m] ::1 - - [09/Feb/2025:14:09:03 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
