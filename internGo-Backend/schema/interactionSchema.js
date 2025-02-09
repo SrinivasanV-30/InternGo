@@ -8,7 +8,6 @@ export const interactionValidationSchema = Joi.object({
     assignedInterviewer: Joi.string().min(3).max(255).required(),
     date: Joi.date().iso().required(), 
     time: Joi.string()
-        .pattern(/^([0-9]{1,2}):([0-9]{2})\s?(AM|PM)$/i)
         .required(),
     duration:Joi.string().required(),
     interactionStatus: Joi.string().valid("COMPLETED","PENDING")

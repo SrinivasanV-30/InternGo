@@ -1,17 +1,22 @@
 import cron from "node-cron";
-import { sendRemaindersForInteraction } from "./cron_jobs/sendRemaindersForInteractions.js";
-import { updateDaysWorked } from "./cron_jobs/updateDaysWorked.js";
+import { sendRemaindersForInteraction } from "./cron_jobs/interactionRemainders.js";
+import { dailyUpdatesNotUpdated, updateDaysWorked } from "./cron_jobs/dailyUpdatesNotifications.js";
 
 
 export const startCronJobs = () => {
-    cron.schedule("* * * * *", () => { 
+    cron.schedule("* 9-21 * * *", () => { 
         console.log("Checking for upcoming interactions...");
         sendRemaindersForInteraction();
     });
 
     cron.schedule("0 18 * * *", () => { 
-        console.log("Checking for upcoming interactions...");
+        console.log("Days worked updation initialised...");
         updateDaysWorked();
+    });
+
+    cron.schedule("0 19 * * *", () => { 
+        console.log("Daily updates notification to admin...");
+        dailyUpdatesNotUpdated();
     });
     console.log("Cron job scheduled!");
 };
