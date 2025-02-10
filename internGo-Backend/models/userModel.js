@@ -377,7 +377,11 @@ export const getInteractionsTaken=async(userId)=>{
                 id:userId
             },
             select:{
-                interactionsTaken:true
+                interactionsTaken:{
+                    orderBy:{
+                        createdAt:'desc'
+                    }
+                }
             }
         })
     }

@@ -18475,3 +18475,94 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-10T11:09:39.494Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:39 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-02-10T11:09:41.340Z [:[32minfo[39m] Notifications fetched successfully
 2025-02-10T11:09:41.340Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:49.411Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:49.413Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:49 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:57.648Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:57.650Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:03.179Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:03.181Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:03 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:11.426Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:11.428Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:11 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:12.687Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:12.689Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:12 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:18.099Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:18.101Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:18 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:22.175Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:22.177Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:22 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:24.761Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:24.763Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:29.285Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:29.286Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:29 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:39.393Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:39.395Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:39 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:53.099Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:53.100Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:53 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:58.831Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:58.833Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:58 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:10:59.888Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:10:59.889Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:10:59 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:11:12.570Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:11:12.571Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:11:12 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:11:24.693Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:11:24.694Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:11:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:11:36.007Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:11:36.008Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:11:36 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:11:43.222Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:11:43.224Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:11:43 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:12:34.996Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:12:34.996Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:12:34 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T11:12:35.536Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:12:35.537Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:12:35 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:12:37.811Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:12:37 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 42694 "-" "okhttp/4.12.0"
+2025-02-10T11:12:43.896Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:12:43 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:15:10.738Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:15:10.738Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:15:10 +0000] "POST /api/auth/signin HTTP/1.1" 200 520 "-" "okhttp/4.12.0"
+2025-02-10T11:15:12.540Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:15:12.542Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:15:12 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 12062 "-" "okhttp/4.12.0"
+2025-02-10T11:15:18.038Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:15:18 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T11:15:48.334Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:15:48.336Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:15:48 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 12051 "-" "okhttp/4.12.0"
+2025-02-10T11:17:24.881Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-10T11:17:24.882Z [:[32minfo[39m] ::1 - - [10/Feb/2025:11:17:24 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-10T11:17:36.903Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-10T11:17:36.905Z [:[32minfo[39m] ::1 - - [10/Feb/2025:11:17:36 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-10T11:17:45.916Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-10T11:17:45.918Z [:[32minfo[39m] ::1 - - [10/Feb/2025:11:17:45 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-10T11:17:52.290Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-10T11:17:52.291Z [:[32minfo[39m] ::1 - - [10/Feb/2025:11:17:52 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-10T11:18:03.534Z [:[32minfo[39m] Deleted sucessfully
+2025-02-10T11:18:03.536Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:18:03 +0000] "DELETE /api/notifications/delete HTTP/1.1" 204 - "-" "okhttp/4.12.0"
+2025-02-10T11:18:11.579Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:18:11 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T11:18:12.516Z [:[32minfo[39m] Deleted sucessfully
+2025-02-10T11:18:12.517Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:18:12 +0000] "DELETE /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/delete HTTP/1.1" 204 - "-" "okhttp/4.12.0"
+2025-02-10T11:18:14.797Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:18:14 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T11:18:22.637Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:18:22 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T11:19:08.265Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:19:08.265Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:19:08 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T11:19:08.799Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:19:08.800Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:19:08 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:20:51.578Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:20:51 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 83 "-" "okhttp/4.12.0"
+2025-02-10T11:21:19.610Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-10T11:21:19.612Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:19 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "okhttp/4.12.0"
+2025-02-10T11:21:25.123Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:21:25.123Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:25 +0000] "POST /api/auth/signin HTTP/1.1" 200 540 "-" "okhttp/4.12.0"
+2025-02-10T11:21:25.705Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:21:25.706Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:25 +0000] "GET /api/notifications/b3c3509f-a5dc-45e8-b54e-ad6dcf2dafd8 HTTP/1.1" 200 1242 "-" "okhttp/4.12.0"
+2025-02-10T11:21:29.329Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:29 +0000] "GET /api/interactions/b3c3509f-a5dc-45e8-b54e-ad6dcf2dafd8 HTTP/1.1" 200 83 "-" "okhttp/4.12.0"
+2025-02-10T11:21:32.024Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:32 +0000] "GET /api/interactions/b3c3509f-a5dc-45e8-b54e-ad6dcf2dafd8 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:21:37.848Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:37 +0000] "PATCH /api/notifications/b3c3509f-a5dc-45e8-b54e-ad6dcf2dafd8/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T11:21:46.567Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:21:46.569Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:21:46 +0000] "GET /api/notifications/b3c3509f-a5dc-45e8-b54e-ad6dcf2dafd8 HTTP/1.1" 200 1238 "-" "okhttp/4.12.0"
+2025-02-10T11:23:02.617Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:23:02.617Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:23:02 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T11:23:03.897Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:23:03.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:23:03 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:24:50.219Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:24:50 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 578 "-" "okhttp/4.12.0"
+2025-02-10T11:30:33.873Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:30:33.873Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:33 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T11:30:36.196Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:30:36.197Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:36 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:30:37.367Z [:[32minfo[39m] Fetched successfully
+2025-02-10T11:30:37.369Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:37 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 1578 "-" "okhttp/4.12.0"
+2025-02-10T11:30:37.771Z [:[32minfo[39m] Fetched successfully
+2025-02-10T11:30:37.772Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:37 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
