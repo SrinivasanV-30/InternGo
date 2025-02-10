@@ -48,7 +48,7 @@ export const updateUserProfile = async (req, res) => {
             if (!key) {
                 return sendResponse(res, 400, "Invalid image!!!");
             }
-            
+
             userData.profilePhoto = key;
         }
         if ("dateOfBirth" in userData) {
@@ -89,9 +89,8 @@ export const getUser = async (req, res) => {
             return sendResponse(res, 404, "User not found!!!");
         }
         const internProfile = await findUserByUserId(userId);
-        if(internProfile.profilePhoto)
-        {
-            internProfile.profilePhoto=process.env.AWS_BUCKET_DOMAIN+internProfile.profilePhoto;
+        if (internProfile.profilePhoto) {
+            internProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
             console.log(internProfile.profilePhoto)
         }
         sendResponse(res, 200, "Fetched successfully", internProfile);
@@ -119,8 +118,7 @@ export const createUserAsset = async (req, res) => {
     try {
         const userAsset = req.body;
         const userDetails = await findUserByUserId(userAsset.userId);
-        if(!userDetails)
-        {
+        if (!userDetails) {
             logger.error("User not found!!!");
             return sendResponse(res, 404, "User not found!!!");
         }
@@ -188,14 +186,14 @@ export const getInterns = async (req, res) => {
             // })
             // const total_items = await internsCount({ name: name.trim() });
             // const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
-           
+
             // return sendResponse(res, 200, "Fetched successfully", {
             //     data: searchedInterns,
             //     total_pages,
             // });
-            whereCondition.name={
-                    contains: name,
-                    mode:'insensitive'
+            whereCondition.name = {
+                contains: name,
+                mode: 'insensitive'
             };
         }
         if (year && year.length > 0) {
@@ -216,10 +214,11 @@ export const getInterns = async (req, res) => {
             offset,
             limit
         );
-        interns.forEach((intern)=>{
-            if(intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/")))
-            {intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
-            console.log(intern.profilePhoto)}
+        interns.forEach((intern) => {
+            if (intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/"))) {
+                intern.profilePhoto = process.env.AWS_BUCKET_DOMAIN + intern.profilePhoto;
+                console.log(intern.profilePhoto)
+            }
         })
         const total_items = await internsCount(whereCondition);
         const total_pages = total_items > 0 ? Math.ceil(total_items / limit) : 0;
@@ -238,26 +237,18 @@ export const getTrainingDetails = async (req, res) => {
         const userId = req.params.id;
         const userPlan = await getTrainingPlan(userId);
         console.log(userPlan);
-        const trainingPlan = await getPlanById(userPlan.planId);
-        if (!trainingPlan) {
+        if (!userPlan) {
             logger.error("Training plan not found!!!");
             return sendResponse(res, 404, "Training plan not found!!!");
         }
-        const milestones = trainingPlan.milestones;
-        console.log(userId, milestones);
-        if (!milestones) {
+        if (!userPlan.plan.milestones) {
             logger.error("Milestones not found!!!");
             return sendResponse(res, 404, "Milestones not found!!!");
         }
-        milestones.forEach((milestone) => {
+        userPlan.plan.milestones.forEach((milestone) => {
             if (milestone.milestoneDays >= userPlan.daysWorked) {
                 logger.info("Training plan fetched!!");
-                return sendResponse(
-                    res,
-                    200,
-                    "Training fetched successfully",
-                    milestone
-                );
+                return sendResponse(res,200,"Training fetched successfully",milestone);
             }
         });
     } catch (error) {
@@ -265,25 +256,24 @@ export const getTrainingDetails = async (req, res) => {
     }
 };
 
-export const getDistinctFilters=async(req,res)=>{
-    try{
-        const filterData=await getFilters();
+export const getDistinctFilters = async (req, res) => {
+    try {
+        const filterData = await getFilters();
         logger.info("Fetched Successfully")
-        sendResponse(res,200,"Fetched Successfully",filterData);
+        sendResponse(res, 200, "Fetched Successfully", filterData);
     }
-    catch(error){
+    catch (error) {
 
     }
 }
 
-export const getMentors=async(req,res)=>{
-    try{
+export const getMentors = async (req, res) => {
+    try {
         const mentors = await findUserByRole("Mentors");
         logger.info("Fetched successfully")
-        sendResponse(res,200,"Fetched successfully",mentors);
+        sendResponse(res, 200, "Fetched successfully", mentors);
     }
-    catch(error)
-    {
+    catch (error) {
         logger.error(error.message);
     }
 }

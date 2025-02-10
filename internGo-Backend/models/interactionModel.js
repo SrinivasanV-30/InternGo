@@ -21,7 +21,10 @@ export const getInteractions = async (offset, limit,whereCondition) => {
         return await prisma.interactions.findMany({
             skip: offset,
             take: limit,
-            where:whereCondition 
+            where:whereCondition,
+            orderBy:{
+                createdAt:"desc"
+            }
         });
     } catch (error) {
         logger.error(error.message);

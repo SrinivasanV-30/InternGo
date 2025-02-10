@@ -9,12 +9,12 @@ export const startCronJobs = () => {
         sendRemaindersForInteraction();
     });
 
-    cron.schedule("0 18 * * *", () => { 
+    cron.schedule("0 18 * * 1-5", () => { 
         console.log("Days worked updation initialised...");
         updateDaysWorked();
     });
 
-    cron.schedule("0 19 * * *", () => { 
+    cron.schedule("0 19 * * 1-5", () => { 
         console.log("Daily updates notification to admin...");
         dailyUpdatesNotUpdated();
     });

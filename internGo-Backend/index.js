@@ -13,6 +13,7 @@ import { webSocket } from './services/webSocketService.js';
 import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
 import feedbackRouter from './routes/feedbackRoutes.js';
+import { zoneCalculation } from './utils/zoneCalculation.js';
 
 
 const app=express();
@@ -20,6 +21,7 @@ const PORT=process.env.PORT || 8080;
 const server = http.createServer(app);
 webSocket(server);
 
+zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 startCronJobs()
 
 

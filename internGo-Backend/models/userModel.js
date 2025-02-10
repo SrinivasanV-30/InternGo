@@ -65,8 +65,13 @@ export const getTrainingPlan = async (userId) => {
                 id: userId,
             },
             select: {
-                planId: true,
-                daysWorked: true,
+                plan:{
+                    select:{
+                        milestones:true
+                    }
+                },
+                daysWorked:true
+                
             },
         });
         return trainingPlan;

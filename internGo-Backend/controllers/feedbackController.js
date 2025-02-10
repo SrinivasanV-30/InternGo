@@ -1,10 +1,12 @@
-import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFeedback, deleteFeedback } from "../models/feedbackModel.js";
+import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFeedback, deleteFeedback, calculateAvgRating } from "../models/feedbackModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 
 export const addFeedback = async (req, res) => {
     try {
         const feedbackData = req.body;
+        const avgRatings=calculateAvgRating(feedbackData.ratings);
+        feedbackData.avg_rating=avgRatings;
         const createdFeedback = await createFeedback(feedbackData);
         logger.info("Feedback added successfully");
         sendResponse(res, 201, "Feedback added successfully", createdFeedback);

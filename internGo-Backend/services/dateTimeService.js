@@ -1,5 +1,5 @@
 export const convertTimeStringandDate = (dateString, timeString) => {
-    if (!dateString || !timeString) return null; // Prevent errors
+    if (!dateString || !timeString) return null; 
     timeString=timeString.toString();
     
     let [time, timePeriod] = timeString.split(" ");
@@ -11,7 +11,8 @@ export const convertTimeStringandDate = (dateString, timeString) => {
     // }
 
   
-    const updatedDate = new Date(`${dateString}T${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:00Z`);
+    const updatedDate = new Date(dateString);
+    updatedDate.setHours(hours,minutes,0,0);
     return updatedDate;
 };
 

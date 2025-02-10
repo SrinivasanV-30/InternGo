@@ -3,6 +3,14 @@ import logger from "../utils/logger.js";
 
 const prisma = new PrismaClient();
 
+export const calculateAvgRating = (ratings) => {
+    const scores = Object.values(ratings);
+    console.log(scores)
+    if (scores.length === 0) return 0;
+    return Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length);
+};
+
+
 export const createFeedback = async (feedbackData) => {
     try {
         return await prisma.feedbacks.create({
@@ -36,6 +44,20 @@ export const getFeedbackByIntern = async (internId) => {
             where: { internId: internId },
             include: { interaction: true },
         });
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+};
+
+export const getFeedbackRatingsByIntern = async (internId) => {
+    try {
+        const feedbacks=await prisma.feedbacks.findMany({
+            where: { internId: internId },
+            select:{ avg_rating:true },
+        })
+        console.log(feedbacks)
+        return feedbacks.map((result)=>result.avg_rating);
     } catch (error) {
         logger.error(error.message);
         throw new Error(error.message);

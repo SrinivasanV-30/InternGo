@@ -11,17 +11,16 @@ export const sendRemaindersForInteraction = async () => {
         console.log("Current Date and Time: ", now);
 
         upcomingInteractions.forEach(async (interaction) => {
-            // console.log(interaction);
+            // console.log(interaction.isScheduled);
             if (interaction.isScheduled) {
                 const interactionDate = convertTimeStringandDate(interaction.date, interaction.time);
                 const timeDiff = interactionDate.getTime() - now.getTime();
-
 
                 if (timeDiff > 0 && timeDiff <= 30 * 60 * 1000) {
                     const existingNotifications = await existingNotification(interaction.id, 'interaction-remainder');
                     console.log("Existing Notifications: ", existingNotifications);
 
-                    if (!existingNotifications && interaction.isScheduled) {
+                    if (!existingNotifications) {
                         console.log("Sending Notifications...");
                         sendNotification(interaction.internId, "interaction-remainder", interaction.id, `Your ${interaction.name} interaction is scheduled to start at ${interaction.time}. Your mentor is ${interaction.assignedInterviewer}. Be prepared!`);
                         sendNotification(interaction.interviewerId, "interaction-remainder", interaction.id, `Your ${interaction.name} interaction with intern ${interaction.assignedIntern} is scheduled to start at ${interaction.time}. Get ready!`);

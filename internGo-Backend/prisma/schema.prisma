@@ -29,6 +29,7 @@ model Users{
     phone_no String?
     education Json?
     bankDetails Json?
+    zone String?
     certificates_submission_status Boolean?
     status Status?
     dateOfBirth DateTime?
@@ -191,11 +192,12 @@ model Notifications{
 
 model Feedbacks {
     id             Int    @id @default(autoincrement())
-    interactionId  Int    
+    interactionId  Int    @unique
     internId       String    
     interviewerId  String    
     ratings        Json      
     descriptive_feedback  String
+    avg_rating     Float
     createdAt      DateTime  @default(now())
     updatedAt      DateTime  @updatedAt
 
