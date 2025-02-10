@@ -18172,3 +18172,306 @@ Unique constraint failed on the fields: (`interactionId`)
 2025-02-10T08:45:50.850Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:45:50 +0000] "POST /api/interactions?limit=10&offset=20 HTTP/1.1" 200 5047 "-" "okhttp/4.12.0"
 2025-02-10T08:45:52.104Z [:[32minfo[39m] Fetched successfully
 2025-02-10T08:45:52.106Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:45:52 +0000] "POST /api/interactions?limit=10&offset=30 HTTP/1.1" 200 5051 "-" "okhttp/4.12.0"
+2025-02-10T08:51:05.207Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T08:51:05.208Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T08:52:32.709Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T08:52:32.710Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:52:32 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T08:52:33.032Z [:[32minfo[39m] Fetched successfully
+2025-02-10T08:52:33.034Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:52:33 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5084 "-" "okhttp/4.12.0"
+2025-02-10T08:52:42.510Z [:[32minfo[39m] Login successful!!!
+2025-02-10T08:52:42.510Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:52:42 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T08:52:42.963Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T08:52:42.965Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:52:42 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T08:52:45.764Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:52:45 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T08:53:07.417Z [:[32minfo[39m] Login successful!!!
+2025-02-10T08:53:07.417Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:53:07 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T08:53:08.083Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T08:53:08.085Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:53:08 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T08:53:19.512Z [:[32minfo[39m] Fetched successfully
+2025-02-10T08:53:19.514Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:08:53:19 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5084 "-" "okhttp/4.12.0"
+2025-02-10T09:02:58.257Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:02:58.257Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:02:58 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:03:00.965Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:03:00.966Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:03:00 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:03:04.352Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:03:04 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:04:00.954Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T09:04:00.955Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T09:08:10.201Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-10T09:08:10.202Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T09:08:18.424Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:08:18.425Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:08:18 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:08:53.188Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:08:53 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:09:02.960Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:09:02 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:12:40.854Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:12:40.854Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:12:40 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:12:46.234Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:12:46 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:14:51.781Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:14:51.782Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:14:51 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:14:55.407Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:14:55 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:16:01.071Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:16:01.073Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:16:01 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:16:21.967Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:16:21.967Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:16:21 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T09:16:22.549Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:16:22.551Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:16:22 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:17:45.008Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:17:45.008Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:17:45 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:17:45.533Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:17:45.535Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:17:45 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:17:48.115Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:17:48 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:20:12.362Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:20:12 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:24:12.355Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:24:12.355Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:24:12 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:24:14.373Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:24:14.374Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:24:14 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:24:15.359Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:24:15 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:25:02.581Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:25:02 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:27:44.269Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:27:44.270Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:27:44 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T09:27:45.636Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:27:45.637Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:27:45 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:27:49.669Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:27:49 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-10T09:27:54.854Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:27:54 +0000] "GET /api/users/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 4279 "-" "okhttp/4.12.0"
+2025-02-10T09:28:07.560Z [:[32minfo[39m] Fetched successfully
+2025-02-10T09:28:07.561Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:28:07 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5084 "-" "okhttp/4.12.0"
+2025-02-10T09:28:10.283Z [:[32minfo[39m] Fetched successfully
+2025-02-10T09:28:10.285Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:28:10 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 5037 "-" "okhttp/4.12.0"
+2025-02-10T09:33:52.789Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:33:52.789Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:33:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:33:54.330Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:33:54.331Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:33:54 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:33:58.942Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:33:58 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:37:32.522Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:37:32.522Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:37:32 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T09:37:33.044Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:37:33.046Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:37:33 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:37:36.996Z [:[32minfo[39m] Fetched successfully
+2025-02-10T09:37:36.997Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:37:36 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5084 "-" "okhttp/4.12.0"
+2025-02-10T09:37:38.460Z [:[32minfo[39m] Fetched successfully
+2025-02-10T09:37:38.461Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:37:38 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 5037 "-" "okhttp/4.12.0"
+2025-02-10T09:42:47.272Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:42:47.272Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:42:47 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:42:48.606Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:42:48.608Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:42:48 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:43:00.387Z [:[32minfo[39m] Login successful!!!
+2025-02-10T09:43:00.388Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:43:00 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T09:43:00.843Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T09:43:00.844Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:43:00 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T09:43:11.780Z [:[32minfo[39m] Fetched Successfully
+2025-02-10T09:43:11.781Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:43:11 +0000] "GET /api/plans HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T09:43:24.589Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:09:43:24 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-10T10:20:36.893Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:20:36.894Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:20:36 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:22:22.065Z [:[32minfo[39m] Login successful!!!
+2025-02-10T10:22:22.065Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:22:22 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T10:22:22.649Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:22:22.650Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:22:22 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:25:24.237Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:25:24.238Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:25:24 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:25:32.160Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:25:32.161Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:25:32 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:27.726Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:27.727Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:27 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:31.641Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:31.642Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:31 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:35.717Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:35.718Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:35 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:40.602Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:40.603Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:40 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:44.452Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:44.453Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:44 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:45.146Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:45.146Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:45 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:47.602Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:47.603Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:47 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:26:57.249Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:26:57.250Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:26:57 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:27:35.880Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:27:35.882Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:27:35 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:27:41.681Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:27:41.682Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:27:41 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:27:44.394Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:27:44.395Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:27:44 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:27:51.247Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:27:51.248Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:27:51 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:27:57.733Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:27:57.734Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:27:57 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:28:03.855Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:28:03.856Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:28:03 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:28:06.466Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:28:06.467Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:28:06 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:28:09.262Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:28:09.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:28:09 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:28:23.346Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:28:23.347Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:28:23 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:29:30.604Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:29:30.606Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:29:30 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:44:24.974Z [:[32minfo[39m] ::1 - - [10/Feb/2025:10:44:24 +0000] "POST /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 404 197 "-" "PostmanRuntime/7.43.0"
+2025-02-10T10:44:30.351Z [:[31merror[39m] jwt expired
+2025-02-10T10:44:30.352Z [:[32minfo[39m] ::1 - - [10/Feb/2025:10:44:30 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-10T10:44:36.677Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:44:36.678Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:44:36 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:44:38.876Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:44:38 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:44:51.564Z [:[32minfo[39m] Login successful!!!
+2025-02-10T10:44:51.565Z [:[32minfo[39m] ::1 - - [10/Feb/2025:10:44:51 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-10T10:44:58.529Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
++   internId: {
++     equals: String | StringFieldRefInput,
++     in: String[] | ListStringFieldRefInput,
++     notIn: String[] | ListStringFieldRefInput,
++     lt: String | StringFieldRefInput,
++     lte: String | StringFieldRefInput,
++     gt: String | StringFieldRefInput,
++     gte: String | StringFieldRefInput,
++     contains: String | StringFieldRefInput,
++     startsWith: String | StringFieldRefInput,
++     endsWith: String | StringFieldRefInput,
++     search: String,
++     mode: QueryMode,
++     not: String | NestedStringFilter
++   }
+  },
+  include: {
+    interaction: true
+  }
+}
+
+Argument `internId` is missing.
+2025-02-10T10:44:58.529Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
++   internId: {
++     equals: String | StringFieldRefInput,
++     in: String[] | ListStringFieldRefInput,
++     notIn: String[] | ListStringFieldRefInput,
++     lt: String | StringFieldRefInput,
++     lte: String | StringFieldRefInput,
++     gt: String | StringFieldRefInput,
++     gte: String | StringFieldRefInput,
++     contains: String | StringFieldRefInput,
++     startsWith: String | StringFieldRefInput,
++     endsWith: String | StringFieldRefInput,
++     search: String,
++     mode: QueryMode,
++     not: String | NestedStringFilter
++   }
+  },
+  include: {
+    interaction: true
+  }
+}
+
+Argument `internId` is missing.
+2025-02-10T10:44:58.530Z [:[32minfo[39m] ::1 - - [10/Feb/2025:10:44:58 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-10T10:45:34.346Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-10T10:45:34.354Z [:[32minfo[39m] ::1 - - [10/Feb/2025:10:45:34 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 2938 "-" "PostmanRuntime/7.43.0"
+2025-02-10T10:45:41.090Z [:[32minfo[39m] Login successful!!!
+2025-02-10T10:45:41.090Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:45:41 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T10:45:42.666Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:45:42.667Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:45:42 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:57:13.617Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:57:13.620Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:57:13 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:57:47.333Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:57:47.334Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:57:47 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:58:13.004Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:58:13.006Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:58:13 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:58:26.868Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:58:26.870Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:58:26 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:59:35.635Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:59:35.644Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:59:35 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T10:59:41.765Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T10:59:41.768Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:10:59:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:02:54.931Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:02:54.932Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:02:57.399Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:02:57.401Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:03:00.376Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:03:00.377Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T11:06:16.854Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:06:16.862Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:06:16 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:06:18.127Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:06:18.130Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:06:18 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:08:19.426Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:08:19.428Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T11:08:38.758Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:08:38.765Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:08:38 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:08:56.982Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:08:56.983Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:08:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:09.341Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:09.342Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:09 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:13.903Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:13.905Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:13 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:14.102Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:14.105Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:14 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:24.476Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:24.476Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:32.918Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:32.920Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:32 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:39.492Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:39.494Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:39 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:09:41.340Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:09:41.340Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:09:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"

@@ -202,4 +202,3 @@ export const toggleScheduleStatus = async (req, res) => {
         sendResponse(res, 500, "Internal Server Error");
     }
 };
-

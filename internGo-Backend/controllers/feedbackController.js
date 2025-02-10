@@ -1,6 +1,8 @@
 import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFeedback, deleteFeedback, calculateAvgRating } from "../models/feedbackModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
+import { updateInteractions } from "../models/interactionModel.js";
+
 
 export const addFeedback = async (req, res) => {
     try {
@@ -8,6 +10,7 @@ export const addFeedback = async (req, res) => {
         const avgRatings=calculateAvgRating(feedbackData.ratings);
         feedbackData.avg_rating=avgRatings;
         const createdFeedback = await createFeedback(feedbackData);
+        await updateInteractions(feedbackData.interactionId,{interactionStatus:"COMPLETED"})
         logger.info("Feedback added successfully");
         sendResponse(res, 201, "Feedback added successfully", createdFeedback);
     } catch (error) {
@@ -33,7 +36,7 @@ export const getFeedbacksByInteraction = async (req, res) => {
 
 export const getFeedbacksByIntern = async (req, res) => {
     try {
-        const internId = parseInt(req.params.internId);
+        const internId = req.params.internId;
         const feedback = await getFeedbackByIntern(internId);
         if (!feedback.length) {
             return sendResponse(res, 404, "No feedback found");
