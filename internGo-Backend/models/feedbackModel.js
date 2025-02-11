@@ -7,7 +7,7 @@ export const calculateAvgRating = (ratings) => {
     const scores = Object.values(ratings);
     console.log(scores)
     if (scores.length === 0) return 0;
-    return Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length);
+    return Math.floor(scores.reduce((sum, score) => sum + score, 0) / scores.length);
 };
 
 
@@ -64,7 +64,7 @@ export const getFeedbackRatingsByIntern = async (internId) => {
             where: { internId: internId },
             select:{ avg_rating:true },
         })
-        console.log(feedbacks)
+        // console.log(feedbacks)
         return feedbacks.map((result)=>result.avg_rating);
     } catch (error) {
         logger.error(error.message);

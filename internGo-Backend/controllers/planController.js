@@ -20,6 +20,7 @@ import {
     findUserByUserId,
     getInternBasedOnFilters,
     getInternBasedOnSearch,
+    getTrainingPlan,
     internsCount,
     updateUser,
 } from "../models/userModel.js";
@@ -104,7 +105,7 @@ export const createObjective = async (req, res) => {
         const planId = parseInt(req.params.id);
         const milestoneId = req.body.milestoneId;
         const objectiveData = req.body;
-        
+
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");
@@ -116,10 +117,10 @@ export const createObjective = async (req, res) => {
             logger.error("Milestone not found!!!");
             return sendResponse(res, 404, "Milestone not found!!!");
         }
-        const createdObjectives=await createObjectives(objectiveData);
-        
+        const createdObjectives = await createObjectives(objectiveData);
+
         logger.info("Objective added successfully!");
-        return sendResponse(res, 201, "Objective added successfully!",createdObjectives);
+        return sendResponse(res, 201, "Objective added successfully!", createdObjectives);
     } catch (error) {
         logger.error(error.message);
     }
@@ -158,7 +159,7 @@ export const createMultipleObjectives = async (req, res) => {
         const planId = parseInt(req.params.id);
         const milestoneId = req.body.objectiveDatas[0].milestoneId;
         const objectiveDatas = req.body.objectiveDatas;
-        
+
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");
@@ -171,10 +172,10 @@ export const createMultipleObjectives = async (req, res) => {
             return sendResponse(res, 404, "Milestone not found!!!");
         }
 
-        const createdObjectives=await createObjectives(objectiveDatas);
-        
+        const createdObjectives = await createObjectives(objectiveDatas);
+
         logger.info("Objectives added successfully!");
-        return sendResponse(res, 201, "Objectives added successfully!",createdObjectives);
+        return sendResponse(res, 201, "Objectives added successfully!", createdObjectives);
     } catch (error) {
         logger.error(error.message);
     }
@@ -189,15 +190,15 @@ export const updateMultipleObjectives = async (req, res) => {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
         }
-        let updatedDatas=[];
-        await objectiveDatas.forEach(async(objectiveData)=>{
+        let updatedDatas = [];
+        await objectiveDatas.forEach(async (objectiveData) => {
             console.log(objectiveData)
-            const objective=await getObjectiveById(objectiveData.objectiveId)
-            if(!objective){
+            const objective = await getObjectiveById(objectiveData.objectiveId)
+            if (!objective) {
                 logger.error("Objective not found!!!");
-                sendResponse(res, 404, "Objective not found!!!",objectiveData);
+                sendResponse(res, 404, "Objective not found!!!", objectiveData);
                 throw new Error("Objective not found!!!");
-                
+
             }
             const updatedObjective = await updateObjectives(objectiveData.objectiveId, objectiveData.objectiveData);
             if (!updatedObjective) {
@@ -232,9 +233,9 @@ export const createMilestone = async (req, res) => {
             return sendResponse(res, 403, "User is not a mentor!!");
         }
         milestoneData.planId = planId;
-        const updatedMilestone=await createMilestones(milestoneData);
+        const updatedMilestone = await createMilestones(milestoneData);
         logger.info("Milestone added successfully!");
-        return sendResponse(res, 201, "Milestone added successfully!",updatedMilestone);
+        return sendResponse(res, 201, "Milestone added successfully!", updatedMilestone);
     } catch (error) {
         logger.error(error.message);
     }
@@ -242,7 +243,7 @@ export const createMilestone = async (req, res) => {
 
 export const updateMilestone = async (req, res) => {
     try {
-        const planId=parseInt(req.params.id);
+        const planId = parseInt(req.params.id);
         const { milestoneId, milestoneData } = req.body;
         console.log(milestoneId)
         const existingPlan = await getPlanById(planId);
@@ -382,7 +383,7 @@ export const removeUsers = async (req, res) => {
 
 export const getPlanUsers = async (req, res) => {
     try {
-        const { name, year, status, batch, designation, planStatus } =req.body || {};
+        const { name, year, status, batch, designation, planStatus } = req.body || {};
         const planId = parseInt(req.params.id);
         const limit = parseInt(req.query.limit) || 10;
         const offset = parseInt(req.query.offset) || 0;
@@ -407,9 +408,9 @@ export const getPlanUsers = async (req, res) => {
             //     data: searchedInterns,
             //     total_pages,
             // });
-            whereCondition.name={
+            whereCondition.name = {
                 contains: name,
-                mode:'insensitive'
+                mode: 'insensitive'
             };
         }
         if (planStatus) {
@@ -417,7 +418,7 @@ export const getPlanUsers = async (req, res) => {
                 whereCondition.planId = planId;
             }
             if (planStatus === "Not Present") {
-                
+
                 whereCondition.OR = [
                     { planId: null },
                     { planId: { not: planId } }
@@ -442,10 +443,9 @@ export const getPlanUsers = async (req, res) => {
             offset,
             limit
         );
-        interns.forEach((intern)=>{
-            if(intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/")))
-            {
-                intern.profilePhoto=process.env.AWS_BUCKET_DOMAIN+intern.profilePhoto;
+        interns.forEach((intern) => {
+            if (intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/"))) {
+                intern.profilePhoto = process.env.AWS_BUCKET_DOMAIN + intern.profilePhoto;
                 // console.log(intern.profilePhoto)
             }
         })
@@ -491,4 +491,6 @@ export const getTrainingDetails = async (req, res) => {
     } catch (error) {
         logger.error(error.message);
     }
-};
+}
+
+

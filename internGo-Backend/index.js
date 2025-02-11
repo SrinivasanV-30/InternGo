@@ -23,7 +23,7 @@ const PORT=process.env.PORT || 8080;
 const server = http.createServer(app);
 webSocket(server);
 
-zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
+// zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 startCronJobs()
 // generateFeedbackReport("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 

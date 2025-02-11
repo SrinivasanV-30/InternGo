@@ -5,7 +5,7 @@ import logger from "./logger.js";
 export const zoneCalculation=async(internId)=>{
     try{
         const internFeedbackRatings = await getFeedbackRatingsByIntern(internId);
-        console.log(internFeedbackRatings,1);
+        // console.log(internFeedbackRatings,1);
         let overallRatings=0,count=0,zone={zone:""};
         internFeedbackRatings.forEach((rating) => {
             overallRatings+=rating

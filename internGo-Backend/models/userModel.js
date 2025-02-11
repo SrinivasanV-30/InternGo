@@ -423,3 +423,21 @@ export const getUserByRole=async(role)=>{
         throw new Error(error.message);
     }
 }
+
+export const getUserPlans=async()=>{
+    try{
+        return await prisma.users.findMany({
+            include:{
+                plan:{
+                    milestones:{
+                        objectives:true
+                    }
+                }
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}

@@ -1,5 +1,6 @@
 import { getUpcomingInteractions } from "../models/interactionModel.js";
 import { existingNotification } from "../models/notificationModel.js";
+import { getUserPlans } from "../models/userModel.js";
 import { convertTimeStringandDate } from "../services/dateTimeService.js";
 import { sendNotification } from "../services/notificationService.js";
 import logger from "../utils/logger.js"
@@ -32,3 +33,15 @@ export const sendRemaindersForInteraction = async () => {
         logger.error(error.message);
     }
 };
+
+
+export const sendSchedulingRemindersToAdmins=async()=>{
+    try{
+        const userPlan=await getUserPlans();  
+
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+    }
+}

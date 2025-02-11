@@ -121,7 +121,7 @@ export const generateFeedbackReport = async (req, res) => {
                 if (!avgRatings[capitalizedKey]) {
                     avgRatings[capitalizedKey] = feedback.ratings[key];
                     avgCount[capitalizedKey] = 1
-                    console.log(key);
+                    // console.log(key);
                 } else {
                     avgRatings[capitalizedKey] += feedback.ratings[key];
                     avgCount[capitalizedKey] += 1
@@ -133,20 +133,7 @@ export const generateFeedbackReport = async (req, res) => {
             console.log(avgRatings[key], avgCount[key])
             avgRatings[key] /= avgCount[key]
         });
-        console.log(avgRatings);
-
-        // const minRating = 1.0;
-        // Object.keys(avgRatings).forEach(key => {
-        //     if (avgRatings[key] < minRating) {
-        //         avgRatings[key] = minRating;
-        //     }
-        // });
-
-        // const maxRating = Math.max(...Object.values(avgRatings));
-        // const scaleFactor = maxRating < 5 ? 5 / maxRating : 1;
-        // Object.keys(avgRatings).forEach(key => {
-        //     avgRatings[key] = Math.max((avgRatings[key] * scaleFactor).toFixed(2), minRating);
-        // });
+        // console.log(avgRatings);
 
         const categories = Object.keys(avgRatings);
         const ratingsData = Object.values(avgRatings);
