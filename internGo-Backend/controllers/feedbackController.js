@@ -64,11 +64,12 @@ export const modifyFeedback = async (req, res) => {
     try {
         const id = parseInt(req.params.id);
         const updatedData = req.body;
-
+        const avgRatings = calculateAvgRating(updatedData.ratings);
+        updatedData.avg_rating=avgRatings;
         const updatedFeedback = await updateFeedback(id, updatedData);
         logger.info("Feedback updated successfully");
         sendResponse(res, 200, "Feedback updated successfully", updatedFeedback);
-        zoneCalculation(feedbackData.internId);
+        zoneCalculation(updatedFeedback.internId);
     }
     catch (error) {
         logger.error(error.message);

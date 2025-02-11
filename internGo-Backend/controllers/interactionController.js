@@ -51,11 +51,12 @@ export const scheduleInteraction=async(req,res)=>{
         console.log(new Date(interactionData.date))
         const createdInteraction=await createInteractions(interactionData);
         logger.info("Scheduled interaction successfully");
-        sendNotification(interactionData.internId,"interaction-scheduled",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${(new Date(interactionData.date)).toISOString().split("T")[0]} at ${interactionData.time}. Please be prepared.`)
+        sendNotification(interactionData.internId,"interaction-scheduled",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${(new Date(interactionData.date)).toISOString().split("T")[0]} at ${interactionData.time}. Please be prepared.`);
+        sendNotification(interactionData.internId,"interaction-scheduled",createdInteraction.id,`Your interaction with ${interactionData.assignedInterviewer} is scheduled on ${(new Date(interactionData.date)).toISOString().split("T")[0]} at ${interactionData.time}. Please be prepared.`);
         sendResponse(res,201,"Scheduled interaction successfully");
 
     }
-    catch(error){
+    catch(error){ 
         logger.error(error.message);
     }
 }

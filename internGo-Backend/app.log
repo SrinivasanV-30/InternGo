@@ -22046,3 +22046,111 @@ Timed out fetching a new connection from the connection pool. More info: http://
 2025-02-11T11:39:49.495Z [:[32minfo[39m] Fetched feedback successfully
 2025-02-11T11:39:49.497Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:39:49 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-02-11T11:39:53.752Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:39:53 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "okhttp/4.12.0"
+2025-02-11T11:43:43.800Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:43:43 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "okhttp/4.12.0"
+2025-02-11T11:44:16.892Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:44:16 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "okhttp/4.12.0"
+2025-02-11T11:46:52.953Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:46:52 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T11:46:57.264Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T11:46:57.269Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:46:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T11:47:06.398Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:47:06 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T11:47:08.413Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:47:08 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T11:47:12.408Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T11:47:12.412Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:47:12 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 6697 "-" "okhttp/4.12.0"
+2025-02-11T11:49:12.210Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:12 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 4961 "-" "okhttp/4.12.0"
+2025-02-11T11:49:22.238Z [:[32minfo[39m] Fetched Successfully
+2025-02-11T11:49:22.240Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:22 +0000] "GET /api/plans HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T11:49:26.116Z [:[32minfo[39m] Fetched Successfully
+2025-02-11T11:49:26.118Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:26 +0000] "GET /api/plans/5 HTTP/1.1" 200 5128 "-" "okhttp/4.12.0"
+2025-02-11T11:49:28.508Z [:[32minfo[39m] Fetched Successfully
+2025-02-11T11:49:28.510Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:28 +0000] "GET /api/plans/5 HTTP/1.1" 200 5128 "-" "okhttp/4.12.0"
+2025-02-11T11:49:29.089Z [:[32minfo[39m] Fetched Successfully
+2025-02-11T11:49:29.091Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:29 +0000] "GET /api/plans HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T11:49:35.163Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:49:35.165Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:35 +0000] "POST /api/dailyUpdates?limit=10&offset=0 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-11T11:49:46.326Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:49:46 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T11:50:17.074Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:50:17.075Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:17 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5090 "-" "okhttp/4.12.0"
+2025-02-11T11:50:27.380Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-11T11:50:27.382Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:27 +0000] "GET /api/interactions/164/toggleSchedule?isScheduled=false HTTP/1.1" 200 79 "-" "okhttp/4.12.0"
+2025-02-11T11:50:28.438Z [:[32minfo[39m] Interaction schedule status updated
+2025-02-11T11:50:28.440Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:28 +0000] "GET /api/interactions/164/toggleSchedule?isScheduled=true HTTP/1.1" 200 79 "-" "okhttp/4.12.0"
+2025-02-11T11:50:43.895Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T11:50:43.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:43 +0000] "GET /api/feedbacks/intern/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T11:50:51.675Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T11:50:51.677Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:51 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T11:50:55.263Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:50:55.264Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:55 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 5090 "-" "okhttp/4.12.0"
+2025-02-11T11:50:58.003Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:50:58.005Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:50:58 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-11T11:51:31.002Z [:[32minfo[39m] Login successful!!!
+2025-02-11T11:51:31.002Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:51:31 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T11:51:31.196Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:51:31 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T11:51:32.282Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T11:51:32.283Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:51:32 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-11T11:51:44.934Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:51:44 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 991 "-" "okhttp/4.12.0"
+2025-02-11T11:52:19.880Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:52:19 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 3589 "-" "okhttp/4.12.0"
+2025-02-11T11:53:07.152Z [:[32minfo[39m] Feedback added successfully
+2025-02-11T11:53:07.154Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:07 +0000] "POST /api/feedbacks/create HTTP/1.1" 201 445 "-" "okhttp/4.12.0"
+2025-02-11T11:53:22.391Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T11:53:22.391Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T11:53:22.392Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:22 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T11:53:33.703Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:33 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 3591 "-" "okhttp/4.12.0"
+2025-02-11T11:53:55.428Z [:[32minfo[39m] Login successful!!!
+2025-02-11T11:53:55.429Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:55 +0000] "POST /api/auth/signin HTTP/1.1" 200 520 "-" "okhttp/4.12.0"
+2025-02-11T11:53:55.573Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:55 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T11:53:56.034Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T11:53:56.035Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:53:56 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 2617 "-" "okhttp/4.12.0"
+2025-02-11T11:54:29.014Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:54:29.023Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:54:29 +0000] "GET /api/dailyUpdates/f2f48358-64c5-4020-b8d9-aeddfeba6405?date=2025-02-11 HTTP/1.1" 200 61 "-" "okhttp/4.12.0"
+2025-02-11T11:54:43.794Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:54:43 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-11T11:54:45.726Z [:[32minfo[39m] Fetched successfully
+2025-02-11T11:54:45.984Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:54:45 +0000] "GET /api/interactions/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 4093 "-" "okhttp/4.12.0"
+2025-02-11T11:55:28.689Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:55:28 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 4489 "-" "okhttp/4.12.0"
+2025-02-11T11:55:46.267Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:11:55:46 +0000] "PATCH /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-11T12:07:05.723Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T12:07:05.725Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T12:10:30.552Z [:[32minfo[39m] Login successful!!!
+2025-02-11T12:10:30.552Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:30 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T12:10:30.843Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:30 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T12:10:32.135Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T12:10:32.137Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:32 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:10:34.821Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:34 +0000] "PATCH /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-11T12:10:43.522Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:43 +0000] "PATCH /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-11T12:10:53.905Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:10:53 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 5093 "-" "okhttp/4.12.0"
+2025-02-11T12:30:08.783Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T12:42:13.244Z [:[32minfo[39m] Login successful!!!
+2025-02-11T12:42:13.246Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:42:13 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T12:42:13.489Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:42:13 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T12:42:18.357Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T12:42:18.359Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:42:18 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:42:18.574Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:42:18 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:42:23.290Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T12:42:23.292Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:42:23 +0000] "GET /api/feedbacks/interaction/164 HTTP/1.1" 200 1089 "-" "okhttp/4.12.0"
+2025-02-11T12:42:36.251Z [:[32minfo[39m] Feedback updated successfully
+2025-02-11T12:44:42.880Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:44:42 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T12:44:46.435Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T12:44:46.439Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:44:46 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:44:48.724Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:44:48 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:44:59.481Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T12:44:59.483Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:44:59 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:45:04.639Z [:[32minfo[39m] Feedback updated successfully
+2025-02-11T12:45:04.641Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:45:04 +0000] "PUT /api/feedbacks/32/update HTTP/1.1" 200 875 "-" "okhttp/4.12.0"

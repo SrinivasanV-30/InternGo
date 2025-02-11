@@ -427,6 +427,11 @@ export const getUserByRole=async(role)=>{
 export const getUserPlans=async()=>{
     try{
         return await prisma.users.findMany({
+            where: {
+                planId: { not: null },
+                dateOfJoining: { not: null },
+            },
+    
             include:{
                 plan:{
                     milestones:{

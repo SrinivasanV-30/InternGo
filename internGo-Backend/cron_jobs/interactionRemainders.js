@@ -38,6 +38,7 @@ export const sendRemaindersForInteraction = async () => {
 export const sendSchedulingRemindersToAdmins=async()=>{
     try{
         const userPlan=await getUserPlans();  
+        
 
     }
     catch(error)
