@@ -16,6 +16,7 @@ import feedbackRouter from './routes/feedbackRoutes.js';
 import { zoneCalculation } from './utils/zoneCalculation.js';
 import { sendToAdmins } from './services/notificationService.js';
 import { generateFeedbackReport } from './controllers/feedbackController.js';
+import { sendRemaindersForInteraction, sendSchedulingRemindersToAdmins } from './cron_jobs/interactionRemainders.js';
 
 
 const app=express();
@@ -25,8 +26,8 @@ webSocket(server);
 
 // zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 startCronJobs()
+sendSchedulingRemindersToAdmins();
 // generateFeedbackReport("f2f48358-64c5-4020-b8d9-aeddfeba6405")
-
 const corsOptions = {
   origin: '*', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',

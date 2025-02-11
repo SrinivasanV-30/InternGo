@@ -3,7 +3,7 @@ import logger from "../utils/logger.js";
 
 const prisma=new PrismaClient();
 
-export const createNotification = async (userId, type, referencesId, message) => {
+export const createNotification = async (userId=null, type, referencesId=null, message) => {
     try{
         const notification= await prisma.notifications.create({
         data: {
@@ -18,6 +18,7 @@ export const createNotification = async (userId, type, referencesId, message) =>
     }
     catch(error){
         logger.error(error.message)
+        throw new Error(error.message);
     }
 };
 

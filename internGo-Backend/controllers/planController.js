@@ -31,6 +31,7 @@ import {
     updateMilestones,
     deleteMilestones,
 } from "../models/milestoneModel.js";
+import { sendNotification } from "../services/notificationService.js";
 
 export const getAllPlans = async (req, res) => {
     try {
@@ -292,11 +293,12 @@ export const addUsers = async (req, res) => {
                 logger.error("User not found!!!");
                 return sendResponse(res, 404, "User not found!!!");
             }
-            const updatedUser = await updateUser(userId, { planId: planId });
+            const updatedUser = await updateUser(userId, { planId: planId, planStartDate: new Date() });
             if (!updatedUser) {
                 logger.info("Update unsuccessful");
                 return sendResponse(res, 400, "Update unsuccessful");
             }
+            sendNotification(userId,'added-user',`You have been added to the "${existingPlan.name}" plan.`)
         });
         logger.info("Added interns successfully");
         sendResponse(res, 200, "Added interns successfully");

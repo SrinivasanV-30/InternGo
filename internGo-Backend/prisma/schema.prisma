@@ -180,7 +180,7 @@ enum InteractionStatus{
 
 model Notifications{
     id Int @id @default(autoincrement())
-    userId String
+    userId String?
     type String
     referencesId Int?
     message String
@@ -188,7 +188,7 @@ model Notifications{
     notificationSent Boolean @default(false)
     createdAt DateTime @default(now())
 
-    user Users @relation("User-Notifications",fields:[userId],references:[id])
+    user Users? @relation("User-Notifications",fields:[userId],references:[id])
 }
 
 model Feedbacks {

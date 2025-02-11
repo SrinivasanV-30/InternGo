@@ -2,7 +2,7 @@ import { getUpcomingInteractions } from "../models/interactionModel.js";
 import { existingNotification } from "../models/notificationModel.js";
 import { getUserPlans } from "../models/userModel.js";
 import { convertTimeStringandDate } from "../services/dateTimeService.js";
-import { sendNotification } from "../services/notificationService.js";
+import { sendNotification, sendToAdmins } from "../services/notificationService.js";
 import logger from "../utils/logger.js"
 
 export const sendRemaindersForInteraction = async () => {
@@ -37,8 +37,29 @@ export const sendRemaindersForInteraction = async () => {
 
 export const sendSchedulingRemindersToAdmins=async()=>{
     try{
-        const userPlan=await getUserPlans();  
-        
+        const users=await getUserPlans();  
+        const today=new Date();
+    
+        console.log(users);
+        users.forEach(async (user) => {
+            const { planStartDate, plan } = user;
+
+            plan?.milestones?.forEach((milestone) => {
+                milestone?.objectives?.forEach(async (objective) => {
+                   
+                    const dueDate1 = new Date(planStartDate);
+                    dueDate1.setDate(dueDate1.getDate() + Math.floor(objective.objectiveDays/2));
+                    const dueDate2 = new Date(planStartDate);
+                    dueDate2.setDate(dueDate2.getDate() + Math.floor(objective.objectiveDays));
+                    console.log(dueDate1,dueDate2)
+
+                    if ((dueDate1.toDateString() === today.toDateString())||(dueDate2.toDateString() === today.toDateString())) {
+                        const dueDate=dueDate1.toDateString() === today.toDateString()?dueDate1:dueDate2;
+                        sendToAdmins('interaction-due',` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}" is scheduled on ${dueDate.toDateString()}.`)
+                    }
+                });
+            });
+        });
 
     }
     catch(error)

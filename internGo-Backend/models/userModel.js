@@ -429,13 +429,17 @@ export const getUserPlans=async()=>{
         return await prisma.users.findMany({
             where: {
                 planId: { not: null },
-                dateOfJoining: { not: null },
+                // planStartDate: { not: null },
             },
     
             include:{
                 plan:{
-                    milestones:{
-                        objectives:true
+                    include:{
+                        milestones:{
+                            include:{
+                                objectives:true
+                            }
+                        }
                     }
                 }
             }

@@ -22154,3 +22154,412 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-11T12:44:59.483Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:44:59 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-02-11T12:45:04.639Z [:[32minfo[39m] Feedback updated successfully
 2025-02-11T12:45:04.641Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:45:04 +0000] "PUT /api/feedbacks/32/update HTTP/1.1" 200 875 "-" "okhttp/4.12.0"
+2025-02-11T12:50:18.649Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:18 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T12:50:21.629Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T12:50:21.631Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:21 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:50:24.738Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:24 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:50:29.180Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T12:50:29.182Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:29 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 200 1249 "-" "okhttp/4.12.0"
+2025-02-11T12:50:46.521Z [:[32minfo[39m] Feedback updated successfully
+2025-02-11T12:50:46.523Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:46 +0000] "PUT /api/feedbacks/13/update HTTP/1.1" 200 607 "-" "okhttp/4.12.0"
+2025-02-11T12:50:48.639Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:48 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T12:50:50.399Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:50 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T12:50:53.651Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T12:50:53.651Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T12:50:57.898Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:50:57 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-11T12:52:03.761Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T12:52:03.763Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:12:52:03 +0000] "GET /api/feedbacks/interaction/157 HTTP/1.1" 200 1276 "-" "okhttp/4.12.0"
+2025-02-11T13:00:53.256Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:00:53 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T13:00:56.482Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T13:00:56.484Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:00:56 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 4049 "-" "okhttp/4.12.0"
+2025-02-11T13:01:26.222Z [:[31merror[39m] jwt expired
+2025-02-11T13:01:26.223Z [:[32minfo[39m] ::1 - - [11/Feb/2025:13:01:26 +0000] "POST /api/interactions/schedule HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-11T13:01:43.223Z [:[32minfo[39m] Login successful!!!
+2025-02-11T13:01:43.223Z [:[32minfo[39m] ::1 - - [11/Feb/2025:13:01:43 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-11T13:01:49.638Z [:[32minfo[39m] Scheduled interaction successfully
+2025-02-11T13:01:49.640Z [:[32minfo[39m] ::1 - - [11/Feb/2025:13:01:49 +0000] "POST /api/interactions/schedule HTTP/1.1" 201 77 "-" "PostmanRuntime/7.43.0"
+2025-02-11T13:21:31.250Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:21:31 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T13:21:33.457Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T13:21:33.460Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:21:33 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 3174 "-" "okhttp/4.12.0"
+2025-02-11T13:22:22.177Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:22:22 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T13:22:22.611Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T13:22:22.613Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:22:22 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T13:22:53.756Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:22:53 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T13:22:54.173Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T13:22:54.175Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:22:54 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T13:23:04.146Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: "Heloo",
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:23:04.148Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:23:04 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:23:35.393Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: {
+        message: "Hoi"
+      },
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:23:35.400Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:23:35 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:24:05.942Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: {
+        message: "Hoi"
+      },
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:24:05.951Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:05 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:24:16.509Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:16 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T13:24:17.605Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T13:24:17.607Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:17 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T13:24:26.636Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: "Guh",
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:24:26.641Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:26 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:24:26.720Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: "Guh",
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:24:26.722Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:26 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:24:27.709Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: {
+      message: "Guh",
+      type: "announcement",
+      userId: null
+    },
+    referencesId: undefined,
+    message: undefined,
++   type: String
+  }
+}
+
+Argument `type` is missing.
+2025-02-11T13:24:27.710Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:24:27 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:27:32.362Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: null,
+    type: "announcement",
+    referencesId: null,
+    message: "Hello",
++   user: {
++     create: UsersCreateWithoutNotificationsInput | UsersUncheckedCreateWithoutNotificationsInput,
++     connectOrCreate: UsersCreateOrConnectWithoutNotificationsInput,
++     connect: UsersWhereUniqueInput
++   }
+  }
+}
+
+Argument `user` is missing.
+2025-02-11T13:27:32.366Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:13:27:32 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-11T13:31:32.628Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: null,
+    type: "announcement",
+    referencesId: null,
+    message: "Helooo",
++   user: {
++     create: UsersCreateWithoutNotificationsInput | UsersUncheckedCreateWithoutNotificationsInput,
++     connectOrCreate: UsersCreateOrConnectWithoutNotificationsInput,
++     connect: UsersWhereUniqueInput
++   }
+  }
+}
+
+Argument `user` is missing.
+2025-02-11T13:31:32.631Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: null,
+    type: "announcement",
+    referencesId: null,
+    message: "Helooo",
++   user: {
++     create: UsersCreateWithoutNotificationsInput | UsersUncheckedCreateWithoutNotificationsInput,
++     connectOrCreate: UsersCreateOrConnectWithoutNotificationsInput,
++     connect: UsersWhereUniqueInput
++   }
+  }
+}
+
+Argument `user` is missing.
+2025-02-11T15:41:10.005Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-11T15:41:10.005Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T16:03:00.375Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T16:03:00.378Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T16:04:00.436Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T16:04:00.436Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T16:44:20.911Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      milestones: {
+      ~~~~~~~~~~
+        objectives: true
+      },
+?     where?: PlansWhereInput
+    }
+  }
+}
+
+Unknown argument `milestones`. Available options are marked with ?.
+2025-02-11T16:44:20.915Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      milestones: {
+      ~~~~~~~~~~
+        objectives: true
+      },
+?     where?: PlansWhereInput
+    }
+  }
+}
+
+Unknown argument `milestones`. Available options are marked with ?.
+2025-02-11T16:49:13.548Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      include: {
+        milestones: {
+          objectives: true,
+          ~~~~~~~~~~
+?         where?: MilestonesWhereInput,
+?         orderBy?: MilestonesOrderByWithRelationInput[] | MilestonesOrderByWithRelationInput,
+?         cursor?: MilestonesWhereUniqueInput,
+?         take?: Int,
+?         skip?: Int,
+?         distinct?: MilestonesScalarFieldEnum | MilestonesScalarFieldEnum[]
+        }
+      }
+    }
+  }
+}
+
+Unknown argument `objectives`. Available options are marked with ?.
+2025-02-11T16:49:13.551Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      include: {
+        milestones: {
+          objectives: true,
+          ~~~~~~~~~~
+?         where?: MilestonesWhereInput,
+?         orderBy?: MilestonesOrderByWithRelationInput[] | MilestonesOrderByWithRelationInput,
+?         cursor?: MilestonesWhereUniqueInput,
+?         take?: Int,
+?         skip?: Int,
+?         distinct?: MilestonesScalarFieldEnum | MilestonesScalarFieldEnum[]
+        }
+      }
+    }
+  }
+}
+
+Unknown argument `objectives`. Available options are marked with ?.
+2025-02-11T16:49:16.384Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      include: {
+        milestones: {
+          objectives: true,
+          ~~~~~~~~~~
+?         where?: MilestonesWhereInput,
+?         orderBy?: MilestonesOrderByWithRelationInput[] | MilestonesOrderByWithRelationInput,
+?         cursor?: MilestonesWhereUniqueInput,
+?         take?: Int,
+?         skip?: Int,
+?         distinct?: MilestonesScalarFieldEnum | MilestonesScalarFieldEnum[]
+        }
+      }
+    }
+  }
+}
+
+Unknown argument `objectives`. Available options are marked with ?.
+2025-02-11T16:49:16.387Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    planId: {
+      not: null
+    },
+    planStartDate: {
+      not: null
+    }
+  },
+  include: {
+    plan: {
+      include: {
+        milestones: {
+          objectives: true,
+          ~~~~~~~~~~
+?         where?: MilestonesWhereInput,
+?         orderBy?: MilestonesOrderByWithRelationInput[] | MilestonesOrderByWithRelationInput,
+?         cursor?: MilestonesWhereUniqueInput,
+?         take?: Int,
+?         skip?: Int,
+?         distinct?: MilestonesScalarFieldEnum | MilestonesScalarFieldEnum[]
+        }
+      }
+    }
+  }
+}
+
+Unknown argument `objectives`. Available options are marked with ?.

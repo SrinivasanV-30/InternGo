@@ -36,13 +36,9 @@ export const markAsRead=async(req,res)=>{
 export const createAnnoncement=async(req,res)=>{
     try{
         const message = req.body;
-        await createNotification(
-            {
-                message:message,
-                type:"announcement",
-                userId:null
-            }
-        )
+        console.log(message)
+        await createNotification(null,"announcement",null,message.message)
+        
         sendResponse(res,200,"Announcement created successfully");
     }
     catch(error){
