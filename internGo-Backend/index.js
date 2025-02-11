@@ -14,6 +14,8 @@ import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
 import feedbackRouter from './routes/feedbackRoutes.js';
 import { zoneCalculation } from './utils/zoneCalculation.js';
+import { sendToAdmins } from './services/notificationService.js';
+import { generateFeedbackReport } from './controllers/feedbackController.js';
 
 
 const app=express();
@@ -23,8 +25,7 @@ webSocket(server);
 
 zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 startCronJobs()
-
-
+// generateFeedbackReport("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 
 const corsOptions = {
   origin: '*', 

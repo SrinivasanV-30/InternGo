@@ -1,5 +1,7 @@
 import { createNotification, getAllUserIds } from "../models/notificationModel.js";
 import { io, lookUps } from "./webSocketService.js";
+import logger from "../utils/logger.js";
+import { getUserByRole } from "../models/userModel.js";
 
 export const sendNotification = async (userId, type, referenceId, message) => {
     try {
@@ -17,7 +19,7 @@ export const sendBroadcastNotification = async ( type, message) => {
         const userIds = await getAllUserIds();
         for (const id of userIds) {
             const createdNotification=await sendNotification(id, type, referenceId, message);
-            io.to(id).emit("notification", {createdNotification});
+            // io.to(id).emit("notification", {createdNotification});
         }
     } 
     catch (error) {

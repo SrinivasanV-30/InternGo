@@ -267,9 +267,10 @@ export const getDistinctFilters = async (req, res) => {
     }
 }
 
-export const getMentors = async (req, res) => {
+export const getUsersByRole = async (req, res) => {
     try {
-        const mentors = await findUserByRole("Mentors");
+        const roleName=req.query.roleName;
+        const mentors = await findUserByRole(roleName);
         logger.info("Fetched successfully")
         sendResponse(res, 200, "Fetched successfully", mentors);
     }

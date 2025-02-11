@@ -18566,3 +18566,2438 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-10T11:30:37.369Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:37 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 1578 "-" "okhttp/4.12.0"
 2025-02-10T11:30:37.771Z [:[32minfo[39m] Fetched successfully
 2025-02-10T11:30:37.772Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:30:37 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T11:39:48.438Z [:[32minfo[39m] Fetched successfully
+2025-02-10T11:39:48.440Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:39:48 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 1578 "-" "okhttp/4.12.0"
+2025-02-10T11:39:48.929Z [:[32minfo[39m] Fetched successfully
+2025-02-10T11:39:48.930Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:39:48 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T11:41:55.156Z [:[32minfo[39m] Login successful!!!
+2025-02-10T11:41:55.157Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:41:55 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T11:41:58.116Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:41:58.118Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:41:58 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:41:58.531Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:41:58 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1575 "-" "okhttp/4.12.0"
+2025-02-10T11:44:49.070Z [:[31merror[39m] [{"message":"\"interactionId\" is required","path":["interactionId"],"type":"any.required","context":{"label":"interactionId","key":"interactionId"}}]
+2025-02-10T11:44:49.072Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:44:49 +0000] "POST /api/feedbacks/create HTTP/1.1" 400 191 "-" "okhttp/4.12.0"
+2025-02-10T11:47:37.063Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:47:37.071Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:47:37 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:47:37.663Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:47:37 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:48:01.764Z [:[32minfo[39m] Feedback added successfully
+2025-02-10T11:48:01.767Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:48:01 +0000] "POST /api/feedbacks/create HTTP/1.1" 201 484 "-" "okhttp/4.12.0"
+2025-02-10T11:49:07.730Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T11:49:07.737Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:49:07 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T11:49:09.961Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:49:09 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1577 "-" "okhttp/4.12.0"
+2025-02-10T11:55:52.382Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:11:55:52 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1579 "-" "okhttp/4.12.0"
+2025-02-10T12:28:00.947Z [:[31merror[39m] avg is not defined
+2025-02-10T12:28:03.419Z [:[31merror[39m] avg is not defined
+2025-02-10T12:28:06.297Z [:[31merror[39m] avg is not defined
+2025-02-10T12:28:48.321Z [:[31merror[39m] avgRatings is not defined
+2025-02-10T12:36:52.547Z [:[31merror[39m] OVER is not defined
+2025-02-10T12:39:13.929Z [:[31merror[39m] update is not defined
+2025-02-10T12:39:22.362Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
++ data: UsersUpdateInput | UsersUncheckedUpdateInput
+}
+
+Argument `data` is missing.
+2025-02-10T12:39:22.364Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined
+  },
++ data: UsersUpdateInput | UsersUncheckedUpdateInput
+}
+
+Argument `data` is missing.
+2025-02-10T12:39:33.845Z [:[31merror[39m] data is not defined
+2025-02-10T12:39:38.537Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:39:38.538Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:39:51.745Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:39:51.746Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:40:27.594Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:40:27.596Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:40:32.686Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: ""
+        ~~
+}
+
+Argument `data`: Invalid value provided. Expected UsersUpdateInput or UsersUncheckedUpdateInput, provided String.
+2025-02-10T12:40:32.689Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: ""
+        ~~
+}
+
+Argument `data`: Invalid value provided. Expected UsersUpdateInput or UsersUncheckedUpdateInput, provided String.
+2025-02-10T12:41:00.573Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:41:00.574Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:41:04.473Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:41:04.476Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  data: {
+    zone: "",
+    [object Object]: "GREEN ZONE",
+    ~~~~~~~~~~~~~~~
+?   id?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   password?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   gender?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   employeeId?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   skills?: UsersUpdateskillsInput | String[],
+?   personalEmail?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   currentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   permanentAddress?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   profilePhoto?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   resume?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   batch?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   year?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   designation?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phone_no?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   education?: NullableJsonNullValueInput | Json,
+?   bankDetails?: NullableJsonNullValueInput | Json,
+?   certificates_submission_status?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,
+?   status?: Status | NullableEnumStatusFieldUpdateOperationsInput | Null,
+?   dateOfBirth?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   dateOfJoining?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   bloodGroup?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   phase?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   daysWorked?: Int | IntFieldUpdateOperationsInput,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   profilePercentage?: Int | NullableIntFieldUpdateOperationsInput | Null,
+?   assets?: AssetsUpdateManyWithoutUserNestedInput,
+?   interactionsAttended?: InteractionsUpdateManyWithoutInternNestedInput,
+?   interactionsTaken?: InteractionsUpdateManyWithoutInterviewerNestedInput,
+?   dailyUpdates?: DailyUpdatesUpdateManyWithoutUserNestedInput,
+?   notifications?: NotificationsUpdateManyWithoutUserNestedInput,
+?   feedbacksReceived?: FeedbacksUpdateManyWithoutInternNestedInput,
+?   feedbacksGiven?: FeedbacksUpdateManyWithoutInterviewerNestedInput,
+?   role?: RolesUpdateOneRequiredWithoutUsersNestedInput,
+?   plan?: PlansUpdateOneWithoutUsersNestedInput
+  }
+}
+
+Unknown argument `[object Object]`. Available options are marked with ?.
+2025-02-10T12:46:37.810Z [:[31merror[39m] jwt expired
+2025-02-10T12:46:37.814Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:46:37 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-10T12:46:55.260Z [:[32minfo[39m] Login successful!!!
+2025-02-10T12:46:55.261Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:46:55 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T12:46:56.659Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:46:56.660Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:46:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 2794 "-" "okhttp/4.12.0"
+2025-02-10T12:47:01.006Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:47:01.007Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:47:01 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 2086 "-" "okhttp/4.12.0"
+2025-02-10T12:47:01.458Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:47:01.460Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:47:01 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T12:49:36.101Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:49:36.103Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:49:36 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:54:51.613Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:54:51.614Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:54:51 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:54:54.653Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:54:54.654Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:54:54 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 2583 "-" "okhttp/4.12.0"
+2025-02-10T12:54:55.053Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:54:55.055Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:54:55 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T12:55:14.191Z [:[32minfo[39m] Login successful!!!
+2025-02-10T12:55:14.191Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:14 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-10T12:55:14.766Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:55:14.767Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:14 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:55:16.514Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:16 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:55:17.656Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:17 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:55:29.313Z [:[32minfo[39m] Login successful!!!
+2025-02-10T12:55:29.314Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:29 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-10T12:55:29.891Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:55:29.892Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:55:29 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:57:08.625Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:57:08.627Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:57:08 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 2583 "-" "okhttp/4.12.0"
+2025-02-10T12:57:09.254Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:57:09.256Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:57:09 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T12:57:18.184Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:57:18.186Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:57:18 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:57:22.412Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:57:22.413Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:57:22 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 2583 "-" "okhttp/4.12.0"
+2025-02-10T12:57:23.587Z [:[32minfo[39m] Fetched successfully
+2025-02-10T12:57:23.588Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:57:23 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-10T12:58:49.971Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:58:49.972Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:58:49 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:59:09.106Z [:[32minfo[39m] Login successful!!!
+2025-02-10T12:59:09.106Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:09 +0000] "POST /api/auth/signin HTTP/1.1" 200 516 "-" "okhttp/4.12.0"
+2025-02-10T12:59:10.844Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:59:10.845Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:10 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2056 "-" "okhttp/4.12.0"
+2025-02-10T12:59:32.285Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:59:32.287Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:32 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:59:36.060Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:59:36.061Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:36 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:59:49.167Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:59:49.168Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:49 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T12:59:59.785Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T12:59:59.786Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:12:59:59 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:00:24.371Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:00:24.373Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:00:24 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:00:25.384Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:00:25.386Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:00:25 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:00:33.101Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:00:33.103Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:00:33 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:01:31.804Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:01:31 +0000] "PATCH /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T13:01:34.000Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:01:34 +0000] "PATCH /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T13:03:44.020Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:03:44.022Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:03:44 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2338 "-" "okhttp/4.12.0"
+2025-02-10T13:04:00.954Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:04:00 +0000] "PATCH /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-10T13:11:37.321Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:11:37.322Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:11:37 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 2337 "-" "okhttp/4.12.0"
+2025-02-10T13:13:31.675Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:13:31.676Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:13:31 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:23:53.377Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:23:53 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-10T13:23:53.908Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:23:59.017Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:23:59.018Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:23:59 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:24:04.205Z [:[32minfo[39m] Fetched successfully
+2025-02-10T13:24:04.471Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:24:04 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 1078 "-" "okhttp/4.12.0"
+2025-02-10T13:26:09.952Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-10T13:26:09.954Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:26:09 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T13:26:13.239Z [:[32minfo[39m] Fetched successfully
+2025-02-10T13:26:13.350Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [10/Feb/2025:13:26:13 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-10T16:21:09.926Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:21:09.927Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:21:23.457Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:21:23.458Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:22:00.457Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:22:00.458Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:23:00.521Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:23:00.522Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:24:00.586Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:24:00.587Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:25:00.647Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:25:00.648Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:26:00.720Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:26:00.721Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:27:00.779Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:27:00.780Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:28:00.837Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:28:00.837Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:28:29.055Z [:[31merror[39m] getUserByRole is not defined
+2025-02-10T16:28:29.159Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:28:29.159Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:28:46.637Z [:[31merror[39m] getUserByRole is not defined
+2025-02-10T16:28:46.744Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:28:46.744Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:29:00.722Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:29:00.724Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-10T16:29:43.477Z [:[31merror[39m] getUserByRole is not defined
+2025-02-10T16:29:57.437Z [:[31merror[39m] getUserByRol is not defined
+2025-02-10T16:29:58.299Z [:[31merror[39m] getUserByRole is not defined
+2025-02-10T16:30:00.154Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:30:00.156Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T16:39:11.873Z [:[32minfo[39m] Login successful!!!
+2025-02-10T16:39:11.875Z [:[32minfo[39m] ::1 - - [10/Feb/2025:16:39:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-10T17:12:48.659Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:12:48.662Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:20:32.322Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:20:32.323Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:20:54.252Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:20:54.254Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:22:06.805Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:22:06.808Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:22:57.801Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:22:57.805Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:26:06.470Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:26:06.473Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:27:35.810Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:27:35.813Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:28:25.903Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:28:25.905Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:30:05.646Z [:[31merror[39m] req is not defined
+2025-02-10T17:30:12.441Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:30:12.441Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:30:21.281Z [:[31merror[39m] Request failed with status code 404
+2025-02-10T17:30:47.549Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:30:47.552Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:31:03.641Z [:[31merror[39m] Request failed with status code 404
+2025-02-10T17:31:19.003Z [:[31merror[39m] Request failed with status code 404
+2025-02-10T17:31:21.981Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:31:21.981Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:31:33.334Z [:[31merror[39m] Request failed with status code 404
+2025-02-10T17:31:48.158Z [:[31merror[39m] Request failed with status code 404
+2025-02-10T17:32:46.218Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:32:46.221Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:32:59.375Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:33:17.343Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:33:46.677Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:33:46.680Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:33:46.681Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:33:46.681Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:34:51.882Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:35:13.838Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:35:16.914Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:35:16.914Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:17.880Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:36:34.586Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:34.589Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:34.590Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:34.590Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:54.739Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:54.742Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:54.742Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:36:54.742Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:13.487Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:13.490Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:37.127Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:37.130Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:37.130Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:37.131Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:55.227Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:37:55.230Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:38:18.002Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:39:56.416Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:55:01.110Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T17:55:08.130Z [:[31merror[39m] Request failed with status code 401
+2025-02-10T17:55:59.105Z [:[31merror[39m] Request failed with status code 401
+2025-02-10T17:56:13.755Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:56:13.757Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:56:13.757Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:56:13.758Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:57:05.855Z [:[31merror[39m] Request failed with status code 400
+2025-02-10T17:57:10.058Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T17:57:10.058Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:06:21.505Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:06:21.508Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:07:01.715Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:07:01.718Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:08:33.857Z [:[31merror[39m] jwt expired
+2025-02-10T18:08:33.860Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:08:33 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:08:43.923Z [:[32minfo[39m] Login successful!!!
+2025-02-10T18:08:43.923Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:08:43 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:08:47.654Z [:[31merror[39m] Cannot read properties of undefined (reading 'id')
+2025-02-10T18:09:13.940Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:09:13.942Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:09:19.382Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:09:19.382Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:09:19.913Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:09:19 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:09:23.059Z [:[31merror[39m] chartJSNodeCanvas is not defined
+2025-02-10T18:11:10.694Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:11:10.697Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:12:04.461Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:12:04.464Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:12:40.717Z [:[31merror[39m] ChartJSNodeCanvas.renderToBuffer is not a function
+2025-02-10T18:13:49.221Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:13:49.223Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:14:20.899Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:14:20.901Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:14:42.382Z [:[31merror[39m] ChartJSNodeCanvas.renderToBufferAsync is not a function
+2025-02-10T18:17:01.100Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:01.102Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:11.553Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:11.554Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:14.597Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:14.597Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:17:25.131Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:17:25 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:17:30.421Z [:[31merror[39m] internId is not defined
+2025-02-10T18:18:00.929Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:18:00.931Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:18:11.885Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:18:11 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:18:57.840Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:18:57.841Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:19:18.495Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:19:18 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:19:54.368Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:19:54 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:19:57.371Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:19:57.371Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:20:43.094Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:20:43 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:20:45.282Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:20:45 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:21:04.370Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:21:04 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:22:09.181Z [:[31merror[39m] Request failed with status code 403
+2025-02-10T18:25:24.027Z [:[31merror[39m] summary is not defined
+2025-02-10T18:26:27.679Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:26:27 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:29:32.243Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:29:32 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:29:35.109Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:29:35 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:30:07.564Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:30:07 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:41:36.679Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:41:36.683Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:41:45.843Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:41:45 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:43:44.886Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:43:44.889Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:43:54.813Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:43:54 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:44:45.687Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:44:45 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:44:46.366Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:44:46 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:45:10.567Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:45:10 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:45:11.628Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:45:11 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:48:06.616Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:48:06 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:49:56.876Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:49:56.877Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:50:19.303Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:50:19 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:50:21.533Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:50:21 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:51:19.180Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:51:19.183Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:52:55.508Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:52:55.511Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:53:02.291Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:53:02.292Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:53:02.292Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:53:02.292Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-10T18:53:04.883Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:53:04 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:53:09.095Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:53:09 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-02-10T18:53:48.340Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:53:48 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-10T18:53:49.236Z [:[32minfo[39m] ::1 - - [10/Feb/2025:18:53:49 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T03:45:52.684Z [:[31merror[39m] jwt expired
+2025-02-11T03:45:52.687Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:45:52 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:46:15.556Z [:[31merror[39m] Invalid password
+2025-02-11T03:46:15.558Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:46:15 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:46:22.297Z [:[32minfo[39m] Login successful!!!
+2025-02-11T03:46:22.298Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:46:22 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:48:04.209Z [:[31merror[39m] Access Denied. Permission not found
+2025-02-11T03:48:04.210Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:48:04 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 401 78 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:48:48.691Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:48:48.691Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:48:48.693Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:48:48 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:49:17.265Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:49:17.265Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:49:17.266Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:49:17 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:49:36.857Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:49:36.857Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:49:36.859Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:49:36 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:50:00.580Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:50:00.581Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:50:00.585Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:50:00 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:50:54.055Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:50:54.055Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:50:54.057Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:50:54 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:51:02.704Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:02.704Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:02.706Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:51:02 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:51:03.465Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:03.466Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:03.467Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:51:03 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:51:10.105Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:10.105Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:51:10.107Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:51:10 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:52:27.479Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:52:27.479Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:52:27.481Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:52:27 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:55:08.945Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:55:08.947Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:55:08.952Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:55:08 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:57:17.861Z [:[32minfo[39m] Login successful!!!
+2025-02-11T03:57:17.861Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:57:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 520 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:58:11.776Z [:[31merror[39m] Access Denied. Permission not found
+2025-02-11T03:58:11.778Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:58:11 +0000] "POST /api/feedbacks/create HTTP/1.1" 401 78 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:58:19.789Z [:[32minfo[39m] Login successful!!!
+2025-02-11T03:58:19.789Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:58:19 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "PostmanRuntime/7.43.0"
+2025-02-11T03:58:30.800Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:58:30.801Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Foreign key constraint violated: `Feedbacks_interactionId_fkey (index)`
+2025-02-11T03:58:30.802Z [:[32minfo[39m] ::1 - - [11/Feb/2025:03:58:30 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-11T04:18:04.334Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:18:04 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:18:05.479Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:18:05 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:25:34.536Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:25:34 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:25:36.350Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:25:36 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:27:49.454Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:27:49 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:27:50.430Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:27:50 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:36:24.418Z [:[31merror[39m] feedback is not defined
+2025-02-11T04:36:53.573Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:36:53 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:36:55.280Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:36:55 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:36:56.039Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:36:56.051Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:36:56.054Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:36:58.230Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:36:58 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:37:03.719Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:37:03 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:37:53.083Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:38:16.155Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:38:16 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:38:37.082Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:38:59.048Z [:[31merror[39m] Request failed with status code 403
+2025-02-11T04:39:04.589Z [:[31merror[39m] Request failed with status code 403
+2025-02-11T04:39:15.081Z [:[31merror[39m] Token not present!!!
+2025-02-11T04:39:15.084Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:15 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-11T04:39:15.085Z [:[31merror[39m] Token not present!!!
+2025-02-11T04:39:15.085Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:15 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 401 63 "-" "okhttp/4.12.0"
+2025-02-11T04:39:15.092Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:15 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T04:39:16.621Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:16 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T04:39:17.288Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:39:17.291Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:17 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 4950 "-" "okhttp/4.12.0"
+2025-02-11T04:39:18.212Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T04:39:18.214Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:18 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 3174 "-" "okhttp/4.12.0"
+2025-02-11T04:39:23.151Z [:[32minfo[39m] Login successful!!!
+2025-02-11T04:39:23.151Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:23 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-11T04:39:23.349Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:23 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T04:39:25.034Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T04:39:25.035Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:25 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:39:34.128Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:39:34 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:39:44.901Z [:[32minfo[39m] Fetched successfully
+2025-02-11T04:39:44.903Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:44 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4079 "-" "okhttp/4.12.0"
+2025-02-11T04:39:47.779Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:39:47 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T04:40:00.421Z [:[31merror[39m] minRating is not defined
+2025-02-11T04:40:22.084Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:40:22 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T04:40:23.261Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:40:23.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:40:23 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:40:36.050Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:40:36 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:42:38.249Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:42:38 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 200 58 "-" "okhttp/4.12.0"
+2025-02-11T04:42:55.306Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:42:55 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:42:59.136Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:42:59.136Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:42:59 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:43:10.801Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:43:10.802Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:43:10 +0000] "GET /api/feedbacks/interaction/155 HTTP/1.1" 200 1146 "-" "okhttp/4.12.0"
+2025-02-11T04:43:44.562Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:43:44.565Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:43:44 +0000] "GET /api/feedbacks/interaction/157 HTTP/1.1" 200 1247 "-" "okhttp/4.12.0"
+2025-02-11T04:43:53.791Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:43:53.793Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:43:53 +0000] "GET /api/feedbacks/interaction/158 HTTP/1.1" 200 1179 "-" "okhttp/4.12.0"
+2025-02-11T04:43:58.755Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:43:58.757Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:43:58 +0000] "GET /api/feedbacks/interaction/159 HTTP/1.1" 200 1157 "-" "okhttp/4.12.0"
+2025-02-11T04:44:47.463Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:44:47.465Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:44:47 +0000] "GET /api/feedbacks/interaction/155 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:45:07.173Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:45:07.175Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:45:07 +0000] "GET /api/feedbacks/interaction/158 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:45:30.096Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:45:30.098Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:45:30 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 200 1118 "-" "okhttp/4.12.0"
+2025-02-11T04:45:44.481Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:45:44 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:45:45.049Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:45:45 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:48:01.462Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:48:01 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:48:03.103Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:48:03 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:55:07.778Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:55:07 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T04:55:10.436Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T04:55:10.443Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:55:10 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:56:21.218Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:56:21 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T04:56:23.805Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:56:23 +0000] "GET /api/feedbacks/intern/8557d9e2-812c-494d-a113-e72ed1c0b28d HTTP/1.1" 200 58 "-" "okhttp/4.12.0"
+2025-02-11T04:57:06.842Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:57:06 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T04:57:07.910Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:57:07.912Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:57:07 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:57:10.789Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:57:10.791Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:57:10 +0000] "GET /api/feedbacks/interaction/155 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:57:13.942Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T04:57:13.945Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:04:57:13 +0000] "GET /api/feedbacks/interaction/157 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T04:57:55.282Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:57:55 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T04:57:57.303Z [:[32minfo[39m] ::1 - - [11/Feb/2025:04:57:57 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:00:18.971Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:18 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:00:23.658Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:00:23.660Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:23 +0000] "GET /api/feedbacks/intern/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 4059 "-" "okhttp/4.12.0"
+2025-02-11T05:00:37.815Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:00:37.817Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:37 +0000] "GET /api/feedbacks/intern/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:00:39.584Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:00:39.586Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:39 +0000] "GET /api/feedbacks/intern/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:00:42.722Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:42 +0000] "GET /api/feedbacks/intern/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:00:54.384Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:54 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:00:56.797Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:00:56.799Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:00:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:01:00.960Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:01:00 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T05:01:03.207Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:01:03 +0000] "GET /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 58 "-" "okhttp/4.12.0"
+2025-02-11T05:01:13.351Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:01:13 +0000] "GET /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:03:19.567Z [:[32minfo[39m] Login successful!!!
+2025-02-11T05:03:19.567Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:03:19 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T05:03:19.778Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:03:19 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:03:20.199Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:03:20.200Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:03:20 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1519 "-" "okhttp/4.12.0"
+2025-02-11T05:03:23.171Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:03:23 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 2578 "-" "okhttp/4.12.0"
+2025-02-11T05:03:26.211Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:03:26.212Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:03:26 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 200 2347 "-" "okhttp/4.12.0"
+2025-02-11T05:06:18.547Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:06:18.556Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:06:18 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 200 2347 "-" "okhttp/4.12.0"
+2025-02-11T05:06:24.245Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:06:24.248Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:06:24 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:06:28.039Z [:[31merror[39m] ENOENT: no such file or directory, open '/assets/fonts/OpenSans-Regular.ttf'
+2025-02-11T05:06:28.047Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:06:28 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:06:29.071Z [:[31merror[39m] ENOENT: no such file or directory, open '/assets/fonts/OpenSans-Regular.ttf'
+2025-02-11T05:07:12.107Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:07:12.109Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:07:12 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:07:23.855Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:07:23 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:07:27.454Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:07:27.459Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:07:27 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:07:36.163Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:07:36 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:07:38.502Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:07:38.504Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:07:38 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:07:39.632Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:07:39 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:08:09.600Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:08:09.602Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:08:09 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:08:09.790Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:08:09.792Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:08:09 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:08:11.551Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:08:11.552Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:08:11 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:08:12.754Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:08:12.756Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:08:12 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:08:17.713Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:08:17.715Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:08:17 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:09:46.783Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:09:46 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:09:48.011Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:09:48.016Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:09:48 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:09:59.601Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:09:59 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:10:03.367Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:10:03.369Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:10:03 +0000] "GET /api/feedbacks/interaction/161 HTTP/1.1" 200 1092 "-" "okhttp/4.12.0"
+2025-02-11T05:10:14.109Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:10:14.111Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:10:14 +0000] "GET /api/feedbacks/interaction/161 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:10:28.107Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:10:28.109Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:10:28 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:10:35.374Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:10:35.376Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:10:35 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:12:36.695Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:12:36.702Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:12:36 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:12:46.371Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:12:46.379Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:12:46 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:12:59.659Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T05:12:59.661Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T05:12:59.665Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:12:59 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T05:13:11.901Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T05:13:11.902Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.create()` invocation:
+
+
+Unique constraint failed on the fields: (`interactionId`)
+2025-02-11T05:13:11.904Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:13:11 +0000] "POST /api/feedbacks/create HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T05:13:25.718Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:13:25.721Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:13:25 +0000] "GET /api/feedbacks/interaction/156/ HTTP/1.1" 200 1118 "-" "okhttp/4.12.0"
+2025-02-11T05:13:28.117Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:13:28 +0000] "GET /api/feedbacks/interaction/156/update HTTP/1.1" 404 175 "-" "okhttp/4.12.0"
+2025-02-11T05:13:47.251Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:13:47.253Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:13:47 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:14:01.179Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:14:01.181Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:14:01 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:16:03.801Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:16:03.808Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:16:03 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:16:05.796Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:16:05.798Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:16:05 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:17:32.257Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:32 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:17:35.344Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:17:35 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:17:35.900Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:17:35.903Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:35 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:17:36.228Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:17:36 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:17:40.499Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:40 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:17:43.158Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:17:43.160Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:43 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:17:48.726Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:17:48.726Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:48 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:17:59.130Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-11T05:17:59.132Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:17:59 +0000] "PUT /api/feedbacks/13/update HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-11T05:18:52.757Z [:[32minfo[39m] Login successful!!!
+2025-02-11T05:18:52.758Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:18:52 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-11T05:18:52.910Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:18:52 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T05:18:55.416Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T05:18:55.417Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:18:55 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:19:03.069Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:19:03 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:19:10.060Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T05:19:10.062Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:05:19:10 +0000] "GET /api/feedbacks/interaction/156 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T05:19:38.009Z [:[32minfo[39m] Feedback updated successfully
+2025-02-11T05:20:03.470Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:03.471Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:33.708Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:33.709Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:39.237Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:39.237Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:39.240Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:20:39 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:20:39.522Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:39.522Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:39.523Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:20:39 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:20:39.550Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:20:39 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:20:45.887Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:45.887Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:45.888Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:20:45 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:20:55.205Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:55.205Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:20:55.206Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:20:55 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:21:00.721Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:21:00.722Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:21:04.846Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:21:04.847Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:21:04.847Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:21:04 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:21:36.690Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:21:36.690Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:21:36.692Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:21:36 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:21:50.364Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:21:50 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:22:07.054Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:22:07 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:22:24.562Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:22:24 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:22:28.404Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:22:28 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:22:29.833Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:22:29 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:23:56.225Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:23:56 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:23:57.887Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:23:57 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:25:03.519Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:25:03.522Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:25:03.529Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:25:03 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:25:05.973Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:25:05 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:26:56.922Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:26:56 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:26:57.925Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:26:57 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:27:05.986Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:27:05.987Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:28:49.624Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:28:49 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:28:50.709Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:28:50 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:31:03.176Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:31:03.178Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:32:05.217Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:32:05.218Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:33:05.275Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:33:05.276Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:34:05.333Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:34:05.333Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:35:02.906Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:35:02.906Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:36:00.455Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:36:00.455Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:37:05.516Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:37:05.516Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:38:05.583Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:38:05.584Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:39:03.216Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:39:03.217Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:40:03.831Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:40:03.832Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:41:04.250Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:41:04.251Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:42:04.433Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Server has closed the connection.
+2025-02-11T05:42:04.434Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:54:58.180Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:54:58 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:54:59.357Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:54:59 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:55:40.930Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:55:40.933Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.update()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:55:40.933Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:55:40.933Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:55:40.939Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:55:40 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 500 64 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:55:44.226Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:55:44 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:56:02.895Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:56:02 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:56:03.965Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:56:03 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:56:05.633Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T05:56:05.633Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-11T05:56:51.660Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:56:51 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T05:56:52.475Z [:[32minfo[39m] ::1 - - [11/Feb/2025:05:56:52 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:01:23.047Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:01:23 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:02:09.298Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:02:09 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:02:12.761Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:02:12 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:03:24.074Z [:[31merror[39m] Request failed with status code 403
+2025-02-11T06:14:19.054Z [:[32minfo[39m] Login successful!!!
+2025-02-11T06:14:19.054Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:14:19 +0000] "POST /api/auth/signin HTTP/1.1" 200 687 "-" "okhttp/4.12.0"
+2025-02-11T06:14:19.454Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:14:19 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:14:21.219Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:14:21.220Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:14:21 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 3174 "-" "okhttp/4.12.0"
+2025-02-11T06:14:27.453Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:14:27.454Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:14:27 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4079 "-" "okhttp/4.12.0"
+2025-02-11T06:14:31.511Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:14:31.512Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:14:31 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 200 2347 "-" "okhttp/4.12.0"
+2025-02-11T06:16:43.624Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:16:43 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T06:30:57.345Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:30:57 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:30:58.269Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:30:58 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:33:58.388Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:33:58 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:33:59.422Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:33:59 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:36:39.647Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:36:39 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:36:40.599Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:36:40 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:37:33.912Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:37:33 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:37:36.209Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:37:36 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:37:58.208Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:37:58 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:37:59.124Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:37:59 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:41:41.648Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:41:41 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:41:42.777Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:41:42 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:42:20.767Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:42:20 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-11T06:42:28.546Z [:[32minfo[39m] ::1 - - [11/Feb/2025:06:42:28 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T06:44:01.165Z [:[31merror[39m] Request failed with status code 403
+2025-02-11T06:46:06.166Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:46:06 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T06:46:09.132Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:46:09.135Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:46:09 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 6389 "-" "okhttp/4.12.0"
+2025-02-11T06:46:29.938Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:46:29.940Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:46:29 +0000] "POST /api/interactions?limit=10&offset=10 HTTP/1.1" 200 86 "-" "okhttp/4.12.0"
+2025-02-11T06:47:14.257Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:47:14.259Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:14 +0000] "GET /api/feedbacks/interaction/162 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:47:32.279Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:32 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:47:34.825Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:47:34.826Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:34 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:47:38.318Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:47:38.320Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:38 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:47:49.142Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:49 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:47:49.433Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:47:49.435Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:49 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:47:51.846Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:47:51.848Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:47:51 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:48:00.667Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:00 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:48:00.968Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:48:00.970Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:00 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:48:03.690Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:48:03.692Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:03 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:48:05.369Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:48:05.370Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:05 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 200 1528 "-" "okhttp/4.12.0"
+2025-02-11T06:48:47.675Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:47 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:48:49.383Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:48:49.385Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:49 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:48:57.004Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:57 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T06:48:59.201Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:48:59.202Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:48:59 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:49:01.442Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:49:01.443Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:49:01 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:49:15.419Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:49:15 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:49:16.579Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:49:16.580Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:49:16 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:49:40.414Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:49:40.415Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:49:40 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:49:41.483Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:49:41.484Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:49:41 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:51:13.136Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:51:13 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:51:13.470Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T06:51:13.471Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:51:13 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:51:17.152Z [:[32minfo[39m] Fetched successfully
+2025-02-11T06:51:17.154Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:51:17 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T06:51:18.456Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:51:18.457Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:51:18 +0000] "GET /api/feedbacks/interaction/163 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T06:54:54.936Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:54:54 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T06:54:58.398Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:54:58 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T06:55:00.180Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:00.180Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:00.182Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:55:00 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T06:55:01.264Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:01.264Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:01.265Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:55:01 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T06:55:02.383Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:02.383Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:02.385Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:55:02 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T06:55:03.200Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:03.200Z [:[31merror[39m] 
+Invalid `prisma.feedbacks.findMany()` invocation:
+
+{
+  where: {
+    internId: "f2f48358-64c5-4020-b8d9-aeddfeba6405"
+  },
+  include: {
+    interaction: true,
+    user: {
+    ~~~~
+      select: {
+        name: true,
+        zone: true
+      }
+    },
+?   intern?: true,
+?   interviewer?: true
+  }
+}
+
+Unknown field `user` for include statement on model `Feedbacks`. Available options are marked with ?.
+2025-02-11T06:55:03.202Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:55:03 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 500 64 "-" "okhttp/4.12.0"
+2025-02-11T06:55:32.605Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:55:32.610Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:55:32 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 6671 "-" "okhttp/4.12.0"
+2025-02-11T06:56:01.252Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:56:01 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T06:56:07.239Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T06:56:07.240Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-11T06:56:09.671Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:56:09 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T06:56:11.238Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:56:11 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-11T06:56:12.939Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:56:12 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T06:56:13.891Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T06:56:13.893Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:06:56:13 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T07:01:32.597Z [:[32minfo[39m] ::1 - - [11/Feb/2025:07:01:32 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T07:01:35.210Z [:[32minfo[39m] ::1 - - [11/Feb/2025:07:01:35 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T07:01:51.348Z [:[32minfo[39m] ::1 - - [11/Feb/2025:07:01:51 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-11T07:03:57.702Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:03:57 +0000] "GET /api/users/role/mentors HTTP/1.1" 404 161 "-" "okhttp/4.12.0"
+2025-02-11T07:03:59.335Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-11T07:03:59.338Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:03:59 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-11T07:04:06.300Z [:[32minfo[39m] Fetched successfully
+2025-02-11T07:04:06.302Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:04:06 +0000] "POST /api/interactions?limit=10&offset=0 HTTP/1.1" 200 4591 "-" "okhttp/4.12.0"
+2025-02-11T07:04:08.303Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:04:08 +0000] "POST /api/users?limit=5&offset=0 HTTP/1.1" 200 1554 "-" "okhttp/4.12.0"
+2025-02-11T07:04:11.188Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:04:11 +0000] "POST /api/users?limit=5&offset=5 HTTP/1.1" 200 1454 "-" "okhttp/4.12.0"
+2025-02-11T07:04:12.077Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-11T07:04:12.078Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [11/Feb/2025:07:04:12 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"

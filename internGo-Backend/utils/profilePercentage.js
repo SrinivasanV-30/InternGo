@@ -27,7 +27,7 @@ export const profilePercentage=async(userData)=>{
                 console.log(key,value)
                 notNullCount+=1;
             }
-            console.log(key,value)
+            // console.log(key,value)
         }
         const percentage=(notNullCount/totalFields)*100;
         console.log(notNullCount,totalFields,percentage)

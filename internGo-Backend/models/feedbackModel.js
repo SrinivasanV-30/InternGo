@@ -42,7 +42,15 @@ export const getFeedbackByIntern = async (internId) => {
     try {
         return await prisma.feedbacks.findMany({
             where: { internId: internId },
-            include: { interaction: true },
+            include: { 
+                interaction: true,
+                intern:{
+                    select:{
+                        name:true,
+                        zone:true
+                    }
+                }
+            },
         });
     } catch (error) {
         logger.error(error.message);

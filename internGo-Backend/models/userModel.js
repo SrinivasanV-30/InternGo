@@ -86,13 +86,24 @@ export const findUserByRole = async (roleName) => {
         return await prisma.users.findMany({
             where: {
                 role:{
-                    roleName:roleName
+                    roleName:{
+                        in:roleName
+                    }
                 }
             },
-            select:{
-                name:true
-            }
-        }).then((results)=>results.map((result)=> result.name));
+            select: {
+                id:true,
+                name: true,
+                profilePhoto: true,
+                phone_no:true,
+                email: true,
+                batch: true,
+                year: true,
+                designation: true,
+                status: true,
+                employeeId: true,
+            },
+        });
         
     } catch (error) {
         logger.error(error.message);
