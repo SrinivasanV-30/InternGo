@@ -270,6 +270,7 @@ export const getDistinctFilters = async (req, res) => {
 export const getUsersByRole = async (req, res) => {
     try {
         const roleName=req.query.roleName;
+        console.log(roleName)
         const mentors = await findUserByRole(roleName);
         logger.info("Fetched successfully")
         sendResponse(res, 200, "Fetched successfully", mentors);
@@ -278,5 +279,6 @@ export const getUsersByRole = async (req, res) => {
         logger.error(error.message);
     }
 }
+
 
 // cron.schedule('* 18 * ')

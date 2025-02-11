@@ -1,6 +1,6 @@
 import { findUserByUserId } from "../models/userModel.js";
 import logger from "../utils/logger.js";
-import { deleteAllNotifications, deleteSingleNotification, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
+import { createNotification, deleteAllNotifications, deleteSingleNotification, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
 import sendResponse from "../utils/response.js";
 
 export const getNotificationsByUserId=async(req,res)=>{
@@ -27,6 +27,23 @@ export const markAsRead=async(req,res)=>{
             return await markNotificationAsRead(notificationId);
         })
         sendResponse(res,200,"Marked successfully");
+    }
+    catch(error){
+        logger.error(error.message)
+    }
+}
+
+export const createAnnoncement=async(req,res)=>{
+    try{
+        const message = req.body;
+        await createNotification(
+            {
+                message:message,
+                type:"announcement",
+                userId:null
+            }
+        )
+        sendResponse(res,200,"Announcement created successfully");
     }
     catch(error){
         logger.error(error.message)
@@ -79,3 +96,4 @@ export const clearAllNotification=async(req,res)=>{
         logger.error(error.message);
     }
 }
+
