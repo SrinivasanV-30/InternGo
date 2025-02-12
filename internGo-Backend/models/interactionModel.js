@@ -88,5 +88,18 @@ export const getUpcomingInteractions=async()=>{
     }
     catch(error){
         logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+export const getInteractionByQuery=async(whereCondition)=>{
+    try{
+        return await prisma.interactions.count({
+            where:whereCondition
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
     }
 }

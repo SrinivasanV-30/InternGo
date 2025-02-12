@@ -26140,3 +26140,146 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-12T11:56:58.986Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:56:58 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-02-12T11:57:03.222Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
 2025-02-12T11:57:03.223Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:57:03 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:58:56.084Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:58:56 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:58:56.493Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:58:56 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:06.507Z [:[32minfo[39m] Login successful!!!
+2025-02-12T11:59:06.507Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:06 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "-" "okhttp/4.12.0"
+2025-02-12T11:59:06.861Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:06.865Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:06 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:07.198Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:59:07.200Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:07 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 20444 "-" "okhttp/4.12.0"
+2025-02-12T11:59:07.284Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:07 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:07.299Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:07 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:07.302Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:07 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:07.370Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:59:07.373Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:07 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 20444 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:08.810Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:08.812Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:08 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:08.973Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:59:08.974Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:08 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:09.267Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:59:09.269Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:09 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:09.336Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T11:59:09.337Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:09 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:10.699Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:59:10.701Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:59:10 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:59:21.734Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:21.736Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:21 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:21.858Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:59:21.861Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:21 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:22.132Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:22.134Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:22 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:22.251Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:59:22.252Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:22 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:22.360Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T11:59:22.361Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:22 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:49.066Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:49.068Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:49 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:49.316Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:59:49.318Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:49 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 566 "-" "okhttp/4.12.0"
+2025-02-12T11:59:49.436Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:59:49.438Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:49 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:49.669Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:59:49.671Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:49 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:59:49.687Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T11:59:49.688Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:59:49 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:00:19.788Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:19 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-12T12:00:35.641Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:00:35.643Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:35 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:00:35.745Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:00:35.746Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:35 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 4979 "-" "okhttp/4.12.0"
+2025-02-12T12:00:35.817Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:00:35.818Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:35 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:00:36.208Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:00:36.209Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:36 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:00:36.355Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T12:00:36.356Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:00:36 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:02:43.619Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:02:43.622Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:02:43 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:02:43.999Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:02:44.001Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:02:44 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 12464 "-" "okhttp/4.12.0"
+2025-02-12T12:02:44.051Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:02:44.052Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:02:44 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:02:44.408Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:02:44.409Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:02:44 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:02:44.517Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T12:02:44.518Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:02:44 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:05:24.364Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:05:24.366Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:05:24 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:05:34.483Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:05:34.485Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:05:34 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:05:39.263Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:05:39.264Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:05:39 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:07:54.886Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:07:54.892Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:07:54 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:07:57.639Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:07:57.641Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:07:57 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:00.240Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:08:00.241Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:00 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:32.906Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:08:32.911Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:32 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:33.006Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:08:33.008Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:33 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:33.548Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T12:08:33.549Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:33 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:33.675Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:08:33.676Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:33 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:33.987Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:08:33.989Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:33 +0000] "GET /api/users/count/status HTTP/1.1" 200 130 "-" "okhttp/4.12.0"
+2025-02-12T12:08:39.139Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:08:39.140Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:39 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:08:41.977Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:08:41.979Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:08:41 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:09:13.382Z [:[32minfo[39m] Login successful!!!
+2025-02-12T12:09:13.382Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:09:13 +0000] "POST /api/auth/signin HTTP/1.1" 200 548 "-" "okhttp/4.12.0"
+2025-02-12T12:09:13.852Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:09:13.854Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:09:13 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:09:13.854Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:09:13.856Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:09:13 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:09:14.060Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:09:14.062Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:09:14 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-12T12:11:38.291Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:11:38.298Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:11:38 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:11:39.281Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:11:39.284Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:11:39 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:11:39.940Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:11:39.941Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:11:39 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:18:02.260Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:18:02 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1361 "-" "okhttp/4.12.0"
+2025-02-12T12:20:00.265Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:20:00 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:20:15.317Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:20:15 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:21:18.876Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:21:18 +0000] "GET /api/users// HTTP/1.1" 404 150 "-" "okhttp/4.12.0"
+2025-02-12T12:21:21.734Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T12:21:21.736Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:21:21 +0000] "GET /api/users//interaction HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T12:22:06.969Z [:[32minfo[39m] Login successful!!!
+2025-02-12T12:22:06.969Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:06 +0000] "POST /api/auth/signin HTTP/1.1" 200 548 "-" "okhttp/4.12.0"
+2025-02-12T12:22:08.267Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:08.269Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:08 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 200 104 "-" "okhttp/4.12.0"
+2025-02-12T12:22:09.511Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:22:09.514Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:09 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 12464 "-" "okhttp/4.12.0"
+2025-02-12T12:22:09.565Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:09.567Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:09 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 200 307 "-" "okhttp/4.12.0"
+2025-02-12T12:22:10.195Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:22:10.197Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:10 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-12T12:22:16.912Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:16.914Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:16 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:22:18.618Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:18.620Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:18 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:22:22.253Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:22.255Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:22 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:22:22.880Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:22:22.882Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:22 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:22:32.794Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:32 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 1361 "-" "okhttp/4.12.0"
+2025-02-12T12:22:51.400Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:22:51 +0000] "GET /api/interactions/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 200 7084 "-" "okhttp/4.12.0"
+2025-02-12T12:23:59.321Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:23:59 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:03.173Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:03 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:07.375Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:07 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:12.755Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:12 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:30.966Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:24:30.968Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:30 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:30.979Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:24:30.980Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:30 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a/interactionCount HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:31.009Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:24:31.011Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:31 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:31.098Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:24:31.098Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:31 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:33.612Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:33 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"

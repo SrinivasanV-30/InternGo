@@ -21,6 +21,8 @@ import { uploadImageToS3 } from "../services/s3Service.js";
 // import url from 'url';
 // import cron from "node-cron";
 import { getPlanById } from "../models/planModel.js";
+import { InteractionStatus } from "@prisma/client";
+import { getInteractionByQuery } from "../models/interactionModel.js";
 
 export const updateUserProfile = async (req, res) => {
     try {
@@ -307,10 +309,11 @@ export const getUsersByRole = async (req, res) => {
 export const getCountByStatus = async (req, res) => {
     try {
         let statusCount={};
-        statusCount.activeStatus=countByStatus(["ACTIVE"]);
-        statusCount.notActiveStatus=countByStatus(["LEAVE","EXAMINATION"]);
-        statusCount.totalCount=countByStatus(["ACTIVE","LEAVE","EXAMINATION","DEPLOYED","SHADOWING"]);
-        statusCount.deployedCount=countByStatus(["DEPLOYED","SHADOWING"]);
+        statusCount.activeStatus=await countByStatus(["ACTIVE"]);
+        statusCount.notActiveStatus=await countByStatus(["LEAVE","EXAMINATION"]);
+        statusCount.totalCount=await countByStatus(["ACTIVE","LEAVE","EXAMINATION","DEPLOYED","SHADOWING"]);
+        statusCount.deployedCount=await countByStatus(["DEPLOYED","SHADOWING"]);
+        console.log(statusCount)
         logger.info("Fetched successfully")
         sendResponse(res, 200, "Fetched successfully",statusCount);
     }
@@ -319,6 +322,26 @@ export const getCountByStatus = async (req, res) => {
     }
 }
 
+export const getInteractionCount = async (req, res) => {
+    try {
+        const userId=req.params.id;
+        let interactionCount={}
+        interactionCount.interactionTaken=await getInteractionByQuery({
+            interviewerId:userId,
+            interactionStatus:"COMPLETED"
+        });
+        interactionCount.interactionPending=await getInteractionByQuery({
+            interviewerId:userId,
+            interactionStatus:"PENDING"
+        })
+        
+        logger.info("Fetched successfully")
+        sendResponse(res, 200, "Fetched successfully",interactionCount);
+    }
+    catch (error) {
+        logger.error(error.message);
+    }
+}
 
 
 // cron.schedule('* 18 * ')

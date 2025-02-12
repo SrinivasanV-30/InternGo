@@ -1,5 +1,5 @@
 import express from 'express';
-import { createUserAsset, getCountByStatus, getDistinctFilters, getInterns, getTrainingDetails, getUser, getUserAssets, getUsersByRole, updateUserAsset, updateUserProfile } from '../controllers/userController.js';
+import { createUserAsset, getCountByStatus, getDistinctFilters, getInteractionCount, getInterns, getTrainingDetails, getUser, getUserAssets, getUsersByRole, updateUserAsset, updateUserProfile } from '../controllers/userController.js';
 import { authenticateUser, checkPermission, checkUser } from '../middlewares/authenticationMiddleware.js';
 import { assetUpdateValidation, assetValidation, profileUpdateValidation } from '../middlewares/validationMiddleware.js';
 import { updateUserPermission } from '../controllers/authController.js';
@@ -18,6 +18,7 @@ userRouter.get('/training/:id',authenticateUser,checkUser,checkPermission(['prof
 userRouter.get('/distinct/filters',authenticateUser,checkPermission(['users.manage']),getDistinctFilters);
 userRouter.get('/role/fetch',authenticateUser,getUsersByRole);
 userRouter.get('/count/status',authenticateUser,getCountByStatus);
+userRouter.get('/:id/interactionCount',authenticateUser,getInteractionCount);
 
 
 export default userRouter;
