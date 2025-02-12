@@ -30,6 +30,7 @@ export const sendBroadcastNotification = async (type, message) => {
             if (sockets) {
                 sockets.forEach(socketId => {
                     io.to(socketId).emit("announcement", { createdNotification });
+
                 });
             }
         }

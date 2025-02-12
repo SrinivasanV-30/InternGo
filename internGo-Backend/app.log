@@ -25248,3 +25248,895 @@ Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.re
 
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
 2025-02-12T08:23:00.585Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-12T09:03:03.241Z [:[31merror[39m] jwt expired
+2025-02-12T09:03:03.246Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:03 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-12T09:03:03.250Z [:[31merror[39m] jwt expired
+2025-02-12T09:03:03.251Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:03 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-12T09:03:03.256Z [:[31merror[39m] jwt expired
+2025-02-12T09:03:03.257Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:03 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-12T09:03:03.261Z [:[31merror[39m] jwt expired
+2025-02-12T09:03:03.261Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:03 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 401 54 "-" "okhttp/4.12.0"
+2025-02-12T09:03:31.501Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:03:31.502Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:31 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "-" "okhttp/4.12.0"
+2025-02-12T09:03:31.746Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:03:31.752Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:09:03:31 +0000] "GET /api/users/count/status HTTP/1.1" 200 134 "-" "okhttp/4.12.0"
+2025-02-12T09:03:36.760Z [:[31merror[39m] 
+Invalid `prisma.users.count()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:12:00.981Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:00 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:01.436Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:12:01.437Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:01 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:01.485Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:01 +0000] "OPTIONS /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:01.496Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:01 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:01.505Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:01 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:02.168Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T09:12:02.171Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:02 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 234 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:02.550Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T09:12:02.551Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:02 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:04.856Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:04.858Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:04 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 3116 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:05.348Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:05.349Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:05 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:10.947Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:10 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:10.949Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:10 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:11.635Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:11 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 5254 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:13.414Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:13 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:20.747Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:20 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:20.749Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:20 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:20.751Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:20 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:20.754Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:20 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:21.372Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:21.374Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:21 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:21.447Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:21 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:21.711Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:21.712Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:21 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:22.085Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:22 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:33.426Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:33 +0000] "OPTIONS /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:33.427Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:33 +0000] "OPTIONS /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:33.904Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T09:12:33.906Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:33 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:34.232Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T09:12:34.233Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:34 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:47.328Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:47 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:47.329Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:47 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:48.767Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:48 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:49.431Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:49 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:50.819Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:50 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:50.824Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:50 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:51.268Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:51.269Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:51 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:51.644Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:51.645Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:51 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:52.337Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:52 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:52.341Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:52 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:52.664Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:52.665Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:52 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:52.984Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:52.985Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:52 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:53.020Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:53 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:54.915Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:54 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:58.719Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:58 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:58.720Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:58 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:58.723Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:58 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:58.726Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:58 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:59.064Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:59.065Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:59 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:59.381Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:59 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:12:59.395Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:12:59.396Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:12:59 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:00.016Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:00 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:04.702Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:04 +0000] "OPTIONS /api/users/update/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:06.568Z [:[32minfo[39m] Updated successfully
+2025-02-12T09:13:06.569Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:06 +0000] "PATCH /api/users/update/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 965 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:07.975Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:07 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:07.975Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:07 +0000] "OPTIONS /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:08.655Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:08 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 5254 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:09.379Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:09 +0000] "GET /api/users/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:12.122Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:12 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:12.126Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:12 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:13.243Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:13:13.244Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:13 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:13.606Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:13:13.607Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:13 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:13.930Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:13 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-11 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:13.931Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:13 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-11 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:15.895Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:15.896Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:15 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-11 HTTP/1.1" 200 61 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:16.054Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:16.055Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:16 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-11 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:19.145Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:19 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-03 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:19.146Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:19 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-03 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:19.895Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:19.896Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:19 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-03 HTTP/1.1" 200 3455 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:20.109Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:20.110Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:20 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-03 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:30.637Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:30 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-04 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:30.638Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:30 +0000] "OPTIONS /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-04 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:30.929Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:30.930Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:30 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-04 HTTP/1.1" 200 554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:31.176Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:31.178Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:31 +0000] "GET /api/dailyUpdates/e89be629-b24c-45f2-89e1-95b2cb3f21c3?date=2025-02-04 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:40.485Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:40 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:40.487Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:40 +0000] "OPTIONS /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:40.979Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:13:40.980Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:40 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:41.295Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:13:41.296Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:41 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:41.893Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:41 +0000] "OPTIONS /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:41.894Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:41 +0000] "OPTIONS /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:43.302Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:43.547Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:43 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 1581 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:13:43.936Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:13:44.046Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:13:44 +0000] "GET /api/interactions/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:40.261Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:40 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:40.477Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:14:40.477Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:40 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:40.526Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:40 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:40.875Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:40.877Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:40 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 8151 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:41.141Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:41.143Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:49.704Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:49 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:49.705Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:49 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:50.254Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:50 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 9938 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:50.782Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:50 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:50.824Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:50 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:50.833Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:50 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:51.102Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:51.103Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:51 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:51.369Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:51.370Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:51 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:53.518Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:53.519Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:53 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:53.573Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:53 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:53.805Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:53.806Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:53 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:54.115Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:54 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:55.195Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:55 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:55.198Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:55 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:56.873Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:56.874Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:57.147Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:14:57.148Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:57.438Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:14:57.439Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:57 +0000] "GET /api/plans HTTP/1.1" 200 841 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:14:57.675Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:14:57.676Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:14:57 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:03.129Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:03 +0000] "OPTIONS /api/plans/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:03.130Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:03 +0000] "OPTIONS /api/plans/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:04.066Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:04.067Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:04 +0000] "GET /api/plans/5 HTTP/1.1" 200 3051 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:04.092Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:04 +0000] "OPTIONS /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:04.094Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:04 +0000] "OPTIONS /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:04.814Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:04 +0000] "POST /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:05.053Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:05.054Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:05 +0000] "GET /api/plans/5 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:06.517Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:06 +0000] "POST /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:12.700Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:12 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:12.701Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:12 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:13.582Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:13.583Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:13 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:13.742Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:15:13.743Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:13 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:13.794Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:13.795Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:13 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:14.008Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:15:14.009Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:14 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:14.714Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:14 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:14.716Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:14 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.140Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:15.141Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "GET /api/plans/8 HTTP/1.1" 200 236 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.156Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.157Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.435Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.436Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:15.568Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:15.569Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:15 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:24.565Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:24 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:24.566Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:24 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:24.567Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:24 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:24.568Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:24 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:24.846Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:15:24.847Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.052Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:25.053Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.070Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.071Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.115Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:15:25.116Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.335Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.360Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:15:25.473Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:15:25.474Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:15:25 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:29.468Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:29 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:29.469Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:29 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:29.473Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:29 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:29.476Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:29 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:29.991Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:16:29.992Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:29 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:30.118Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:16:30.119Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:30 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:30.134Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:30 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:30.270Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:16:30.271Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:30 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:30.404Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:30 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:30.557Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:16:30.558Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:30 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:16:31.157Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:16:31 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.246Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.247Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.254Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.763Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:37.765Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.782Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.783Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:37.977Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:37 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:38.186Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:38.187Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:38 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:39.269Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:39.270Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:39 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:39.580Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:39 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:39.671Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:39.672Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:39 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.453Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.456Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.460Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.972Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:43.974Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.974Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:43.975Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:43.991Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:43 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:44.209Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:44.210Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:44 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:44.217Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:44 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:44.386Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:44.387Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:44 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.104Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.187Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:46.188Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.435Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:46.436Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.473Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:17:46.474Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.697Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.733Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:17:46.897Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:17:46.898Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:17:46 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:05.975Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:05 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:05.976Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:05 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:05.986Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:05 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:05.986Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:05 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:06.709Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:19:06.710Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:06 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:06.826Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:19:06.827Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:06 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:06.846Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:06 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:06.847Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:06 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:07.320Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:19:07.321Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:07 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:07.457Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:07 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:07.482Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:07 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:07.703Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:19:07.704Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:07 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.051Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.057Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.059Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.060Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.393Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:19:38.394Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.549Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:19:38.550Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.567Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.656Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:19:38.657Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.820Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:38.821Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:38 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:19:39.423Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:19:39.424Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:19:39 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:51.621Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:51 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:51.622Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:51 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:53.119Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:53 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:53.120Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:53 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:55.668Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:23:55.669Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:55 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:55.694Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:55 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:57.384Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:23:57.385Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:57 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:58.083Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:58 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:23:58.084Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:23:58 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:54.157Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:54 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:54.159Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:54 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:55.986Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:27:55.987Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:55 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:56.139Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:27:56.140Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:56 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:57.110Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:27:57.111Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:57.543Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:27:57.545Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:59.330Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:59 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:27:59.331Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:27:59 +0000] "OPTIONS /api/plans/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.428Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:00.429Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.451Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "OPTIONS /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.453Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.462Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "OPTIONS /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.550Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:28:00.551Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 200 307 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.654Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:28:00.656Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.839Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:00.840Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "GET /api/plans/8 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:00.844Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:00 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:01.452Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:01 +0000] "POST /api/plans/8/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:03.536Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:03 +0000] "OPTIONS /api/plans/delete/8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:04.392Z [:[32minfo[39m] Deleted successfully!!!
+2025-02-12T09:28:04.393Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:04 +0000] "DELETE /api/plans/delete/8 HTTP/1.1" 204 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:04.410Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:04 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:04.411Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:04 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:04.599Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:04.600Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:04 +0000] "GET /api/plans HTTP/1.1" 200 700 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:04.744Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:04.745Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:04 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:05.774Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:05 +0000] "OPTIONS /api/plans/10 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:05.775Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:05 +0000] "OPTIONS /api/plans/10 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.009Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:07.011Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "GET /api/plans/10 HTTP/1.1" 200 412 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.032Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "OPTIONS /api/plans/10/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.033Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "OPTIONS /api/plans/10/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.246Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "POST /api/plans/10/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.248Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "POST /api/plans/10/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:07.598Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:07.599Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:07 +0000] "GET /api/plans/10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:11.962Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:11 +0000] "OPTIONS /api/plans/delete/10 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:12.722Z [:[32minfo[39m] Deleted successfully!!!
+2025-02-12T09:28:12.724Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:12 +0000] "DELETE /api/plans/delete/10 HTTP/1.1" 204 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:12.740Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:12 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:12.741Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:12 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:12.893Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:12.894Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:12 +0000] "GET /api/plans HTTP/1.1" 200 553 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:13.048Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:13.049Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:13 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:14.303Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:14 +0000] "OPTIONS /api/plans/7 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:14.304Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:14 +0000] "OPTIONS /api/plans/7 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:15.926Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:15.928Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:15 +0000] "GET /api/plans/7 HTTP/1.1" 200 1180 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:15.955Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:15 +0000] "OPTIONS /api/plans/7/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:15.956Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:15 +0000] "OPTIONS /api/plans/7/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:16.186Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:16 +0000] "POST /api/plans/7/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:16.221Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:16 +0000] "POST /api/plans/7/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:16.399Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:16.400Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:16 +0000] "GET /api/plans/7 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:30.064Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:30 +0000] "OPTIONS /api/plans/delete/7 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:30.485Z [:[32minfo[39m] Deleted successfully!!!
+2025-02-12T09:28:30.487Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:30 +0000] "DELETE /api/plans/delete/7 HTTP/1.1" 204 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:30.508Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:30 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:30.509Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:30 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:30.663Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:30.665Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:30 +0000] "GET /api/plans HTTP/1.1" 200 389 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:31.573Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:31.574Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:31 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:33.237Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:33 +0000] "OPTIONS /api/plans/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:33.238Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:33 +0000] "OPTIONS /api/plans/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:33.794Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:33.795Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:33 +0000] "GET /api/plans/5 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:33.819Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:33 +0000] "OPTIONS /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:33.820Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:33 +0000] "OPTIONS /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:34.446Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:34 +0000] "POST /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:34.463Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:34 +0000] "POST /api/plans/5/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:34.644Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:34.645Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:34 +0000] "GET /api/plans/5 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:36.578Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:36 +0000] "OPTIONS /api/plans/delete/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:36.907Z [:[32minfo[39m] Deleted successfully!!!
+2025-02-12T09:28:36.908Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:36 +0000] "DELETE /api/plans/delete/5 HTTP/1.1" 204 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:36.926Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:36 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:36.927Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:36 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:38.179Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:38.180Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:38 +0000] "GET /api/plans HTTP/1.1" 200 213 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:38.324Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:38.326Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:38 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:40.334Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:40 +0000] "OPTIONS /api/plans/9 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:40.335Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:40 +0000] "OPTIONS /api/plans/9 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.073Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:42.074Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "GET /api/plans/9 HTTP/1.1" 200 415 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.094Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "OPTIONS /api/plans/9/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.095Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "OPTIONS /api/plans/9/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.305Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "POST /api/plans/9/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.321Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "POST /api/plans/9/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:42.926Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:42.927Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:42 +0000] "GET /api/plans/9 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.160Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "OPTIONS /api/plans/delete/9 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.569Z [:[32minfo[39m] Deleted successfully!!!
+2025-02-12T09:28:46.571Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "DELETE /api/plans/delete/9 HTTP/1.1" 204 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.586Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.587Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.739Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:46.740Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "GET /api/plans HTTP/1.1" 200 61 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:28:46.897Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:28:46.899Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:28:46 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:09.560Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:09 +0000] "OPTIONS /api/plans/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:11.251Z [:[32minfo[39m] Plan created successfully!!
+2025-02-12T09:29:11.252Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:11 +0000] "POST /api/plans/create HTTP/1.1" 201 228 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:12.725Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:12 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:12.726Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:12 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:14.382Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:29:14.383Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:14 +0000] "GET /api/plans/13 HTTP/1.1" 200 258 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:14.395Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:14 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:14.397Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:14 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:14.707Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:14 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:14.879Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:29:14.880Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:14 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:15.560Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:15 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:38.055Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:38 +0000] "OPTIONS /api/plans/13/create/milestone HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:40.082Z [:[32minfo[39m] Milestone added successfully!
+2025-02-12T09:29:40.083Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:40 +0000] "POST /api/plans/13/create/milestone HTTP/1.1" 201 225 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:40.090Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:40 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:29:40.809Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:29:40.810Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:29:40 +0000] "GET /api/plans/13 HTTP/1.1" 200 431 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:20.850Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:20 +0000] "OPTIONS /api/plans/13/create/objective HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:23.902Z [:[32minfo[39m] Objective added successfully!
+2025-02-12T09:30:23.903Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:23 +0000] "POST /api/plans/13/create/objective HTTP/1.1" 201 304 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:45.172Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:45 +0000] "OPTIONS /api/plans/13/create/objective HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:46.044Z [:[32minfo[39m] Objective added successfully!
+2025-02-12T09:30:46.045Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:46 +0000] "POST /api/plans/13/create/objective HTTP/1.1" 201 287 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:51.308Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:51 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:51.544Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:51 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 86 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:30:53.090Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:30:53 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:00.840Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:00 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:02.167Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:02 +0000] "POST /api/plans/13/users?limit=5&offset=5 HTTP/1.1" 200 1454 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:09.970Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:09 +0000] "OPTIONS /api/plans/13/addUsers HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:11.728Z [:[32minfo[39m] Added interns successfully
+2025-02-12T09:31:11.729Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:11 +0000] "PATCH /api/plans/13/addUsers HTTP/1.1" 200 69 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:11.733Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:11 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:12.161Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:12 +0000] "POST /api/plans/13/users?limit=5&offset=5 HTTP/1.1" 200 1454 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:15.212Z [:[32minfo[39m] Added interns successfully
+2025-02-12T09:31:15.213Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:15 +0000] "PATCH /api/plans/13/addUsers HTTP/1.1" 200 69 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:15.411Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:15 +0000] "POST /api/plans/13/users?limit=5&offset=5 HTTP/1.1" 200 788 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:22.625Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:22 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:22.627Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:22 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.091Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:31:24.092Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.125Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:31:24.126Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "GET /api/plans/13 HTTP/1.1" 200 1408 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.152Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.153Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.355Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:31:24.357Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.397Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:24.681Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:31:24.682Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:24 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:26.169Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:26 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:33.842Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:33 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:33.844Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:33 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:34.092Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:31:34.093Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:34 +0000] "GET /api/plans HTTP/1.1" 200 223 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:34.298Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T09:31:34.300Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:34 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:37.179Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:37 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:37.180Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:37 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:38.639Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:38 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:38.688Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:38 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:41.690Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:41 +0000] "OPTIONS /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:41.691Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:41 +0000] "OPTIONS /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:42.596Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:42 +0000] "GET /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 200 58 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:42.743Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:42 +0000] "GET /api/feedbacks/intern/3948c2fc-c9be-486e-969e-e23d66a70212 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:44.337Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:44 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:44.339Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:44 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:44.546Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:44 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:44.583Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:44 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:47.944Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:47 +0000] "OPTIONS /api/users/?limit=8&offset=8 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:48.531Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:48 +0000] "POST /api/users/?limit=8&offset=8 HTTP/1.1" 200 421 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:49.518Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:49 +0000] "OPTIONS /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:49.519Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:49 +0000] "OPTIONS /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:49.840Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-12T09:31:49.841Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:49 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 9748 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:31:50.073Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-12T09:31:50.075Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:31:50 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:32:09.164Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:32:09 +0000] "OPTIONS /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:32:15.619Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:32:15 +0000] "GET /api/feedbacks/f2f48358-64c5-4020-b8d9-aeddfeba6405/download HTTP/1.1" 200 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:41:21.946Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:41:21 +0000] "OPTIONS /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:41:21.947Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:41:21 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:41:21.958Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:41:21.958Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:41:21.959Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:41:21.959Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:00.980Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:00.981Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-12T09:42:07.261Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.261Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.280Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.280Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.281Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.281Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.298Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.299Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.510Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "OPTIONS /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.510Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.520Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:42:07 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:42:07.522Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.522Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.523Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:42:07.523Z [:[31merror[39m] PrismaClientKnownRequestError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T09:45:23.157Z [:[32minfo[39m] Fetched feedback successfully
+2025-02-12T09:45:23.159Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:45:23 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 9748 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:45:23.337Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:45:23.339Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:45:23 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 8151 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:51:50.438Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:51:50 +0000] "GET /api/feedbacks/intern/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:51:50.438Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:51:50 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:35.861Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:35 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:38.891Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:57:38.891Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:38 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:38.912Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:38 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:38.915Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:38 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:39.687Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:57:39.687Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:39 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:40.934Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:57:40.935Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:40 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 8151 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:41.364Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:57:41.365Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:41.780Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:41 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:41.781Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:41 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:43.416Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:43 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:57:43.964Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:57:43 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.166Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.388Z [:[32minfo[39m] Login successful!!!
+2025-02-12T09:58:21.389Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "POST /api/auth/signin HTTP/1.1" 200 540 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.412Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.413Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.414Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.420Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.827Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:21.828Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:21.848Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:21.849Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:21 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 7025 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:23.660Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:23.661Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:23 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:23.709Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:23.710Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:23 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:26.711Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:26 +0000] "OPTIONS /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:26.712Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:26 +0000] "OPTIONS /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:27.401Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:27 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 8627 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:27.858Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:27 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:27.860Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:27 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:28.029Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:28 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:28.217Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:28.218Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:28 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:28.449Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:28.450Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:28 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:30.914Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:30 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:30.916Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:30 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:31.159Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:31.160Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:31 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:31.230Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:31.231Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:31 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:31.401Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:31.402Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:31 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:31.552Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:31.553Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:31 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:39.845Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:39 +0000] "OPTIONS /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:39.847Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:39 +0000] "OPTIONS /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:41.143Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:41 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:42.225Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:42 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:42.226Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:42 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:43.999Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:43 +0000] "GET /api/users/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:44.544Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:44 +0000] "OPTIONS /api/interactions/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:44.545Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:44 +0000] "OPTIONS /api/interactions/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:46.036Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:46.037Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:46 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:46.151Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:58:46.529Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:46 +0000] "GET /api/interactions/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 6586 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:46.648Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:46.649Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:46 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:47.068Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:47.069Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:47 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:47.123Z [:[32minfo[39m] Fetched successfully
+2025-02-12T09:58:47.246Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:47 +0000] "GET /api/interactions/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:47.347Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T09:58:47.348Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:47 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:52.765Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:52 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:52.770Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:52 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:53.646Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:53.647Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:53 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T09:58:53.934Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T09:58:53.935Z [:[32minfo[39m] ::1 - - [12/Feb/2025:09:58:53 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:22.995Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:22 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:23.796Z [:[32minfo[39m] Login successful!!!
+2025-02-12T10:04:23.796Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:23 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:23.806Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:23 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:23.810Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:23 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:25.009Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:04:25.010Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:25 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:25.273Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:04:25.274Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:25 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:37.541Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:37 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:37.543Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:37 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:37.863Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:04:37.864Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:37 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:38.198Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:04:38.199Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:38 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:57.367Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:57 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:04:57.708Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:04:57 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:17.113Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:17 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:17.116Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:17 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:17.118Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:17 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:17.716Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:05:17.717Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:17 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:18.029Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:05:18.030Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:18 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:20.150Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:20 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:21.565Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:21 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:40.621Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:40 +0000] "OPTIONS /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:40.622Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:40 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:40.952Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:05:40.953Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:40 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:41.203Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:05:41.205Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:41 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:41.265Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:41 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:05:41.840Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:05:41 +0000] "GET /api/users/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:57.457Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:57 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:57.457Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:57 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:57.460Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:57 +0000] "OPTIONS /api/plans HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:57.461Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:57 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:58.306Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:08:58.306Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:58 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:58.538Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:08:58.539Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:58 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:58.828Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:08:58.830Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:58 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:08:59.029Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:08:59.030Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:08:59 +0000] "GET /api/plans HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:25.895Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:25 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:25.896Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:25 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:27.765Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:09:27.766Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:27 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:27.780Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:27 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:27.781Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:27 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:28.166Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:28 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:28.210Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:09:28.211Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:28 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:09:28.811Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:09:28 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.234Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.234Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.237Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/plans/13 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.237Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.864Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:10:41.865Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.881Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:41.881Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:41 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:42.217Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:42 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:42.355Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T10:10:42.356Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:42 +0000] "GET /api/plans/13 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:42.931Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:42 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 751 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:43.701Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:10:43.703Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:43 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:10:44.156Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T10:10:44.157Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:10:44 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:12:48.983Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:12:48 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:12:50.458Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:12:50 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:12:59.271Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:12:59 +0000] "OPTIONS /api/plans/13/addUsers HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:00.339Z [:[32minfo[39m] Added interns successfully
+2025-02-12T10:13:00.341Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:00 +0000] "PATCH /api/plans/13/addUsers HTTP/1.1" 200 69 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:00.347Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:00 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:00.957Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:00 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 1554 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:11.307Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:11 +0000] "OPTIONS /api/plans/13/addUsers HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:11.975Z [:[32minfo[39m] Added interns successfully
+2025-02-12T10:13:11.977Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:11 +0000] "PATCH /api/plans/13/addUsers HTTP/1.1" 200 69 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:11.982Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:11 +0000] "OPTIONS /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:13.023Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:13 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 1684 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T10:13:15.853Z [:[32minfo[39m] ::1 - - [12/Feb/2025:10:13:15 +0000] "POST /api/plans/13/users?limit=5&offset=0 HTTP/1.1" 200 1324 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:44:55.247Z [:[32minfo[39m] Login successful!!!
+2025-02-12T11:44:55.248Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:55 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "-" "okhttp/4.12.0"
+2025-02-12T11:44:55.525Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:44:55.530Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:55 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:44:55.594Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:44:55.596Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:55 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 200 307 "-" "okhttp/4.12.0"
+2025-02-12T11:44:56.368Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:44:56.370Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:56 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 12539 "-" "okhttp/4.12.0"
+2025-02-12T11:44:57.893Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:44:57.895Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-12T11:44:58.085Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T11:44:58.086Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:44:58 +0000] "GET /api/users/distinct/filters HTTP/1.1" 200 241 "-" "okhttp/4.12.0"
+2025-02-12T11:45:06.370Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:06 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"
+2025-02-12T11:45:24.476Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:45:24.477Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:24 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:45:24.569Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:45:24.572Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:24 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 15029 "-" "okhttp/4.12.0"
+2025-02-12T11:45:24.646Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:45:24.648Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:24 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:45:25.001Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T11:45:25.002Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:25 +0000] "GET /api/users/distinct/filters HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:45:25.006Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:45:25.007Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:45:25 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:46:24.678Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-12T11:46:24.680Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:24 +0000] "POST /api/auth/signin HTTP/1.1" 404 79 "-" "okhttp/4.12.0"
+2025-02-12T11:46:32.421Z [:[32minfo[39m] Login successful!!!
+2025-02-12T11:46:32.421Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:32 +0000] "POST /api/auth/signin HTTP/1.1" 200 540 "-" "okhttp/4.12.0"
+2025-02-12T11:46:32.825Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:46:32.826Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:32 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:46:32.828Z [:[32minfo[39m] Fetched successfully
+2025-02-12T11:46:32.829Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:32 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:46:32.994Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:46:32.995Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:32 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 225 "-" "okhttp/4.12.0"
+2025-02-12T11:46:33.101Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:46:33.102Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:46:33 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-12T11:55:06.801Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:55:06.810Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:55:06 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:55:27.975Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:27.979Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:27.981Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:27.983Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:27.985Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:27.986Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:27 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.115Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.116Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.117Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.118Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.120Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.122Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "OPTIONS /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:28.800Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:55:28.804Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:28 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 225 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:29.148Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:55:29.151Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:29 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:29.218Z [:[31merror[39m] planStartDate not set for user e6069938-ddc8-49c7-be25-33ad32484a2e
+2025-02-12T11:55:29.220Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:29 +0000] "GET /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 400 77 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:29.404Z [:[31merror[39m] planStartDate not set for user e6069938-ddc8-49c7-be25-33ad32484a2e
+2025-02-12T11:55:29.406Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:29 +0000] "GET /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 400 77 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:30.051Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:30.054Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:30 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 15029 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:30.982Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:30.984Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:30 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.434Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:31.435Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.493Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:31.494Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.542Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:31.543Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 15029 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.614Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:31.616Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.808Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:31.810Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:31.879Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:31.881Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:31 +0000] "GET /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.120Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.206Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.252Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "OPTIONS /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.273Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "OPTIONS /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.292Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:38.294Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.373Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:38.375Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.527Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:38.528Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "GET /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:38.623Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:38.624Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:38 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:41.645Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:41 +0000] "OPTIONS /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:41.666Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:41 +0000] "OPTIONS /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:41.696Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:41.697Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:41 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:41.759Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:41.761Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:41 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:41.943Z [:[31merror[39m] planStartDate not set for user e6069938-ddc8-49c7-be25-33ad32484a2e
+2025-02-12T11:55:41.944Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:41 +0000] "GET /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 400 77 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:42.109Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:42.110Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:42 +0000] "GET /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:42.129Z [:[31merror[39m] planStartDate not set for user e6069938-ddc8-49c7-be25-33ad32484a2e
+2025-02-12T11:55:42.130Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:42 +0000] "GET /api/users/training/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 400 77 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:42.386Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:42.387Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:42 +0000] "GET /api/notifications/e6069938-ddc8-49c7-be25-33ad32484a2e HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:56.701Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:56 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:56.744Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:55:56.746Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:55:56 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:55:56.994Z [:[32minfo[39m] Login successful!!!
+2025-02-12T11:55:56.994Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:56 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.047Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.053Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.055Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.062Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.163Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:57.165Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.219Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T11:55:57.221Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.318Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:57.319Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:55:57.577Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:55:57.578Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:55:57 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:01.288Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:01 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:01.290Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:01 +0000] "OPTIONS /api/users/?limit=8&offset=0 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:02.649Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:56:02.651Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:02 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:02.748Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:02 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:02.824Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:02 +0000] "POST /api/users/?limit=8&offset=0 HTTP/1.1" 200 2587 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:02.931Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T11:56:02.932Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:02 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:09.439Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:56:09.440Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:56:09 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:56:11.255Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:56:11.256Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:56:11 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:56:14.020Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:14 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:14.240Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:11:56:14 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T11:56:58.985Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:56:58.986Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:56:58 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T11:57:03.222Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T11:57:03.223Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:11:57:03 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"

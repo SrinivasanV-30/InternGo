@@ -61,7 +61,7 @@ enum Status{
   LEAVE
   EXAMINATION
   SHADOWING
-  DEPLOYED
+  DEPLOYED  
 }
 
 model Roles{
