@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "HelpDesk" ALTER COLUMN "status" SET DEFAULT 'PENDING';
