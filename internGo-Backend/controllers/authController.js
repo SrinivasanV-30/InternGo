@@ -109,7 +109,8 @@ export const signInController = async (req, res) => {
             role: existingUser.role.roleName,
             permissions: existingUser.role.permissions,
             token: token,
-            zone:existingUser.zone
+            zone:existingUser.zone,
+            profilePhoto:existingUser.profilePhoto
         };
 
         sendResponse(res, 200, "Login successful!!!", response);
