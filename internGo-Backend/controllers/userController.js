@@ -1,5 +1,6 @@
 import sendResponse from "../utils/response.js";
 import {
+    countByStatus,
     findUserByRole,
     findUserByUserId,
     getFilters,
@@ -302,6 +303,22 @@ export const getUsersByRole = async (req, res) => {
         logger.error(error.message);
     }
 }
+
+export const getCountByStatus = async (req, res) => {
+    try {
+        let statusCount={};
+        statusCount.activeStatus=countByStatus(["ACTIVE"]);
+        statusCount.notActiveStatus=countByStatus(["LEAVE","EXAMINATION"]);
+        statusCount.totalCount=countByStatus(["ACTIVE","LEAVE","EXAMINATION","DEPLOYED","SHADOWING"]);
+        statusCount.deployedCount=countByStatus(["DEPLOYED","SHADOWING"]);
+        logger.info("Fetched successfully")
+        sendResponse(res, 200, "Fetched successfully",statusCount);
+    }
+    catch (error) {
+        logger.error(error.message);
+    }
+}
+
 
 
 // cron.schedule('* 18 * ')

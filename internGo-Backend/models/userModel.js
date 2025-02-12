@@ -458,7 +458,7 @@ export const countByStatus=async(status)=>{
     try{
         return await prisma.users.count({
             where:{
-                status:status
+                status:{in : status}
             }
         });
     }

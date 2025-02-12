@@ -25025,3 +25025,226 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-12T06:55:03.930Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:06:55:03 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-02-12T06:55:03.933Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:06:55:03 +0000] "OPTIONS /api/plans/5 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-02-12T06:55:03.935Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [12/Feb/2025:06:55:03 +0000] "OPTIONS /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-12T07:02:54.644Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:02:54.646Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:02:54 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:02:55.566Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:02:55 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" - - "-" "okhttp/4.12.0"
+2025-02-12T07:02:57.779Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:03:03.333Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:03:03.335Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:03 +0000] "GET /api/notifications/announcements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:03:04.536Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:03:04.538Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:04 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:04.758Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T07:03:04.760Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:04 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:05.258Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:03:05.260Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:05 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:12.162Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:03:12.163Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:12 +0000] "POST /api/auth/signin HTTP/1.1" 200 540 "-" "okhttp/4.12.0"
+2025-02-12T07:03:12.463Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:03:12.464Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:12 +0000] "GET /api/notifications/announcements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:03:12.569Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:03:12.571Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:12 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:12.993Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T07:03:12.995Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:12 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:13.046Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:03:13.048Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:13 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:48.737Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:03:48.737Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:48 +0000] "POST /api/auth/signin HTTP/1.1" 200 540 "-" "okhttp/4.12.0"
+2025-02-12T07:03:49.703Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:03:49.705Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:49 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:50.076Z [:[32minfo[39m] Milestone found for user f2f48358-64c5-4020-b8d9-aeddfeba6405
+2025-02-12T07:03:50.078Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:50 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:50.280Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:03:50.281Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:50 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:55.066Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:03:55.067Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:55 +0000] "GET /api/notifications/announcements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:03:55.131Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:03:55.133Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:55 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:03:56.616Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:03:56.617Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:03:56 +0000] "GET /api/notifications/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:04:30.080Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:04:30.080Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:30 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-12T07:04:30.312Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:04:30.313Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:30 +0000] "GET /api/notifications/announcements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:04:30.491Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:04:30.493Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:30 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:04:30.746Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:04:30.748Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:30 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:04:31.948Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:04:31.949Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:31 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:04:45.976Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:04:45.977Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:45 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-12T07:04:46.300Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:04:46.302Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:46 +0000] "GET /api/notifications/announcements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:04:46.511Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:04:46.513Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:46 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:04:47.025Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:04:47.028Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:47 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:04:48.286Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:04:48.288Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:04:48 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:05:05.821Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:05:05.822Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:05 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-12T07:05:06.148Z [:[31merror[39m] Access Denied. Can not access other interns.
+2025-02-12T07:05:06.150Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:06 +0000] "GET /api/notifications/getAnnouncements HTTP/1.1" 401 87 "-" "okhttp/4.12.0"
+2025-02-12T07:05:06.274Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:05:06.275Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:06 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:05:06.507Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:05:06.509Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:06 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:05:06.699Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:05:06.701Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:06 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:05:36.354Z [:[32minfo[39m] Login successful!!!
+2025-02-12T07:05:36.355Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:36 +0000] "POST /api/auth/signin HTTP/1.1" 200 536 "-" "okhttp/4.12.0"
+2025-02-12T07:05:37.314Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:05:37.317Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:37 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:05:38.477Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:05:38.493Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:38 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 120517 "-" "okhttp/4.12.0"
+2025-02-12T07:05:38.587Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:05:38.587Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:38 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:05:39.115Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:05:39.117Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:05:39 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:07:45.218Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:07:45.220Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:07:45 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:07:45.375Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:07:45.377Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:07:45 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:07:46.425Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:07:46.427Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:07:46 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:08:42.407Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:08:42.410Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:08:42 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:08:44.151Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:08:44.153Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:08:44 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:08:44.269Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:08:44.275Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:08:44 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:08:44.583Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:08:44.584Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:08:44 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:03.946Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:09:03.946Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:03 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:04.000Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:09:04.002Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:04 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:04.102Z [:[31merror[39m] planStartDate not set for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:04.102Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:04 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 400 77 "-" "okhttp/4.12.0"
+2025-02-12T07:09:04.104Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:09:04.104Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:04 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:16.307Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:16.308Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:16 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 225 "-" "okhttp/4.12.0"
+2025-02-12T07:09:39.290Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:09:39.290Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:39 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:39.403Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:09:39.407Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:39 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:39.590Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:09:39.591Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:39 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 3405 "-" "okhttp/4.12.0"
+2025-02-12T07:09:39.602Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:39.602Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:39 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:48.243Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:09:48.244Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:48 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:48.368Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:09:48.373Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:48 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:48.500Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:09:48.502Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:48 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:48.573Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:48.575Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:48 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:55.563Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:55.565Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:55 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:56.374Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:56.375Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:56 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:09:58.063Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:09:58.065Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:09:58 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:00.215Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:10:00.215Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:00 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:07.205Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:10:07.205Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:07 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:07.318Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:10:07.324Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:07 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:07.414Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:10:07.415Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:07 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:07.461Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:10:07.462Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:07 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:32.614Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:10:32.615Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:32 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:10:37.876Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:10:37.876Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:10:37 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:11:01.208Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:11:01.208Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:11:01 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:11:01.975Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:11:01.976Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:11:01 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:11:03.450Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:11:03.456Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:11:03 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:11:04.728Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:11:04.730Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:11:04 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:11:24.871Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:11:24.872Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:11:24 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:12:52.734Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:12:52.735Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:12:52 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 234 "-" "okhttp/4.12.0"
+2025-02-12T07:12:55.248Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:12:55.249Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:12:55 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:12:56.405Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:12:56.406Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:12:56 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:12:59.471Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:12:59.472Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:12:59 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:08.039Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:13:08.042Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:08 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:09.224Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:13:09.224Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:09 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:10.399Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:13:10.401Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:10 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:10.485Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:13:10.486Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:10 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:17.755Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:13:17.756Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:17 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:41.315Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:13:41.316Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:41 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:41.382Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:13:41.384Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:41 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:41.481Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:13:41.482Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:41 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:13:41.592Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:13:41.592Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:13:41 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:14:00.180Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:14:00.181Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:14:00 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:14:08.156Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:14:08.156Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:14:08 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:14:09.534Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:14:09.535Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:14:09 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:14:58.635Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:14:58.636Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:14:58 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:15:02.869Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:15:02.871Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:15:02 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:17:29.117Z [:[32minfo[39m] Deleted sucessfully
+2025-02-12T07:17:29.119Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:17:29 +0000] "DELETE /api/notifications/delete HTTP/1.1" 204 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:25.263Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:25 +0000] "PATCH /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3/markAllAsRead HTTP/1.1" 200 62 "-" "okhttp/4.12.0"
+2025-02-12T07:18:29.321Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:18:29.323Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:29 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 200 3116 "-" "okhttp/4.12.0"
+2025-02-12T07:18:30.560Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:18:30.561Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:30 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:30.783Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:18:30.790Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:30 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:33.201Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:18:33.203Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:33 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:47.586Z [:[32minfo[39m] Fetched successfully
+2025-02-12T07:18:47.587Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:47 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:47.827Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T07:18:47.832Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:47 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:47.875Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:18:47.876Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:47 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:18:48.778Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T07:18:48.779Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:18:48 +0000] "GET /api/notifications/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:19:13.095Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:19:13.097Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:19:13 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:19:16.211Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:19:16.213Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:19:16 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:19:53.376Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:19:53.378Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:19:53 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T07:20:00.763Z [:[32minfo[39m] Milestone found for user e89be629-b24c-45f2-89e1-95b2cb3f21c3
+2025-02-12T07:20:00.764Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:07:20:00 +0000] "GET /api/users/training/e89be629-b24c-45f2-89e1-95b2cb3f21c3 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T08:22:10.522Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-12T08:22:10.522Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
+2025-02-12T08:23:00.584Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-12T08:23:00.585Z [:[31merror[39m] Cannot read properties of undefined (reading 'forEach')
