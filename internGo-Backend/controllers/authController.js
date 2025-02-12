@@ -110,7 +110,7 @@ export const signInController = async (req, res) => {
             permissions: existingUser.role.permissions,
             token: token,
             zone:existingUser.zone,
-            profilePhoto:existingUser.profilePhoto
+            profilePhoto:process.env.AWS_BUCKET_DOMAIN+existingUser.profilePhoto
         };
 
         sendResponse(res, 200, "Login successful!!!", response);
