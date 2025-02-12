@@ -22,9 +22,11 @@ export const sendNotification = async (userId = null, type, referenceId = null, 
 export const sendBroadcastNotification = async (type, message) => {
     try {
         const userIds = await getAllUserIds();
+        // console.log(userIds)
         for (const id of userIds) {
             const createdNotification = await createNotification(null, 'announcement', null, message);
             const sockets = lookUps.get(id);
+            console.log(lookUps)
             if (sockets) {
                 sockets.forEach(socketId => {
                     io.to(socketId).emit("announcement", { createdNotification });

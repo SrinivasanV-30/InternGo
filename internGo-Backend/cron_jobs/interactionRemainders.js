@@ -40,7 +40,7 @@ export const sendSchedulingRemindersToAdmins=async()=>{
         const users=await getUserPlans();  
         const today=new Date();
     
-        console.log(users);
+        // console.log(users);
         users.forEach(async (user) => {
             const { planStartDate, plan } = user;
 
@@ -51,7 +51,7 @@ export const sendSchedulingRemindersToAdmins=async()=>{
                     dueDate1.setDate(dueDate1.getDate() + Math.floor(objective.objectiveDays/2));
                     const dueDate2 = new Date(planStartDate);
                     dueDate2.setDate(dueDate2.getDate() + Math.floor(objective.objectiveDays));
-                    console.log(dueDate1,dueDate2)
+                    // console.log(dueDate1,dueDate2)
 
                     if ((dueDate1.toDateString() === today.toDateString())||(dueDate2.toDateString() === today.toDateString())) {
                         const dueDate=dueDate1.toDateString() === today.toDateString()?dueDate1:dueDate2;

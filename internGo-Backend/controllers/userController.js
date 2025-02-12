@@ -234,23 +234,45 @@ export const getInterns = async (req, res) => {
 
 export const getTrainingDetails = async (req, res) => {
     try {
-        const userId = req.params.id;
+        const userId=req.params.id; 
         const userPlan = await getTrainingPlan(userId);
-        console.log(userPlan);
+
         if (!userPlan) {
-            logger.error("Training plan not found!!!");
-            return sendResponse(res, 404, "Training plan not found!!!");
+            logger.error(`Training plan not found for user ${userId}`);
+            return sendResponse(res, 404, "Training plan not found");
         }
-        if (!userPlan.plan.milestones) {
-            logger.error("Milestones not found!!!");
-            return sendResponse(res, 404, "Milestones not found!!!");
+
+        if (!userPlan.planStartDate) {
+            logger.error(`planStartDate not set for user ${userId}`);
+            return sendResponse(res, 400, "Training plan start date not found");
         }
-        userPlan.plan.milestones.forEach((milestone) => {
-            if (milestone.milestoneDays >= userPlan.daysWorked) {
-                logger.info("Training plan fetched!!");
-                return sendResponse(res,200,"Training fetched successfully",milestone);
+
+        if (!userPlan.plan.milestones || userPlan.plan.milestones.length === 0) {
+            logger.error(`No milestones found for user ${userId}`);
+            return sendResponse(res, 404, "Milestones not found");
+        }
+
+        const currentDate = new Date();
+        const planStartDate = new Date(userPlan.planStartDate);
+        const elapsedDays = Math.floor((currentDate - planStartDate) / (1000 * 60 * 60 * 24));
+
+        let milestoneCount = 0;
+        for (const milestone of userPlan.plan.milestones) {
+            if (!milestone.milestoneDays || isNaN(milestone.milestoneDays)) {
+                logger.warn(`Skipping invalid milestone for user ${userId}`);
+                continue;
             }
-        });
+
+            if (milestoneCount >= elapsedDays) {
+                logger.info(`Milestone found for user ${userId}`);
+                return sendResponse(res, 200, "Training fetched successfully", milestone);
+            }
+
+            milestoneCount += milestone.milestoneDays;
+        }
+
+        logger.error(`No matching milestone found for user ${userId}`);
+        return sendResponse(res, 404, "Milestone not found");
     } catch (error) {
         logger.error(error.message);
     }
@@ -270,7 +292,7 @@ export const getDistinctFilters = async (req, res) => {
 
 export const getUsersByRole = async (req, res) => {
     try {
-        const roleName=req.query.roleName;
+        const roleName = req.query.roleName;
         console.log(roleName)
         const mentors = await findUserByRole(roleName);
         logger.info("Fetched successfully")

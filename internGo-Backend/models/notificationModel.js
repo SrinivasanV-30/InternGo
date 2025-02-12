@@ -25,7 +25,10 @@ export const createNotification = async (userId=null, type, referencesId=null, m
 export const getUserNotifications = async (userId) => {
     try{
         return await prisma.notifications.findMany({
-            where: { userId:userId },
+            where: { 
+                userId:userId,
+                type:{ not : 'announcement'}
+            },
             orderBy: { createdAt: "desc" },
         });
     }
@@ -36,6 +39,21 @@ export const getUserNotifications = async (userId) => {
     }
 };
 
+export const getAnnouncements = async () => {
+    try{
+        return await prisma.notifications.findMany({
+            where: { 
+                type:'announcement'
+            },
+            orderBy: { createdAt: "desc" },
+        });
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+        
+    }
+};
 
 export const markNotificationAsRead = async (notificationId) => {
     try{

@@ -1,7 +1,8 @@
 import { findUserByUserId } from "../models/userModel.js";
 import logger from "../utils/logger.js";
-import { createNotification, deleteAllNotifications, deleteSingleNotification, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
+import { createNotification, deleteAllNotifications, deleteSingleNotification, getAnnouncements, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
 import sendResponse from "../utils/response.js";
+import { sendBroadcastNotification } from "../services/notificationService.js";
 
 export const getNotificationsByUserId=async(req,res)=>{
     try{    
@@ -37,12 +38,22 @@ export const createAnnoncement=async(req,res)=>{
     try{
         const message = req.body;
         console.log(message)
-        await createNotification(null,"announcement",null,message.message)
-        
+        sendBroadcastNotification("announcement",message.message)
         sendResponse(res,200,"Announcement created successfully");
     }
     catch(error){
-        logger.error(error.message)
+        logger.error(error.message);
+    }
+}
+
+export const getAnnouncement=async(req,res)=>{
+    try{
+        const announcements= await getAnnouncements();
+        logger.info("Announcements fetched successfully");
+        sendResponse(res,200,"Announcements fetched successfully",announcements);
+    }
+    catch(error){
+        logger.error(error.message);
     }
 }
 
@@ -58,7 +69,7 @@ export const markAllAsRead=async(req,res)=>{
         sendResponse(res,200,"Marked successfully");
     }
     catch(error){
-        logger.error(error.message)
+        logger.error(error.message);
     }
 }
 export const deleteNotification=async(req,res)=>{

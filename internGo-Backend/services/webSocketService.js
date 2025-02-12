@@ -11,13 +11,15 @@ const webSocket = (server) => {
 
         socket.on("join", (data) => {
             if (data?.userId) {
-                socket.userId = data.userId;
-                if (lookUps.get(data.userId)) {
-                    lookUps.set(data.userId).push(socket.id);
+                let userSockets = lookUps.get(data.userId);
+                if (!userSockets) {
+                    userSockets = [];
                 }
-                else {
-                    lookUps.set(data.userId, [socket.id]);
+                if(!userSockets.includes(socket.id)){
+                    userSockets.push(socket.id);
                 }
+                lookUps.set(data.userId, userSockets);
+                // console.log(lookUps)
                 socket.join(data.userId);
                 console.log(`User ${data.userId} joined room`);
             }

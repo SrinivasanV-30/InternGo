@@ -70,7 +70,8 @@ export const getTrainingPlan = async (userId) => {
                         milestones:true
                     }
                 },
-                daysWorked:true
+                daysWorked:true,
+                planStartDate:true
                 
             },
         });
@@ -94,14 +95,6 @@ export const findUserByRole = async (roleName) => {
             select: {
                 id:true,
                 name: true,
-                profilePhoto: true,
-                phone_no:true,
-                email: true,
-                batch: true,
-                year: true,
-                designation: true,
-                status: true,
-                employeeId: true,
             },
         });
         
@@ -446,6 +439,31 @@ export const getUserPlans=async()=>{
         })
     }
     catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+export const countAll=async()=>{
+    try{
+        return await prisma.users.count();
+    }
+    catch(error)
+    {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+export const countByStatus=async(status)=>{
+    try{
+        return await prisma.users.count({
+            where:{
+                status:status
+            }
+        });
+    }
+    catch(error)
+    {
         logger.error(error.message);
         throw new Error(error.message);
     }

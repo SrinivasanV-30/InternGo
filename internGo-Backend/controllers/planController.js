@@ -298,7 +298,7 @@ export const addUsers = async (req, res) => {
                 logger.info("Update unsuccessful");
                 return sendResponse(res, 400, "Update unsuccessful");
             }
-            sendNotification(userId,'added-user',`You have been added to the "${existingPlan.name}" plan.`)
+            sendNotification(userId,'added-user',null,`You have been added to the "${existingPlan.name}" plan.`)
         });
         logger.info("Added interns successfully");
         sendResponse(res, 200, "Added interns successfully");
@@ -467,19 +467,15 @@ export const getTrainingDetails = async (req, res) => {
     try {
         const userId = req.params.id;
         const userPlan = await getTrainingPlan(userId);
-        console.log(userPlan);
-        const trainingPlan = await getPlanById(userPlan.planId);
-        if (!trainingPlan) {
+        if (!userPlan) {
             logger.error("Training plan not found!!!");
             return sendResponse(res, 404, "Training plan not found!!!");
         }
-        const milestones = trainingPlan.milestones;
-        console.log(userId, milestones);
-        if (!milestones) {
+        if (!userPlan.milestones) {
             logger.error("Milestones not found!!!");
             return sendResponse(res, 404, "Milestones not found!!!");
         }
-        milestones.forEach((milestone) => {
+        userPlan.milestones.forEach((milestone) => {
             if (milestone.milestoneDays >= userPlan.daysWorked) {
                 logger.info("Training plan fetched!!");
                 return sendResponse(
