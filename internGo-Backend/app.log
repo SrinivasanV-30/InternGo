@@ -26283,3 +26283,23 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-12T12:24:31.098Z [:[32minfo[39m] Notifications fetched successfully
 2025-02-12T12:24:31.098Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:31 +0000] "GET /api/notifications/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
 2025-02-12T12:24:33.612Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:33 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:54.026Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:54 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:54.826Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:54 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:24:57.911Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:24:57 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:26:21.296Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:26:21 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:26:37.689Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:26:37 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:27:46.400Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:27:46 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:27:49.187Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:27:49 +0000] "GET /api/users/5ce9b859-a0ef-484e-b743-685ffdbec37a HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:28:08.121Z [:[32minfo[39m] Login successful!!!
+2025-02-12T12:28:08.121Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:08 +0000] "POST /api/auth/signin HTTP/1.1" 200 699 "-" "okhttp/4.12.0"
+2025-02-12T12:28:09.920Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:28:09.921Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:09 +0000] "GET /api/users/count/status HTTP/1.1" 200 130 "-" "okhttp/4.12.0"
+2025-02-12T12:28:10.377Z [:[32minfo[39m] Announcements fetched successfully
+2025-02-12T12:28:10.379Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:10 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:28:10.528Z [:[32minfo[39m] Fetched successfully
+2025-02-12T12:28:10.530Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:10 +0000] "GET /api/users/role/fetch?roleName[]=Mentors HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-02-12T12:28:10.839Z [:[32minfo[39m] Notifications fetched successfully
+2025-02-12T12:28:10.841Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:10 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 200 75 "-" "okhttp/4.12.0"
+2025-02-12T12:28:10.891Z [:[32minfo[39m] Fetched Successfully
+2025-02-12T12:28:10.892Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:10 +0000] "GET /api/users/distinct/filters HTTP/1.1" 200 241 "-" "okhttp/4.12.0"
+2025-02-12T12:28:18.620Z [:[32minfo[39m] ::ffff:192.168.0.109 - - [12/Feb/2025:12:28:18 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "okhttp/4.12.0"

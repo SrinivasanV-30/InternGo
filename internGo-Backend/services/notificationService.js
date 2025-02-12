@@ -23,8 +23,8 @@ export const sendBroadcastNotification = async (type, message) => {
     try {
         const userIds = await getAllUserIds();
         // console.log(userIds)
+        const createdNotification = await createNotification(null, 'announcement', null, message);
         for (const id of userIds) {
-            const createdNotification = await createNotification(null, 'announcement', null, message);
             const sockets = lookUps.get(id);
             console.log(lookUps)
             if (sockets) {
