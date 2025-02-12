@@ -31,7 +31,7 @@ export const objectiveCreateValidationSchema = Joi.object({
     description: Joi.string().max(1000).required(),
     objectiveDays: Joi.number().integer().min(1).required(),
     noOfInteractions: Joi.number().integer().min(1).required(),
-    roadmapType: Joi.string().valid("CUSTOM","DEFAULT").required(),
+    roadmapType: Joi.string().valid("CUSTOM","DEFAULT"),
 });
 
 
