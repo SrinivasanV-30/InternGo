@@ -112,7 +112,7 @@ export const signInController = async (req, res) => {
             zone:existingUser.zone,
             profilePhoto:process.env.AWS_BUCKET_DOMAIN+existingUser.profilePhoto
         };
-
+        
         sendResponse(res, 200, "Login successful!!!", response);
         logger.info("Login successful!!!");
     } catch (error) {

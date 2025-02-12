@@ -5,8 +5,8 @@ const prisma = new PrismaClient();
 
 export const getPlans = async () => {
     try {
-        const allPlans = await prisma.plans.findMany();
-        return allPlans;
+        return await prisma.plans.findMany();
+        
     }
     catch (error) {
         logger.error(error.message);
@@ -16,12 +16,12 @@ export const getPlans = async () => {
 
 export const getPlanByName = async (name) => {
     try {
-        const allPlans = await prisma.plans.findFirst({
+        return await prisma.plans.findFirst({
             where: {
                 name: name,
             },
         });
-        return allPlans;
+        
     }
     catch (error) {
         logger.error(error.message);
@@ -31,7 +31,7 @@ export const getPlanByName = async (name) => {
 
 export const getPlanById = async (planId) => {
     try {
-        const allPlans = await prisma.plans.findUnique({
+        return await prisma.plans.findUnique({
             where: {
                 id: planId,
             },
@@ -64,7 +64,7 @@ export const getPlanById = async (planId) => {
             },
         });
 
-        return allPlans;
+        
     }
     catch (error) {
         logger.error(error.message);
@@ -74,10 +74,10 @@ export const getPlanById = async (planId) => {
 
 export const createPlans = async (planData) => {
     try {
-        const createPlans = await prisma.plans.create({
+        return await prisma.plans.create({
             data: planData,
         });
-        return createPlans;
+         
     }
     catch (error) {
         logger.error(error.message);
@@ -86,13 +86,13 @@ export const createPlans = async (planData) => {
 };
 export const updatePlans = async (planId, planData) => {
     try {
-        const updatedPlans = await prisma.plans.update({
+        return await prisma.plans.update({
             where: {
                 id: planId,
             },
             data: planData,
         });
-        return updatedPlans;
+        return
     }
     catch (error) {
         logger.error(error.message);

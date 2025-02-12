@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 export const getPlans = async () => {
     try {
-        const allPlans = await prisma.plans.findMany({
+        return await prisma.plans.findMany({
             include: {
                 objectives: {
                     orderBy: {
@@ -14,7 +14,7 @@ export const getPlans = async () => {
                 users: true,
             },
         });
-        return allPlans;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -23,12 +23,12 @@ export const getPlans = async () => {
 
 export const getMilestoneByName = async (name) => {
     try {
-        const milestone = await prisma.milestones.findFirst({
+        return await prisma.milestones.findFirst({
             where: {
                 name: name,
             },
         });
-        return milestone;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -38,7 +38,7 @@ export const getMilestoneByName = async (name) => {
 export const getMilestoneById = async (id) => {
     try {
         // console.log(id);
-        const milestone = await prisma.milestones.findUnique({
+        return await prisma.milestones.findUnique({
             where: {
                 id: id,
             },
@@ -46,7 +46,7 @@ export const getMilestoneById = async (id) => {
                 objectives: true,
             },
         });
-        return milestone;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -55,10 +55,10 @@ export const getMilestoneById = async (id) => {
 
 export const createMilestones = async (milestoneData) => {
     try {
-        const createdMilestones = await prisma.milestones.create({
+        return await prisma.milestones.create({
             data: milestoneData,
         });
-        return createdMilestones;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -66,13 +66,13 @@ export const createMilestones = async (milestoneData) => {
 };
 export const updateMilestones = async (milestoneId, milestoneData) => {
     try {
-        const updatedMilestones = await prisma.milestones.update({
+        return await prisma.milestones.update({
             where: {
                 id: milestoneId,
             },
             data: milestoneData,
         });
-        return updatedMilestones;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);

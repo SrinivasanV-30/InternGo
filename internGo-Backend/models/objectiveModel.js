@@ -5,12 +5,12 @@ const prisma = new PrismaClient();
 
 export const getObjectiveByName = async (name) => {
     try {
-        const objective = await prisma.objectives.findFirst({
+        return await prisma.objectives.findFirst({
             where: {
                 name: name,
             },
         });
-        return objective;
+       
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -19,12 +19,12 @@ export const getObjectiveByName = async (name) => {
 
 export const getObjectiveById = async (id) => {
     try {
-        const objective = await prisma.objectives.findUnique({
+        return await prisma.objectives.findUnique({
             where: {
                 id: id,
             },
         });
-        return objective;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -33,10 +33,10 @@ export const getObjectiveById = async (id) => {
 
 export const createObjective = async (objectivesData) => {
     try {
-        const createdObjectives = await prisma.objectives.create({
+        return await prisma.objectives.create({
             data: objectivesData,
         });
-        return createdObjectives;
+
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -45,10 +45,10 @@ export const createObjective = async (objectivesData) => {
 
 export const createObjectives = async (objectivesData) => {
     try {
-        const createdObjectives = await prisma.objectives.createManyAndReturn({
+        return await prisma.objectives.createManyAndReturn({
             data: objectivesData,
         });
-        return createdObjectives;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
@@ -58,13 +58,13 @@ export const createObjectives = async (objectivesData) => {
 
 export const updateObjectives = async (objectiveId, objectivesData) => {
     try {
-        const updatedObjectives = await prisma.objectives.update({
+        return await prisma.objectives.update({
             where: {
                 id: objectiveId,
             },
             data: objectivesData,
         });
-        return updatedObjectives;
+        
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);
