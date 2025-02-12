@@ -6,7 +6,7 @@ import {
 } from "../models/userModel.js";
 import bcrypt from "bcrypt";
 import logger from "../utils/logger.js";
-import { jwtSign, jwtVerify } from "../services/jwtService.js";
+import { jwtDecode, jwtSign, jwtVerify } from "../services/jwtService.js";
 import { findRoleByName, updateRole } from "../models/roleModel.js";
 import cron from "node-cron";
 
@@ -40,8 +40,9 @@ export const signUpController = async (req, res) => {
 
 export const oauthController = async (req, res) => {
     try {
-        const user = req.body;
-        console.log(user);
+        const credential = req.body;
+        // console.log(user);
+        const user=jwtDecode(credential.credential);
         let existingUser = await findUserByEmail(user.email);
         if (!existingUser) {
             const newUser = {

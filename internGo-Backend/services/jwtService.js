@@ -17,3 +17,7 @@ export const jwtVerify=(token)=>{
     });
     
 }
+
+export const jwtDecode=(token)=>{
+    return jwt.decode(token)
+}
