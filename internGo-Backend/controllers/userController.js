@@ -18,10 +18,6 @@ import {
     updateAsset,
 } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
-// import url from 'url';
-// import cron from "node-cron";
-import { getPlanById } from "../models/planModel.js";
-import { InteractionStatus } from "@prisma/client";
 import { getInteractionByQuery } from "../models/interactionModel.js";
 
 export const updateUserProfile = async (req, res) => {
@@ -72,7 +68,10 @@ export const updateUserProfile = async (req, res) => {
         const updatedUserProfilePercentage = await updateUser(userId, {
             profilePercentage: percentage,
         });
-        updatedUserProfile.profilePhoto=process.env.AWS_BUCKET_DOMAIN+updatedUserProfile.profilePhoto
+        if (internProfile.profilePhoto) {
+            internProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            // console.log(internProfile.profilePhoto)
+        }
         const response = {
             data: updatedUserProfile,
             profilePercentage: updatedUserProfilePercentage.profilePercentage,

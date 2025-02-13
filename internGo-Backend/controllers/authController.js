@@ -59,6 +59,10 @@ export const oauthController = async (req, res) => {
             existingUser.name,
             existingUser.email
         );
+        if (existingUser.profilePhoto) {
+            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            
+        }
         const response = {
             userId: existingUser.id,
             name: existingUser.name,
@@ -66,7 +70,7 @@ export const oauthController = async (req, res) => {
             permissions: existingUser.role.permissions,
             token: token,
             zone:existingUser.zone,
-            profilePhoto:AWS_BUCKET_DOMAIN+existingUser.profilePhoto
+            profilePhoto:existingUser.profilePhoto
         };
         sendResponse(res, 200, "Oauth Successful!!!", response);
         logger.info("Oauth successful!!!");
@@ -104,6 +108,10 @@ export const signInController = async (req, res) => {
             existingUser.name,
             existingUser.email
         );
+        if (existingUser.profilePhoto) {
+            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            
+        }
         const response = {
             userId: existingUser.id,
             name: existingUser.name,
@@ -111,7 +119,7 @@ export const signInController = async (req, res) => {
             permissions: existingUser.role.permissions,
             token: token,
             zone:existingUser.zone,
-            profilePhoto:process.env.AWS_BUCKET_DOMAIN+existingUser.profilePhoto
+            profilePhoto:existingUser.profilePhoto
         };
         
         sendResponse(res, 200, "Login successful!!!", response);
