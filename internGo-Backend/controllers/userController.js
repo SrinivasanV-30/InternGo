@@ -68,8 +68,8 @@ export const updateUserProfile = async (req, res) => {
         const updatedUserProfilePercentage = await updateUser(userId, {
             profilePercentage: percentage,
         });
-        if (internProfile.profilePhoto) {
-            internProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+        if (updatedUserProfile.profilePhoto) {
+            updatedUserProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
             // console.log(internProfile.profilePhoto)
         }
         const response = {
