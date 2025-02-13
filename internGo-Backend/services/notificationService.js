@@ -8,6 +8,7 @@ export const sendNotification = async (userId = null, type, referenceId = null, 
         // console.log(lookUps[userId])
         const createdNotification = await createNotification(userId, type, referenceId, message);
         const sockets = lookUps.get(userId);
+        console.log(sockets);
         if (sockets) {
             sockets.forEach(socketId => {
                 io.to(socketId).emit("notification", { createdNotification });

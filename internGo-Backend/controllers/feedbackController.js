@@ -5,9 +5,9 @@ import { updateInteractions } from "../models/interactionModel.js";
 import { zoneCalculation } from "../utils/zoneCalculation.js";
 import axios from "axios";
 import PDFDocument from "pdfkit";
-import fs from "fs";
 import { ChartJSNodeCanvas } from "chartjs-node-canvas";
 import { findUserByUserId } from "../models/userModel.js";
+import { jwtVerify } from "../services/jwtService.js";
 
 const chartJSNodeCanvas = new ChartJSNodeCanvas({ width: 800, height: 600 });
 
@@ -93,12 +93,17 @@ export const removeFeedback = async (req, res) => {
 export const generateFeedbackReport = async (req, res) => {
     try {
         const internId = req.params.id;
+        const token=req.query.token;
+        if(!token||!jwtVerify(token)){
+            logger.error("Not authorised");
+            return sendResponse(res,401,"Access denied")
+        }
         const internDetail = await findUserByUserId(internId);
         const feedbacks = await getFeedbackByIntern(internId);
         if (feedbacks.length == 0) {
             return sendResponse(res, 200, "No feedback found", []);
         }
-        // console.log(feedbacks)
+       
         const descriptiveFeedbacks = feedbacks.map((feedback) => feedback.descriptive_feedback).join(" ")
         const feedbackSummary = await axios.post("https://router.huggingface.co/hf-inference/models/facebook/bart-large-cnn", { inputs: descriptiveFeedbacks },
             {
@@ -108,7 +113,7 @@ export const generateFeedbackReport = async (req, res) => {
                 }
             }
         );
-        // console.log(feedbackSummary)
+        
         const avgRatings = {};
         let avgCount = {}
         feedbacks.forEach(feedback => {
@@ -285,6 +290,6 @@ export const generateFeedbackReport = async (req, res) => {
     }
     catch (error) {
         logger.error(error.message);
-        sendResponse(res, 500, "Internal Server Error");
+        sendResponse(res, 400, error.message);
     }
 }

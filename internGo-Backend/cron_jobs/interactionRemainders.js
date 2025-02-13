@@ -12,14 +12,14 @@ export const sendRemaindersForInteraction = async () => {
         console.log("Current Date and Time: ", now);
 
         upcomingInteractions.forEach(async (interaction) => {
-            // console.log(interaction.isScheduled);
+           
             if (interaction.isScheduled) {
                 const interactionDate = convertTimeStringandDate(interaction.date, interaction.time);
                 const timeDiff = interactionDate.getTime() - now.getTime();
 
                 if (timeDiff > 0 && timeDiff <= 30 * 60 * 1000) {
                     const existingNotifications = await existingNotification(interaction.id, 'interaction-remainder');
-                    console.log("Existing Notifications: ", existingNotifications);
+                    
 
                     if (!existingNotifications) {
                         console.log("Sending Notifications...");
@@ -55,7 +55,7 @@ export const sendSchedulingRemindersToAdmins=async()=>{
 
                     if ((dueDate1.toDateString() === today.toDateString())||(dueDate2.toDateString() === today.toDateString())) {
                         const dueDate=dueDate1.toDateString() === today.toDateString()?dueDate1:dueDate2;
-                        sendToAdmins('interaction-due',` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}" is scheduled on ${dueDate.toDateString()}.`)
+                        sendToAdmins('interaction-due',` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}".`)
                     }
                 });
             });
