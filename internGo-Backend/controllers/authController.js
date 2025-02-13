@@ -53,7 +53,7 @@ export const oauthController = async (req, res) => {
             };
             existingUser = await createIntern(newUser);
         }
-        existingUser = await findUserByEmail(user.email);
+
         const token = await jwtSign(
             existingUser.id,
             existingUser.role.roleName,
@@ -66,6 +66,8 @@ export const oauthController = async (req, res) => {
             role: existingUser.role.roleName,
             permissions: existingUser.role.permissions,
             token: token,
+            zone:existingUser.zone,
+            profilePhoto:existingUser.profilePhoto
         };
         sendResponse(res, 200, "Oauth Successful!!!", response);
         logger.info("Oauth successful!!!");

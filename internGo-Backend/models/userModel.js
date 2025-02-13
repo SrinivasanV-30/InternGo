@@ -136,12 +136,7 @@ export const createIntern = async (userDetails) => {
         const profilePhoto = userDetails.profilePhoto
             ? userDetails.profilePhoto
             : null;
-        console.log({
-            name: name,
-            email: email,
-            password: password,
-            profilePhoto: profilePhoto,
-        });
+        
         const createdUser = await prisma.users.create({
             data: {
                 name: name,
@@ -149,9 +144,7 @@ export const createIntern = async (userDetails) => {
                 password: password,
                 profilePhoto: profilePhoto,
             },
-            // select:{
-            //     id:true
-            // }
+            
         });
 
         return createdUser;

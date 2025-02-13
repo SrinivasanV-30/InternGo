@@ -195,6 +195,10 @@ export const toggleScheduleStatus = async (req, res) => {
 
 
         await updateInteractions(id, { isScheduled:isScheduled });
+        if(isScheduled){
+            sendNotification(interactionDetails.internId,"interaction-cancelled",id,`Your interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
+            sendNotification(interactionDetails.interviewerId,"interaction-cancelled",id,`Interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
+        }
 
         logger.info("Interaction schedule status updated");
         sendResponse(res, 200, "Schedule status updated successfully");
