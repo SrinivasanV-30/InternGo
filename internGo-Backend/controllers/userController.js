@@ -69,7 +69,7 @@ export const updateUserProfile = async (req, res) => {
             profilePercentage: percentage,
         });
         if (updatedUserProfile.profilePhoto) {
-            updatedUserProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            updatedUserProfile.profilePhoto = process.env.AWS_BUCKET_DOMAIN + updatedUserProfile.profilePhoto;
             // console.log(internProfile.profilePhoto)
         }
         const response = {

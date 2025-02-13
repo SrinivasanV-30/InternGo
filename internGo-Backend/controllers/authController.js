@@ -60,7 +60,7 @@ export const oauthController = async (req, res) => {
             existingUser.email
         );
         if (existingUser.profilePhoto) {
-            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
             
         }
         const response = {
@@ -109,7 +109,7 @@ export const signInController = async (req, res) => {
             existingUser.email
         );
         if (existingUser.profilePhoto) {
-            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + internProfile.profilePhoto;
+            existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
             
         }
         const response = {
