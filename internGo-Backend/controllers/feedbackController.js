@@ -65,7 +65,7 @@ export const modifyFeedback = async (req, res) => {
         const id = parseInt(req.params.id);
         const updatedData = req.body;
         const avgRatings = calculateAvgRating(updatedData.ratings);
-        updatedData.avg_rating=avgRatings;
+        updatedData.avg_rating = avgRatings;
         const updatedFeedback = await updateFeedback(id, updatedData);
         logger.info("Feedback updated successfully");
         sendResponse(res, 200, "Feedback updated successfully", updatedFeedback);
@@ -180,7 +180,7 @@ export const generateFeedbackReport = async (req, res) => {
             data: {
                 labels: feedbacks.map((_, index) => `${_.interaction.name}`),
                 datasets: [{
-                    label: "Ratings Trend",
+                    label: "Ratings",
                     data: feedbacks.map(fb => fb.avg_rating),
                     borderColor: "rgba(255, 99, 132, 1)",
                     backgroundColor: "rgba(255, 99, 132, 0.2)",
@@ -230,39 +230,56 @@ export const generateFeedbackReport = async (req, res) => {
         doc.moveDown(1);
 
         doc.font("OpenSans-Bold").fontSize(16).text("Average Ratings", { align: "center" });
-        doc.moveDown(1);
+        doc.moveDown(0.5);
+
+        const columnGap = 20;
+        const columnWidth = (doc.page.width - 2 * leftIndent - columnGap) / 2;
 
         if (categories.length && ratingsData.length) {
+            let currentX = leftIndent;
+            let currentY = doc.y;
+
             categories.forEach((category, index) => {
                 const rating = ratingsData[index] !== undefined ? ratingsData[index].toFixed(2) : "N/A";
-                doc.font("OpenSans-Regular").fontSize(12).text(`${category}: ${rating} / 5`, leftIndent);
+                const ratingText = `${category}: ${rating} / 5`;
+
+                doc.font("OpenSans-Regular").fontSize(12).text(ratingText, currentX, currentY, {
+                    width: columnWidth,
+                });
+
+                if (currentX === leftIndent) {
+                    currentX += columnWidth + columnGap;
+                } else {
+                    currentX = leftIndent;
+                    currentY += 20;
+                }
             });
+
+            doc.y = currentY + 20;
         } else {
             doc.font("OpenSans-Regular").fontSize(12).text("No rating data available.", { align: "center" });
         }
-        doc.moveDown(2);
+
+        doc.addPage();
 
         doc.font("OpenSans-Bold").fontSize(16).text("Charts & Visualizations", { align: "center" });
-        doc.moveDown(1);
+        doc.moveDown(0.5);
 
-        const pageWidth = doc.page.width - 100;
-        const chartWidth = (pageWidth / 2) - 10;
-        const chartHeight = 200;
+        const chartWidth = doc.page.width - 100;
+        const chartHeight = 300;
 
-        if (radarChartBuffer && lineChartBuffer) {
-            const startX = 50;
-            const startY = doc.y;
+        if (radarChartBuffer) {
+            doc.image(radarChartBuffer, 50, doc.y, { width: chartWidth, height: chartHeight });
+            doc.moveDown(20);
+        }
 
-            doc.image(radarChartBuffer, startX, startY, { width: chartWidth, height: chartHeight });
-            doc.image(lineChartBuffer, startX + chartWidth + 20, startY, { width: chartWidth, height: chartHeight });
-
-            doc.moveDown(chartHeight / 12);
-        } else {
+        if (lineChartBuffer) {
+            doc.image(lineChartBuffer, 50, doc.y, { width: chartWidth, height: chartHeight });
+        } else if (!radarChartBuffer) {
             doc.font("OpenSans-Regular").fontSize(12).text("Charts are not available.", { align: "center" });
         }
 
         doc.end();
-
 
 
     }

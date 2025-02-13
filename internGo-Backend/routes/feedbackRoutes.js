@@ -10,5 +10,5 @@ feedbackRouter.get('/interaction/:interactionId', authenticateUser, checkPermiss
 feedbackRouter.get('/intern/:internId', authenticateUser, checkPermission(['feedback.view','feedback.create']), getFeedbacksByIntern);
 feedbackRouter.put('/:id/update', authenticateUser, checkPermission(['feedback.create']), modifyFeedback);
 // feedbackRouter.delete('/:id/delete', authenticateUser, checkPermission(['feedback.delete']), removeFeedback);
-feedbackRouter.get('/:id/download',generateFeedbackReport);
+feedbackRouter.get('/:id/download',authenticateUser,checkPermission(['feedback.view']),generateFeedbackReport);
 export default feedbackRouter;
