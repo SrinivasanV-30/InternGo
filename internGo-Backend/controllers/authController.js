@@ -48,7 +48,6 @@ export const oauthController = async (req, res) => {
             const newUser = {
                 name: user.name,
                 email: user.email,
-                profilePhoto: user.picture,
                 password: null,
             };
             existingUser = await createIntern(newUser);

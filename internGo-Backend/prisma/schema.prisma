@@ -50,9 +50,6 @@ model Users{
     feedbacksGiven Feedbacks[] @relation("Mentor-Feedback")
     role Roles @relation("UserRole",fields:[roleId],references:[id])
     plan Plans? @relation("UserPlan",fields:[planId],references:[id])
-    helpRequestsSent    HelpDesk[] @relation("HelpDeskSender")
-    helpRequestsAsMentor HelpDesk[] @relation("HelpDeskMentors")
-    helpRequestsAsAdmin HelpDesk[] @relation("HelpDeskAdmins")
 }
 
 enum Status{
@@ -208,29 +205,4 @@ model Feedbacks {
     interaction    Interactions @relation("Interaction-Feedback",fields: [interactionId], references: [id])
     intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id])
     interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
-}
-
-model HelpDesk{
-    id Int @id @default(autoincrement())
-    subject String
-    description String
-    priority Priority
-    status HelpStatus @default(PENDING)
-    senderId    String
-    sender      Users    @relation("HelpDeskSender", fields: [senderId], references: [id])
-    mentors     Users[]  @relation("HelpDeskMentors")
-    admins      Users[]  @relation("HelpDeskAdmins")
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
-}
-
-enum HelpStatus{
-    PENDING
-    RESOLVED
-}
-
-enum Priority{
-    LOW
-    MEDIUM
-    HIGH
 }
