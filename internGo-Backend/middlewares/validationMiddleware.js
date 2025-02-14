@@ -25,7 +25,7 @@ export const signUpValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 export const signInValidation = async(req,res,next)=>{
@@ -36,7 +36,7 @@ export const signInValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details);
+        return sendResponse(res,400,error.details[0].message);
     }
 }
 export const userCreateValidation = async(req,res,next)=>{
@@ -47,7 +47,7 @@ export const userCreateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -59,7 +59,7 @@ export const profileUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -71,7 +71,7 @@ export const assetValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -83,7 +83,7 @@ export const assetUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -95,7 +95,7 @@ export const planCreateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -107,7 +107,7 @@ export const planUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -120,7 +120,7 @@ export const objectiveCreateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -132,7 +132,7 @@ export const objectiveUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -144,7 +144,7 @@ export const objectivesCreateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -156,7 +156,7 @@ export const objectivesUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -169,7 +169,7 @@ export const milestoneCreateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -181,7 +181,7 @@ export const milestoneUpdateValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -194,7 +194,7 @@ export const usersPlanValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -206,7 +206,7 @@ export const dailyUpdateTaskValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -218,7 +218,7 @@ export const interactionValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }
 
@@ -230,6 +230,6 @@ export const feedbackValidation = async(req,res,next)=>{
     catch(error)
     {
         logger.error(`${JSON.stringify(error.details)}`);
-        return sendResponse(res,400,error.details)
+        return sendResponse(res,400,error.details[0].message)
     }
 }

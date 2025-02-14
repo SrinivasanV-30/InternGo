@@ -75,7 +75,7 @@ model Roles{
 model Assets{
     id Int @id @default(autoincrement())
     userId String
-    user Users @relation("UserAssets",fields:[userId],references:[id])
+    user Users @relation("UserAssets",fields:[userId],references:[id],onDelete:Cascade)
     assetType String
     assetName String
     givenOn DateTime
@@ -127,7 +127,7 @@ model DailyUpdates{
     id Int @id @default(autoincrement())
     date DateTime @default(now())
     userId String
-    user Users @relation("UserDailyUpdates",fields:[userId],references:[id])
+    user Users @relation("UserDailyUpdates",fields:[userId],references:[id],onDelete:Cascade)
     tasks DailyUpdateTasks[] @relation("DailyUpdateTasks")
     updatedAt DateTime @updatedAt
 }
@@ -141,7 +141,7 @@ model DailyUpdateTasks{
     estimatedTime Int
     actualTime Int
     taskProgress TaskProgress
-    dailyUpdate DailyUpdates @relation("DailyUpdateTasks",fields:[dailyUpdateId],references:[id])
+    dailyUpdate DailyUpdates @relation("DailyUpdateTasks",fields:[dailyUpdateId],references:[id],onDelete:Cascade)
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
@@ -162,7 +162,7 @@ model Interactions{
     interviewerEmail String 
     internId String
     interviewerId String
-    intern Users @relation("Interaction-Intern",fields:[internId],references:[id])
+    intern Users @relation("Interaction-Intern",fields:[internId],references:[id],onDelete:Cascade)
     interviewer Users @relation("Interaction-Interviewer",fields:[interviewerId],references:[id])
     date DateTime
     time String
@@ -177,7 +177,7 @@ model Interactions{
 enum InteractionStatus{
     PENDING
     COMPLETED
-
+    FEEDBACK_PENDING
 }
 
 model Notifications{
@@ -190,7 +190,7 @@ model Notifications{
     notificationSent Boolean @default(false)
     createdAt DateTime @default(now())
 
-    user Users? @relation("User-Notifications",fields:[userId],references:[id])
+    user Users? @relation("User-Notifications",fields:[userId],references:[id],onDelete:Cascade)
 }
 
 model Feedbacks {
@@ -205,6 +205,6 @@ model Feedbacks {
     updatedAt      DateTime  @updatedAt
 
     interaction    Interactions @relation("Interaction-Feedback",fields: [interactionId], references: [id])
-    intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id])
+    intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id],onDelete:Cascade)
     interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
 }

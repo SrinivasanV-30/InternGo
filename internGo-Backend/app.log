@@ -30890,3 +30890,1677 @@ Invalid `prisma.users.findMany()` invocation:
 Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
 
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:09:51.100Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:09:51.103Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:10:06.066Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:10:06.067Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:10:06.067Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:10:06.068Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T05:11:02.004Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 183
+  },
+  data: {
+    interactionStatus: "FEEDBACK_PENDING"
+                       ~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Invalid value for argument `interactionStatus`. Expected InteractionStatus.
+2025-02-14T05:14:41.569Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+{
+  where: {
+    referencesId: "interaction-due 1",
+                  ~~~~~~~~~~~~~~~~~~~
+    type: 81
+  }
+}
+
+Argument `referencesId`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+2025-02-14T05:15:30.624Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:30.627Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:30.990Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:30.990Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:30.992Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:30.992Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.203Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.204Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.206Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.206Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.337Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.338Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.869Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.869Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.870Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.871Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.969Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.969Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.970Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:31.970Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.014Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.014Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.015Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.015Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.111Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.111Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.112Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.112Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.737Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.738Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.739Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:15:32.739Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    type: "interaction-due 1",
+    referencesId: null,
+    message: 81
+             ~~
+  }
+}
+
+Argument `message`: Invalid value provided. Expected String, provided Int.
+2025-02-14T05:16:40.797Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:40.798Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.369Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.369Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.370Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.370Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.423Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.423Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.503Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.503Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.504Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:41.504Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.080Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.081Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.081Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.081Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.403Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.403Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.403Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.403Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.404Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.404Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.405Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.405Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.407Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.407Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.408Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:43.408Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:46.591Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:46.591Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:46.592Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:16:46.592Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: null,
+    message: "interaction-due 1",
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.723Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.725Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.860Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.860Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.861Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:13.861Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.154Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.154Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.155Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.155Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.272Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:14.273Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.492Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.493Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.494Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.494Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.495Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.495Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.496Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.496Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.593Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.593Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.593Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:15.593Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.699Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.699Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.700Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.700Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.704Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.704Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "861fbe07-077b-4cbc-af64-cba988a488aa",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.704Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T05:17:16.704Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+{
+  data: {
+    userId: "f01a0337-0997-43b0-9b79-879217ee1c81",
+    ~~~~~~
+    type: null,
+    referencesId: "interaction-due 1",
+    message: 81,
+?   isRead?: Boolean,
+?   notificationSent?: Boolean,
+?   createdAt?: DateTime,
+?   user?: UsersCreateNestedOneWithoutNotificationsInput
+  }
+}
+
+Unknown argument `userId`. Did you mean `user`? Available options are marked with ?.
+2025-02-14T06:35:20.764Z [:[31merror[39m] [{"message":"\"email\" must be a valid email","path":["email"],"type":"string.email","context":{"value":"admin@finestcoder.c","invalids":["admin@finestcoder.c"],"label":"email","key":"email"}}]
+2025-02-14T06:35:20.771Z [:[32minfo[39m] ::1 - - [14/Feb/2025:06:35:20 +0000] "POST /api/auth/signin HTTP/1.1" 400 30 "-" "PostmanRuntime/7.43.0"
+2025-02-14T06:35:43.233Z [:[31merror[39m] [{"message":"\"email\" must be a valid email","path":["email"],"type":"string.email","context":{"value":"admin@finestcoder.c","invalids":["admin@finestcoder.c"],"label":"email","key":"email"}}]
+2025-02-14T06:35:43.237Z [:[32minfo[39m] ::1 - - [14/Feb/2025:06:35:43 +0000] "POST /api/auth/signin HTTP/1.1" 400 30 "-" "PostmanRuntime/7.43.0"
+2025-02-14T06:36:03.201Z [:[31merror[39m] [{"message":"\"email\" must be a valid email","path":["email"],"type":"string.email","context":{"value":"admin@finestcoder.c","invalids":["admin@finestcoder.c"],"label":"email","key":"email"}}]
+2025-02-14T06:36:03.205Z [:[32minfo[39m] ::1 - - [14/Feb/2025:06:36:03 +0000] "POST /api/auth/signin HTTP/1.1" 400 74 "-" "PostmanRuntime/7.43.0"

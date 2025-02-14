@@ -1,6 +1,6 @@
 import { getFeedbackRatingsByIntern } from "../models/feedbackModel.js"
 import { updateUser } from "../models/userModel.js";
-import logger from "./logger.js";
+import logger from "../utils/logger.js";
 
 export const zoneCalculation=async(internId)=>{
     try{

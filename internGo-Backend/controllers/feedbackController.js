@@ -2,7 +2,7 @@ import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFe
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { updateInteractions } from "../models/interactionModel.js";
-import { zoneCalculation } from "../utils/zoneCalculation.js";
+import { zoneCalculation } from "../helpers/zoneCalculation.js";
 import axios from "axios";
 import PDFDocument from "pdfkit";
 import { ChartJSNodeCanvas } from "chartjs-node-canvas";

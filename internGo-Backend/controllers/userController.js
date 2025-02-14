@@ -11,7 +11,7 @@ import {
     updateUser,
 } from "../models/userModel.js";
 import logger from "../utils/logger.js";
-import { profilePercentage } from "../utils/profilePercentage.js";
+import { profilePercentage } from "../helpers/profilePercentage.js";
 import {
     createAsset,
     getAssetByUserId,

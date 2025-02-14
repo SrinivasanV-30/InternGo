@@ -9,25 +9,19 @@ import dailyUpdateRouter from './routes/dailyUpdateRoutes.js';
 import interactionRouter from './routes/interactionRoutes.js';
 import http from "http";
 import { webSocket } from './services/webSocketService.js';
-
 import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
 import feedbackRouter from './routes/feedbackRoutes.js';
-import { zoneCalculation } from './utils/zoneCalculation.js';
-import { sendToAdmins } from './services/notificationService.js';
-import { generateFeedbackReport } from './controllers/feedbackController.js';
-import { sendRemaindersForInteraction, sendSchedulingRemindersToAdmins } from './cron_jobs/interactionRemainders.js';
+
 
 
 const app=express();
 const PORT=process.env.PORT || 8080;
 const server = http.createServer(app);
 webSocket(server);
-
-// zoneCalculation("f2f48358-64c5-4020-b8d9-aeddfeba6405")
 startCronJobs()
-sendSchedulingRemindersToAdmins();
-// generateFeedbackReport("f2f48358-64c5-4020-b8d9-aeddfeba6405")
+
+
 const corsOptions = {
   origin: '*', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',

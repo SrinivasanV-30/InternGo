@@ -31,7 +31,7 @@ export const dailyUpdatesNotUpdated=async()=>{
         allActiveUsers.forEach(async(user)=>{
             const hasUserUpdatedToday=await getDailyUpdateByUserIdAndDate(user.id,now);
             if(!hasUserUpdatedToday){
-                sendToAdmins('dailyUpdate-remainder',`${user.name} from batch ${user.batch}-${user.year} has not submitted their daily task updates.`);
+                sendToAdmins('dailyUpdate-remainder',null,`${user.name} from batch ${user.batch}-${user.year} has not submitted their daily task updates.`);
             }
         })
     }
