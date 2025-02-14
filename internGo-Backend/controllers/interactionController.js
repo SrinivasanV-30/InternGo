@@ -185,6 +185,7 @@ export const toggleScheduleStatus = async (req, res) => {
     try {
         const id = parseInt(req.params.id);
         const isScheduled=req.query.isScheduled==='true'?true:false;
+
         
         const interactionDetails = await getInteractionById(id);
 
@@ -195,9 +196,13 @@ export const toggleScheduleStatus = async (req, res) => {
 
 
         await updateInteractions(id, { isScheduled:isScheduled });
-        if(isScheduled){
+        if(!isScheduled){
             sendNotification(interactionDetails.internId,"interaction-cancelled",id,`Your interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
             sendNotification(interactionDetails.interviewerId,"interaction-cancelled",id,`Interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
+        }
+        else{
+            sendNotification(interactionDetails.internId,"interaction-scheduled",id,`Your interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be prepared.`);
+            sendNotification(interactionDetails.interviewerId,"interaction-scheduled",id,`Interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be available.`);
         }
 
         logger.info("Interaction schedule status updated");

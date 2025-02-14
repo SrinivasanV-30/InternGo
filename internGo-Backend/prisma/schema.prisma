@@ -149,6 +149,7 @@ model DailyUpdateTasks{
 enum TaskProgress{
     PENDING
     COMPLETED
+    FEEDBACK_PENDING
 }
 
 model Interactions{
@@ -176,6 +177,7 @@ model Interactions{
 enum InteractionStatus{
     PENDING
     COMPLETED
+
 }
 
 model Notifications{

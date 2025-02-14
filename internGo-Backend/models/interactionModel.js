@@ -92,6 +92,26 @@ export const getUpcomingInteractions=async()=>{
     }
 }
 
+export const getStartedInteractions=async()=>{
+    try{
+        const date=new Date();
+        return await prisma.interactions.findMany({
+            where:{
+                date:{
+                    lte:date
+                },
+                interactionStatus:{
+                    not:"COMPLETED"
+                }
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
 export const getInteractionByQuery=async(whereCondition)=>{
     try{
         return await prisma.interactions.count({

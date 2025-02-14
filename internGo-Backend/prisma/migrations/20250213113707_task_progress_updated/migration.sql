@@ -1,0 +1,2 @@
+-- AlterEnum
+ALTER TYPE "TaskProgress" ADD VALUE 'FEEDBACK_PENDING';

@@ -1,4 +1,4 @@
-import { getUpcomingInteractions } from "../models/interactionModel.js";
+import { getStartedInteractions, getUpcomingInteractions, updateInteractions } from "../models/interactionModel.js";
 import { existingNotification } from "../models/notificationModel.js";
 import { getUserPlans } from "../models/userModel.js";
 import { convertTimeStringandDate } from "../services/dateTimeService.js";
@@ -27,12 +27,36 @@ export const sendRemaindersForInteraction = async () => {
                         sendNotification(interaction.interviewerId, "interaction-remainder", interaction.id, `Your ${interaction.name} interaction with intern ${interaction.assignedIntern} is scheduled to start at ${interaction.time}. Get ready!`);
                     }
                 }
+
+                
             }
         });
     } catch (error) {
         logger.error(error.message);
     }
 };
+
+export const interactionFeedbackPending=async()=>{
+    try{
+        const startedInteractions=await getStartedInteractions();
+        const now = new Date();
+        startedInteractions.forEach(async(interaction)=>{
+            if(interaction.interactionStatus!="FEEDBACK_PENDING" && !interaction.feedback)
+            {
+                await updateInteractions(interaction.id,{interactionStatus:"FEEDBACK_PENDING"})
+            }
+            else{
+                if(now.getTime()>interaction.updatedAt.getTime()+(1000*60*60*24) && !interaction.feedback){
+                    sendNotification(interaction.interviewerId,'feedback-pending',interaction.id,`Please provide feedback for your recent ${interaction.name} interaction with ${interaction.internName}.`);
+                }
+            }
+        })
+
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}
 
 
 export const sendSchedulingRemindersToAdmins=async()=>{
@@ -51,11 +75,12 @@ export const sendSchedulingRemindersToAdmins=async()=>{
                     dueDate1.setDate(dueDate1.getDate() + Math.floor(objective.objectiveDays/2));
                     const dueDate2 = new Date(planStartDate);
                     dueDate2.setDate(dueDate2.getDate() + Math.floor(objective.objectiveDays));
+                    const existingNotification=await getN
                     // console.log(dueDate1,dueDate2)
 
                     if ((dueDate1.toDateString() === today.toDateString())||(dueDate2.toDateString() === today.toDateString())) {
                         const dueDate=dueDate1.toDateString() === today.toDateString()?dueDate1:dueDate2;
-                        sendToAdmins('interaction-due',` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}".`)
+                        sendToAdmins('interaction-due',user.id,` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}".`)
                     }
                 });
             });

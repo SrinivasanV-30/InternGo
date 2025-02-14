@@ -29718,3 +29718,1175 @@ Unique constraint failed on the fields: (`interactionId`)
 2025-02-13T08:41:56.058Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [13/Feb/2025:08:41:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-02-13T08:41:56.385Z [:[32minfo[39m] Notifications fetched successfully
 2025-02-13T08:41:56.386Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [13/Feb/2025:08:41:56 +0000] "GET /api/notifications/590ea4fd-b105-490a-9120-e516715e3fbf HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-13T12:44:01.664Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:44:00.429Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:44:01.664Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:44:00.429Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:45:00.552Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:45:00.499Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:45:00.552Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:45:00.499Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:46:00.623Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:46:00.571Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:46:00.623Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:46:00.571Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:47:00.738Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:47:00.637Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:47:00.738Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:47:00.637Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:48:00.754Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:48:00.703Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:48:00.755Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:48:00.703Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:49:00.841Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:49:00.772Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:49:00.841Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:49:00.772Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:50:02.204Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:50:00.830Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:50:02.205Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:50:00.830Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:51:00.946Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:51:00.895Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:51:00.946Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:51:00.895Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:52:01.014Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:52:00.963Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:52:01.014Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:52:00.963Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:53:00.075Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:53:00.025Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:53:00.076Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:53:00.025Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:54:00.142Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:54:00.092Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:54:00.142Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:54:00.092Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:55:00.202Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:55:00.155Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:55:00.202Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:55:00.155Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:56:01.059Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:56:00.219Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:56:01.059Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:56:00.219Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:57:00.330Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:57:00.281Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:57:00.331Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:57:00.281Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:58:00.658Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:58:00.347Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:58:00.658Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:58:00.347Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:59:00.460Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:59:00.408Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T12:59:00.460Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T12:59:00.408Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:00:00.523Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:00:00.471Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:00:00.523Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:00:00.471Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:01:00.597Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:01:00.536Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:01:00.597Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:01:00.536Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:02:02.538Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:02:00.602Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:02:02.538Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:02:00.602Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:03:00.711Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:03:00.665Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:03:00.712Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:03:00.665Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:04:00.778Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:04:00.730Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:04:00.779Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:04:00.730Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:05:00.834Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:05:00.789Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:05:00.834Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:05:00.789Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:06:01.106Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:06:00.850Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:06:01.106Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:06:00.850Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:07:01.025Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:07:00.916Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:07:01.025Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:07:00.916Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:08:02.844Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:08:00.980Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:08:02.845Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:08:00.980Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:09:00.196Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:09:00.039Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:09:00.196Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+{
+  where: {
+    date: {
+      lte: new Date("2025-02-13T13:09:00.039Z")
+    },
+    interactionStatus: {
+      not: {
+        in: [
+          "COMPLETED",
+          "FEEDBACK_PENDING"
+        ]
+        ~~~~~~~~~~~~~~~~~~~~
+      }
+    }
+  }
+}
+
+Invalid value for argument `in`. Expected InteractionStatus.
+2025-02-13T13:10:01.604Z [:[31merror[39m] 
+Invalid `prisma.interactions.update()` invocation:
+
+{
+  where: {
+    id: 183
+  },
+  data: {
+    interactionStatus: "FEEDBACK_PENDING"
+                       ~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Invalid value for argument `interactionStatus`. Expected InteractionStatus.
+2025-02-13T13:11:00.760Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:11:00.766Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:11:05.855Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-13T13:11:05.856Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-13T13:12:00.822Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:12:00.823Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:13:00.081Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:13:00.083Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:14:00.149Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:14:00.150Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:15:00.212Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:15:00.213Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:16:00.274Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:16:00.275Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:17:00.340Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:17:00.341Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:18:00.406Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:18:00.407Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:19:00.470Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:19:00.472Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:20:00.542Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:20:00.543Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:21:00.607Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:21:00.608Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:22:00.683Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:22:00.684Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:23:00.748Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:23:00.749Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:24:00.811Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:24:00.812Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:25:00.875Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:25:00.877Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:26:00.943Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:26:00.944Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:27:00.011Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:27:00.012Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:28:00.075Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:28:00.075Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:29:00.137Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T13:29:00.137Z [:[31merror[39m] COMPLETED is not defined
+2025-02-13T17:25:08.528Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-13T17:25:08.531Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
