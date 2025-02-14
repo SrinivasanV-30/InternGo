@@ -3,7 +3,7 @@ import { findUserByEmail, findUserByName, findUserByUserId, getInteractionsAtten
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { sendNotification } from "../services/notificationService.js";
-import { convertTimeStringandDate } from "../services/dateTimeService.js";
+import { convertTimeStringandDate } from "../helpers/dateTimeHelper.js";
 
 
 export const scheduleInteraction=async(req,res)=>{

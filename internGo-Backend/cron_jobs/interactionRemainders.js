@@ -1,7 +1,7 @@
 import { getStartedInteractions, getUpcomingInteractions, updateInteractions } from "../models/interactionModel.js";
 import { existingNotification } from "../models/notificationModel.js";
 import { getUserPlans } from "../models/userModel.js";
-import { convertTimeStringandDate } from "../services/dateTimeService.js";
+import { convertTimeStringandDate } from "../helpers/dateTimeHelper.js";
 import { sendNotification, sendToAdmins } from "../services/notificationService.js";
 import logger from "../utils/logger.js"
 

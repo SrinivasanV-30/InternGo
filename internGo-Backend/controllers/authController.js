@@ -3,12 +3,14 @@ import {
     createIntern,
     findUserByEmail,
     createUser,
+    updateUser,
 } from "../models/userModel.js";
 import bcrypt from "bcrypt";
 import logger from "../utils/logger.js";
 import { jwtDecode, jwtSign, jwtVerify } from "../services/jwtService.js";
 import { findRoleByName, updateRole } from "../models/roleModel.js";
-import cron from "node-cron";
+import { sendEmail } from "../services/mailService.js";
+
 
 export const signUpController = async (req, res) => {
     try {
@@ -28,7 +30,7 @@ export const signUpController = async (req, res) => {
             logger.error("Already signed up. Please login.");
             return sendResponse(res, 409, "Already signed up. Please login.");
         }
-        const hashedPassword = await bcrypt.hash(newUser.password, 10);
+        const hashedPassword = await bcrypt.hash(newUser.password, parseInt(process.env.SALT_ROUNDS));
         newUser.password = hashedPassword;
         await createIntern(newUser);
         sendResponse(res, 201, "Sign Up successful!!!");
@@ -42,7 +44,7 @@ export const oauthController = async (req, res) => {
     try {
         const credential = req.body;
         // console.log(user);
-        const user=jwtDecode(credential.credential);
+        const user = jwtDecode(credential.credential);
         let existingUser = await findUserByEmail(user.email);
         if (!existingUser) {
             const newUser = {
@@ -61,7 +63,7 @@ export const oauthController = async (req, res) => {
         );
         if (existingUser.profilePhoto) {
             existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
-            
+
         }
         const response = {
             userId: existingUser.id,
@@ -69,8 +71,8 @@ export const oauthController = async (req, res) => {
             role: existingUser.role.roleName,
             permissions: existingUser.role.permissions,
             token: token,
-            zone:existingUser.zone,
-            profilePhoto:existingUser.profilePhoto
+            zone: existingUser.zone,
+            profilePhoto: existingUser.profilePhoto
         };
         sendResponse(res, 200, "Oauth Successful!!!", response);
         logger.info("Oauth successful!!!");
@@ -102,15 +104,15 @@ export const signInController = async (req, res) => {
             logger.error("Invalid password");
             return sendResponse(res, 401, "Invalid password");
         }
-        const token = await jwtSign(
-            existingUser.id,
-            existingUser.role.roleName,
-            existingUser.name,
-            existingUser.email
-        );
+        const token = await jwtSign({
+            userId: existingUser.id,
+            role: existingUser.role.roleName,
+            name: existingUser.name,
+            email: existingUser.email
+        });
         if (existingUser.profilePhoto) {
             existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
-            
+
         }
         const response = {
             userId: existingUser.id,
@@ -118,10 +120,10 @@ export const signInController = async (req, res) => {
             role: existingUser.role.roleName,
             permissions: existingUser.role.permissions,
             token: token,
-            zone:existingUser.zone,
-            profilePhoto:existingUser.profilePhoto
+            zone: existingUser.zone,
+            profilePhoto: existingUser.profilePhoto
         };
-        
+
         sendResponse(res, 200, "Login successful!!!", response);
         logger.info("Login successful!!!");
     } catch (error) {
@@ -143,7 +145,7 @@ export const createUserController = async (req, res) => {
             return sendResponse(res, 404, "Invalid role.");
         }
         const password = req.body.password;
-        const hashedPassword = await bcrypt.hash(password, 10);
+        const hashedPassword = await bcrypt.hash(password, process.env.SALT_ROUNDS);
 
         const newUser = {
             name: req.body.name,
@@ -187,7 +189,7 @@ export const verifyToken = async (req, res) => {
             return res.status(400).json({ error: "Token is required" });
         }
 
-        const jwtResponse = await jwtVerify(token);
+        await jwtVerify(token);
         logger.info("Successfully verified");
         return sendResponse(res, 200, "Success");
     } catch (error) {
@@ -195,3 +197,70 @@ export const verifyToken = async (req, res) => {
         return sendResponse(res, 401, "Invalid token");
     }
 };
+
+export const forgotPassword = async (req,res) => {
+    try {
+        const email = req.body;
+        const existingUser = await findUserByEmail(email.email);
+        if (!existingUser) {
+            logger.error("User does not exist. Please sign up.");
+            return sendResponse(res, 404, "User does not exist. Please sign up.");
+        }
+        const token = await jwtSign({
+            email: existingUser.email
+        })
+        const resetLink = `https://interngo.vercel.app/reset-password?token=${token}`
+        const body = 
+            `<!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Reset Your Password</title>
+            </head>
+            <body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; text-align: center;">
+                <div style="max-width: 600px; margin: auto; background: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+                    <img src="https://intern-go.s3.eu-north-1.amazonaws.com//internGO_logo/Intern+(3).png" alt="InternGO Logo" style="width: 200px; margin-bottom: 20px;height:75px;">
+                    <h2 style="color: #333;">Password Reset Request</h2>
+                    <p>Hello ${existingUser.name},</p>
+                    <p>You recently requested to reset your password. Click the button below to proceed:</p>
+                    <a href="${resetLink}" style="display: inline-block; background-color: #007BFF; color: #ffffff; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-size: 16px;">Reset Password</a>
+                    <p style="margin-top: 20px; color: #888;">If you did not request this, please ignore this email.</p>
+                    <p style="font-size: 12px; color: #888;">Best, <br><b>InternGO Team</b></p>
+                </div>
+            </body>
+            </html>`
+
+        sendEmail(existingUser.email,`InternGO - Reset Your Password`,body);
+        sendResponse(res,200,"Check your email for the reset link!!!!")
+    }
+    catch (error) {
+        logger.error(error.message);
+    }
+}
+
+export const resetPassword = async(req,res)=>{
+    try{
+        const password=req.body;
+        if(!token)
+        {
+            logger.error("Token not present!!!")
+            return sendResponse(res,401,"Token not present!!!");
+        }
+        const user=await jwtVerify(token);
+        const existingUser=await findUserByEmail(user.email);
+        if(!existingUser){
+            logger.error("User does not exist. Please sign up.");
+            return sendResponse(res, 404, "User does not exist. Please sign up.");
+        }
+        const hashedPassword=await bcrypt.hash(password.password,parseInt(process.env.SALT_ROUNDS))
+        await updateUser(existingUser.userId,{
+            password:hashedPassword
+        });
+        logger.info("Password updated successfully!!!")
+        sendResponse(res,200,"Password updated successfully!!!")
+    }
+    catch(error){
+        logger.error(error.message);
+    }
+}

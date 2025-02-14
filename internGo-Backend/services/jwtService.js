@@ -1,8 +1,8 @@
 import jwt from 'jsonwebtoken';
 import logger from '../utils/logger.js';
 
-export const jwtSign = async (id, role, name, email) => {
-    const token = jwt.sign({ userId: id, name: name, role: role, email: email }, process.env.SECRET_KEY, { expiresIn: process.env.EXPIRES_IN });
+export const jwtSign = async (data) => {
+    const token = jwt.sign(data, process.env.SECRET_KEY, { expiresIn: process.env.EXPIRES_IN });
     return token;
 }
 export const jwtVerify = (token) => {

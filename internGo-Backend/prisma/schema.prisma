@@ -208,3 +208,5 @@ model Feedbacks {
     intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id],onDelete:Cascade)
     interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
 }
+
+model 

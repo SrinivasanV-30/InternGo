@@ -17,7 +17,7 @@ export const convertTimeStringandDate = (dateString, timeString) => {
 };
 
 
-export const convertUTCToLocal24Hour = (utcString) => {
-    const date = new Date(utcString);
-    return date.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false });
-};
+// export const convertUTCToLocal24Hour = (utcString) => {
+//     const date = new Date(utcString);
+//     return date.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false });
+// };

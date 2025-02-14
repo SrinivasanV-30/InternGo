@@ -32564,3 +32564,55 @@ Unknown argument `userId`. Did you mean `user`? Available options are marked wit
 2025-02-14T06:35:43.237Z [:[32minfo[39m] ::1 - - [14/Feb/2025:06:35:43 +0000] "POST /api/auth/signin HTTP/1.1" 400 30 "-" "PostmanRuntime/7.43.0"
 2025-02-14T06:36:03.201Z [:[31merror[39m] [{"message":"\"email\" must be a valid email","path":["email"],"type":"string.email","context":{"value":"admin@finestcoder.c","invalids":["admin@finestcoder.c"],"label":"email","key":"email"}}]
 2025-02-14T06:36:03.205Z [:[32minfo[39m] ::1 - - [14/Feb/2025:06:36:03 +0000] "POST /api/auth/signin HTTP/1.1" 400 74 "-" "PostmanRuntime/7.43.0"
+2025-02-14T10:22:53.465Z [:[31merror[39m] req is not defined
+2025-02-14T10:23:08.167Z [:[31merror[39m] userName is not defined
+2025-02-14T10:23:30.294Z [:[31merror[39m] Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7324f22fd95sm1214647b3a.11 - gsmtp
+2025-02-14T10:46:11.070Z [:[32minfo[39m] ::1 - - [14/Feb/2025:10:46:11 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-14T10:46:15.249Z [:[31merror[39m] Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-7324273eac4sm2814179b3a.113 - gsmtp
+2025-02-14T10:48:05.984Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T10:48:05.985Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T10:48:05.985Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T10:48:05.985Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-14T10:49:26.939Z [:[31merror[39m] Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-2fbf98b3305sm4814227a91.6 - gsmtp
+2025-02-14T10:51:56.490Z [:[32minfo[39m] ::1 - - [14/Feb/2025:10:51:56 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-14T10:51:58.400Z [:[31merror[39m] Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-7324276121bsm2830120b3a.126 - gsmtp
+2025-02-14T10:52:40.029Z [:[32minfo[39m] ::1 - - [14/Feb/2025:10:52:40 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-14T10:52:42.332Z [:[31merror[39m] Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-7325a8236bfsm240040b3a.31 - gsmtp
+2025-02-14T10:52:54.120Z [:[32minfo[39m] ::1 - - [14/Feb/2025:10:52:54 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-14T10:52:56.232Z [:[31merror[39m] Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-73242581ac6sm2807301b3a.79 - gsmtp
+2025-02-14T10:55:01.949Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-14T10:57:04.391Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-14T10:57:52.763Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-14T11:00:24.626Z [:[32minfo[39m] ::1 - - [14/Feb/2025:11:00:24 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-14T13:19:32.580Z [:[32minfo[39m] ::1 - - [14/Feb/2025:13:19:32 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 81 "-" "PostmanRuntime/7.43.0"
+2025-02-14T13:19:36.340Z [:[32minfo[39m] Email sent: [object Object]
