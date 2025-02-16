@@ -32616,3 +32616,34 @@ Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.
 2025-02-14T11:00:24.626Z [:[32minfo[39m] ::1 - - [14/Feb/2025:11:00:24 +0000] "POST /api/auth/forgot-password HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
 2025-02-14T13:19:32.580Z [:[32minfo[39m] ::1 - - [14/Feb/2025:13:19:32 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 81 "-" "PostmanRuntime/7.43.0"
 2025-02-14T13:19:36.340Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-16T13:50:23.188Z [:[32minfo[39m] ::1 - - [16/Feb/2025:13:50:23 +0000] "POST /api/auth/forget-password HTTP/1.1" 404 164 "-" "PostmanRuntime/7.43.0"
+2025-02-16T13:50:46.374Z [:[32minfo[39m] ::1 - - [16/Feb/2025:13:50:46 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-16T13:50:50.778Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-16T13:51:07.773Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T13:51:07.774Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T13:52:07.545Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T13:52:07.545Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
