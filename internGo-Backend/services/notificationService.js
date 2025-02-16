@@ -40,7 +40,7 @@ export const sendBroadcastNotification = async (type, message) => {
     }
 };
 
-export const sendToAdmins = async (type,referenceId, message) => {
+export const sendToAdmins = async (type,referenceId=null, message) => {
     try {
         const adminUsers = await getUserByRole("Admins");
         adminUsers.forEach((adminUser) => {

@@ -1,12 +1,12 @@
 import cron from "node-cron";
-import { interactionFeedbackPending, sendRemaindersForInteraction, sendSchedulingRemindersToAdmins } from "./cron_jobs/interactionRemainders.js";
+import { interactionFeedbackPending, sendRemindersForInteraction, sendSchedulingRemindersToAdmins } from "./cron_jobs/interactionReminders.js";
 import { dailyUpdatesNotUpdated, updateDaysWorked } from "./cron_jobs/dailyUpdatesNotifications.js";
 
 
 export const startCronJobs = () => {
     cron.schedule("* 9-21 * * *", () => { 
         console.log("Checking for upcoming interactions...");
-        sendRemaindersForInteraction();
+        sendRemindersForInteraction();
         interactionFeedbackPending();
     });
 

@@ -1,6 +1,7 @@
 import { signUpValidationSchema,signInValidationSchema, userCreateValidationSchema } from "../schema/authenticationSchema.js";
 import { taskSchema } from "../schema/dailyUpdateSchema.js";
 import { feedbackValidationSchema } from "../schema/feedbackSchema.js";
+import helpDeskSchema from "../schema/helpDeskSchema.js";
 import { interactionValidationSchema } from "../schema/interactionSchema.js";
 import { milestoneCreateValidationSchema, milestoneUpdateValidationSchema, objectiveCreateValidationSchema,objectivesCreateValidationSchema, objectiveUpdateValidationSchema,objectivesUpdateValidationSchema, planCreateValidationSchema, planUpdateValidationSchema, usersPlanValidationSchema } from "../schema/planSchema.js";
 import { assetUpdateValidationSchema, assetValidationSchema, profileUpdateValidationSchema } from "../schema/userProfileSchema.js";
@@ -225,6 +226,18 @@ export const interactionValidation = async(req,res,next)=>{
 export const feedbackValidation = async(req,res,next)=>{
     try{
         await feedbackValidationSchema.validateAsync(req.body);
+        next(); 
+    }
+    catch(error)
+    {
+        logger.error(`${JSON.stringify(error.details)}`);
+        return sendResponse(res,400,error.details[0].message)
+    }
+}
+
+export const helpDeskValidation = async(req,res,next)=>{
+    try{
+        await helpDeskSchema.validateAsync(req.body);
         next(); 
     }
     catch(error)

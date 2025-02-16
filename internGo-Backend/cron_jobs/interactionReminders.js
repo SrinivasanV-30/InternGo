@@ -5,7 +5,7 @@ import { convertTimeStringandDate } from "../helpers/dateTimeHelper.js";
 import { sendNotification, sendToAdmins } from "../services/notificationService.js";
 import logger from "../utils/logger.js"
 
-export const sendRemaindersForInteraction = async () => {
+export const sendRemindersForInteraction = async () => {
     try {
         const upcomingInteractions = await getUpcomingInteractions();
         const now = new Date();

@@ -33009,3 +33009,453 @@ Invalid `prisma.notifications.create()` invocation:
 Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
 
 Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:11:05.654Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:11:05.657Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:18:10.144Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:18:10.144Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:18:10.146Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:18:10.146Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:35:05.240Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:35:05.240Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:36:05.303Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:36:05.303Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:37:10.371Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:37:10.372Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:37:10.372Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:37:10.373Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:49:13.017Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:49:13.020Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:50:05.423Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:50:05.424Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:55:07.575Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:55:07.576Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:57:05.761Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T15:57:05.761Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:01:07.458Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:01:07.458Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:01:07.460Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:01:07.460Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:02:06.258Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:02:06.259Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:13:10.778Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:13:10.778Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:19:05.011Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:19:05.011Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.548Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.551Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.552Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.552Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.553Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.553Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.553Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:20:07.554Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T16:41:22.806Z [:[31merror[39m] jwt expired
+2025-02-16T16:41:22.814Z [:[32minfo[39m] ::1 - - [16/Feb/2025:16:41:22 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-16T16:41:29.186Z [:[32minfo[39m] Login successful!!!
+2025-02-16T16:41:29.187Z [:[32minfo[39m] ::1 - - [16/Feb/2025:16:41:29 +0000] "POST /api/auth/signin HTTP/1.1" 200 855 "-" "PostmanRuntime/7.43.0"
+2025-02-16T16:41:42.668Z [:[32minfo[39m] Updated permissions successfully
+2025-02-16T16:41:42.671Z [:[32minfo[39m] ::1 - - [16/Feb/2025:16:41:42 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-02-16T16:42:10.810Z [:[32minfo[39m] Updated permissions successfully
+2025-02-16T16:42:10.811Z [:[32minfo[39m] ::1 - - [16/Feb/2025:16:42:10 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-02-16T16:42:44.531Z [:[32minfo[39m] Updated permissions successfully
+2025-02-16T16:42:44.532Z [:[32minfo[39m] ::1 - - [16/Feb/2025:16:42:44 +0000] "PATCH /api/users/rolePermUpdate HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:35:02.518Z [:[31merror[39m] Invalid password
+2025-02-16T17:35:02.528Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:35:02 +0000] "POST /api/auth/signin HTTP/1.1" 401 59 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:35:11.439Z [:[32minfo[39m] Login successful!!!
+2025-02-16T17:35:11.440Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:35:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 705 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:35:46.640Z [:[31merror[39m] Token not present!!!
+2025-02-16T17:35:46.642Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:35:46 +0000] "POST /api/helpdesk/ HTTP/1.1" 401 63 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:36:16.037Z [:[31merror[39m] Cannot access 'createdHelpDesk' before initialization
+2025-02-16T17:36:16.039Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:36:16 +0000] "POST /api/helpdesk/ HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:36:54.712Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:36:54.717Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:36:58.488Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:36:58 +0000] "POST /api/helpdesk/ HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:37:02.786Z [:[32minfo[39m] HelpDesk ticket created successfully
+2025-02-16T17:37:02.798Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:37:02 +0000] "POST /api/helpdesk/ HTTP/1.1" 201 417 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:37:09.057Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:37:09.058Z [:[31merror[39m] 
+Invalid `prisma.notifications.create()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:37:42.205Z [:[31merror[39m] 
+Invalid `prisma.helpDesk.findUnique()` invocation:
+
+{
+  where: {
+    userId: "987d44a9-71ca-4d43-8ed1-2fa947a2ef6b",
+?   id?: Int,
+?   AND?: HelpDeskWhereInput | HelpDeskWhereInput[],
+?   OR?: HelpDeskWhereInput[],
+?   NOT?: HelpDeskWhereInput | HelpDeskWhereInput[],
+?   subject?: StringFilter | String,
+?   description?: StringFilter | String,
+?   resolvedStatus?: EnumResolvedStatusFilter | ResolvedStatus,
+?   priority?: EnumPriorityFilter | Priority,
+?   recepient?: EnumRecepientFilter | Recepient,
+?   recepientId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type HelpDeskWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-16T17:37:42.206Z [:[31merror[39m] 
+Invalid `prisma.helpDesk.findUnique()` invocation:
+
+{
+  where: {
+    userId: "987d44a9-71ca-4d43-8ed1-2fa947a2ef6b",
+?   id?: Int,
+?   AND?: HelpDeskWhereInput | HelpDeskWhereInput[],
+?   OR?: HelpDeskWhereInput[],
+?   NOT?: HelpDeskWhereInput | HelpDeskWhereInput[],
+?   subject?: StringFilter | String,
+?   description?: StringFilter | String,
+?   resolvedStatus?: EnumResolvedStatusFilter | ResolvedStatus,
+?   priority?: EnumPriorityFilter | Priority,
+?   recepient?: EnumRecepientFilter | Recepient,
+?   recepientId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type HelpDeskWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-16T17:37:42.208Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:37:42 +0000] "GET /api/helpdesk/987d44a9-71ca-4d43-8ed1-2fa947a2ef6b HTTP/1.1" 500 64 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:38:46.245Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:38:46.258Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:38:46 +0000] "GET /api/helpdesk/987d44a9-71ca-4d43-8ed1-2fa947a2ef6b HTTP/1.1" 200 420 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:39:12.081Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:39:12.085Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:39:12 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" 200 78 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:00.655Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:00.658Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:02.518Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:02 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:08.725Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:08.726Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:11.469Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:11 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:17.722Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:17.722Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:19.470Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:19 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:26.601Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:26.602Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-16T17:40:28.066Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:28 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:38.356Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:40:38.364Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:38 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" 200 78 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:40:50.667Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:40:50.678Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:40:50 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" 200 78 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:42:49.149Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:42:49.161Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:42:49 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" 200 420 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:43:27.353Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:43:27.355Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:43:27 +0000] "GET /api/helpdesk/f01a0337-0997-43b0-9b79-879217ee1c81 HTTP/1.1" 200 420 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:43:59.349Z [:[32minfo[39m] HelpDesk ticket created successfully
+2025-02-16T17:43:59.352Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:43:59 +0000] "POST /api/helpdesk/ HTTP/1.1" 201 452 "-" "PostmanRuntime/7.43.0"
+2025-02-16T17:44:22.822Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-16T17:44:22.824Z [:[32minfo[39m] ::1 - - [16/Feb/2025:17:44:22 +0000] "GET /api/helpdesk/0a330cdf-e67f-4613-a56c-fa7a4b317264 HTTP/1.1" 200 455 "-" "PostmanRuntime/7.43.0"
