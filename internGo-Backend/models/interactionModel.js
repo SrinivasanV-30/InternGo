@@ -23,7 +23,7 @@ export const getInteractions = async (offset, limit,whereCondition) => {
             take: limit,
             where:whereCondition,
             orderBy:{
-                date:true
+                date:"desc"
             }
             
         });

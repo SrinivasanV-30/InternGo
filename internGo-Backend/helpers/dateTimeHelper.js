@@ -13,6 +13,7 @@ export const convertTimeStringandDate = (dateString, timeString) => {
   
     const updatedDate = new Date(dateString);
     updatedDate.setHours(hours,minutes,0,0);
+    
     return updatedDate;
 };
 
