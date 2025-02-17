@@ -55,12 +55,12 @@ export const oauthController = async (req, res) => {
             existingUser = await createIntern(newUser);
         }
 
-        const token = await jwtSign(
-            existingUser.id,
-            existingUser.role.roleName,
-            existingUser.name,
-            existingUser.email
-        );
+        const token = await jwtSign({
+            userId: existingUser.id,
+            role: existingUser.role.roleName,
+            name: existingUser.name,
+            email: existingUser.email
+        });
         if (existingUser.profilePhoto) {
             existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
 
