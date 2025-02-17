@@ -334,6 +334,10 @@ export const getInteractionCount = async (req, res) => {
             interviewerId:userId,
             interactionStatus:"PENDING"
         })
+        interactionCount.interactionFeedbackPending=await getInteractionByQuery({
+            interviewerId:userId,
+            interactionStatus:"FEEDBACK_PENDING"
+        })
         
         logger.info("Fetched successfully")
         sendResponse(res, 200, "Fetched successfully",interactionCount);
