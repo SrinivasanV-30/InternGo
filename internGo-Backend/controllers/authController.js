@@ -242,12 +242,12 @@ export const forgotPassword = async (req,res) => {
 export const resetPassword = async(req,res)=>{
     try{
         const password=req.body;
-        if(!token)
-        {
-            logger.error("Token not present!!!")
-            return sendResponse(res,401,"Token not present!!!");
-        }
-        const user=await jwtVerify(token);
+        // if(!token)
+        // {
+        //     logger.error("Token not present!!!")
+        //     return sendResponse(res,401,"Token not present!!!");
+        // }
+        // const user=await jwtVerify(token);
         const existingUser=await findUserByEmail(user.email);
         if(!existingUser){
             logger.error("User does not exist. Please sign up.");
