@@ -230,7 +230,7 @@ export const forgotPassword = async (req,res) => {
                 </div>
             </body>
             </html>`
-
+        
         sendEmail(existingUser.email,`InternGO - Reset Your Password`,body);
         sendResponse(res,200,"Check your email for the reset link!!!!")
     }

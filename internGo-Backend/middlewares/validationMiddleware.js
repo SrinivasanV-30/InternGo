@@ -9,9 +9,9 @@ import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 
 export const emailValidation = async(req,res,next)=>{
-    const authorizedDomain="finestcoder.com";
+    const authorizedDomain=["finestcoder.com","codingmart.com"];
     const domain=req.body.email.split('@')[1];
-    if(authorizedDomain!=domain)
+    if(!authorizedDomain.includes(domain))
     {
         logger.error("Not authorized domain. Please continue with a authorized domain.");
         return sendResponse(res,403,"Not authorized domain. Please continue with a authorized domain.");
