@@ -16,6 +16,7 @@ export const addHelpDesk = async (req, res) => {
             }
             helpDeskData.recepientId=mentorDetails.id;
         }
+        helpDeskData.senderName=userDetails.name;
         const createdHelpDesk = await createHelpDesk(helpDeskData);
         if(helpDeskData.recepient=="Admins"){
             sendToAdmins('helpdesk-ticket',createdHelpDesk.id,`A new HelpDesk request has been submitted by ${userDetails.name}. Subject: ${helpDeskData.subject}.`);

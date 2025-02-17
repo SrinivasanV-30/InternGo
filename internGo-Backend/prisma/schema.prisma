@@ -213,6 +213,7 @@ model Feedbacks {
         id Int @id @default(autoincrement())
         subject String
         description String
+        senderName String
         userId String
         resolvedStatus ResolvedStatus
         priority Priority
@@ -220,6 +221,7 @@ model Feedbacks {
         recepientId String?
         createdAt DateTime @default(now())
         updatedAt DateTime @updatedAt
+
     }
 
     enum Priority{

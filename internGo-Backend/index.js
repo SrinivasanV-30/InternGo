@@ -12,7 +12,7 @@ import { webSocket } from './services/webSocketService.js';
 import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
 import feedbackRouter from './routes/feedbackRoutes.js';
-import helpDeskRouter from './routes/helpDeskRoutes.js';
+import helpDeskRouter from './routes/helpdeskRoutes.js';
 
 
 

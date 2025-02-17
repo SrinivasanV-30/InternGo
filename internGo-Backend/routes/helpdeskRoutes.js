@@ -1,6 +1,6 @@
 import express from 'express';
-import { addHelpDesk, getHelpDeskDetails, modifyHelpDesk, removeHelpDesk } from '../controllers/helpDeskController.js';
-import { authenticateUser, checkPermission, checkUser } from '../middlewares/authenticationMiddleware.js';
+import { addHelpDesk, getHelpDeskDetails, modifyHelpDesk, removeHelpDesk } from '../controllers/helpdeskController.js';
+import { authenticateUser, checkPermission} from '../middlewares/authenticationMiddleware.js';
 import { helpDeskValidation } from '../middlewares/validationMiddleware.js';
 
 const helpDeskRouter = express.Router();
