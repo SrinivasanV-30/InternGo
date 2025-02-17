@@ -4,7 +4,7 @@ import { dailyUpdatesNotUpdated, updateDaysWorked } from "./cron_jobs/dailyUpdat
 
 
 export const startCronJobs = () => {
-    cron.schedule("* 9-21 * * *", () => { 
+    cron.schedule("* * * * *", () => { 
         console.log("Checking for upcoming interactions...");
         sendRemindersForInteraction();
         interactionFeedbackPending();
