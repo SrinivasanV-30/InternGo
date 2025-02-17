@@ -46,7 +46,7 @@ export const checkPermission = (requiredPermission) => {
             });
             if(flag==0){
                 logger.error("Access Denied. Permission not found");
-                return sendResponse(res,401,"Access Denied. Permission not found");
+                return sendResponse(res,403,"Access Denied. Permission not found");
             }
             if(flag==1)
             {
