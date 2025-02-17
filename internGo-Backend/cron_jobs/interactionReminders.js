@@ -1,14 +1,14 @@
 import { getStartedInteractions, getUpcomingInteractions, updateInteractions } from "../models/interactionModel.js";
 import { existingNotification } from "../models/notificationModel.js";
 import { getUserPlans } from "../models/userModel.js";
-import { convertTimeStringandDate } from "../helpers/dateTimeHelper.js";
+import { convertTimeStringandDate, localTimezone } from "../helpers/dateTimeHelper.js";
 import { sendNotification, sendToAdmins } from "../services/notificationService.js";
 import logger from "../utils/logger.js"
 
 export const sendRemindersForInteraction = async () => {
     try {
         const upcomingInteractions = await getUpcomingInteractions();
-        const now = new Date();
+        const now = localTimezone(new Date());
         console.log("Current Date and Time: ", now);
 
         upcomingInteractions.forEach(async (interaction) => {
@@ -16,7 +16,7 @@ export const sendRemindersForInteraction = async () => {
             if (interaction.isScheduled) {
                 const interactionDate = convertTimeStringandDate(interaction.date, interaction.time);
                 const timeDiff = interactionDate.getTime() - now.getTime();
-
+                
                 if (timeDiff > 0 && timeDiff <= 30 * 60 * 1000) {
                     const existingNotifications = await existingNotification(interaction.id, 'interaction-remainder');
                     
@@ -39,7 +39,8 @@ export const sendRemindersForInteraction = async () => {
 export const interactionFeedbackPending=async()=>{
     try{
         const startedInteractions=await getStartedInteractions();
-        const now = new Date();
+        // console.log(startedInteractions)
+        const now = localTimezone(new Date());
         startedInteractions.forEach(async(interaction)=>{
             if(interaction.interactionStatus!="FEEDBACK_PENDING" && !interaction.feedback)
             {

@@ -73,7 +73,6 @@ export const updateInteraction=async(req,res)=>{
         }
         if(interactionData.date){
             if(interactionData.time){
-                console.log(interactionData.date)
                 interactionData.date=convertTimeStringandDate(interactionData.date,interactionData.time);
             }
             else{
@@ -93,6 +92,8 @@ export const updateInteraction=async(req,res)=>{
             }
             interactionData.interviewerId=interviewerDetails.id;
             interactionData.interviewerEmail=interviewerDetails.email;
+
+            
         }
         if(interactionData.assignedIntern){
             const interviewerDetails= await findUserByName(interactionData.assignedInterviewer);
@@ -100,7 +101,9 @@ export const updateInteraction=async(req,res)=>{
             interactionData.interviewerEmail=interviewerDetails.email;
         }
 
-        await updateInteractions(id,interactionData);
+        const updatedInteraction=await updateInteractions(id,interactionData);
+        sendNotification(updatedInteraction.internId,"interaction-updated-schedule",updatedInteraction.id,`Your interaction with ${updatedInteraction.assignedInterviewer} is scheduled on ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time} . Please be prepared.`);
+        sendNotification(updatedInteraction.interviewerId,"interaction-updated-schedule",updatedInteraction.id,`Interaction with ${updatedInteraction.assignedIntern} is scheduled on ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time}. Please be available.`);
         logger.info("Updated interaction details");
         sendResponse(res,200,"Updated interaction details");
 

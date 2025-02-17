@@ -1,31 +1,32 @@
 import { PrismaClient } from "@prisma/client";
 import logger from "../utils/logger.js";
+import { localTimezone } from "../helpers/dateTimeHelper.js";
 
-const prisma=new PrismaClient();
+const prisma = new PrismaClient();
 
-export const createInteractions=async(data)=>{
-    try{
+export const createInteractions = async (data) => {
+    try {
         return await prisma.interactions.create({
-            data:data
+            data: data
         })
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
         throw new Error(error.message);
-        
+
     }
 }
 
-export const getInteractions = async (offset, limit,whereCondition) => {
+export const getInteractions = async (offset, limit, whereCondition) => {
     try {
         return await prisma.interactions.findMany({
             skip: offset,
             take: limit,
-            where:whereCondition,
-            orderBy:{
-                date:"desc"
+            where: whereCondition,
+            orderBy: {
+                date: "desc"
             }
-            
+
         });
     } catch (error) {
         logger.error(error.message);
@@ -33,13 +34,13 @@ export const getInteractions = async (offset, limit,whereCondition) => {
     }
 };
 
-export const interactionCount=async(whereCondition)=>{
-    try{
+export const interactionCount = async (whereCondition) => {
+    try {
         return await prisma.interactions.count({
-            where:whereCondition 
+            where: whereCondition
         });
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
         throw new Error(error.message);
     }
@@ -58,7 +59,7 @@ export const getInteractionById = async (id) => {
 export const updateInteractions = async (id, data) => {
     try {
         return await prisma.interactions.update({
-            where: { id:id },
+            where: { id: id },
             data,
         });
     } catch (error) {
@@ -76,50 +77,53 @@ export const deleteInteraction = async (id) => {
     }
 };
 
-export const getUpcomingInteractions=async()=>{
-    try{
-        const date=new Date();
+export const getUpcomingInteractions = async () => {
+    try {
+        const now = localTimezone(new Date());
+
         return await prisma.interactions.findMany({
-            where:{
-                date:{
-                    gte:date
+            where: {
+                date: {
+                    gte: now
                 }
             }
         })
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
         throw new Error(error.message);
     }
 }
 
-export const getStartedInteractions=async()=>{
-    try{
-        const date=new Date();
-        return await prisma.interactions.findMany({
-            where:{
-                date:{
-                    lte:date
+export const getStartedInteractions = async () => {
+    try {
+        const now = localTimezone(new Date());
+        const interactions = await prisma.interactions.findMany({
+            where: {
+                date: {
+                    lte: now,
                 },
-                interactionStatus:{
-                    not:"COMPLETED"
-                }
-            }
-        })
+                interactionStatus: {
+                    not: "COMPLETED",
+                },
+            },
+        });
+
+        return interactions;
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
         throw new Error(error.message);
     }
 }
 
-export const getInteractionByQuery=async(whereCondition)=>{
-    try{
+export const getInteractionByQuery = async (whereCondition) => {
+    try {
         return await prisma.interactions.count({
-            where:whereCondition
+            where: whereCondition
         })
     }
-    catch(error){
+    catch (error) {
         logger.error(error.message);
         throw new Error(error.message);
     }

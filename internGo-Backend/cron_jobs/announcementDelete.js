@@ -1,4 +1,5 @@
 import { deleteNotification } from "../controllers/notificationController";
+import { localTimezone } from "../helpers/dateTimeHelper.js";
 import { deleteSingleNotification, getAnnouncements } from "../models/notificationModel"
 import logger from "../utils/logger.js"
 
@@ -6,7 +7,7 @@ import logger from "../utils/logger.js"
 export const announcementDelete=async()=>{
     try{
         const announcements=await getAnnouncements();
-        const now=new Date();
+        const now = localTimezone(new Date());
         announcements.forEach((announcement)=>{
             const diff=now-announcement.createdAt;
             if(diff>=1000*60*60*24*2){
