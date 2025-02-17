@@ -7,7 +7,7 @@ const helpDeskSchema = Joi.object({
   resolvedStatus: Joi.string().valid('PENDING', 'RESOLVED').required(),
   priority: Joi.string().valid('HIGH', 'MEDIUM', 'LOW').required(),
   recepient: Joi.string().valid('Mentors', 'Admins').required(),
-  recepientId: Joi.string().optional(),
+  recepientId: Joi.string(),
 });
 
 export default helpDeskSchema;
