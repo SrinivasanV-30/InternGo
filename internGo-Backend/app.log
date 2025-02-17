@@ -33639,3 +33639,127 @@ Invalid `prisma.interactions.findMany()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-17T06:08:25.627Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:08:25 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-17T06:08:28.965Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-17T06:09:16.592Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:09:16 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-17T06:09:20.440Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-17T06:09:20.534Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:09:20 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-17T06:09:24.050Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-17T06:11:20.371Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:11:20 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-17T06:11:23.492Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-17T06:11:56.936Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:11:56 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-17T06:11:59.009Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-17T06:14:59.494Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  data: {
+    password: "$2b$10$qy2kE4v8N6fB.GgrOG.MfevDLPSqRB/T0LY4AdPLtdiUF3r5i9p96"
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-02-17T06:14:59.495Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   resume?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  data: {
+    password: "$2b$10$qy2kE4v8N6fB.GgrOG.MfevDLPSqRB/T0LY4AdPLtdiUF3r5i9p96"
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-02-17T06:15:20.593Z [:[32minfo[39m] Password updated successfully!!!
+2025-02-17T06:15:20.604Z [:[32minfo[39m] ::1 - - [17/Feb/2025:06:15:20 +0000] "POST /api/auth/reset-password HTTP/1.1" 200 75 "-" "PostmanRuntime/7.43.0"

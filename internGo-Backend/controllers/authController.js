@@ -248,13 +248,14 @@ export const resetPassword = async(req,res)=>{
         //     return sendResponse(res,401,"Token not present!!!");
         // }
         const user=req.user;
+        
         const existingUser=await findUserByEmail(user.email);
         if(!existingUser){
             logger.error("User does not exist. Please sign up.");
             return sendResponse(res, 404, "User does not exist. Please sign up.");
         }
         const hashedPassword=await bcrypt.hash(password.password,parseInt(process.env.SALT_ROUNDS))
-        await updateUser(existingUser.userId,{
+        await updateUser(existingUser.id,{
             password:hashedPassword
         });
         logger.info("Password updated successfully!!!")
