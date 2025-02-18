@@ -28,7 +28,7 @@ export const profileUpdateValidationSchema = Joi.object({
     designation: Joi.string().max(50),
     phone_no: Joi.string().pattern(/^\d{10}$/),
     certificates_submission_status: Joi.boolean(),
-    status: Joi.string().valid("ACTIVE","NOT_ACTIVE","EXAMINATION","SHADOWING","DEPLOYED","TERMINATED"),
+    status: Joi.string().valid("ACTIVE","NOT_ACTIVE","EXAMINATION","SHADOWING","DEPLOYED","TERMINATED","LEAVE"),
     dateOfBirth: Joi.date().iso(),
     dateOfJoining: Joi.date().iso(),
     phase: Joi.string().max(50),
