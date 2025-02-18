@@ -224,6 +224,18 @@ export const createMilestone = async (req, res) => {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
         }
+        let totalMilestoneDays=0;
+        existingPlan.milestones.forEach((milestone)=>{
+            totalMilestoneDays+=milestone.milestoneDays;
+            if(totalMilestoneDays>existingPlan.planDays){
+                logger.error("Milestone days must not exceed total plan days.");
+                return sendResponse(res, 400, "Milestone days must not exceed total plan days.");
+            }
+        })
+        if(totalMilestoneDays+milestoneData.milestoneDays>existingPlan.planDays){
+            logger.error("Milestone days must not exceed total plan days.");
+            return sendResponse(res, 400, "Milestone days must not exceed total plan days.");
+        }
         const mentorDetails = await findUserByName(milestoneData.mentorName);
         if (!mentorDetails) {
             logger.error("Mentor not found!!!");
@@ -251,6 +263,20 @@ export const updateMilestone = async (req, res) => {
         if (!existingPlan) {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
+        }
+        if(milestoneData.milestoneDays){
+            let totalMilestoneDays=0;
+            existingPlan.milestones.forEach((milestone)=>{
+                totalMilestoneDays+=milestone.milestoneDays;
+                if(totalMilestoneDays>existingPlan.planDays){
+                    logger.error("Milestone days must not exceed total plan days.");
+                    return sendResponse(res, 400, "Milestone days must not exceed total plan days.");
+                }
+            })
+            if(totalMilestoneDays+milestoneData.milestoneDays>existingPlan.planDays){
+                logger.error("Milestone days must not exceed total plan days.");
+                return sendResponse(res, 400, "Milestone days must not exceed total plan days.");
+            }
         }
         const existingMilestone = await getMilestoneById(milestoneId);
         if (!existingMilestone) {
