@@ -268,7 +268,7 @@ export const updateMilestone = async (req, res) => {
             let totalMilestoneDays=0;
             existingPlan.milestones.forEach((milestone)=>{
                 totalMilestoneDays+=milestone.milestoneDays;
-                if(totalMilestoneDays>existingPlan.planDays){
+                if(totalMilestoneDays>existingPlan.planDays && milestone.id!=milestoneId){
                     logger.error("Milestone days must not exceed total plan days.");
                     return sendResponse(res, 400, "Milestone days must not exceed total plan days.");
                 }
