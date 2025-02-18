@@ -145,7 +145,7 @@ export const createUserController = async (req, res) => {
             return sendResponse(res, 404, "Invalid role.");
         }
         const password = req.body.password;
-        const hashedPassword = await bcrypt.hash(password, process.env.SALT_ROUNDS);
+        const hashedPassword = await bcrypt.hash(password, parseInt(process.env.SALT_ROUNDS));
 
         const newUser = {
             name: req.body.name,
