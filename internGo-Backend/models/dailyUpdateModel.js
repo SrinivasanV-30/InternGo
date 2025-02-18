@@ -102,6 +102,39 @@ export const createDailyUpdates = async (dailyUpdateData)=>{
     }
 }
 
+export const getDailyUpdates = async (dailyUpdateId)=>{
+    try{
+        return await prisma.dailyUpdates.findUnique({
+            where:{
+                id:dailyUpdateId
+            },
+            include:{
+                tasks:true
+            }
+        })
+        
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error);
+    }
+}
+
+export const deleteDailyUpdates = async (dailyUpdateId)=>{
+    try{
+        return await prisma.dailyUpdates.delete({
+            where:{
+                id:dailyUpdateId
+            }
+        })
+        
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error);
+    }
+}
+
 export const updateDailyUpdate = async (dailyUpdateId,dailyUpdateData)=>{
     try{
         return await prisma.dailyUpdates.update({

@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { createDailyUpdates, dailyUpdateCount, getDailyUpdateByUserIdAndDate, getDailyUpdatesByDate } from "../models/dailyUpdateModel.js";
+import { createDailyUpdates, dailyUpdateCount, deleteDailyUpdates, getDailyUpdateByUserIdAndDate, getDailyUpdates, getDailyUpdatesByDate } from "../models/dailyUpdateModel.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 import { findUserByUserId } from "../models/userModel.js";
@@ -147,12 +147,17 @@ export const deleteDailyUpdateTask=async(req,res)=>{
     try{
         const taskId=parseInt(req.params.id);
         const taskDetails=await getTaskById(taskId);
+        const dailyUpdateId=taskDetails.dailyUpdateId;
         if(!taskDetails)
         {
             logger.info("Task not found!!");
             return sendResponse(res,404,"Task not found!!!");
         }
         await deleteDailyUpdateTasks(taskId);
+        const dailyUpdate=await getDailyUpdates(dailyUpdateId);
+        if(dailyUpdate.tasks==[]){
+            await deleteDailyUpdates(dailyUpdateId)
+        }
         logger.info("Deleted successfully");
         sendResponse(res,204,"Deleted successfully");       
     }
