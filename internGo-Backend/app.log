@@ -34523,3 +34523,15 @@ Invalid `prisma.interactions.findMany()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-18T13:30:04.436Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+{
+  where: {
+    referencesId: "846a2794-2a1b-40bd-9dca-3a8817a3fed8",
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    type: "dailyUpdate-remainder-admin"
+  }
+}
+
+Argument `referencesId`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.

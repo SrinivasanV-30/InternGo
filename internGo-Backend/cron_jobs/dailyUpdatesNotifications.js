@@ -32,9 +32,9 @@ export const dailyUpdatesNotUpdated=async()=>{
         allActiveUsers.forEach(async(user)=>{
             const hasUserUpdatedToday=await getDailyUpdateByUserIdAndDate(user.id,now);
             if(!hasUserUpdatedToday){
-                const existingNotifications=await existingNotification(user.id,'dailyUpdate-remainder-admin');
+                const existingNotifications=await existingNotification(hasUserUpdatedToday.id,'dailyUpdate-remainder-admin');
                 if(!existingNotifications){
-                    sendToAdmins('dailyUpdate-remainder-admin',user.id,`${user.name} from ${user.batch}-${user.year} has not submitted their daily task updates.`);
+                    sendToAdmins('dailyUpdate-remainder-admin',hasUserUpdatedToday.id,`${user.name} from ${user.batch}-${user.year} has not submitted their daily task updates.`);
                 }
             }
         })
