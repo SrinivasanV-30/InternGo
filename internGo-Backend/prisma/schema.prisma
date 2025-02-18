@@ -138,8 +138,8 @@ model DailyUpdateTasks{
     taskName String
     activitiesPlanned String
     activitiesCompleted String
-    estimatedTime Int
-    actualTime Int
+    estimatedTime Float
+    actualTime Float
     taskProgress TaskProgress
     dailyUpdate DailyUpdates @relation("DailyUpdateTasks",fields:[dailyUpdateId],references:[id],onDelete:Cascade)
     createdAt DateTime @default(now())

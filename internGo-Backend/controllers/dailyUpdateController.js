@@ -155,8 +155,10 @@ export const deleteDailyUpdateTask=async(req,res)=>{
         }
         await deleteDailyUpdateTasks(taskId);
         const dailyUpdate=await getDailyUpdates(dailyUpdateId);
-        if(dailyUpdate.tasks==[]){
+        console.log("Hello",dailyUpdate)
+        if(dailyUpdate.tasks.length===0){
             await deleteDailyUpdates(dailyUpdateId)
+
         }
         logger.info("Deleted successfully");
         sendResponse(res,204,"Deleted successfully");       
