@@ -1,4 +1,5 @@
 import { getDailyUpdateByUserIdAndDate } from "../models/dailyUpdateModel.js";
+import { existingNotification } from "../models/notificationModel.js";
 import {getUsersByStatus, updateUser } from "../models/userModel.js";
 import { sendNotification, sendToAdmins } from "../services/notificationService.js";
 
@@ -14,7 +15,7 @@ export const updateDaysWorked=async()=>{
                 await updateUser(user.id,{daysWorked:user.daysWorked+1});
             }
             else{
-                sendNotification(user.id,'dailyUpdate-remainder',null,`You haven't updated your daily task yet. Please update it soon!`);
+                sendNotification(user.id,'dailyUpdate-remainder-intern',null,`You haven't updated your daily task yet. Please update it soon!`);
             }
         })
     }
@@ -31,7 +32,10 @@ export const dailyUpdatesNotUpdated=async()=>{
         allActiveUsers.forEach(async(user)=>{
             const hasUserUpdatedToday=await getDailyUpdateByUserIdAndDate(user.id,now);
             if(!hasUserUpdatedToday){
-                sendToAdmins('dailyUpdate-remainder',null,`${user.name} from batch ${user.batch}-${user.year} has not submitted their daily task updates.`);
+                const existingNotifications=await existingNotification(user.id,'dailyUpdate-remainder-admin');
+                if(!existingNotifications){
+                    sendToAdmins('dailyUpdate-remainder-admin',user.id,`${user.name} from ${user.batch}-${user.year} has not submitted their daily task updates.`);
+                }
             }
         })
     }

@@ -47,8 +47,11 @@ export const interactionFeedbackPending=async()=>{
                 await updateInteractions(interaction.id,{interactionStatus:"FEEDBACK_PENDING"})
             }
             else{
-                if(now.getTime()>interaction.updatedAt.getTime()+(1000*60*60*24) && !interaction.feedback){
-                    sendNotification(interaction.interviewerId,'feedback-pending',interaction.id,`Please provide feedback for your recent ${interaction.name} interaction with ${interaction.internName}.`);
+                const existingNotifications=await existingNotification(interaction.id,'feedback-pending')
+                if(!existingNotifications){
+                    if(now.getTime()>interaction.updatedAt.getTime()+(1000*60*60*24) && !interaction.feedback){
+                        sendNotification(interaction.interviewerId,'feedback-pending',interaction.id,`Please provide feedback for your recent ${interaction.name} interaction with ${interaction.assignedIntern}.`);
+                    }
                 }
             }
         })

@@ -34513,3 +34513,13 @@ Timed out fetching a new connection from the connection pool. More info: http://
 2025-02-18T05:30:58.030Z [:[32minfo[39m] Milestone found for user dbba8772-1dd9-4d56-9b93-6db471b965a3
 2025-02-18T05:30:58.086Z [:[32minfo[39m] Notifications fetched successfully
 2025-02-18T05:30:59.236Z [:[32minfo[39m] Milestone found for user dbba8772-1dd9-4d56-9b93-6db471b965a3
+2025-02-18T09:02:10.795Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-18T09:02:10.798Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)

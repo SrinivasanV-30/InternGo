@@ -22,7 +22,6 @@ model Users{
     currentAddress String?
     permanentAddress String?
     profilePhoto String?
-    resume String?
     batch String?
     year Int?
     designation String?
