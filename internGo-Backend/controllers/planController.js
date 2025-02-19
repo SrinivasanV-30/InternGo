@@ -321,7 +321,7 @@ export const addUsers = async (req, res) => {
                 logger.error("User not found!!!");
                 return sendResponse(res, 404, "User not found!!!");
             }
-            const updatedUser = await updateUser(userId, { planId: planId, planStartDate: new Date() });
+            const updatedUser = await updateUser(userId, { planId: planId, planStartDate: new Date(), daysWorked:0 });
             if (!updatedUser) {
                 logger.info("Update unsuccessful");
                 return sendResponse(res, 400, "Update unsuccessful");

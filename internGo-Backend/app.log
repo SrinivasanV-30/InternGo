@@ -34535,3 +34535,540 @@ Invalid `prisma.notifications.findFirst()` invocation:
 }
 
 Argument `referencesId`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+2025-02-19T06:37:05.381Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T06:37:05.382Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T06:37:05.383Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T06:37:05.383Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T06:55:10.912Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T09:18:07.586Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T09:33:09.016Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T09:54:09.582Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:43:05.559Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:43:05.562Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:43:05.562Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:43:05.563Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:44:05.605Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:44:05.605Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:44:05.606Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:44:05.606Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:45:00.674Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:45:00.674Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:45:00.675Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:45:00.675Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:51:10.475Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T10:51:10.476Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T10:51:10.476Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T10:51:10.476Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T10:52:05.539Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:52:05.539Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:52:05.540Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:52:05.540Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:53:01.602Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:53:01.602Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:53:01.603Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T10:53:01.603Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:01:46.576Z [:[31merror[39m] 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  data: {
+    zone: "GREEN ZONE"
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-02-19T11:01:46.580Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.update()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null
+  },
+  data: {
+    zone: "GREEN ZONE"
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-02-19T11:14:35.275Z [:[31merror[39m] crypto.randomInt is not a function
+2025-02-19T11:14:48.110Z [:[32minfo[39m] ::1 - - [19/Feb/2025:11:14:48 +0000] "POST /api/auth/send-otp HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-19T11:15:56.821Z [:[31merror[39m] Error creating OTP record: 
+Invalid `prisma.otpStorage.create()` invocation:
+
+{
+  data: {
+    email: "malligarjun@finestcoder.com",
+    details: {
+      name: "Malligarjun",
+      email: "malligarjun@finestcoder.com",
+      password: "Malligarjun@123"
+    },
+    otp: 893747,
+         ~~~~~~
+    expires_at: 104397825364080000
+  }
+}
+
+Argument `otp`: Invalid value provided. Expected String, provided Int.
+2025-02-19T11:15:56.822Z [:[31merror[39m] Failed to create OTP record
+2025-02-19T11:17:29.952Z [:[31merror[39m] Error creating OTP record: 
+Invalid `prisma.otpStorage.create()` invocation:
+
+{
+  data: {
+    email: "malligarjun@finestcoder.com",
+    details: {
+      name: "Malligarjun",
+      email: "malligarjun@finestcoder.com",
+      password: "Malligarjun@123"
+    },
+    otp: "216155",
+    expires_at: 104397830951160000
+                ~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Argument `expires_at`: Invalid value provided. Expected DateTime, provided Int.
+2025-02-19T11:17:29.953Z [:[31merror[39m] Failed to create OTP record
+2025-02-19T11:19:10.685Z [:[31merror[39m] Error creating OTP record: 
+Invalid `prisma.otpStorage.create()` invocation:
+
+{
+  data: {
+    email: "malligarjun@finestcoder.com",
+    details: {
+      name: "Malligarjun",
+      email: "malligarjun@finestcoder.com",
+      password: "Malligarjun@123"
+    },
+    otp: "995361",
+    expires_at: new Date("Invalid Date")
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Invalid value for argument `expires_at`: Provided Date object is invalid. Expected Date.
+2025-02-19T11:19:10.688Z [:[31merror[39m] Failed to create OTP record
+2025-02-19T11:20:51.914Z [:[32minfo[39m] OTP sent successfully!!!
+2025-02-19T11:20:51.915Z [:[32minfo[39m] ::1 - - [19/Feb/2025:11:20:51 +0000] "POST /api/auth/send-otp HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+2025-02-19T11:20:55.218Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-19T11:23:08.532Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:53:10.902Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-19T11:55:05.193Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:55:05.195Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:55:05.195Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:55:05.195Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cu7uv8dumphs73bhp9v0-a.singapore-postgres.render.com:5432`.
+2025-02-19T11:57:07.977Z [:[32minfo[39m] OTP sent successfully!!!
+2025-02-19T11:57:07.978Z [:[32minfo[39m] ::1 - - [19/Feb/2025:11:57:07 +0000] "POST /api/auth/send-otp HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+2025-02-19T11:57:11.117Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-19T11:58:29.210Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findUnique()` invocation:
+
+{
+  where: {
+    email: "srinivasan@finestcoder.com",
+?   id?: Int,
+?   AND?: otpStorageWhereInput | otpStorageWhereInput[],
+?   OR?: otpStorageWhereInput[],
+?   NOT?: otpStorageWhereInput | otpStorageWhereInput[],
+?   details?: JsonFilter,
+?   otp?: StringFilter | String,
+?   expires_at?: DateTimeFilter | DateTime,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type otpStorageWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-19T11:58:29.211Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-02-19T11:59:06.448Z [:[31merror[39m] Error deleting OTP record: 
+Invalid `prisma.otpStorage.delete()` invocation:
+
+{
+  where: {
+    email: "srinivasan@finestcoder.com",
+?   id?: Int,
+?   AND?: otpStorageWhereInput | otpStorageWhereInput[],
+?   OR?: otpStorageWhereInput[],
+?   NOT?: otpStorageWhereInput | otpStorageWhereInput[],
+?   details?: JsonFilter,
+?   otp?: StringFilter | String,
+?   expires_at?: DateTimeFilter | DateTime,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type otpStorageWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-02-19T11:59:06.451Z [:[31merror[39m] Failed to delete OTP record
+2025-02-19T11:59:33.952Z [:[32minfo[39m] Sign Up successful!!!
+2025-02-19T11:59:33.956Z [:[32minfo[39m] ::1 - - [19/Feb/2025:11:59:33 +0000] "POST /api/auth/verify-otp HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-02-19T12:02:19.749Z [:[31merror[39m] User does not exist. Please sign up.
+2025-02-19T12:02:19.758Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:02:19 +0000] "POST /api/auth/verify-otp HTTP/1.1" 404 79 "-" "PostmanRuntime/7.43.0"
+2025-02-19T12:03:06.246Z [:[32minfo[39m] OTP sent successfully!!!
+2025-02-19T12:03:06.247Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:03:06 +0000] "POST /api/auth/send-otp HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+2025-02-19T12:03:09.287Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-19T12:03:43.029Z [:[31merror[39m] 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    email: undefined,
+    password: "Nil",
+    profilePhoto: null,
++   name: String
+  }
+}
+
+Argument `name` is missing.
+2025-02-19T12:03:43.029Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    email: undefined,
+    password: "Nil",
+    profilePhoto: null,
++   name: String
+  }
+}
+
+Argument `name` is missing.
+2025-02-19T12:04:27.870Z [:[31merror[39m] 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    name: "Srinivasan",
+    email: "srinivasan@finestcoder.com",
+    password: {},
+              ~~
+    profilePhoto: null
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-02-19T12:04:27.873Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.users.create()` invocation:
+
+{
+  data: {
+    name: "Srinivasan",
+    email: "srinivasan@finestcoder.com",
+    password: {},
+              ~~
+    profilePhoto: null
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-02-19T12:04:46.309Z [:[32minfo[39m] Sign Up successful!!!
+2025-02-19T12:04:46.310Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:04:46 +0000] "POST /api/auth/verify-otp HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-02-19T12:10:43.863Z [:[32minfo[39m] OTP sent successfully!!!
+2025-02-19T12:10:43.864Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:10:43 +0000] "POST /api/auth/send-otp HTTP/1.1" 200 67 "-" "PostmanRuntime/7.43.0"
+2025-02-19T12:10:48.019Z [:[32minfo[39m] Email sent: [object Object]
+2025-02-19T12:11:21.018Z [:[32minfo[39m] Sign Up successful!!!
+2025-02-19T12:11:21.019Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:11:21 +0000] "POST /api/auth/verify-otp HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"

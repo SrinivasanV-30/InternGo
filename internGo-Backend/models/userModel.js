@@ -227,14 +227,12 @@ export const getAllInterns = async () => {
 
 export const updateUser = async (userId, data) => {
     try {
-        const updatedInternProfile = await prisma.users.update({
+        return await prisma.users.update({
             where: {
                 id: userId,
             },
             data: data,
         });
-        console.log(updatedInternProfile);
-        return updatedInternProfile;
     } catch (error) {
         logger.error(error.message);
         throw new Error(error);

@@ -60,6 +60,16 @@ enum Status{
   DEPLOYED  
 }
 
+model otpStorage{
+    id Int @id @default(autoincrement())
+    email String
+    details Json
+    otp String
+    expires_at DateTime
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
 model Roles{
     id Int @id @default(autoincrement())
     roleName String

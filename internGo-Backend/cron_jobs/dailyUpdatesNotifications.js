@@ -11,8 +11,9 @@ export const updateDaysWorked=async()=>{
         
         allActiveUsers.forEach(async(user)=>{
             const hasUserUpdatedToday=await getDailyUpdateByUserIdAndDate(user.id,now);
-            if(hasUserUpdatedToday){
+            if(hasUserUpdatedToday && user.planId){
                 await updateUser(user.id,{daysWorked:user.daysWorked+1});
+                
             }
             else{
                 const existingNotifications=await existingNotification(hasUserUpdatedToday.id,'dailyUpdate-remainder-intern');
