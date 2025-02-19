@@ -15,7 +15,10 @@ export const updateDaysWorked=async()=>{
                 await updateUser(user.id,{daysWorked:user.daysWorked+1});
             }
             else{
-                sendNotification(user.id,'dailyUpdate-remainder-intern',null,`You haven't updated your daily task yet. Please update it soon!`);
+                const existingNotifications=await existingNotification(hasUserUpdatedToday.id,'dailyUpdate-remainder-intern');
+                if(!existingNotifications){
+                    sendNotification(user.id,'dailyUpdate-remainder-intern',hasUserUpdatedToday.id,`You haven't updated your daily task yet. Please update it soon!`);
+                }
             }
         })
     }
