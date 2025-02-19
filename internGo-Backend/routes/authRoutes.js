@@ -5,7 +5,7 @@ import { authenticateUser, checkPermission } from '../middlewares/authentication
 
 const authRouter = express.Router();
 
-// authRouter.post('/signup',signUpValidation,emailValidation,signUpController);
+
 authRouter.post('/signin',signInValidation,emailValidation,signInController);
 authRouter.post('/createUser',authenticateUser,checkPermission(['users.manage']),userCreateValidation,createUserController);
 authRouter.post('/oauth',oauthController);
