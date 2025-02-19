@@ -109,10 +109,12 @@ export const verifyOTP = async(req,res)=>{
         const now=new Date();
         if (request.otp !== userDetails.otp) {
             logger.error("Invalid OTP.");
+            await deleteOtpRecord(request.email);
             return sendResponse(res,403,"Invalid OTP.");
         }
         if (new Date(userDetails.expires_at) < now) {
             logger.error("OTP has expired.");
+            await deleteOtpRecord(request.email);
             return sendResponse(res,403,"OTP has expired.");
         }
         userDetails.details.password=await bcrypt.hash(userDetails.details.password,parseInt(process.env.SALT_ROUNDS))
