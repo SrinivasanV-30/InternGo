@@ -1,4 +1,5 @@
-import { getOtpByEmail, getOtpStorage } from "../models/otpStorageModel.js";
+import { getOtpStorage } from "../models/otpStorageModel.js";
+import logger from "../utils/logger.js";
 
 export const otpStorageDeletion=async()=>{
     try{

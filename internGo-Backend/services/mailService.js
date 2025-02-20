@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 export const sendEmail=async(receiverEmail,subject,body)=>{
     try{
         const mail={
-            from:process.env.EMAIL_ADDRESS,
+            from:`Intern Go ${process.env.EMAIL_ADDRESS}`,
             to:receiverEmail,
             subject:subject,
             html:body
