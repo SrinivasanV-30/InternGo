@@ -257,7 +257,9 @@ export const getTrainingDetails = async (req, res) => {
 
         const currentDate = new Date();
         const planStartDate = new Date(userPlan.planStartDate);
-        const elapsedDays = Math.floor((currentDate - planStartDate) / (1000 * 60 * 60 * 24));
+        let data={};
+        data.zone=userPlan.zone;
+        
 
         let milestoneCount = 0;
         for (const milestone of userPlan.plan.milestones) {
@@ -266,16 +268,17 @@ export const getTrainingDetails = async (req, res) => {
                 continue;
             }
 
-            if (milestoneCount >= elapsedDays) {
+            if (milestoneCount >= daysWorked) {
+                data.milestone=milestone;
                 logger.info(`Milestone found for user ${userId}`);
-                return sendResponse(res, 200, "Training fetched successfully", milestone);
+                return sendResponse(res, 200, "Training fetched successfully", data);
             }
 
             milestoneCount += milestone.milestoneDays;
         }
 
         logger.error(`No matching milestone found for user ${userId}`);
-        return sendResponse(res, 404, "Milestone not found");
+        return sendResponse(res, 404, "Milestone not found",data);
     } catch (error) {
         logger.error(error.message);
     }
