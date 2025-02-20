@@ -102,8 +102,8 @@ export const updateInteraction=async(req,res)=>{
         }
 
         const updatedInteraction=await updateInteractions(id,interactionData);
-        sendNotification(updatedInteraction.internId,"interaction-updated-schedule",updatedInteraction.id,`Your interaction with ${updatedInteraction.assignedInterviewer} is scheduled on ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time} . Please be prepared.`);
-        sendNotification(updatedInteraction.interviewerId,"interaction-updated-schedule",updatedInteraction.id,`Interaction with ${updatedInteraction.assignedIntern} is scheduled on ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time}. Please be available.`);
+        sendNotification(updatedInteraction.internId,"interaction-updated-schedule",updatedInteraction.id,`Your ${updatedInteraction.name} interaction with ${updatedInteraction.assignedInterviewer} has been rescheduled to ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time}. Please be prepared.`);
+        sendNotification(updatedInteraction.interviewerId,"interaction-updated-schedule",updatedInteraction.id,`Your ${updatedInteraction.name} interaction with ${updatedInteraction.assignedIntern} has been updated and is now scheduled for ${(new Date(updatedInteraction.date)).toISOString().split("T")[0]} at ${updatedInteraction.time}. Please ensure your availability.`);
         logger.info("Updated interaction details");
         sendResponse(res,200,"Updated interaction details");
 
