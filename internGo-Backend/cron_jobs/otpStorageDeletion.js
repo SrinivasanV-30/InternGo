@@ -1,4 +1,4 @@
-import { getOtpStorage } from "../models/otpStorageModel.js";
+import { deleteOtpRecord, getOtpStorage } from "../models/otpStorageModel.js";
 import logger from "../utils/logger.js";
 
 export const otpStorageDeletion=async()=>{
