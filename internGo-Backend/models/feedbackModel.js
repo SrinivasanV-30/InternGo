@@ -51,6 +51,9 @@ export const getFeedbackByIntern = async (internId) => {
                     }
                 }
             },
+            orderBy:{
+                createdAt:'asc'
+            }
         });
     } catch (error) {
         logger.error(error.message);
