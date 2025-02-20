@@ -67,7 +67,11 @@ export const getTrainingPlan = async (userId) => {
             select: {
                 plan:{
                     select:{
-                        milestones:true
+                        milestones:{
+                            orderBy:{
+                                createdAt:'asc'
+                            }
+                        }
                     }
                 },
                 daysWorked:true,

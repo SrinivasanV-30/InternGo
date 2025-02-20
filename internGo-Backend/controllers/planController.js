@@ -495,6 +495,7 @@ export const getTrainingDetails = async (req, res) => {
     try {
         const userId = req.params.id;
         const userPlan = await getTrainingPlan(userId);
+        
         if (!userPlan) {
             logger.error("Training plan not found!!!");
             return sendResponse(res, 404, "Training plan not found!!!");

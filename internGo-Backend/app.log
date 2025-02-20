@@ -35072,3 +35072,23 @@ Argument `password`: Invalid value provided. Expected String, provided Object.
 2025-02-19T12:10:48.019Z [:[32minfo[39m] Email sent: [object Object]
 2025-02-19T12:11:21.018Z [:[32minfo[39m] Sign Up successful!!!
 2025-02-19T12:11:21.019Z [:[32minfo[39m] ::1 - - [19/Feb/2025:12:11:21 +0000] "POST /api/auth/verify-otp HTTP/1.1" 201 64 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:50:31.742Z [:[31merror[39m] jwt expired
+2025-02-20T04:50:31.747Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:50:31 +0000] "GET /api/users/training/f2f48358-64c5-4020-b8d9-aeddfeba6405 HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:50:58.651Z [:[32minfo[39m] Login successful!!!
+2025-02-20T04:50:58.652Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:50:58 +0000] "POST /api/auth/signin HTTP/1.1" 200 589 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:51:47.980Z [:[31merror[39m] planStartDate not set for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:51:47.982Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:51:47 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 400 77 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:52:26.031Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:52:26.033Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:52:26 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 225 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:52:57.307Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:52:57.309Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:52:57 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 226 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:53:24.717Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:53:24.728Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:53:24 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 220 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:53:52.430Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:53:52.439Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:53:52 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 232 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:54:00.469Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:54:00.471Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:54:00 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 225 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:54:09.484Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:54:09.487Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:54:09 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 220 "-" "PostmanRuntime/7.43.0"
+2025-02-20T04:54:22.493Z [:[32minfo[39m] Milestone found for user 600f680e-4654-4851-862f-ab7db5cc4be3
+2025-02-20T04:54:22.495Z [:[32minfo[39m] ::1 - - [20/Feb/2025:04:54:22 +0000] "GET /api/users/training/600f680e-4654-4851-862f-ab7db5cc4be3 HTTP/1.1" 200 221 "-" "PostmanRuntime/7.43.0"
