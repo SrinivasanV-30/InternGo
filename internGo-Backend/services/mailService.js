@@ -20,7 +20,7 @@ export const sendEmail=async(receiverEmail,subject,body)=>{
         });
         emailWorker.on("exit",(code) => {
             if (code !== 0) {
-              reject(new Error(`Worker stopped with exit code ${code}`));
+              console.log(`Worker stopped with exit code ${code}`);
             }
         });
         
