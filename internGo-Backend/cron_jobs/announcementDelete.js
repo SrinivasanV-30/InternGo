@@ -1,6 +1,5 @@
-import { deleteNotification } from "../controllers/notificationController";
 import { localTimezone } from "../helpers/dateTimeHelper.js";
-import { deleteSingleNotification, getAnnouncements } from "../models/notificationModel"
+import { deleteSingleNotification, getAnnouncements } from "../models/notificationModel.js"
 import logger from "../utils/logger.js"
 
 

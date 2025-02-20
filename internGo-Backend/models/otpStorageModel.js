@@ -25,6 +25,14 @@ export const getOtpByEmail = async (email) => {
     }
 };
 
+export const getOtpStorage = async (email) => {
+    try {
+        return await prisma.otpStorage.findMany();
+    } catch (error) {
+        logger.error(`Error fetching OTP record by email: ${error.message}`);
+        throw new Error("Failed to fetch OTP record by email");
+    }
+};
 
 export const deleteOtpRecord = async (email) => {
     try {
