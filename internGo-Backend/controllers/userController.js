@@ -268,7 +268,7 @@ export const getTrainingDetails = async (req, res) => {
                 continue;
             }
 
-            if (milestoneCount >= daysWorked) {
+            if (milestoneCount >= userPlan.daysWorked) {
                 data.milestone=milestone;
                 logger.info(`Milestone found for user ${userId}`);
                 return sendResponse(res, 200, "Training fetched successfully", data);
