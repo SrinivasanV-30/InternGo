@@ -35267,3 +35267,4 @@ Invalid `prisma.interactions.findMany()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-20T11:49:01.191Z [:[31merror[39m] OTP has expired.
