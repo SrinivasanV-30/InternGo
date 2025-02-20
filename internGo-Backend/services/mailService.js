@@ -1,6 +1,11 @@
 import logger from "../utils/logger.js";
 import {Worker} from 'worker_threads';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 export const sendEmail=async(receiverEmail,subject,body)=>{
     try{
