@@ -6,7 +6,7 @@ import { getUserByRole } from "../models/userModel.js";
 export const sendNotification = async (userId = null, type, referenceId = null, message) => {
     try {
         // console.log(lookUps[userId])
-        const createdNotification = await createNotification(userId, type, referenceId, message);
+        const createdNotification = await createNotification(userId, type, String(referenceId), message);
         const sockets = lookUps.get(userId);
         // console.log(sockets);
         if (sockets) {

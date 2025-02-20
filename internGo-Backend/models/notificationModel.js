@@ -88,7 +88,7 @@ export const existingNotification=async(id,type)=>{
     try{
         return await prisma.notifications.findFirst({
             where:{
-                referencesId:id,
+                referencesId:String(id),
                 type:type
             },
         });
