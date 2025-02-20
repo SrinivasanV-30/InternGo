@@ -193,7 +193,7 @@ model Notifications{
     id Int @id @default(autoincrement())
     userId String?
     type String
-    referencesId Int?
+    referencesId String?
     message String
     isRead Boolean @default(false)
     notificationSent Boolean @default(false)
@@ -218,32 +218,32 @@ model Feedbacks {
     interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
 }
 
-    model HelpDesk{
-        id Int @id @default(autoincrement())
-        subject String
-        description String
-        senderName String
-        userId String
-        resolvedStatus ResolvedStatus
-        priority Priority
-        recepient Recepient
-        recepientId String?
-        createdAt DateTime @default(now())
-        updatedAt DateTime @updatedAt
+model HelpDesk{
+    id Int @id @default(autoincrement())
+    subject String
+    description String
+    senderName String
+    userId String
+    resolvedStatus ResolvedStatus
+    priority Priority
+    recepient Recepient
+    recepientId String?
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 
-    }
+}
 
-    enum Priority{
-        HIGH
-        MEDIUM
-        LOW
-    }
+enum Priority{
+    HIGH
+    MEDIUM
+    LOW
+}
 
-    enum ResolvedStatus{
-        PENDING
-        RESOLVED
-    }
-    enum Recepient{
-        Mentors
-        Admins
-    }
+enum ResolvedStatus{
+    PENDING
+    RESOLVED
+}
+enum Recepient{
+    Mentors
+    Admins
+}

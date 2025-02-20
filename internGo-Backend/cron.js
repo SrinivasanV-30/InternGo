@@ -8,11 +8,11 @@ export const startCronJobs = () => {
         console.log("Checking for upcoming interactions...");
         sendRemindersForInteraction();
         interactionFeedbackPending();
+        updateDaysWorked();
     });
 
     cron.schedule("0 18 * * 1-5", () => { 
         console.log("Days worked updation initialised...");
-        updateDaysWorked();
     });
     
     cron.schedule("0 10 * * 1-5", () => { 

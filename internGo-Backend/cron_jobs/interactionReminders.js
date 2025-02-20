@@ -74,15 +74,18 @@ export const sendSchedulingRemindersToAdmins=async()=>{
 
             plan?.milestones?.forEach((milestone) => {
                 milestone?.objectives?.forEach(async (objective) => {
-                   
-                    const dueDate1 = new Date(planStartDate);
-                    dueDate1.setDate(dueDate1.getDate() + Math.floor(objective.objectiveDays/2));
+                    let dueDate1;
+                    if(objective.noOfInteractions>1)
+                    {
+                        dueDate1 = new Date(planStartDate);
+                        dueDate1.setDate(dueDate1.getDate() + Math.floor(objective.objectiveDays/2));
+                    }
                     const dueDate2 = new Date(planStartDate);
                     dueDate2.setDate(dueDate2.getDate() + Math.floor(objective.objectiveDays));
                     // console.log(dueDate1,dueDate2)
                     
                     if ((dueDate1.toDateString() === today.toDateString())||(dueDate2.toDateString() === today.toDateString())) {
-                        const dueDate=dueDate1.toDateString() === today.toDateString()?1:2;
+                        const dueDate=dueDate2.toDateString() === today.toDateString()?2:1;
                         const existingNoti=await existingNotification(objective.id,`interaction-due ${dueDate}`)
                         if(!existingNoti){
                             sendToAdmins(`interaction-due ${dueDate}`,objective.id,` Interaction to be scheduled for "${objective.name}" (User: "${user.name}") under "${plan.name}".`)

@@ -490,34 +490,3 @@ export const getPlanUsers = async (req, res) => {
         sendResponse(res, 500, "Internal server error");
     }
 };
-
-export const getTrainingDetails = async (req, res) => {
-    try {
-        const userId = req.params.id;
-        const userPlan = await getTrainingPlan(userId);
-        
-        if (!userPlan) {
-            logger.error("Training plan not found!!!");
-            return sendResponse(res, 404, "Training plan not found!!!");
-        }
-        if (!userPlan.milestones) {
-            logger.error("Milestones not found!!!");
-            return sendResponse(res, 404, "Milestones not found!!!");
-        }
-        userPlan.milestones.forEach((milestone) => {
-            if (milestone.milestoneDays >= userPlan.daysWorked) {
-                logger.info("Training plan fetched!!");
-                return sendResponse(
-                    res,
-                    200,
-                    "Training fetched successfully",
-                    milestone
-                );
-            }
-        });
-    } catch (error) {
-        logger.error(error.message);
-    }
-}
-
-
