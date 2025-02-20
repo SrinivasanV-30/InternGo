@@ -1,6 +1,6 @@
 
 import logger from "../utils/logger.js";
-import Worker from 'worker_threads';
+import {Worker} from 'worker_threads';
 
 export const sendEmail=async(receiverEmail,subject,body)=>{
     try{
