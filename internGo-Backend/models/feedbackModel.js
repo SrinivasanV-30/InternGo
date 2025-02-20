@@ -7,7 +7,7 @@ export const calculateAvgRating = (ratings) => {
     const scores = Object.values(ratings);
     console.log(scores)
     if (scores.length === 0) return 0;
-    return Math.floor(scores.reduce((sum, score) => sum + score, 0) / scores.length);
+    return scores.reduce((sum, score) => sum + score, 0) / scores.length;
 };
 
 

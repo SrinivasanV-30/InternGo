@@ -1,5 +1,6 @@
-import transporter from "../config/nodemailerConfig.js";
+
 import logger from "../utils/logger.js";
+import Worker from 'worker_threads';
 
 export const sendEmail=async(receiverEmail,subject,body)=>{
     try{
@@ -9,15 +10,20 @@ export const sendEmail=async(receiverEmail,subject,body)=>{
             subject:subject,
             html:body
         }
+        const emailWorker=new Worker('../workers/emailWorker.js',{workerData:mail})
 
-        transporter.sendMail(mail,(error,info)=>{
-            if(error){
-                logger.error(error);
+        emailWorker.on("message",(result)=>{
+            console.log(result)
+        });
+        emailWorker.on("error",(error)=>{
+            console.log(error)
+        });
+        emailWorker.on("exit",(code) => {
+            if (code !== 0) {
+              reject(new Error(`Worker stopped with exit code ${code}`));
             }
-            else{
-                logger.info('Email sent: '+info)
-            }
-        })
+        });
+        
     }
     catch(error){
         logger.error(error.message)
