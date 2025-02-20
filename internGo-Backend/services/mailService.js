@@ -1,6 +1,6 @@
-
 import logger from "../utils/logger.js";
 import {Worker} from 'worker_threads';
+import path from 'path';
 
 export const sendEmail=async(receiverEmail,subject,body)=>{
     try{
@@ -10,7 +10,8 @@ export const sendEmail=async(receiverEmail,subject,body)=>{
             subject:subject,
             html:body
         }
-        const emailWorker=new Worker('../workers/emailWorker.js',{workerData:mail})
+        const workerPath = path.resolve(__dirname, '../workers/emailWorker.js');
+        const emailWorker=new Worker(workerPath,{workerData:mail})
 
         emailWorker.on("message",(result)=>{
             console.log(result)
