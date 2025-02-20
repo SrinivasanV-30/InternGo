@@ -495,7 +495,7 @@ export const getTrainingDetails = async (req, res) => {
     try {
         const userId = req.params.id;
         const userPlan = await getTrainingPlan(userId);
-        
+
         if (!userPlan) {
             logger.error("Training plan not found!!!");
             return sendResponse(res, 404, "Training plan not found!!!");
@@ -504,14 +504,17 @@ export const getTrainingDetails = async (req, res) => {
             logger.error("Milestones not found!!!");
             return sendResponse(res, 404, "Milestones not found!!!");
         }
+        let data={};
+        data.zone=userPlan.zone;
         userPlan.milestones.forEach((milestone) => {
             if (milestone.milestoneDays >= userPlan.daysWorked) {
                 logger.info("Training plan fetched!!");
+                data.milestone=milestone;
                 return sendResponse(
                     res,
                     200,
                     "Training fetched successfully",
-                    milestone
+                    data
                 );
             }
         });
