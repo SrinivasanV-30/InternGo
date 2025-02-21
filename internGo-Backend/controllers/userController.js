@@ -240,22 +240,23 @@ export const getTrainingDetails = async (req, res) => {
         const userPlan = await getTrainingPlan(userId);
         let data={};
         data.zone=userPlan.zone;
-
+        
         if (!userPlan) {
             logger.error(`Training plan not found for user ${userId}`);
             return sendResponse(res, 200, "Training plan not found",data);
         }
-
-        if (!userPlan.planStartDate) {
+        
+        if (!userPlan?.planStartDate) {
             logger.error(`planStartDate not set for user ${userId}`);
             return sendResponse(res, 200, "Training plan start date not found",data);
         }
-
-        if (!userPlan.plan.milestones || userPlan.plan.milestones.length === 0) {
+        
+        if (!userPlan?.plan?.milestones || userPlan?.plan?.milestones?.length === 0) {
             logger.error(`No milestones found for user ${userId}`);
             return sendResponse(res, 200, "Milestones not found",data);
         }
-
+        
+        console.log("Hrlok")
         const currentDate = new Date();
         const planStartDate = new Date(userPlan.planStartDate);
         
@@ -263,7 +264,7 @@ export const getTrainingDetails = async (req, res) => {
         let milestoneCount = 0;
         for (const milestone of userPlan.plan.milestones) {
             if (!milestone.milestoneDays || isNaN(milestone.milestoneDays)) {
-                logger.warn(`Skipping invalid milestone for user ${userId}`);
+                logger.error(`Skipping invalid milestone for user ${userId}`);
                 continue;
             }
 
