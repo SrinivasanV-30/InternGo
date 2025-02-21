@@ -255,8 +255,7 @@ export const getTrainingDetails = async (req, res) => {
             logger.error(`No milestones found for user ${userId}`);
             return sendResponse(res, 200, "Milestones not found",data);
         }
-        
-        console.log("Hrlok")
+    
         const currentDate = new Date();
         const planStartDate = new Date(userPlan.planStartDate);
         

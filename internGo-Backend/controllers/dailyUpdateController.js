@@ -126,14 +126,17 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
     
         const tasksPromises= dailyUpdateTasks.tasks.map(async (task) => {
             if (task.taskId) {
-                console.log(task)
+                
                 return await updateDailyUpdateTask(task.taskId,task.taskData);
             } else {
                 console.log(task)
                 task.taskData.dailyUpdateId=dailyUpdateId;
                 return await createDailyUpdateTask(task.taskData);
             }
+            
         });
+        
+
         const tasks=await Promise.all(tasksPromises);
         logger.info("Upserted successfully");
         sendResponse(res,200,"Upserted successfully",tasks);
