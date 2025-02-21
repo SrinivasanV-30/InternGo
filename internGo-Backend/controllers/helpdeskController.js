@@ -54,7 +54,7 @@ export const getHelpDeskDetails = async (req, res) => {
         const helpDesk = await getHelpDeskByClause(whereClause);
         helpDesk.forEach(async(request)=>{
             const userDetails=await findUserByUserId(request.recepientId);
-            request[recepientName]=userDetails.name;
+            request.recepientId=userDetails.name;
         })
         if (!helpDesk) {
             return sendResponse(res, 404, "HelpDesk ticket not found");
