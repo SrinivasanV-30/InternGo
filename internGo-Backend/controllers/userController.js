@@ -246,7 +246,7 @@ export const getTrainingDetails = async (req, res) => {
 
         if (!userPlan.planStartDate) {
             logger.error(`planStartDate not set for user ${userId}`);
-            return sendResponse(res, 400, "Training plan start date not found");
+            return sendResponse(res, 200, "Training plan start date not found",[]);
         }
 
         if (!userPlan.plan.milestones || userPlan.plan.milestones.length === 0) {
@@ -277,7 +277,7 @@ export const getTrainingDetails = async (req, res) => {
         }
 
         logger.error(`No matching milestone found for user ${userId}`);
-        return sendResponse(res, 404, "Milestone not found",data);
+        return sendResponse(res, 200, "Milestone not found",data);
     } catch (error) {
         logger.error(error.message);
     }
