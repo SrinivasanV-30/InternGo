@@ -36499,3 +36499,75 @@ Invalid `prisma.interactions.findMany()` invocation:
 
 
 Server has closed the connection.
+2025-02-21T07:04:00.133Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:04:00.136Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-02-21T07:04:00.138Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:04:00.138Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:04:00.139Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:04:00.140Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.193Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.193Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.194Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.195Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.197Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-21T07:05:00.197Z [:[31merror[39m] Failed to fetch OTP record by email
