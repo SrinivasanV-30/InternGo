@@ -220,7 +220,6 @@ export const getInterns = async (req, res) => {
         interns.forEach((intern) => {
             if (intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/"))) {
                 intern.profilePhoto = process.env.AWS_BUCKET_DOMAIN + intern.profilePhoto;
-                
             }
         })
         const total_items = await internsCount(whereCondition);

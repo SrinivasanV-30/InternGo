@@ -155,7 +155,6 @@ export const deleteDailyUpdateTask=async(req,res)=>{
         }
         await deleteDailyUpdateTasks(taskId);
         const dailyUpdate=await getDailyUpdates(dailyUpdateId);
-        console.log("Hello",dailyUpdate)
         if(dailyUpdate.tasks.length===0){
             await deleteDailyUpdates(dailyUpdateId)
 
