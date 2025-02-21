@@ -1,4 +1,4 @@
-import {createHelpDesk,updateHelpDesk,deleteHelpDesk, getHelpDeskByClause} from "../models/helpDeskModel.js";
+import { createHelpDesk, updateHelpDesk, deleteHelpDesk, getHelpDeskByClause } from "../models/helpDeskModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { findUserByName, findUserByUserId } from "../models/userModel.js";
@@ -7,23 +7,23 @@ import { sendNotification, sendToAdmins } from "../services/notificationService.
 export const addHelpDesk = async (req, res) => {
     try {
         const helpDeskData = req.body;
-        const userDetails=await findUserByUserId(helpDeskData.userId);
-        if(helpDeskData.recepient=="Mentors"){
-            const mentorDetails=await findUserByName(helpDeskData.recepientId);
-            if(!mentorDetails){
+        const userDetails = await findUserByUserId(helpDeskData.userId);
+        if (helpDeskData.recepient == "Mentors") {
+            const mentorDetails = await findUserByName(helpDeskData.recepientId);
+            if (!mentorDetails) {
                 logger.error("Mentor not found!!!");
-                return sendResponse(res,404,"Mentor not found!!!");
+                return sendResponse(res, 404, "Mentor not found!!!");
             }
-            helpDeskData.recepientId=mentorDetails.id;
+            helpDeskData.recepientId = mentorDetails.id;
         }
-        helpDeskData.senderName=userDetails.name;
+        helpDeskData.senderName = userDetails.name;
         const createdHelpDesk = await createHelpDesk(helpDeskData);
-        if(helpDeskData.recepient=="Admins"){
-            sendToAdmins('helpdesk-ticket',createdHelpDesk.id,`A new HelpDesk request has been submitted by ${userDetails.name}. Subject: ${helpDeskData.subject}.`);
+        if (helpDeskData.recepient == "Admins") {
+            sendToAdmins('helpdesk-ticket', createdHelpDesk.id, `A new HelpDesk request has been submitted by ${userDetails.name}. Subject: ${helpDeskData.subject}.`);
             logger.info("HelpDesk ticket created successfully");
             return sendResponse(res, 201, "HelpDesk ticket created successfully", createdHelpDesk);
         }
-        sendNotification(helpDeskData.recepientId,'helpdesk-ticket',createdHelpDesk.id,`A new HelpDesk request has been submitted by ${userDetails.name}. Subject: ${helpDeskData.subject}.`);
+        sendNotification(helpDeskData.recepientId, 'helpdesk-ticket', createdHelpDesk.id, `A new HelpDesk request has been submitted by ${userDetails.name}. Subject: ${helpDeskData.subject}.`);
         logger.info("HelpDesk ticket created successfully");
         sendResponse(res, 201, "HelpDesk ticket created successfully", createdHelpDesk);
     } catch (error) {
@@ -35,24 +35,30 @@ export const addHelpDesk = async (req, res) => {
 export const getHelpDeskDetails = async (req, res) => {
     try {
         const id = req.params.id;
-        const userDetails=await findUserByUserId(id);
-        let whereClause={};
-        if(!userDetails){
+        const userDetails = await findUserByUserId(id);
+        let whereClause = {};
+        if (!userDetails) {
             logger.error("User not found!!!");
             return sendResponse(res, 404, "User not found!!!");
         }
         console.log(userDetails)
-        if(userDetails.role.roleName=='Admins'){
-            whereClause.recepient='Admins'
+        if (userDetails.role.roleName == 'Admins') {
+            whereClause.recepient = 'Admins'
         }
-        else if(userDetails.role.roleName=='Mentors'){
-            whereClause.recepientId=id
+        else if (userDetails.role.roleName == 'Mentors') {
+            whereClause.recepientId = id
         }
-        else{
-            whereClause.userId=id
+        else {
+            whereClause.userId = id
         }
         const helpDesk = await getHelpDeskByClause(whereClause);
-        
+        helpDesk.forEach(async (request) => {
+            if(request.recepientId)
+            {
+                const userDetails = await findUserByUserId(request.recepientId);
+                request.recepientId = userDetails.name;
+            }
+        })
         if (!helpDesk) {
             return sendResponse(res, 404, "HelpDesk ticket not found");
         }

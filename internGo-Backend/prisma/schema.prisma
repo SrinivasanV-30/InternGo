@@ -137,6 +137,7 @@ model DailyUpdates{
     date DateTime @default(now())
     userId String
     user Users @relation("UserDailyUpdates",fields:[userId],references:[id],onDelete:Cascade)
+    totalActualTime Float?
     tasks DailyUpdateTasks[] @relation("DailyUpdateTasks")
     updatedAt DateTime @updatedAt
 }

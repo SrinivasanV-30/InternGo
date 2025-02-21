@@ -261,6 +261,8 @@ export const getInternBasedOnFilters = async (whereCondition, offset, limit) => 
                 designation: true,
                 status: true,
                 employeeId: true,
+                zone:true,
+                plan:true
             },
         });
         return internsBasedOnFilters;

@@ -220,7 +220,6 @@ export const getInterns = async (req, res) => {
         interns.forEach((intern) => {
             if (intern.profilePhoto && !(intern.profilePhoto.includes("https://lh3.googleusercontent.com/"))) {
                 intern.profilePhoto = process.env.AWS_BUCKET_DOMAIN + intern.profilePhoto;
-                
             }
         })
         const total_items = await internsCount(whereCondition);
@@ -239,32 +238,32 @@ export const getTrainingDetails = async (req, res) => {
     try {
         const userId=req.params.id; 
         const userPlan = await getTrainingPlan(userId);
-
-        if (!userPlan) {
-            logger.error(`Training plan not found for user ${userId}`);
-            return sendResponse(res, 404, "Training plan not found");
-        }
-
-        if (!userPlan.planStartDate) {
-            logger.error(`planStartDate not set for user ${userId}`);
-            return sendResponse(res, 400, "Training plan start date not found");
-        }
-
-        if (!userPlan.plan.milestones || userPlan.plan.milestones.length === 0) {
-            logger.error(`No milestones found for user ${userId}`);
-            return sendResponse(res, 404, "Milestones not found");
-        }
-
-        const currentDate = new Date();
-        const planStartDate = new Date(userPlan.planStartDate);
         let data={};
         data.zone=userPlan.zone;
+        
+        if (!userPlan) {
+            logger.error(`Training plan not found for user ${userId}`);
+            return sendResponse(res, 200, "Training plan not found",data);
+        }
+        
+        if (!userPlan?.planStartDate) {
+            logger.error(`planStartDate not set for user ${userId}`);
+            return sendResponse(res, 200, "Training plan start date not found",data);
+        }
+        
+        if (!userPlan?.plan?.milestones || userPlan?.plan?.milestones?.length === 0) {
+            logger.error(`No milestones found for user ${userId}`);
+            return sendResponse(res, 200, "Milestones not found",data);
+        }
+    
+        const currentDate = new Date();
+        const planStartDate = new Date(userPlan.planStartDate);
         
 
         let milestoneCount = 0;
         for (const milestone of userPlan.plan.milestones) {
             if (!milestone.milestoneDays || isNaN(milestone.milestoneDays)) {
-                logger.warn(`Skipping invalid milestone for user ${userId}`);
+                logger.error(`Skipping invalid milestone for user ${userId}`);
                 continue;
             }
 
@@ -278,7 +277,7 @@ export const getTrainingDetails = async (req, res) => {
         }
 
         logger.error(`No matching milestone found for user ${userId}`);
-        return sendResponse(res, 404, "Milestone not found",data);
+        return sendResponse(res, 200, "Milestone not found",data);
     } catch (error) {
         logger.error(error.message);
     }
