@@ -169,7 +169,7 @@ export const updateUserAsset = async (req, res) => {
 
 export const getInterns = async (req, res) => {
     try {
-        const { name, year, status, batch, designation } = req.body || {};
+        const { name, year, status, batch, designation, zone } = req.body || {};
         const limit = parseInt(req.query.limit) || 10;
         const offset = parseInt(req.query.offset) || 0;
         const whereCondition = {
@@ -199,6 +199,9 @@ export const getInterns = async (req, res) => {
                 mode: 'insensitive'
             };
         }
+        if (zone && zone.length > 0) {
+            whereCondition.zone = { in: zone }
+        }
         if (year && year.length > 0) {
             whereCondition.year = { in: year };
         }
@@ -211,7 +214,7 @@ export const getInterns = async (req, res) => {
         if (designation && designation.length > 0) {
             whereCondition.designation = { in: designation };
         }
-        console.log(whereCondition)
+        // console.log(whereCondition)
         const interns = await getInternBasedOnFilters(
             whereCondition,
             offset,
@@ -236,29 +239,29 @@ export const getInterns = async (req, res) => {
 
 export const getTrainingDetails = async (req, res) => {
     try {
-        const userId=req.params.id; 
+        const userId = req.params.id;
         const userPlan = await getTrainingPlan(userId);
-        let data={};
-        data.zone=userPlan.zone;
-        
+        let data = {};
+        data.zone = userPlan.zone;
+
         if (!userPlan) {
             logger.error(`Training plan not found for user ${userId}`);
-            return sendResponse(res, 200, "Training plan not found",data);
+            return sendResponse(res, 200, "Training plan not found", data);
         }
-        
+
         if (!userPlan?.planStartDate) {
             logger.error(`planStartDate not set for user ${userId}`);
-            return sendResponse(res, 200, "Training plan start date not found",data);
+            return sendResponse(res, 200, "Training plan start date not found", data);
         }
-        
+
         if (!userPlan?.plan?.milestones || userPlan?.plan?.milestones?.length === 0) {
             logger.error(`No milestones found for user ${userId}`);
-            return sendResponse(res, 200, "Milestones not found",data);
+            return sendResponse(res, 200, "Milestones not found", data);
         }
-    
+
         const currentDate = new Date();
         const planStartDate = new Date(userPlan.planStartDate);
-        
+
 
         let milestoneCount = 0;
         for (const milestone of userPlan.plan.milestones) {
@@ -268,7 +271,7 @@ export const getTrainingDetails = async (req, res) => {
             }
 
             if (milestoneCount >= userPlan.daysWorked) {
-                data.milestone=milestone;
+                data.milestone = milestone;
                 logger.info(`Milestone found for user ${userId}`);
                 return sendResponse(res, 200, "Training fetched successfully", data);
             }
@@ -277,7 +280,7 @@ export const getTrainingDetails = async (req, res) => {
         }
 
         logger.error(`No matching milestone found for user ${userId}`);
-        return sendResponse(res, 200, "Milestone not found",data);
+        return sendResponse(res, 200, "Milestone not found", data);
     } catch (error) {
         logger.error(error.message);
     }
@@ -310,14 +313,14 @@ export const getUsersByRole = async (req, res) => {
 
 export const getCountByStatus = async (req, res) => {
     try {
-        let statusCount={};
-        statusCount.activeStatus=await countByStatus(["ACTIVE"]);
-        statusCount.notActiveStatus=await countByStatus(["LEAVE","EXAMINATION"]);
-        statusCount.totalCount=await countByStatus(["ACTIVE","LEAVE","EXAMINATION","DEPLOYED","SHADOWING"]);
-        statusCount.deployedCount=await countByStatus(["DEPLOYED","SHADOWING"]);
+        let statusCount = {};
+        statusCount.activeStatus = await countByStatus(["ACTIVE"]);
+        statusCount.notActiveStatus = await countByStatus(["LEAVE", "EXAMINATION"]);
+        statusCount.totalCount = await countByStatus(["ACTIVE", "LEAVE", "EXAMINATION", "DEPLOYED", "SHADOWING"]);
+        statusCount.deployedCount = await countByStatus(["DEPLOYED", "SHADOWING"]);
         console.log(statusCount)
         logger.info("Fetched successfully")
-        sendResponse(res, 200, "Fetched successfully",statusCount);
+        sendResponse(res, 200, "Fetched successfully", statusCount);
     }
     catch (error) {
         logger.error(error.message);
@@ -326,23 +329,23 @@ export const getCountByStatus = async (req, res) => {
 
 export const getInteractionCount = async (req, res) => {
     try {
-        const userId=req.params.id;
-        let interactionCount={}
-        interactionCount.interactionTaken=await getInteractionByQuery({
-            interviewerId:userId,
-            interactionStatus:"COMPLETED"
+        const userId = req.params.id;
+        let interactionCount = {}
+        interactionCount.interactionTaken = await getInteractionByQuery({
+            interviewerId: userId,
+            interactionStatus: "COMPLETED"
         });
-        interactionCount.interactionPending=await getInteractionByQuery({
-            interviewerId:userId,
-            interactionStatus:"PENDING"
+        interactionCount.interactionPending = await getInteractionByQuery({
+            interviewerId: userId,
+            interactionStatus: "PENDING"
         })
-        interactionCount.interactionFeedbackPending=await getInteractionByQuery({
-            interviewerId:userId,
-            interactionStatus:"FEEDBACK_PENDING"
+        interactionCount.interactionFeedbackPending = await getInteractionByQuery({
+            interviewerId: userId,
+            interactionStatus: "FEEDBACK_PENDING"
         })
-        
+
         logger.info("Fetched successfully")
-        sendResponse(res, 200, "Fetched successfully",interactionCount);
+        sendResponse(res, 200, "Fetched successfully", interactionCount);
     }
     catch (error) {
         logger.error(error.message);
