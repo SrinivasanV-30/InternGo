@@ -41,7 +41,7 @@ export const getHelpDeskDetails = async (req, res) => {
             logger.error("User not found!!!");
             return sendResponse(res, 404, "User not found!!!");
         }
-        console.log(userDetails)
+        // console.log(userDetails)
         if (userDetails.role.roleName == 'Admins') {
             whereClause.recepient = 'Admins'
         }
@@ -52,18 +52,23 @@ export const getHelpDeskDetails = async (req, res) => {
             whereClause.userId = id
         }
         const helpDesk = await getHelpDeskByClause(whereClause);
-        helpDesk.forEach(async (request) => {
-            if(request.recepientId)
-            {
+        let helpdeskmap = helpDesk.map(async (request) => {
+            if (request.recepientId) {
                 const userDetails = await findUserByUserId(request.recepientId);
-                request.recepientId = userDetails.name;
+                return {
+                    ...request,
+                    recepientId: userDetails.name
+                }
             }
+            return request
         })
         if (!helpDesk) {
             return sendResponse(res, 404, "HelpDesk ticket not found");
         }
+        helpdeskmap = await Promise.all(helpdeskmap);
+
         logger.info("Fetched HelpDesk details successfully");
-        sendResponse(res, 200, "Fetched HelpDesk details successfully", helpDesk);
+        sendResponse(res, 200, "Fetched HelpDesk details successfully", helpdeskmap);
     } catch (error) {
         logger.error(error.message);
         sendResponse(res, 500, "Internal Server Error");

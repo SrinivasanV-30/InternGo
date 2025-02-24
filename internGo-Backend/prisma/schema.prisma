@@ -17,7 +17,8 @@ model Users{
     email String @unique
     gender String?
     employeeId String?
-    skills String[]
+    primary_skill String?
+    secondary_skills String[]
     personalEmail String? @unique
     currentAddress String?
     permanentAddress String?

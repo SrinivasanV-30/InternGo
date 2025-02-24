@@ -36928,3 +36928,172 @@ Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.
 2025-02-21T11:49:55.881Z [:[32minfo[39m] Announcements fetched successfully
 2025-02-21T11:49:55.882Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [21/Feb/2025:11:49:55 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-02-21T11:49:56.265Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [21/Feb/2025:11:49:56 +0000] "POST /api/users/?limit=20&offset=0 HTTP/1.1" 200 1877 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-02-22T14:17:56.637Z [:[31merror[39m] User signed in with google. Please continue with google.
+2025-02-22T14:17:56.647Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:17:56 +0000] "POST /api/auth/signin HTTP/1.1" 409 99 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:44:52.298Z [:[31merror[39m] User signed in with google. Please continue with google.
+2025-02-22T14:44:52.300Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:44:52 +0000] "POST /api/auth/signin HTTP/1.1" 409 99 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:50:31.222Z [:[32minfo[39m] Login successful!!!
+2025-02-22T14:50:31.223Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:50:31 +0000] "POST /api/auth/signin HTTP/1.1" 200 597 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:51:10.482Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:51:10.485Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:51:10 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:53:05.343Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:53:05.344Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:53:05.345Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:53:05.345Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:53:05.346Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:53:05.346Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-02-22T14:55:04.903Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:04.905Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.684Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.685Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.685Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.686Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.687Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:55:05.688Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-02-22T14:55:07.422Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:55:07 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:55:12.958Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:55:12.967Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:55:12 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:57:39.223Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:57:39.236Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:57:39 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:58:37.637Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:58:37.640Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T14:58:39.514Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:58:39 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:58:42.709Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:58:42.719Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:58:42 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:59:05.040Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:59:05.053Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:59:05 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T14:59:43.330Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T14:59:43.345Z [:[32minfo[39m] ::1 - - [22/Feb/2025:14:59:43 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T15:00:40.071Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T15:00:40.084Z [:[32minfo[39m] ::1 - - [22/Feb/2025:15:00:40 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 438 "-" "PostmanRuntime/7.43.0"
+2025-02-22T15:04:55.913Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T15:04:55.925Z [:[32minfo[39m] ::1 - - [22/Feb/2025:15:04:55 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 90 "-" "PostmanRuntime/7.43.0"
+2025-02-22T15:05:19.618Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T15:05:19.629Z [:[32minfo[39m] ::1 - - [22/Feb/2025:15:05:19 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 82 "-" "PostmanRuntime/7.43.0"
+2025-02-22T15:10:52.286Z [:[32minfo[39m] Fetched HelpDesk details successfully
+2025-02-22T15:10:52.297Z [:[32minfo[39m] ::1 - - [22/Feb/2025:15:10:52 +0000] "GET /api/helpdesk/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 412 "-" "PostmanRuntime/7.43.0"
+2025-02-22T15:26:05.790Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T15:26:05.793Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-02-22T15:26:05.796Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T15:26:05.797Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T15:26:05.798Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-22T15:26:05.798Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-24T06:13:10.785Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
