@@ -161,6 +161,7 @@ export const getInteractionsByUser = async (req, res) => {
         const interactionData = req.body;
         const limit = parseInt(req.query.limit) || 10;
         const offset = parseInt(req.query.offset) || 0;
+        let flag=0;
         const userDetails = await findUserByUserId(userId);
 
         if (!userDetails) {
@@ -174,12 +175,16 @@ export const getInteractionsByUser = async (req, res) => {
 
         if (userDetails.role.roleName === "Interns") {
             whereCondition.assignedIntern = userDetails.name;
+            flag=1;
         }
 
         if (interactionData.name && !interactionData.name.trim() == "") {
-            whereCondition.assignedIntern = {
-                contains: interactionData.name,
-                mode: 'insensitive'
+            if(!flag)
+            {
+                whereCondition.assignedIntern = {
+                    contains: interactionData.name,
+                    mode: 'insensitive'
+                }
             }
         }
 
