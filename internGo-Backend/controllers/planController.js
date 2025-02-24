@@ -246,9 +246,10 @@ export const createMilestone = async (req, res) => {
             return sendResponse(res, 403, "User is not a mentor!!");
         }
         milestoneData.planId = planId;
-        const updatedMilestone = await createMilestones(milestoneData);
+        milestoneData.mentorId=mentorDetails.id;
+        const createdMilestone = await createMilestones(milestoneData);
         logger.info("Milestone added successfully!");
-        return sendResponse(res, 201, "Milestone added successfully!", updatedMilestone);
+        return sendResponse(res, 201, "Milestone added successfully!", createdMilestone);
     } catch (error) {
         logger.error(error.message);
     }
@@ -258,7 +259,7 @@ export const updateMilestone = async (req, res) => {
     try {
         const planId = parseInt(req.params.id);
         const { milestoneId, milestoneData } = req.body;
-        console.log(milestoneId)
+        // console.log(milestoneId)
         const existingPlan = await getPlanById(planId);
         if (!existingPlan) {
             logger.error("Plan not found!!!");
@@ -285,14 +286,18 @@ export const updateMilestone = async (req, res) => {
             logger.error("Milestone not found!!!");
             return sendResponse(res, 404, "Milestone not found!!!");
         }
-        const mentorDetails = await findUserByName(milestoneData.mentorName);
-        if (!mentorDetails) {
-            logger.error("Mentor not found!!!");
-            return sendResponse(res, 404, "Mentor not found!!!");
-        }
-        if (mentorDetails.role.roleName != "Mentors") {
-            logger.error("User is not a mentor!!");
-            return sendResponse(res, 403, "User is not a mentor!!");
+        if(milestoneData.mentorName)
+        {
+            const mentorDetails = await findUserByName(milestoneData.mentorName);
+            if (!mentorDetails) {
+                logger.error("Mentor not found!!!");
+                return sendResponse(res, 404, "Mentor not found!!!");
+            }
+            if (mentorDetails.role.roleName != "Mentors") {
+                logger.error("User is not a mentor!!");
+                return sendResponse(res, 403, "User is not a mentor!!");
+            }
+            milestoneData.mentorId=mentorDetails.id;
         }
         const updatedMilestone = await updateMilestones(milestoneId, milestoneData);
         if (!updatedMilestone) {

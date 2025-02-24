@@ -16,9 +16,9 @@ userRouter.post('/',authenticateUser,checkPermission(['users.manage']),getIntern
 userRouter.patch('/update/asset/:id',authenticateUser,checkPermission(['users.manage']),assetUpdateValidation,updateUserAsset);
 userRouter.get('/training/:id',authenticateUser,checkUser,checkPermission(['profile.update']),getTrainingDetails);
 userRouter.get('/distinct/filters',authenticateUser,checkPermission(['users.manage']),getDistinctFilters);
-userRouter.get('/role/fetch',authenticateUser,getUsersByRole);
-userRouter.get('/count/status',authenticateUser,getCountByStatus);
-userRouter.get('/:id/interactionCount',authenticateUser,getInteractionCount);
+userRouter.get('/role/fetch',authenticateUser,checkPermission(['users.manage']),getUsersByRole);
+userRouter.get('/count/status',authenticateUser,checkPermission(['users.manage']),getCountByStatus);
+userRouter.get('/:id/interactionCount',authenticateUser,checkPermission(['dashboard.mentor']),getInteractionCount);
 
 
 export default userRouter;
