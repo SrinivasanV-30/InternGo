@@ -253,12 +253,12 @@ export const toggleScheduleStatus = async (req, res) => {
 
         await updateInteractions(id, { isScheduled: isScheduled });
         if (!isScheduled) {
-            sendNotification(interactionDetails.internId, "interaction-cancelled", id, `Your interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
-            sendNotification(interactionDetails.interviewerId, "interaction-cancelled", id, `Interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
+            sendNotification(interactionDetails.internId, "interaction-cancelled", id, `Your ${interactionDetails.name} interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
+            sendNotification(interactionDetails.interviewerId, "interaction-cancelled", id, `${interactionDetails.name} interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time} has been cancelled.`);
         }
         else {
-            sendNotification(interactionDetails.internId, "interaction-scheduled", id, `Your interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be prepared.`);
-            sendNotification(interactionDetails.interviewerId, "interaction-scheduled", id, `Interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be available.`);
+            sendNotification(interactionDetails.internId, "interaction-scheduled", id, `Your ${interactionDetails.name} interaction with ${interactionDetails.assignedInterviewer} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be prepared.`);
+            sendNotification(interactionDetails.interviewerId, "interaction-scheduled", id, `${interactionDetails.name} interaction with ${interactionDetails.assignedIntern} is scheduled on ${(new Date(interactionDetails.date)).toISOString().split("T")[0]} at ${interactionDetails.time}. Please be available.`);
         }
 
         logger.info("Interaction schedule status updated");
