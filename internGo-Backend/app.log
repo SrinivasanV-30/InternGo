@@ -37097,3 +37097,17 @@ Invalid `prisma.notifications.findFirst()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-02-24T09:23:05.572Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-02-24T09:23:05.575Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.

@@ -41,7 +41,7 @@ export const getHelpDeskDetails = async (req, res) => {
             logger.error("User not found!!!");
             return sendResponse(res, 404, "User not found!!!");
         }
-        // console.log(userDetails)
+        
         if (userDetails.role.roleName == 'Admins') {
             whereClause.recepient = 'Admins'
         }
