@@ -13,7 +13,7 @@ export const profileUpdateValidationSchema = Joi.object({
     resume: Joi.string(),
     batch: Joi.string().max(50),
     year: Joi.number().integer().min(1900).max(new Date().getFullYear()),
-    primary_skills:Joi.string(),
+    primary_skill:Joi.string(),
     secondary_skills:Joi.array(),
     bankDetails: Joi.object({
         accountNumber: Joi.number().integer(),
