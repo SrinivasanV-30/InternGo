@@ -198,7 +198,8 @@ export const signInController = async (req, res) => {
             userId: existingUser.id,
             role: existingUser.role.roleName,
             name: existingUser.name,
-            email: existingUser.email
+            email: existingUser.email,
+            permissions:existingUser.role.permissions
         });
         if (existingUser.profilePhoto) {
             existingUser.profilePhoto = process.env.AWS_BUCKET_DOMAIN + existingUser.profilePhoto;
