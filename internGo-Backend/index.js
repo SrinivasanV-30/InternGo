@@ -31,7 +31,7 @@ const corsOptions = {
 
 
 
-app.use(express.json({ limit: '2mb' }));
+app.use(express.json({ limit: '3mb' }));
 
 
 app.use(morgan('combined',{
