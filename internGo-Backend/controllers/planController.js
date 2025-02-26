@@ -92,16 +92,16 @@ export const updatePlan = async (req, res) => {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
         }
-        const updatedPlan = await updatePlans(planId, planData);
-        if (!updatedPlan) {
-            logger.info("Update unsuccessful");
-            return sendResponse(res, 400, "Update unsuccessful");
-        }
         if(planData.startDate){
             planData.startDate=convertTimeStringandDate(planData.startDate)
         }
         if(planData.endDate){
             planData.endDate=convertTimeStringandDate(planData.endDate)
+        }
+        const updatedPlan = await updatePlans(planId, planData);
+        if (!updatedPlan) {
+            logger.info("Update unsuccessful");
+            return sendResponse(res, 400, "Update unsuccessful");
         }
         logger.info("Updated successfully");
         sendResponse(res, 200, "Update successful", updatedPlan);
