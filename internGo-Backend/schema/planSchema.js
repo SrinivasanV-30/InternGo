@@ -4,24 +4,33 @@ export const planCreateValidationSchema = Joi.object({
     name: Joi.string().min(3).max(255).required(),
     description: Joi.string().max(1000).required(),
     planDays: Joi.number().integer().min(1).required(),
+    startDate:Joi.string().required(),
+    endDate:Joi.string().required()
 });
 export const planUpdateValidationSchema = Joi.object({
     name: Joi.string().min(3).max(255),
     description: Joi.string().max(1000),
     planDays: Joi.number().integer().min(1),
+    startDate:Joi.string(),
+    endDate:Joi.string()
+    
 });
 
 export const milestoneCreateValidationSchema = Joi.object({
     name: Joi.string().min(3).max(255),
     mentorName: Joi.string().min(3).max(255).required(),
-    milestoneDays: Joi.number().integer().min(1)
+    milestoneDays: Joi.number().integer().min(1),
+    startDate:Joi.string().required(),
+    endDate:Joi.string().required()
 })
 export const milestoneUpdateValidationSchema = Joi.object({
     milestoneId:Joi.number().integer().min(1).required(),
     milestoneData:Joi.object({
         name: Joi.string().min(3).max(255),
         mentorName: Joi.string().min(3).max(255),
-        milestoneDays: Joi.number().integer().min(1)
+        milestoneDays: Joi.number().integer().min(1),
+        startDate:Joi.string(),
+        endDate:Joi.string()
     })
 });
 

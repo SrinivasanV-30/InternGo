@@ -32,6 +32,7 @@ import {
     deleteMilestones,
 } from "../models/milestoneModel.js";
 import { sendNotification } from "../services/notificationService.js";
+import { convertTimeStringandDate, localTimezone } from "../helpers/dateTimeHelper.js";
 
 export const getAllPlans = async (req, res) => {
     try {
@@ -68,6 +69,8 @@ export const createPlan = async (req, res) => {
             logger.error("Plan already exists");
             return sendResponse(res, 409, "Plan already exists");
         }
+        planData.startDate=convertTimeStringandDate(planData.startDate);
+        planData.endDate=convertTimeStringandDate(planData.endDate);
         const createdPlan = await createPlans(planData);
         if (!createdPlan) {
             logger.error("Plan create unsuccessful!!");
@@ -88,6 +91,12 @@ export const updatePlan = async (req, res) => {
         if (!existingPlan) {
             logger.error("Plan not found!!!");
             return sendResponse(res, 404, "Plan not found!!!");
+        }
+        if(planData.startDate){
+            planData.startDate=convertTimeStringandDate(planData.startDate)
+        }
+        if(planData.endDate){
+            planData.endDate=convertTimeStringandDate(planData.endDate)
         }
         const updatedPlan = await updatePlans(planId, planData);
         if (!updatedPlan) {
@@ -245,6 +254,12 @@ export const createMilestone = async (req, res) => {
             logger.error("User is not a mentor!!");
             return sendResponse(res, 403, "User is not a mentor!!");
         }
+        if(milestoneData.startDate){
+            milestoneData.startDate=convertTimeStringandDate(milestoneData.startDate)
+        }
+        if(milestoneData.endDate){
+            milestoneData.endDate=convertTimeStringandDate(milestoneData.endDate)
+        }
         milestoneData.planId = planId;
         milestoneData.mentorId=mentorDetails.id;
         const createdMilestone = await createMilestones(milestoneData);
@@ -298,6 +313,12 @@ export const updateMilestone = async (req, res) => {
                 return sendResponse(res, 403, "User is not a mentor!!");
             }
             milestoneData.mentorId=mentorDetails.id;
+        }
+        if(milestoneData.startDate){
+            milestoneData.startDate=convertTimeStringandDate(milestoneData.startDate)
+        }
+        if(milestoneData.endDate){
+            milestoneData.endDate=convertTimeStringandDate(milestoneData.endDate)
         }
         const updatedMilestone = await updateMilestones(milestoneId, milestoneData);
         if (!updatedMilestone) {

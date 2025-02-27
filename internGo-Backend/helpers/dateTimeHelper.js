@@ -1,4 +1,4 @@
-export const convertTimeStringandDate = (dateString, timeString) => {
+export const convertTimeStringandDate = (dateString, timeString="00:00") => {
     if (!dateString || !timeString) return null;
     timeString = timeString.toString();
 
