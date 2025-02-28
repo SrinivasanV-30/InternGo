@@ -22,6 +22,20 @@ export const createNotification = async (userId=null, type, referencesId=null, m
     }
 };
 
+export const getNotificationById = async(id)=>{
+    try{
+        return await prisma.notifications.findUnique({
+            where:{
+                id:id
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message)
+        throw new Error(error.message);
+    }
+}
+
 export const getUserNotifications = async (userId) => {
     try{
         return await prisma.notifications.findMany({
