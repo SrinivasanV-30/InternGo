@@ -299,7 +299,8 @@ export const forgotPassword = async (req, res) => {
             return sendResponse(res, 404, "User does not exist. Please sign up.");
         }
         const token = await jwtSign({
-            email: existingUser.email
+            email: existingUser.email,
+            isForgotPass:true
         })
         const resetLink = `https://interngo.vercel.app/reset-password?token=${token}`
         const body =
@@ -334,12 +335,17 @@ export const forgotPassword = async (req, res) => {
 export const resetPassword = async (req, res) => {
     try {
         const password = req.body;
+
         // if(!token)
         // {
         //     logger.error("Token not present!!!")
         //     return sendResponse(res,401,"Token not present!!!");
         // }
         const user = req.user;
+        if(!user.hasOwnProperty('isForgotPass')){
+            logger.error("Invalid token!!!")
+            return sendResponse(res,401,"Invalid token!!!");
+        }
 
         const existingUser = await findUserByEmail(user.email);
         if (!existingUser) {
