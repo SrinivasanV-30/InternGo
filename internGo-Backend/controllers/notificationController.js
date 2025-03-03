@@ -77,7 +77,10 @@ export const deleteNotification=async(req,res)=>{
         const notifications=req.body;
         console.log(notifications)
         notifications.notificationIds.forEach(async(id)=>{
-            const notification=await getNotificationById(id);
+            let notification;
+            if(id){
+             notification=await getNotificationById(id);
+            }
             if(notification)
             {
                 await deleteSingleNotification(id)
