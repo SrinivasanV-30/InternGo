@@ -16,9 +16,9 @@ export const updateDaysWorked=async()=>{
                 
             }
             else{
-                const existingNotifications=await existingNotification(user.id,'dailyUpdate-remainder-intern');
+                const existingNotifications=await existingNotification(user.id,`dailyUpdate-remainder-intern ${now}`);
                 if(!existingNotifications){
-                    sendNotification(user.id,'dailyUpdate-remainder-intern',user.id,`You haven't updated your daily task yet. Please update it soon!`);
+                    sendNotification(user.id,`dailyUpdate-remainder-intern ${now}`,user.id,`You haven't updated your daily task yet. Please update it soon!`);
                 }
             }
         })
@@ -36,13 +36,13 @@ export const dailyUpdatesNotUpdated=async()=>{
         allActiveUsers.forEach(async(user)=>{
             const hasUserUpdatedToday=await getDailyUpdateByUserIdAndDate(user.id,now);
             if(!hasUserUpdatedToday){
-                const existingAdminNotification=await existingNotification(user.id,'dailyUpdate-remainder-admin');
-                const existingInternNotification=await existingNotification(user.id,'dailyUpdate-remainder-intern')
+                const existingAdminNotification=await existingNotification(user.id,`dailyUpdate-remainder-admin ${now}`);
+                const existingInternNotification=await existingNotification(user.id,`dailyUpdate-remainder-intern ${now}`)
                 if(existingInternNotification){
                     deleteSingleNotification(existingInternNotification.id)
                 }
                 if(!existingAdminNotification){
-                    sendToAdmins('dailyUpdate-remainder-admin',user.id,`${user.name} from ${user.batch}-${user.year} has not submitted their daily task updates.`);
+                    sendToAdmins(`dailyUpdate-remainder-admin ${now}`,user.id,`${user.name} from ${user.batch}-${user.year} has not submitted their daily task updates.`);
                 }
             }
         })

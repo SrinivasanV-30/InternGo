@@ -1,6 +1,6 @@
 import { findUserByUserId } from "../models/userModel.js";
 import logger from "../utils/logger.js";
-import { createNotification, deleteAllNotifications, deleteSingleNotification, getAnnouncements, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
+import { createNotification, deleteAllNotifications, deleteSingleNotification, getAnnouncements, getNotificationById, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
 import sendResponse from "../utils/response.js";
 import { sendBroadcastNotification } from "../services/notificationService.js";
 
@@ -77,7 +77,14 @@ export const deleteNotification=async(req,res)=>{
         const notifications=req.body;
         console.log(notifications)
         notifications.notificationIds.forEach(async(id)=>{
-            await deleteSingleNotification(id)
+            let notification;
+            if(id){
+             notification=await getNotificationById(id);
+            }
+            if(notification)
+            {
+                await deleteSingleNotification(id)
+            }
         })
         logger.info("Deleted sucessfully");
         sendResponse(res,204,"Deleted successfully")
