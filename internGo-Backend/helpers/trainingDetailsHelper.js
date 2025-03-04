@@ -15,9 +15,13 @@ export const trainingDetailsHelper=async(userPlan)=>{
                 logger.error(`Skipping invalid milestone for user ${userId}`);
                 continue;
             }
+            let milestoneTargetDate = milestoneDate;
+            milestoneTargetDate.setDate(milestoneTargetDate.getDate() + milestone.milestoneDays);
 
-            milestoneDate.setDate(milestoneDate.getDate()+milestone.milestoneDays);
-            if (userDays >= Math.floor((milestoneDate-new Date(userPlan.plan.planStartDate))/(1000*60*60*24))) {
+            let milestoneDaysFromStart = Math.floor((milestoneTargetDate - new Date(userPlan.plan.planStartDate)) / (1000 * 60 * 60 * 24));
+
+
+            if (userDays >= milestoneDaysFromStart) {
                 currentMilestone = milestone;
                 logger.info(`Milestone found for user ${userId}`);
                 
