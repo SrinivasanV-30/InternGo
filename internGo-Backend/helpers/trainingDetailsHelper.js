@@ -7,7 +7,7 @@ export const trainingDetailsHelper=async(userPlan)=>{
         let currentMilestone=null;
        
         console.log(userPlan)
-        let milestoneDate=userPlan.plan.startDate;
+        let milestoneTargetDate=userPlan.plan.startDate;
         let now=new Date();
         let userDays=Math.floor((now - userPlan.planStartDate)/(1000*60*60*24));
         for (const milestone of userPlan.plan.milestones) {
@@ -15,10 +15,10 @@ export const trainingDetailsHelper=async(userPlan)=>{
                 logger.error(`Skipping invalid milestone for user ${userId}`);
                 continue;
             }
-            let milestoneTargetDate = milestoneDate;
+        
             milestoneTargetDate.setDate(milestoneTargetDate.getDate() + milestone.milestoneDays);
 
-            let milestoneDaysFromStart = Math.floor((milestoneTargetDate - new Date(userPlan.plan.planStartDate)) / (1000 * 60 * 60 * 24));
+            let milestoneDaysFromStart = Math.floor((milestoneTargetDate - new Date(userPlan.planStartDate)) / (1000 * 60 * 60 * 24));
 
 
             if (userDays >= milestoneDaysFromStart) {
