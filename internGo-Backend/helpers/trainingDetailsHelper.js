@@ -26,7 +26,7 @@ export const trainingDetailsHelper=async(userPlan)=>{
                 logger.info(`Milestone found for user ${userId}`);
                 
             }
-            console.log(currentMilestone,userDays,milestoneDate)
+            console.log(currentMilestone,userDays,milestoneDate,milestoneDaysFromStart)
         }
         return currentMilestone;
     }
