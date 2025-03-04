@@ -1,4 +1,5 @@
-import {Worker} from 'worker_threads';
+
+import logger from '../utils/logger.js';
 
 export const trainingDetailsHelper=async(userPlan)=>{
     try{
