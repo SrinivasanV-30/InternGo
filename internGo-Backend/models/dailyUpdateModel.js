@@ -65,7 +65,8 @@ export const getDailyUpdateByUserIdAndDate = async (userId,date) => {
                 }
             },select:{
                 tasks:true,
-                id:true
+                id:true,
+                totalActualTime:true
             }
             
         });

@@ -1,4 +1,4 @@
-import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFeedback, deleteFeedback, calculateAvgRating } from "../models/feedbackModel.js";
+import { createFeedback, getFeedbackByInteraction, getFeedbackByIntern, updateFeedback, deleteFeedback, calculateAvgRating, calculateOverallRating } from "../models/feedbackModel.js";
 import sendResponse from "../utils/response.js";
 import logger from "../utils/logger.js";
 import { updateInteractions } from "../models/interactionModel.js";
@@ -6,7 +6,7 @@ import { zoneCalculation } from "../helpers/zoneCalculation.js";
 import axios from "axios";
 import PDFDocument from "pdfkit";
 import { ChartJSNodeCanvas } from "chartjs-node-canvas";
-import { findUserByUserId } from "../models/userModel.js";
+import { findUserByUserId, getRatingsByUserId } from "../models/userModel.js";
 import { jwtVerify } from "../services/jwtService.js";
 
 const chartJSNodeCanvas = new ChartJSNodeCanvas({ width: 800, height: 600 });
@@ -18,6 +18,10 @@ export const addFeedback = async (req, res) => {
         feedbackData.avg_rating = avgRatings;
         const createdFeedback = await createFeedback(feedbackData);
         await updateInteractions(feedbackData.interactionId, { interactionStatus: "COMPLETED" })
+        const overall_ratings=calculateOverallRating(await getRatingsByUserId(createdFeedback.internId));
+        await updateUser(createdFeedback.internId,{
+            overall_rating:overall_ratings
+        })
         logger.info("Feedback added successfully");
         sendResponse(res, 201, "Feedback added successfully", createdFeedback);
         zoneCalculation(feedbackData.internId);
@@ -68,6 +72,10 @@ export const modifyFeedback = async (req, res) => {
         updatedData.avg_rating = avgRatings;
         const updatedFeedback = await updateFeedback(id, updatedData);
         logger.info("Feedback updated successfully");
+        const overall_ratings=calculateOverallRating(await getRatingsByUserId(updatedFeedback.internId));
+        await updateUser(updatedFeedback.internId,{
+            overall_rating:overall_ratings
+        })
         sendResponse(res, 200, "Feedback updated successfully", updatedFeedback);
         zoneCalculation(updatedFeedback.internId);
     }
@@ -296,3 +304,12 @@ export const generateFeedbackReport = async (req, res) => {
 
 
 
+export const generateBatchFeedback=async(req,res)=>{
+    try{
+
+    }
+    catch(error){
+        logger.error(error.message);
+        sendResponse(res, 400, error.message);
+    }
+}

@@ -466,3 +466,24 @@ export const countByStatus=async(status)=>{
         throw new Error(error.message);
     }
 }
+
+export const getRatingsByUserId=async(id)=>{
+    try{
+        return await prisma.users.findUnique({
+            where:{
+                id:id
+            },
+            select:{
+                feedbacksReceived:{
+                    select:{
+                        avg_rating:true
+                    }
+                }
+            }
+        }).then(result=>result.feedbacksReceived.map(feedback=>feedback.avg_rating))
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}

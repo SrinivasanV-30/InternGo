@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { createDailyUpdates, dailyUpdateCount, deleteDailyUpdates, getDailyUpdateByUserIdAndDate, getDailyUpdates, getDailyUpdatesByDate } from "../models/dailyUpdateModel.js";
+import { createDailyUpdates, dailyUpdateCount, deleteDailyUpdates, getDailyUpdateByUserIdAndDate, getDailyUpdates, getDailyUpdatesByDate, updateDailyUpdate } from "../models/dailyUpdateModel.js";
 import logger from "../utils/logger.js";
 import sendResponse from "../utils/response.js";
 import { findUserByUserId } from "../models/userModel.js";
@@ -96,6 +96,7 @@ export const getSingleDayUpdates=async(req,res)=>{
             logger.error("No daily update found!!");
             return sendResponse(res,404,"No daily update found!!");        
         }
+        
         logger.info("Fetched successfully")
         sendResponse(res,200,"Fetched successfully",dailyUpdate);
     }
@@ -109,7 +110,6 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
         const userId=req.params.id;
         const dailyUpdateTasks=req.body;
         let dailyUpdate=await getDailyUpdateByUserIdAndDate(userId,dailyUpdateTasks.date);
-        console.log(dailyUpdate);
         if(!dailyUpdate){
             const userDetails=await findUserByUserId(userId);
             if(!userDetails)
@@ -129,15 +129,18 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
                 
                 return await updateDailyUpdateTask(task.taskId,task.taskData);
             } else {
-                console.log(task)
+                
                 task.taskData.dailyUpdateId=dailyUpdateId;
                 return await createDailyUpdateTask(task.taskData);
             }
             
         });
-        
-
         const tasks=await Promise.all(tasksPromises);
+        const totalActualTime=tasks.reduce((total,task)=>total+task.actualTime);
+        tasks.totalActualTime=totalActualTime;
+        await updateDailyUpdate(dailyUpdateId,{
+            totalActualTime:actualTime
+        })
         logger.info("Upserted successfully");
         sendResponse(res,200,"Upserted successfully",tasks);
     }

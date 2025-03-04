@@ -5,16 +5,20 @@ const prisma = new PrismaClient();
 
 export const calculateAvgRating = (ratings) => {
     const scores = Object.values(ratings);
-    console.log(scores)
     if (scores.length === 0) return 0;
     return scores.reduce((sum, score) => sum + score, 0) / scores.length;
 };
+
+export const calculateOverallRating = (ratings) => {
+    if (ratings.length === 0) return 0;
+    return ratings.reduce((sum, rating) => sum + rating , 0) * 2 / ratings.length;
+}
 
 
 export const createFeedback = async (feedbackData) => {
     try {
         return await prisma.feedbacks.create({
-             data: feedbackData 
+            data: feedbackData
         });
     } catch (error) {
         logger.error(error.message);
@@ -42,17 +46,17 @@ export const getFeedbackByIntern = async (internId) => {
     try {
         return await prisma.feedbacks.findMany({
             where: { internId: internId },
-            include: { 
+            include: {
                 interaction: true,
-                intern:{
-                    select:{
-                        name:true,
-                        zone:true
+                intern: {
+                    select: {
+                        name: true,
+                        zone: true
                     }
                 }
             },
-            orderBy:{
-                createdAt:'asc'
+            orderBy: {
+                createdAt: 'asc'
             }
         });
     } catch (error) {
@@ -63,12 +67,12 @@ export const getFeedbackByIntern = async (internId) => {
 
 export const getFeedbackRatingsByIntern = async (internId) => {
     try {
-        const feedbacks=await prisma.feedbacks.findMany({
+        const feedbacks = await prisma.feedbacks.findMany({
             where: { internId: internId },
-            select:{ avg_rating:true },
+            select: { avg_rating: true },
         })
         // console.log(feedbacks)
-        return feedbacks.map((result)=>result.avg_rating);
+        return feedbacks.map((result) => result.avg_rating);
     } catch (error) {
         logger.error(error.message);
         throw new Error(error.message);

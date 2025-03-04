@@ -79,7 +79,7 @@ export const deleteNotification=async(req,res)=>{
         notifications.notificationIds.forEach(async(id)=>{
             let notification;
             if(id){
-             notification=await getNotificationById(id);
+                notification=await getNotificationById(id);
             }
             if(notification)
             {

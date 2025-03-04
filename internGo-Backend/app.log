@@ -37507,3 +37507,314 @@ Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.re
 
 Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
 2025-02-27T13:11:05.504Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-03T08:42:26.091Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:42:26 +0000] "OPTIONS /api/auth/forgot-password HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:42:27.125Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:42:27 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:44:52.614Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:44:52 +0000] "OPTIONS /api/auth/verify HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:44:52.620Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:44:52 +0000] "OPTIONS /api/auth/verify HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:44:52.645Z [:[32minfo[39m] Successfully verified
+2025-03-03T08:44:52.650Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:44:52 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:44:52.656Z [:[32minfo[39m] Successfully verified
+2025-03-03T08:44:52.658Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:44:52 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:08.642Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:08 +0000] "OPTIONS /api/auth/reset-password HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:10.784Z [:[32minfo[39m] Password updated successfully!!!
+2025-03-03T08:45:10.786Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:10 +0000] "POST /api/auth/reset-password HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:20.416Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:20 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:20.786Z [:[32minfo[39m] Login successful!!!
+2025-03-03T08:45:20.787Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:20 +0000] "POST /api/auth/signin HTTP/1.1" 200 861 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.756Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.767Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.770Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.772Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.781Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:21.790Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:21 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:22.027Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T08:45:22.029Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:22 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:22.090Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T08:45:22.091Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:22 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:22.167Z [:[31merror[39m] No milestones found for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-03T08:45:22.168Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:22 +0000] "GET /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 200 72 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:22.426Z [:[31merror[39m] No milestones found for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-03T08:45:22.427Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:22 +0000] "GET /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:24.252Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-03T08:45:24.253Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:24 +0000] "GET /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 200 3104 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:25.244Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-03T08:45:25.245Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:25 +0000] "GET /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.017Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.019Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.020Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.023Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.025Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.030Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.082Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T08:45:33.084Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.155Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T08:45:33.157Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.339Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-03T08:45:33.340Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "GET /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T08:45:33.341Z [:[31merror[39m] No milestones found for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-03T08:45:33.342Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:08:45:33 +0000] "GET /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:05.241Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:05.243Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-03T09:05:05.246Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:05.246Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:05.247Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:05.247Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:17.786Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:17 +0000] "OPTIONS /api/auth/forgot-password HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:22.963Z [:[31merror[39m] 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:22.963Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findFirst()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T09:05:27.197Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:27 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 82 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:41.612Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:41 +0000] "OPTIONS /api/auth/verify HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:41.613Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:41 +0000] "OPTIONS /api/auth/verify HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:41.622Z [:[32minfo[39m] Successfully verified
+2025-03-03T09:05:41.624Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:41 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:41.628Z [:[32minfo[39m] Successfully verified
+2025-03-03T09:05:41.629Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:41 +0000] "POST /api/auth/verify HTTP/1.1" 200 50 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:54.728Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:54 +0000] "OPTIONS /api/auth/reset-password HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:05:55.146Z [:[32minfo[39m] Password updated successfully!!!
+2025-03-03T09:05:55.147Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:05:55 +0000] "POST /api/auth/reset-password HTTP/1.1" 200 75 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:10.953Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:10 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.250Z [:[32minfo[39m] Login successful!!!
+2025-03-03T09:06:11.251Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "POST /api/auth/signin HTTP/1.1" 200 861 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.286Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.289Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.292Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.293Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.301Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.314Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "OPTIONS /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.410Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T09:06:11.412Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:11.473Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-03T09:06:11.475Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:11 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:12.127Z [:[31merror[39m] No milestones found for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-03T09:06:12.128Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:12 +0000] "GET /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:13.693Z [:[31merror[39m] No milestones found for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-03T09:06:13.695Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:13 +0000] "GET /api/users/training/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:14.301Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-03T09:06:14.303Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:14 +0000] "GET /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T09:06:14.652Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-03T09:06:14.653Z [:[32minfo[39m] ::ffff:192.168.0.130 - - [03/Mar/2025:09:06:14 +0000] "GET /api/notifications/0d1a2f93-4555-472e-8433-cfc3ee9c31d4 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-03T12:30:44.042Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   email?: String,
+?   personalEmail?: String,
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   primary_skill?: StringNullableFilter | String | Null,
+?   secondary_skills?: StringNullableListFilter,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   overall_rating?: FloatNullableFilter | Float | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null,
+?   milestones?: MilestonesListRelationFilter
+  },
+  select: {
+    feedbacksReceived: {
+      select: {
+        avg_rating: true
+      }
+    }
+  }
+}
+
+Argument `where` of type UsersWhereUniqueInput needs at least one of `id`, `email` or `personalEmail` arguments. Available options are marked with ?.
+2025-03-03T12:58:36.096Z [:[31merror[39m] result.map is not a function
+2025-03-03T12:58:45.500Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:00:14.633Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:00:37.141Z [:[31merror[39m] results.map is not a function
+2025-03-03T13:00:47.368Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:00:52.183Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:00:55.391Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:01:02.236Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:01:05.177Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:02:41.616Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:02:46.958Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:02:55.855Z [:[31merror[39m] result.map is not a function
+2025-03-03T13:28:05.487Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:28:05.490Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:28:05.492Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:28:05.492Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:28:05.493Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:28:05.493Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-03T13:29:05.558Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:29:05.558Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-03T13:29:05.559Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:29:05.560Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:29:05.561Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T13:29:05.561Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`
+
+Please make sure your database server is running at `dpg-cus0gaa3esus73fhfee0-a.singapore-postgres.render.com:5432`.
+2025-03-03T16:28:10.356Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-03T16:28:10.356Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-03T16:28:10.357Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-03T16:28:10.357Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-03T16:28:10.358Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-03T16:28:10.358Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-03T16:29:11.476Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
