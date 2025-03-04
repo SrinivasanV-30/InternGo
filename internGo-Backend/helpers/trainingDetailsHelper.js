@@ -3,6 +3,7 @@ import logger from '../utils/logger.js';
 
 export const trainingDetailsHelper=async(userPlan)=>{
     try{
+        let userId=userPlan.id;
         let currentMilestone;
         let milestoneCount = 0;
         for (const milestone of userPlan.plan.milestones) {

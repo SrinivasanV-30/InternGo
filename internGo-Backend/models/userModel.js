@@ -76,7 +76,8 @@ export const getTrainingPlan = async (userId) => {
                 },
                 daysWorked:true,
                 planStartDate:true,
-                zone:true
+                zone:true,
+                id:true
                 
             },
         });
