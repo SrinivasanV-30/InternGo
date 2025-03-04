@@ -115,8 +115,6 @@ model Milestones{
     mentorName String
     mentorId String
     learning_resources String[]
-    startDate DateTime?
-    endDate DateTime?
     objectives Objectives[] @relation("PlanObjectives")
     plan Plans @relation("PlanMilestones",fields:[planId],references:[id],onDelete:Cascade)
     mentor Users @relation("Mentor-Milestone",fields:[mentorId],references:[id],onDelete:Cascade)

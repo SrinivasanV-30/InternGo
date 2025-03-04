@@ -254,12 +254,7 @@ export const createMilestone = async (req, res) => {
             logger.error("User is not a mentor!!");
             return sendResponse(res, 403, "User is not a mentor!!");
         }
-        if(milestoneData.startDate){
-            milestoneData.startDate=convertTimeStringandDate(milestoneData.startDate)
-        }
-        if(milestoneData.endDate){
-            milestoneData.endDate=convertTimeStringandDate(milestoneData.endDate)
-        }
+       
         milestoneData.planId = planId;
         milestoneData.mentorId=mentorDetails.id;
         const createdMilestone = await createMilestones(milestoneData);
@@ -314,12 +309,7 @@ export const updateMilestone = async (req, res) => {
             }
             milestoneData.mentorId=mentorDetails.id;
         }
-        if(milestoneData.startDate){
-            milestoneData.startDate=convertTimeStringandDate(milestoneData.startDate)
-        }
-        if(milestoneData.endDate){
-            milestoneData.endDate=convertTimeStringandDate(milestoneData.endDate)
-        }
+        
         const updatedMilestone = await updateMilestones(milestoneId, milestoneData);
         if (!updatedMilestone) {
             logger.info("Update unsuccessful");

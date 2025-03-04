@@ -19,6 +19,7 @@ import {
 } from "../models/assetModel.js";
 import { uploadImageToS3 } from "../services/s3Service.js";
 import { getInteractionByQuery } from "../models/interactionModel.js";
+import { trainingDetailsHelper } from "../helpers/trainingDetailsHelper.js";
 
 export const updateUserProfile = async (req, res) => {
     try {
@@ -259,28 +260,9 @@ export const getTrainingDetails = async (req, res) => {
             return sendResponse(res, 200, "Milestones not found", data);
         }
 
-        const currentDate = new Date();
-        const planStartDate = new Date(userPlan.planStartDate);
-
-
-        let milestoneCount = 0;
-        for (const milestone of userPlan.plan.milestones) {
-            if (!milestone.milestoneDays || isNaN(milestone.milestoneDays)) {
-                logger.error(`Skipping invalid milestone for user ${userId}`);
-                continue;
-            }
-
-            if (milestoneCount >= userPlan.daysWorked) {
-                data.milestone = milestone;
-                logger.info(`Milestone found for user ${userId}`);
-                return sendResponse(res, 200, "Training fetched successfully", data);
-            }
-
-            milestoneCount += milestone.milestoneDays;
-        }
-
-        logger.error(`No matching milestone found for user ${userId}`);
-        return sendResponse(res, 200, "Milestone not found", data);
+        data.milestone=await trainingDetailsHelper(userPlan);
+        
+        return sendResponse(res, 200, "Milestone", data);
     } catch (error) {
         logger.error(error.message);
     }
