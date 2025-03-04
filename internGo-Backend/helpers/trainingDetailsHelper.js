@@ -6,8 +6,8 @@ export const trainingDetailsHelper=async(userPlan)=>{
         let userId=userPlan.id;
         let currentMilestone=null;
        
+        console.log(userPlan)
         let milestoneDate=userPlan.plan.startDate;
-        console.log(milestoneDate)
         let now=new Date();
         let userDays=Math.floor((now - userPlan.planStartDate)/(1000*60*60*24));
         for (const milestone of userPlan.plan.milestones) {
