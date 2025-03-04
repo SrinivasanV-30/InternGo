@@ -71,7 +71,9 @@ export const getTrainingPlan = async (userId) => {
                             orderBy:{
                                 createdAt:'asc'
                             }
-                        }
+                        },
+                        planStartDate:true,
+                        planEndDate:true
                     }
                 },
                 daysWorked:true,
