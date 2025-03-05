@@ -308,10 +308,15 @@ export const generateFeedbackReport = async (req, res) => {
 
 export const generateBatchFeedback=async(req,res)=>{
     try{
+        const token=req.query.token;
+        if(!token||!jwtVerify(token)){
+            logger.error("Not authorised");
+            return sendResponse(res,401,"Access denied")
+        }
         const workbook=new ExcelJS.Workbook();
         const worksheet=workbook.addWorksheet("Intern-Batch-Feedback");
         worksheet.columns=[
-            { header: "EmployeeId", key: "employeeId", width: 10 },
+            { header: "EmployeeId", key: "employeeId", width: 30 },
             { header: "Name", key: "name", width: 30 },
             { header: "Designation", key: "designation", width: 30 },
             { header: "Plan", key: "plan", width: 50 },
@@ -320,21 +325,61 @@ export const generateBatchFeedback=async(req,res)=>{
             { header: "Mentor", key: "mentor", width: 30 },
             { header: "Zone", key: "zone", width: 30 },
             { header: "Overall Rating", key: "overallRating", width: 30 },
-            { header: "No. of interactions attended", key: "noOfInteractions", width: 20 }
+            { header: "No. of interactions attended", key: "noOfInteractions", width: 50 }
 
         ]
+
         const batch=req.query.batch;
-        const batchInterns=await getInternsByWhereCondition({
-                batch:batch
-        })
+        const year=parseInt(req.query.year);
+        let whereCondition={};
+        if(batch){
+            whereCondition.batch=batch;
+        }
+        if(year){
+            whereCondition.year=year;
+        }
+        const batchInterns=await getInternsByWhereCondition(whereCondition)
         console.log(batchInterns)
-        batchInterns.forEach(async(intern)=>{
-            // const userPlan=await getTrainingPlan(intern.id);
-            // let currentMilestone=await trainingDetailsHelper(userPlan);
-            // intern.currentMilestone=currentMilestone;
-            console.log("Intern details:",intern)
-            worksheet.addRow({ employeeId: intern.employeeId, name: intern.name || "Hello", designation:intern.designation, plan:intern.plan?.name || null ,phase:intern.phase || null ,zone:intern.zone,overallRating:intern.overall_rating,noOfInteractions:intern._count.noOfInteractions })
+        for(let intern of batchInterns){
+            const userPlan=await getTrainingPlan(intern.id);
+            let currentMilestone=await trainingDetailsHelper(userPlan);
+            intern.currentMilestone=currentMilestone;  
+        }
+        batchInterns.forEach((intern)=>{
+            console.log(intern.currentMilestone)
+            worksheet.addRow({ employeeId: intern.employeeId || "-", name: intern.name, designation:intern.designation || "-", plan:intern.plan?.name || "-" ,phase:intern.phase || "-" ,zone:intern.zone || "-",overallRating:intern.overall_rating?(intern.overall_rating).toFixed(2):"-",noOfInteractions:intern._count.interactionsAttended,trainingPhase:intern.currentMilestone?.name || "-" ,mentor:intern.currentMilestone?.mentorName || "-"})
         })
+        const headerRow = worksheet.getRow(1);
+
+        
+        headerRow.font = { bold: true };
+        headerRow.alignment = { horizontal: "center", vertical: "middle" };
+        headerRow.eachCell(cell => {
+            cell.border = {
+                top: { style: "thin" },
+                left: { style: "thin" },
+                bottom: { style: "thin" },
+                right: { style: "thin" }
+            };
+            cell.fill = {
+                type: "pattern",
+                pattern: "solid",
+                fgColor: { argb: "FFADD8E6" }, 
+            };
+        });
+    
+        worksheet.eachRow(row => {
+            row.alignment = { horizontal: "center", vertical: "middle" };
+            row.eachCell(cell => {
+                cell.border = {
+                    top: { style: "thin" },
+                    left: { style: "thin" },
+                    bottom: { style: "thin" },
+                    right: { style: "thin" }
+                };
+            });
+        });
+    
         res.setHeader("Content-Type", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
         res.setHeader("Content-Disposition", "attachment; filename=users.xlsx");
 

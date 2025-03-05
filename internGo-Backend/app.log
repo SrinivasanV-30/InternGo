@@ -38871,3 +38871,361 @@ Timed out fetching a new connection from the connection pool. More info: http://
 2025-03-05T07:46:51.762Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:46:51 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-03-05T07:48:53.313Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:48:53 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-03-05T07:49:35.067Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:49:35 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:56:13.895Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:56:13 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:57:11.643Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:57:11 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:57:12.007Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:57:12.007Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:57:12.007Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:57:12.008Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:57:12.008Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:57:12.008Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:57:12.009Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:57:12.009Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:57:12.009Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:57:12.009Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:58:20.598Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:58:20 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:58:20.968Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:58:20.969Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:58:20.969Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:58:20.969Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:58:20.970Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:58:20.970Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:58:20.970Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:58:20.970Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:58:20.971Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:58:20.971Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:58:25.814Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:58:25 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:58:26.026Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:58:26.026Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:58:26.026Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:58:26.027Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:58:26.028Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:58:34.787Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:58:34 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:58:35.011Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:58:35.012Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:58:35.012Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:58:35.012Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:58:35.012Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:58:35.012Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:58:35.012Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:58:35.013Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:58:35.013Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:58:35.013Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:59:05.106Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:59:05 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:59:05.303Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:59:05.303Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:59:05.304Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:59:05.305Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:59:05.305Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:59:30.240Z [:[31merror[39m] Cannot read properties of null (reading 'toFixed')
+2025-03-05T07:59:30.258Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:59:30 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 93 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:59:30.297Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:59:30 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/api/feedbacks/download?batch=Batch%201" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:59:31.280Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:59:31.281Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:59:31.281Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:59:31.282Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:59:31.282Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:59:31.282Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:59:31.283Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:59:31.283Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:59:31.283Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:59:31.284Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:00:27.797Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:00:27 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:00:28.140Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:00:28.140Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:00:28.141Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:00:28.141Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:00:28.141Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:00:28.142Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:00:28.142Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:00:28.142Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:00:28.142Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:00:28.142Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:01:02.188Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:01:02 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:01:02.370Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:01:02.371Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:01:02.371Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:01:02.372Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:01:02.372Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:01:02.372Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:01:02.372Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:01:02.372Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:01:02.373Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:01:02.373Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:04:30.871Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:04:30 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:04:31.098Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:04:31.098Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:04:31.098Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:04:31.099Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:05:12.595Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:05:12 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:05:13.021Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:05:13.022Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:05:13.022Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:05:13.023Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:05:13.023Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:05:13.023Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:05:13.024Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:05:13.024Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:05:13.024Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:05:13.025Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:07:28.331Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:07:28 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:07:28.898Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:07:28.899Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:07:28.899Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:07:28.900Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:07:28.901Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:07:28.901Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:07:28.901Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:07:28.901Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:07:28.902Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:07:28.902Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:10:46.922Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:10:46 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:10:47.342Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:10:47.343Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:10:47.343Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:10:47.344Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:10:47.344Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:10:47.344Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:10:47.344Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:10:47.345Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:10:47.345Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:10:47.345Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:11:50.218Z [:[31merror[39m] Cannot read properties of undefined (reading 'name')
+2025-03-05T08:11:50.234Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:11:50 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 95 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:11:50.643Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:11:50.643Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:11:50.644Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:11:50.644Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:11:50.645Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:11:50.645Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:11:50.645Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:11:50.645Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:11:50.646Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:11:50.646Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:11:56.513Z [:[31merror[39m] Cannot read properties of undefined (reading 'name')
+2025-03-05T08:11:56.517Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:11:56 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 95 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:11:56.712Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:11:56.712Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:11:56.712Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:11:56.713Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:11:56.713Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:11:56.713Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:11:56.713Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:11:56.713Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:11:56.714Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:11:56.714Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:12:07.649Z [:[31merror[39m] Cannot read properties of undefined (reading 'name')
+2025-03-05T08:12:07.653Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:12:07 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 95 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:12:07.852Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T08:12:07.853Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T08:12:07.853Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T08:12:24.050Z [:[31merror[39m] Cannot read properties of undefined (reading 'name')
+2025-03-05T08:12:24.068Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:12:24 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 95 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:12:24.877Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:12:24.879Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:12:24.879Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:12:24.880Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:12:24.881Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:05.041Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:13:05 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:13:05.586Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:13:05.587Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:05.588Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:05.589Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:05.590Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:49.955Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:13:49 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:13:50.286Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:13:50.286Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:50.287Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:50.287Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:13:50.288Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:14:33.943Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:14:33 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:14:34.116Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:14:34.116Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:14:34.117Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:14:34.117Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:14:34.118Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:15:08.947Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:15:08 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:15:09.297Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:15:09.297Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:15:09.298Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:15:09.299Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:15:09.300Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:11.624Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:17:11 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:17:12.211Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:17:12.211Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:12.212Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:12.213Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:12.213Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:32.973Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:17:32 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:17:33.362Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:17:33.362Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:33.363Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:33.364Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:17:33.364Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:06.649Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:18:06 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:18:07.143Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:18:07.144Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:07.145Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:07.145Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:07.146Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:44.199Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:18:44 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:18:44.584Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:18:44.586Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:44.587Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:44.588Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:18:44.589Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:23:27.082Z [:[31merror[39m] Cannot read properties of undefined (reading 'interactionsAttended')
+2025-03-05T08:23:27.100Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:23:27 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 111 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:23:27.556Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:23:27.556Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:23:27.557Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:23:27.558Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:23:27.558Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:25:23.456Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:25:23.856Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:25:23.953Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:25:24.052Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:25:24.782Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:25:26.018Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:25:26 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:26:05.692Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:26:06.291Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:26:06.373Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:26:06.452Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:26:06.763Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:26:08.093Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:26:08 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:29:56.675Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    batch: "Batch 1",
+    year: "2025"
+          ~~~~~~
+  },
+  select: {
+    id: true,
+    employeeId: true,
+    name: true,
+    designation: true,
+    plan: {
+      select: {
+        name: true
+      }
+    },
+    phase: true,
+    zone: true,
+    overall_rating: true,
+    _count: {
+      select: {
+        interactionsAttended: true
+      }
+    }
+  }
+}
+
+Argument `year`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+2025-03-05T08:29:56.678Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    batch: "Batch 1",
+    year: "2025"
+          ~~~~~~
+  },
+  select: {
+    id: true,
+    employeeId: true,
+    name: true,
+    designation: true,
+    plan: {
+      select: {
+        name: true
+      }
+    },
+    phase: true,
+    zone: true,
+    overall_rating: true,
+    _count: {
+      select: {
+        interactionsAttended: true
+      }
+    }
+  }
+}
+
+Argument `year`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+2025-03-05T08:29:56.686Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:29:56 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 400 591 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:30:25.201Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:30:25 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:30:25.665Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:30:25.964Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:26.044Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:26.133Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:26.596Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:30:26.924Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:26.995Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:27.082Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:27.745Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:30:27 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:30:33.535Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:30:33.827Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:33.907Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:33.982Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:30:34.662Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:30:34 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:31:05.860Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:31:06.151Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:06.225Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:06.327Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:07.083Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:31:07 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:31:44.119Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:31:44.447Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:44.527Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:44.606Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:31:45.379Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:31:45 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:32:56.236Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:32:56.801Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:32:56.876Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:32:56.951Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:32:57.746Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:32:57 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:34:05.936Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:34:06.234Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:06.312Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:06.384Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:07.116Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:34:07 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:34:54.463Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:34:54.792Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:54.871Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:54.951Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:34:55.805Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:34:55 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:35:43.977Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:35:44.268Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:35:44.351Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:35:44.419Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:35:45.216Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:35:45 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:36:55.400Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T08:36:55.682Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:36:55.761Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:36:55.843Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
+2025-03-05T08:36:56.574Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:36:56 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"

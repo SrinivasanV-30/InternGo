@@ -5,10 +5,10 @@ export const trainingDetailsHelper = async (userPlan) => {
         let userId = userPlan.id;
         let currentMilestone = null;
 
-        if (!userPlan.plan || !userPlan.plan.startDate || !userPlan.plan.milestones || !userPlan.plan.milestones.length) {
-            logger.error(`Invalid user plan structure for user ${userId}`);
-            return null;
-        }
+        // if (!userPlan.plan || !userPlan.plan.startDate || !userPlan.plan.milestones || !userPlan.plan.milestones.length) {
+        //     logger.error(`Invalid user plan structure for user ${userId}`);
+        //     return null;
+        // }
 
        
         let userDays = userPlan.daysWorked
