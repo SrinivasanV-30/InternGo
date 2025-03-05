@@ -21,7 +21,7 @@ export const trainingDetailsHelper=async(userPlan)=>{
             let milestoneDaysFromStart = Math.floor((milestoneTargetDate - new Date(userPlan.planStartDate)) / (1000 * 60 * 60 * 24));
 
 
-            if (userDays <= milestoneDaysFromStart) {
+            if (userDays >= milestoneDaysFromStart) {
                 currentMilestone = milestone;
                 logger.info(`Milestone found for user ${userId}`);
                 
