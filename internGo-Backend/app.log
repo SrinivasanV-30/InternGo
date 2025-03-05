@@ -37952,3 +37952,8 @@ Invalid `prisma.notifications.findFirst()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T04:21:11.799Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
