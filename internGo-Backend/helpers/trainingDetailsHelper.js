@@ -10,29 +10,29 @@ export const trainingDetailsHelper = async (userPlan) => {
             return null;
         }
 
-        let startDate = new Date(userPlan.plan.startDate);
-        let now = new Date();
-        let userDays = Math.floor((now - startDate) / (1000 * 60 * 60 * 24));
-
-        let milestoneDate = new Date(startDate.getTime());
-
+        // let startDate = new Date(userPlan.plan.startDate);
+        // let now = new Date();
+        let userDays = userPlan.daysWorked
+        // let milestoneDate = new Date(startDate.getTime());
+        console.log(userPlan.plan.milestones,"userday",userDays)
+        let milestoneCount=0;
         for (const milestone of userPlan.plan.milestones) {
+            
             if (!milestone.milestoneDays || isNaN(milestone.milestoneDays)) {
                 logger.error(`Skipping invalid milestone for user ${userId}`);
                 continue;
             }
-
-            milestoneDate.setDate(startDate.getDate() + milestone.milestoneDays);
-            let milestoneDaysFromStart = Math.floor((milestoneDate - startDate) / (1000 * 60 * 60 * 24));
-
-            if (userDays >= milestoneDaysFromStart) {
+            milestoneCount+=milestone.milestoneDays
+            // milestoneDate.setDate(startDate.getDate() + milestone.milestoneDays);
+            // let milestoneDaysFromStart = Math.floor((milestoneDate - startDate) / (1000 * 60 * 60 * 24));
+            
+            console.log({ milestoneCount });
+            if (userDays <= milestoneCount) {
                 currentMilestone = milestone;
                 logger.info(`User ${userId} reached milestone: ${milestone.name || 'Unnamed Milestone'}`);
-            } else {
-                break;
+                return currentMilestone
             }
 
-            console.log({ currentMilestone, userDays, milestoneDaysFromStart, milestone });
         }
 
         return currentMilestone;
