@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticateUser, checkPermission, checkUser } from '../middlewares/authenticationMiddleware.js';
-import { addFeedback, generateFeedbackReport, getFeedbacksByInteraction, getFeedbacksByIntern, modifyFeedback, removeFeedback } from '../controllers/feedbackController.js';
+import { addFeedback, generateBatchFeedback, generateFeedbackReport, getFeedbacksByInteraction, getFeedbacksByIntern, modifyFeedback, removeFeedback } from '../controllers/feedbackController.js';
 import { feedbackValidation } from '../middlewares/validationMiddleware.js';
 
 const feedbackRouter = express.Router();
@@ -11,4 +11,5 @@ feedbackRouter.get('/intern/:internId', authenticateUser, checkPermission(['feed
 feedbackRouter.put('/:id/update', authenticateUser, checkPermission(['feedback.create']), modifyFeedback);
 // feedbackRouter.delete('/:id/delete', authenticateUser, checkPermission(['feedback.delete']), removeFeedback);
 feedbackRouter.get('/:id/download',generateFeedbackReport);
+feedbackRouter.get('/download',generateBatchFeedback);
 export default feedbackRouter;

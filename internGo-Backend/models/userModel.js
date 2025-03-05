@@ -490,3 +490,34 @@ export const getRatingsByUserId=async(id)=>{
         throw new Error(error.message);
     }
 }
+
+export const getInternsByWhereCondition=async(whereCondition)=>{
+    try{
+        return await prisma.users.findMany({
+            where:whereCondition,
+            select:{
+                id:true,
+                employeeId:true,
+                name:true,
+                designation:true,
+                plan:{
+                    select:{
+                        name:true
+                    }
+                },
+                phase:true,
+                zone:true,
+                overall_rating:true,
+                _count:{
+                    select:{
+                        interactionsAttended:true
+                    }
+                }
+            }
+        })
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}

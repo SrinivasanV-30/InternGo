@@ -6,8 +6,10 @@ import { zoneCalculation } from "../helpers/zoneCalculation.js";
 import axios from "axios";
 import PDFDocument from "pdfkit";
 import { ChartJSNodeCanvas } from "chartjs-node-canvas";
-import { findUserByUserId, getRatingsByUserId } from "../models/userModel.js";
+import { findUserByUserId, getInternsByWhereCondition, getRatingsByUserId, getTrainingPlan, updateUser } from "../models/userModel.js";
 import { jwtVerify } from "../services/jwtService.js";
+import { trainingDetailsHelper } from "../helpers/trainingDetailsHelper.js";
+import ExcelJS from 'exceljs';
 
 const chartJSNodeCanvas = new ChartJSNodeCanvas({ width: 800, height: 600 });
 
@@ -306,7 +308,38 @@ export const generateFeedbackReport = async (req, res) => {
 
 export const generateBatchFeedback=async(req,res)=>{
     try{
+        const workbook=new ExcelJS.Workbook();
+        const worksheet=workbook.addWorksheet("Intern-Batch-Feedback");
+        worksheet.columns=[
+            { header: "EmployeeId", key: "employeeId", width: 10 },
+            { header: "Name", key: "name", width: 30 },
+            { header: "Designation", key: "designation", width: 30 },
+            { header: "Plan", key: "plan", width: 50 },
+            { header: "Phase", key: "phase", width: 30 },
+            { header: "Training Phase", key: "trainingPhase", width: 50 },
+            { header: "Mentor", key: "mentor", width: 30 },
+            { header: "Zone", key: "zone", width: 30 },
+            { header: "Overall Rating", key: "overallRating", width: 30 },
+            { header: "No. of interactions attended", key: "noOfInteractions", width: 20 }
 
+        ]
+        const batch=req.query.batch;
+        const batchInterns=await getInternsByWhereCondition({
+                batch:batch
+        })
+        console.log(batchInterns)
+        batchInterns.forEach(async(intern)=>{
+            // const userPlan=await getTrainingPlan(intern.id);
+            // let currentMilestone=await trainingDetailsHelper(userPlan);
+            // intern.currentMilestone=currentMilestone;
+            console.log("Intern details:",intern)
+            worksheet.addRow({ employeeId: intern.employeeId, name: intern.name || "Hello", designation:intern.designation, plan:intern.plan?.name || null ,phase:intern.phase || null ,zone:intern.zone,overallRating:intern.overall_rating,noOfInteractions:intern._count.noOfInteractions })
+        })
+        res.setHeader("Content-Type", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        res.setHeader("Content-Disposition", "attachment; filename=users.xlsx");
+
+        await workbook.xlsx.write(res);
+        res.end();  
     }
     catch(error){
         logger.error(error.message);

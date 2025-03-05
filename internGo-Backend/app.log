@@ -38636,3 +38636,238 @@ Timed out fetching a new connection from the connection pool. More info: http://
 2025-03-05T05:47:42.186Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [05/Mar/2025:05:47:42 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 2025-03-05T05:47:42.643Z [:[32minfo[39m] Notifications fetched successfully
 2025-03-05T05:47:42.645Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [05/Mar/2025:05:47:42 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:20:04.391Z [:[31merror[39m] workbook.addWorksheet is not a constructor
+2025-03-05T07:20:04.402Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:20:04 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.43.0"
+2025-03-05T07:20:59.024Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    bath: "Batch 1",
+    ~~~~
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   id?: StringFilter | String,
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   email?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   primary_skill?: StringNullableFilter | String | Null,
+?   secondary_skills?: StringNullableListFilter,
+?   personalEmail?: StringNullableFilter | String | Null,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   overall_rating?: FloatNullableFilter | Float | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null,
+?   milestones?: MilestonesListRelationFilter
+  },
+  select: {
+    id: true,
+    employeeId: true,
+    name: true,
+    designation: true,
+    plan: {
+      select: {
+        name: true
+      }
+    },
+    phase: true,
+    zone: true,
+    overall_rating: true,
+    _count: {
+      select: {
+        interactionsAttended: true
+      }
+    }
+  }
+}
+
+Unknown argument `bath`. Did you mean `batch`? Available options are marked with ?.
+2025-03-05T07:20:59.028Z [:[31merror[39m] 
+Invalid `prisma.users.findMany()` invocation:
+
+{
+  where: {
+    bath: "Batch 1",
+    ~~~~
+?   AND?: UsersWhereInput | UsersWhereInput[],
+?   OR?: UsersWhereInput[],
+?   NOT?: UsersWhereInput | UsersWhereInput[],
+?   id?: StringFilter | String,
+?   roleId?: IntFilter | Int,
+?   planId?: IntNullableFilter | Int | Null,
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   email?: StringFilter | String,
+?   gender?: StringNullableFilter | String | Null,
+?   employeeId?: StringNullableFilter | String | Null,
+?   primary_skill?: StringNullableFilter | String | Null,
+?   secondary_skills?: StringNullableListFilter,
+?   personalEmail?: StringNullableFilter | String | Null,
+?   currentAddress?: StringNullableFilter | String | Null,
+?   permanentAddress?: StringNullableFilter | String | Null,
+?   profilePhoto?: StringNullableFilter | String | Null,
+?   batch?: StringNullableFilter | String | Null,
+?   year?: IntNullableFilter | Int | Null,
+?   designation?: StringNullableFilter | String | Null,
+?   phone_no?: StringNullableFilter | String | Null,
+?   education?: JsonNullableFilter,
+?   bankDetails?: JsonNullableFilter,
+?   zone?: StringNullableFilter | String | Null,
+?   certificates_submission_status?: BoolNullableFilter | Boolean | Null,
+?   status?: EnumStatusNullableFilter | Status | Null,
+?   dateOfBirth?: DateTimeNullableFilter | DateTime | Null,
+?   dateOfJoining?: DateTimeNullableFilter | DateTime | Null,
+?   bloodGroup?: StringNullableFilter | String | Null,
+?   phase?: StringNullableFilter | String | Null,
+?   daysWorked?: IntFilter | Int,
+?   overall_rating?: FloatNullableFilter | Float | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   profilePercentage?: IntNullableFilter | Int | Null,
+?   planStartDate?: DateTimeNullableFilter | DateTime | Null,
+?   assets?: AssetsListRelationFilter,
+?   interactionsAttended?: InteractionsListRelationFilter,
+?   interactionsTaken?: InteractionsListRelationFilter,
+?   dailyUpdates?: DailyUpdatesListRelationFilter,
+?   notifications?: NotificationsListRelationFilter,
+?   feedbacksReceived?: FeedbacksListRelationFilter,
+?   feedbacksGiven?: FeedbacksListRelationFilter,
+?   role?: RolesScalarRelationFilter | RolesWhereInput,
+?   plan?: PlansNullableScalarRelationFilter | PlansWhereInput | Null,
+?   milestones?: MilestonesListRelationFilter
+  },
+  select: {
+    id: true,
+    employeeId: true,
+    name: true,
+    designation: true,
+    plan: {
+      select: {
+        name: true
+      }
+    },
+    phase: true,
+    zone: true,
+    overall_rating: true,
+    _count: {
+      select: {
+        interactionsAttended: true
+      }
+    }
+  }
+}
+
+Unknown argument `bath`. Did you mean `batch`? Available options are marked with ?.
+2025-03-05T07:20:59.038Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:20:59 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 400 2887 "-" "PostmanRuntime/7.43.0"
+2025-03-05T07:21:19.770Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:22:35.712Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:24:27.025Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:24:27.028Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:24:27.029Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:24:27.029Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:24:27.030Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:24:27.030Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:24:27.031Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:24:27.031Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:24:27.031Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:24:27.032Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:26:06.170Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:26:06 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "PostmanRuntime/7.43.0"
+2025-03-05T07:26:06.670Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:26:06.671Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:26:06.672Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:26:06.672Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:26:06.672Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:26:06.673Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:26:06.673Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:26:06.673Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:26:06.674Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:26:06.674Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:26:21.385Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:26:21 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:26:21.623Z [:[31merror[39m] Invalid user plan structure for user 0d1a2f93-4555-472e-8433-cfc3ee9c31d4
+2025-03-05T07:26:21.623Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-05T07:26:21.623Z [:[31merror[39m] Invalid user plan structure for user 8b80ab24-a219-4ff1-8938-64d4064b16da
+2025-03-05T07:26:21.623Z [:[31merror[39m] Invalid user plan structure for user 1f0372d0-5f21-409d-af23-605fba0e0ba5
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user e81419c9-79ff-40cd-93d2-f9c85d1fe3c0
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user c3db2100-8052-499f-99ad-183e511253d6
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user 57326fb2-591b-4980-ba95-a8461c729227
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user af3aa0ce-4284-4296-8a29-acc2b4a658d6
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user 20accf93-245a-43f1-ba52-0af50a19fae5
+2025-03-05T07:26:21.624Z [:[31merror[39m] Invalid user plan structure for user 53d5b3e8-9f9c-4400-a94a-162a072f2820
+2025-03-05T07:30:10.439Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.440Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.441Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.441Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.442Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.442Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-05T07:30:10.443Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:30:10.444Z [:[32minfo[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:31:11.565Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-05T07:45:12.127Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:45:12 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:45:57.039Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:45:57 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:46:51.762Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:46:51 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:48:53.313Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:48:53 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T07:49:35.067Z [:[32minfo[39m] ::1 - - [05/Mar/2025:07:49:35 +0000] "GET /api/feedbacks/download?batch=Batch%201 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
