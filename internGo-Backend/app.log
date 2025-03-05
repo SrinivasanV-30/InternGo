@@ -39229,3 +39229,49 @@ Argument `year`: Invalid value provided. Expected IntNullableFilter, Int or Null
 2025-03-05T08:36:55.761Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
 2025-03-05T08:36:55.843Z [:[31merror[39m] Error in trainingDetailsHelper: Cannot read properties of null (reading 'milestones')
 2025-03-05T08:36:56.574Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:36:56 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:41:56.608Z [:[31merror[39m] Not authorised
+2025-03-05T08:41:56.624Z [:[32minfo[39m] ::1 - - [05/Mar/2025:08:41:56 +0000] "GET /api/feedbacks/download?batch=Batch%201&year=2025 HTTP/1.1" 401 56 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-05T08:44:03.255Z [:[31merror[39m] Not authorised
+2025-03-05T08:46:41.160Z [:[31merror[39m] Not authorised
+2025-03-05T08:48:03.388Z [:[31merror[39m] Not authorised
+2025-03-05T10:01:05.091Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-05T10:01:05.094Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-05T10:01:05.096Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-05T10:01:05.096Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-05T10:01:05.097Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-05T10:01:05.098Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-05T10:02:11.074Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)

@@ -8,6 +8,7 @@ export const jwtSign = async (data) => {
 export const jwtVerify = (token) => {
     try {
         return new Promise((resolve, reject) => {
+            
             jwt.verify(token, process.env.SECRET_KEY, (error, user) => {
                 if (error) {
                     reject(error);

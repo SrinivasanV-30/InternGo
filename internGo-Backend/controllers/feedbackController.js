@@ -104,7 +104,8 @@ export const generateFeedbackReport = async (req, res) => {
     try {
         const internId = req.params.id;
         const token=req.query.token;
-        if(!token||!jwtVerify(token)){
+        const user=jwtVerify(token);
+        if(!token||!user||user.role!="Admins"){
             logger.error("Not authorised");
             return sendResponse(res,401,"Access denied")
         }
@@ -309,7 +310,8 @@ export const generateFeedbackReport = async (req, res) => {
 export const generateBatchFeedback=async(req,res)=>{
     try{
         const token=req.query.token;
-        if(!token||!jwtVerify(token)){
+        const user=jwtVerify(token);
+        if(!token||!user||user.role!="Admins"){
             logger.error("Not authorised");
             return sendResponse(res,401,"Access denied")
         }
@@ -339,14 +341,14 @@ export const generateBatchFeedback=async(req,res)=>{
             whereCondition.year=year;
         }
         const batchInterns=await getInternsByWhereCondition(whereCondition)
-        console.log(batchInterns)
+        // console.log(batchInterns)
         for(let intern of batchInterns){
             const userPlan=await getTrainingPlan(intern.id);
             let currentMilestone=await trainingDetailsHelper(userPlan);
             intern.currentMilestone=currentMilestone;  
         }
         batchInterns.forEach((intern)=>{
-            console.log(intern.currentMilestone)
+            // console.log(intern.currentMilestone)
             worksheet.addRow({ employeeId: intern.employeeId || "-", name: intern.name, designation:intern.designation || "-", plan:intern.plan?.name || "-" ,phase:intern.phase || "-" ,zone:intern.zone || "-",overallRating:intern.overall_rating?(intern.overall_rating).toFixed(2):"-",noOfInteractions:intern._count.interactionsAttended,trainingPhase:intern.currentMilestone?.name || "-" ,mentor:intern.currentMilestone?.mentorName || "-"})
         })
         const headerRow = worksheet.getRow(1);
