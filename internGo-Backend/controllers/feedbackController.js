@@ -105,7 +105,7 @@ export const generateFeedbackReport = async (req, res) => {
         const internId = req.params.id;
         const token=req.query.token;
         const user=jwtVerify(token);
-        if(!token||!user||user.role!="Admins"){
+        if(!token||!user){
             logger.error("Not authorised");
             return sendResponse(res,401,"Access denied")
         }
@@ -311,7 +311,7 @@ export const generateBatchFeedback=async(req,res)=>{
     try{
         const token=req.query.token;
         const user=jwtVerify(token);
-        if(!token||!user||user.role!="Admins"){
+        if(!token||!user){
             logger.error("Not authorised");
             return sendResponse(res,401,"Access denied")
         }
