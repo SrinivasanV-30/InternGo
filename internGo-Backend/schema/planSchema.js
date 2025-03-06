@@ -20,8 +20,7 @@ export const milestoneCreateValidationSchema = Joi.object({
     name: Joi.string().min(3).max(255),
     mentorName: Joi.string().min(3).max(255).required(),
     milestoneDays: Joi.number().integer().min(1),
-    startDate:Joi.string().required(),
-    endDate:Joi.string().required()
+    
 })
 export const milestoneUpdateValidationSchema = Joi.object({
     milestoneId:Joi.number().integer().min(1).required(),
@@ -29,8 +28,7 @@ export const milestoneUpdateValidationSchema = Joi.object({
         name: Joi.string().min(3).max(255),
         mentorName: Joi.string().min(3).max(255),
         milestoneDays: Joi.number().integer().min(1),
-        startDate:Joi.string(),
-        endDate:Joi.string()
+        
     })
 });
 
