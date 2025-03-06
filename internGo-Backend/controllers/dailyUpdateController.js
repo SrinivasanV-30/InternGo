@@ -137,12 +137,15 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
         });
         const tasks=await Promise.all(tasksPromises);
         const totalActualTime=tasks.reduce((total,task)=>total+(task.actualTime?task.actualTime:0));
-        tasks.totalActualTime=totalActualTime;
+        
         await updateDailyUpdate(dailyUpdateId,{
             totalActualTime:actualTime
         })
         logger.info("Upserted successfully");
-        sendResponse(res,200,"Upserted successfully",tasks);
+        sendResponse(res,200,"Upserted successfully",{
+            tasks:tasks,
+            totalActualTime:totalActualTime
+        });
     }
     catch(error){
         logger.error(error.message);
