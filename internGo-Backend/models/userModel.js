@@ -71,12 +71,15 @@ export const getTrainingPlan = async (userId) => {
                             orderBy:{
                                 createdAt:'asc'
                             }
-                        }
+                        },
+                        startDate:true,
+                        endDate:true
                     }
                 },
                 daysWorked:true,
                 planStartDate:true,
-                zone:true
+                zone:true,
+                id:true
                 
             },
         });
@@ -462,6 +465,58 @@ export const countByStatus=async(status)=>{
     }
     catch(error)
     {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+export const getRatingsByUserId=async(id)=>{
+    try{
+        return await prisma.users.findUnique({
+            where:{
+                id:id
+            },
+            select:{
+                feedbacksReceived:{
+                    select:{
+                        avg_rating:true
+                    }
+                }
+            }
+        }).then(result=>result.feedbacksReceived.map(feedback=>feedback.avg_rating))
+    }
+    catch(error){
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+}
+
+export const getInternsByWhereCondition=async(whereCondition)=>{
+    try{
+        return await prisma.users.findMany({
+            where:whereCondition,
+            select:{
+                id:true,
+                employeeId:true,
+                name:true,
+                designation:true,
+                plan:{
+                    select:{
+                        name:true
+                    }
+                },
+                phase:true,
+                zone:true,
+                overall_rating:true,
+                _count:{
+                    select:{
+                        interactionsAttended:true
+                    }
+                }
+            }
+        })
+    }
+    catch(error){
         logger.error(error.message);
         throw new Error(error.message);
     }

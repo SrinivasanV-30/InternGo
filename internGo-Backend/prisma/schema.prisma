@@ -37,6 +37,7 @@ model Users{
     bloodGroup String?
     phase String?
     daysWorked Int @default(0)
+    overall_rating Float?
     assets Assets[] @relation("UserAssets")
     interactionsAttended Interactions[] @relation("Interaction-Intern")
     interactionsTaken Interactions[] @relation("Interaction-Interviewer")
@@ -114,8 +115,6 @@ model Milestones{
     mentorName String
     mentorId String
     learning_resources String[]
-    startDate DateTime?
-    endDate DateTime?
     objectives Objectives[] @relation("PlanObjectives")
     plan Plans @relation("PlanMilestones",fields:[planId],references:[id],onDelete:Cascade)
     mentor Users @relation("Mentor-Milestone",fields:[mentorId],references:[id],onDelete:Cascade)
@@ -182,7 +181,7 @@ model Interactions{
     internId String
     interviewerId String
     intern Users @relation("Interaction-Intern",fields:[internId],references:[id],onDelete:Cascade)
-    interviewer Users @relation("Interaction-Interviewer",fields:[interviewerId],references:[id])
+    interviewer Users @relation("Interaction-Interviewer",fields:[interviewerId],references:[id],onDelete:Cascade)
     date DateTime
     time String
     duration String
@@ -223,9 +222,9 @@ model Feedbacks {
     createdAt      DateTime  @default(now())
     updatedAt      DateTime  @updatedAt
 
-    interaction    Interactions @relation("Interaction-Feedback",fields: [interactionId], references: [id])
+    interaction    Interactions @relation("Interaction-Feedback",fields: [interactionId], references: [id],onDelete:Cascade)
     intern         Users        @relation("Intern-Feedbacks",fields: [internId], references: [id],onDelete:Cascade)
-    interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id])
+    interviewer    Users        @relation("Mentor-Feedback",fields: [interviewerId], references: [id],onDelete:Cascade)
 }
 
 model HelpDesk{
@@ -258,3 +257,10 @@ enum Recepient{
     Admins
 }
 
+model pushNotification{
+    id Int @id @default(autoincrement())
+    userId String
+    fcmToken String[]
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

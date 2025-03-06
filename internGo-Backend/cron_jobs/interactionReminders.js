@@ -74,7 +74,7 @@ export const sendSchedulingRemindersToAdmins=async()=>{
 
             plan?.milestones?.forEach((milestone) => {
                 milestone?.objectives?.forEach(async (objective) => {
-                    let dueDate1;
+                    let dueDate1=null;
                     if(objective.noOfInteractions>1)
                     {
                         dueDate1 = new Date(planStartDate);

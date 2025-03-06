@@ -1,5 +1,5 @@
 import express from 'express';
-import { clearAllNotification, createAnnoncement, deleteNotification, getAnnouncement, getNotificationsByUserId, markAllAsRead, markAsRead } from '../controllers/notificationController.js';
+import { clearAllNotification, createAnnoncement, deleteNotification, getAnnouncement, getNotificationsByUserId, markAllAsRead, markAsRead, userFCMUpsert } from '../controllers/notificationController.js';
 import { authenticateUser, checkPermission, checkUser } from '../middlewares/authenticationMiddleware.js';
 
 const notificationRouter=express.Router();
@@ -12,4 +12,5 @@ notificationRouter.delete('/:id/delete',authenticateUser,checkUser,clearAllNotif
 notificationRouter.delete('/delete',authenticateUser,deleteNotification);
 notificationRouter.post('/createAnnouncement',authenticateUser,checkPermission(['users.manage']),createAnnoncement);
 notificationRouter.get('/get/announcements',authenticateUser,getAnnouncement);
+notificationRouter.post('/registerFCM',userFCMUpsert);
 export default notificationRouter   
