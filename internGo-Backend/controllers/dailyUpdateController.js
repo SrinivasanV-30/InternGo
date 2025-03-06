@@ -136,7 +136,7 @@ export const upsertDailyUpdatesTasks=async(req,res)=>{
             
         });
         const tasks=await Promise.all(tasksPromises);
-        const totalActualTime=tasks.reduce((total,task)=>total+task.actualTime);
+        const totalActualTime=tasks.reduce((total,task)=>total+(task.actualTime?task.actualTime:0));
         tasks.totalActualTime=totalActualTime;
         await updateDailyUpdate(dailyUpdateId,{
             totalActualTime:actualTime
