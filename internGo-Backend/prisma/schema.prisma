@@ -257,3 +257,10 @@ enum Recepient{
     Admins
 }
 
+model pushNotification{
+    id Int @id @default(autoincrement())
+    userId String
+    fcmToken String[]
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

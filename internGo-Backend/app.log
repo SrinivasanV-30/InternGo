@@ -39939,3 +39939,808 @@ Invalid `prisma.interactions.findMany()` invocation:
 Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
 
 Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T08:27:26.449Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:26 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.674Z [:[32minfo[39m] Login successful!!!
+2025-03-06T08:27:28.675Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "POST /api/auth/signin HTTP/1.1" 200 740 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.747Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.753Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/users/training/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.756Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.758Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.760Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/users/training/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:28.762Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:28 +0000] "OPTIONS /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:29.511Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T08:27:29.514Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:29 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:29.596Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T08:27:29.598Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:29 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:29.799Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-06T08:27:29.800Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:29 +0000] "GET /api/users/training/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 323 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:29.982Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T08:27:29.984Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:29 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 4419 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:30.115Z [:[32minfo[39m] User 5d28f420-f4da-421e-867d-8cff2c633154 reached milestone: Project Clone
+2025-03-06T08:27:30.117Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:30 +0000] "GET /api/users/training/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:31.784Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T08:27:31.786Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:31 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:36.306Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:36 +0000] "OPTIONS /api/users/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:36.309Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:36 +0000] "OPTIONS /api/users/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:37.279Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:37 +0000] "GET /api/users/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 200 5736 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:27:38.246Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:27:38 +0000] "GET /api/users/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:12.409Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:12 +0000] "OPTIONS /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:12.411Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:12 +0000] "OPTIONS /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:13.043Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T08:28:13.045Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:13 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:13.545Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T08:28:13.547Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:13 +0000] "GET /api/notifications/5d28f420-f4da-421e-867d-8cff2c633154 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:13.949Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:13 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:13.951Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:13 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:14.743Z [:[32minfo[39m] Fetched successfully
+2025-03-06T08:28:14.745Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:14 +0000] "GET /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 200 61 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:14.985Z [:[32minfo[39m] Fetched successfully
+2025-03-06T08:28:14.987Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:14 +0000] "GET /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:27.816Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:28:27 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:28:29.253Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 95,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:28:29.118Z"),
+      updatedAt: new Date("2025-03-06T08:28:29.118Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:28:29.253Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 95,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:28:29.118Z"),
+      updatedAt: new Date("2025-03-06T08:28:29.118Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:29:12.291Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:29:12 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:29:15.954Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 96,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:29:15.733Z"),
+      updatedAt: new Date("2025-03-06T08:29:15.733Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:29:15.955Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 96,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:29:15.733Z"),
+      updatedAt: new Date("2025-03-06T08:29:15.733Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:31:04.181Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:31:04 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:31:06.650Z [:[31merror[39m] 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 97,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:31:06.479Z"),
+      updatedAt: new Date("2025-03-06T08:31:06.479Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:31:06.651Z [:[31merror[39m] PrismaClientValidationError: 
+Invalid `prisma.dailyUpdates.update()` invocation:
+
+{
+  where: {
+    id: 35
+  },
+  data: {
+    totalActualTime: {
+      id: 97,
+      ~~
+      dailyUpdateId: 35,
+      taskName: "Hello",
+      activitiesPlanned: "Hello",
+      activitiesCompleted: "Geplds",
+      estimatedTime: 1,
+      actualTime: 1,
+      taskProgress: "PENDING",
+      createdAt: new Date("2025-03-06T08:31:06.479Z"),
+      updatedAt: new Date("2025-03-06T08:31:06.479Z"),
+?     set?: Float | Null,
+?     increment?: Float,
+?     decrement?: Float,
+?     multiply?: Float,
+?     divide?: Float
+    }
+  }
+}
+
+Unknown argument `id`. Did you mean `set`? Available options are marked with ?.
+2025-03-06T08:32:11.924Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:11 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:14.540Z [:[32minfo[39m] Upserted successfully
+2025-03-06T08:32:14.545Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:14 +0000] "POST /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:14.558Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:14 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:14.871Z [:[32minfo[39m] Fetched successfully
+2025-03-06T08:32:14.874Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:14 +0000] "GET /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 200 1070 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:28.222Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:28 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:29.893Z [:[32minfo[39m] Upserted successfully
+2025-03-06T08:32:29.895Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:29 +0000] "POST /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154/create HTTP/1.1" 200 1063 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:29.905Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:29 +0000] "OPTIONS /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T08:32:32.115Z [:[32minfo[39m] Fetched successfully
+2025-03-06T08:32:32.117Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:08:32:32 +0000] "GET /api/dailyUpdates/5d28f420-f4da-421e-867d-8cff2c633154?date=2025-03-06 HTTP/1.1" 200 1070 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:12:42.940Z [:[31merror[39m] jwt expired
+2025-03-06T09:12:42.951Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:12:42 +0000] "GET /api/notifications/registerFCM HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:13:23.102Z [:[31merror[39m] User not found
+2025-03-06T09:13:23.104Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:13:23 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:14:19.821Z [:[31merror[39m] User not found
+2025-03-06T09:14:19.823Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:14:19 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:14:26.839Z [:[31merror[39m] User not found
+2025-03-06T09:14:26.840Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:14:26 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 404 57 "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:15:24.466Z [:[31merror[39m] userData.fcmToken is not iterable
+2025-03-06T09:15:24.466Z [:[31merror[39m] userData.fcmToken is not iterable
+2025-03-06T09:16:00.322Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:16:00.325Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-06T09:16:00.333Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:16:00.333Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:16:00.334Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:16:00.334Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:16:02.512Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:16:02 +0000] "POST /api/notifications/registerFCM HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:16:05.050Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:16:05.050Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:16:05.402Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:16:05.402Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:16:41.959Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:16:41.962Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined,
+      ~~~~~~~~~
+      undefined
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined,
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:17:07.394Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  orderBy: {
+  ~~~~~~~
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `orderBy`. Available options are marked with ?.
+2025-03-06T09:17:07.397Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  orderBy: {
+  ~~~~~~~
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `orderBy`. Available options are marked with ?.
+2025-03-06T09:17:07.398Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  orderBy: {
+  ~~~~~~~
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `orderBy`. Available options are marked with ?.
+2025-03-06T09:17:26.045Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-03-06T09:17:26.048Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-03-06T09:17:26.048Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.findUnique()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-03-06T09:17:43.735Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:17:43.739Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:19:22.693Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:19:22.697Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.upsert()` invocation:
+
+{
+  where: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275"
+  },
+  update: {
+    updatedFcmToken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  },
+  create: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    updatedFcmToken: [
+      undefined
+    ]
+  }
+}
+
+Invalid value for argument `updatedFcmToken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:23:14.893Z [:[31merror[39m] getUserPushNotifications is not defined
+2025-03-06T09:23:31.459Z [:[31merror[39m] userId is not defined
+2025-03-06T09:23:49.852Z [:[31merror[39m] 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:23:49.855Z [:[31merror[39m] PrismaClientInitializationError: 
+Invalid `prisma.users.findUnique()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:23:51.273Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:23:51 +0000] "POST /api/notifications/registerFCM HTTP/1.1" - - "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:23:53.668Z [:[31merror[39m] userId is not defined
+2025-03-06T09:24:17.005Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.create()` invocation:
+
+{
+  data: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    fcmtoken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  }
+}
+
+Invalid value for argument `fcmtoken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:24:17.009Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.create()` invocation:
+
+{
+  data: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    fcmtoken: [
+      undefined
+      ~~~~~~~~~
+    ]
+  }
+}
+
+Invalid value for argument `fcmtoken[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+2025-03-06T09:24:36.060Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.create()` invocation:
+
+{
+  data: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    fcmtoken: [
+    ~~~~~~~~
+      "fl3cuT4ERpOc3FVDQobHGQ:APA91bH2VcVSD9UInCUg6qywFbk1wiQ4UEMCZN-7_gsyiZugkewe0CxhD5x3fsmYNZmBKxJ8IvtHFvc0u58m3RQftQfYFpgvH9kt_tkVpQ0QEgTuQLso1sE"
+    ],
+?   fcmToken?: pushNotificationCreatefcmTokenInput | String[],
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime
+  }
+}
+
+Unknown argument `fcmtoken`. Did you mean `fcmToken`? Available options are marked with ?.
+2025-03-06T09:24:36.064Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.create()` invocation:
+
+{
+  data: {
+    userId: "3e708ae6-4504-4d92-8b12-f732b26b2275",
+    fcmtoken: [
+    ~~~~~~~~
+      "fl3cuT4ERpOc3FVDQobHGQ:APA91bH2VcVSD9UInCUg6qywFbk1wiQ4UEMCZN-7_gsyiZugkewe0CxhD5x3fsmYNZmBKxJ8IvtHFvc0u58m3RQftQfYFpgvH9kt_tkVpQ0QEgTuQLso1sE"
+    ],
+?   fcmToken?: pushNotificationCreatefcmTokenInput | String[],
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime
+  }
+}
+
+Unknown argument `fcmtoken`. Did you mean `fcmToken`? Available options are marked with ?.
+2025-03-06T09:24:52.350Z [:[32minfo[39m] Registered FCMToken successfully
+2025-03-06T09:24:52.361Z [:[32minfo[39m] ::1 - - [06/Mar/2025:09:24:52 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 201 75 "-" "PostmanRuntime/7.43.0"
+2025-03-06T09:29:37.583Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:37 +0000] "OPTIONS /api/auth/signin HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:38.801Z [:[32minfo[39m] Login successful!!!
+2025-03-06T09:29:38.802Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:38 +0000] "POST /api/auth/signin HTTP/1.1" 200 969 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:38.876Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:38 +0000] "OPTIONS /api/users/count/status HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:38.879Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:38 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:38.881Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:38 +0000] "OPTIONS /api/users/count/status HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:38.884Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:38 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:39.570Z [:[32minfo[39m] Fetched successfully
+2025-03-06T09:29:39.573Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:39 +0000] "GET /api/users/count/status HTTP/1.1" 200 132 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:39.586Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:39 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:39.590Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:39 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:39.918Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T09:29:39.920Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:39 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:40.926Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T09:29:40.928Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:40 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:41.093Z [:[32minfo[39m] Fetched successfully
+2025-03-06T09:29:41.094Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:41 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:41.292Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:29:41.294Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:41 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 200 6797 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:41.670Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:29:41.672Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:41 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:44.223Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:44 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:44.225Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:44 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:44.614Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:29:44.616Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:44 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:45.012Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:29:45.014Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:45 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:50.204Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:50 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:50.451Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:29:50 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:29:53.200Z [:[31merror[39m] serviceAccount is not defined
+2025-03-06T09:29:53.521Z [:[31merror[39m] Request failed with status code 401
+2025-03-06T09:30:56.629Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:30:56 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:30:57.436Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:30:57 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:31:00.679Z [:[31merror[39m] Request failed with status code 400
+2025-03-06T09:31:52.177Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:31:52 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:31:53.061Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:31:53 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:31:57.009Z [:[31merror[39m] Request failed with status code 400
+2025-03-06T09:33:09.801Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:33:09 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:33:10.622Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:33:10 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:33:14.067Z [:[31merror[39m] Request failed with status code 400
+2025-03-06T09:33:36.960Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:33:36 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:33:37.884Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:33:37 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:35:23.035Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:35:23 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:35:23.928Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:35:23 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:36:35.113Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:36:35 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:36:35.945Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:36:35 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:37:22.320Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:37:22 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:37:23.212Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:37:23 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:37:25.916Z [:[32minfo[39m] FCM Push Notification Response:
+2025-03-06T09:37:58.902Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:37:58 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:37:59.100Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:37:59 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:38:01.374Z [:[32minfo[39m] FCM Push Notification Response:
+2025-03-06T09:44:00.484Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:44:00.484Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:44:00.486Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:44:00.486Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-06T09:44:00.488Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:44:00.488Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-06T09:55:51.211Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:51 +0000] "OPTIONS /api/users/count/status HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:51.231Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:51 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:51.235Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:51 +0000] "OPTIONS /api/users/count/status HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:51.239Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:51 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.596Z [:[32minfo[39m] Fetched successfully
+2025-03-06T09:55:54.602Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.630Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.634Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "OPTIONS /api/notifications/get/announcements HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.873Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T09:55:54.876Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 200 1766 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.961Z [:[32minfo[39m] Announcements fetched successfully
+2025-03-06T09:55:54.963Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "GET /api/notifications/get/announcements HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:54.997Z [:[32minfo[39m] Fetched successfully
+2025-03-06T09:55:54.998Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:54 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:55.096Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:55:55.099Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:55 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:55.615Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:55:55.617Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:55 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:59.093Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:59 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:59.096Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:59 +0000] "OPTIONS /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:59.437Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:55:59.438Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:59 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:55:59.776Z [:[32minfo[39m] Notifications fetched successfully
+2025-03-06T09:55:59.778Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:55:59 +0000] "GET /api/notifications/417605d0-e95e-4149-a8f7-6a02c054f657 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:56:03.516Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:56:03 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:56:03.683Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:56:03 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:56:06.904Z [:[32minfo[39m] FCM Push Notification Response:
+2025-03-06T09:56:56.055Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:56:56 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:56:56.872Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:56:56 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:57:16.216Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:57:16 +0000] "OPTIONS /api/notifications/createAnnouncement HTTP/1.1" 204 0 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2025-03-06T09:57:17.139Z [:[32minfo[39m] ::ffff:192.168.0.141 - - [06/Mar/2025:09:57:17 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"

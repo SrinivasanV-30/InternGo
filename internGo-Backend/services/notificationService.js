@@ -2,13 +2,21 @@ import { createNotification, getAllUserIds } from "../models/notificationModel.j
 import { io, lookUps } from "./webSocketService.js";
 import logger from "../utils/logger.js";
 import { getUserByRole } from "../models/userModel.js";
+import { getAccessToken } from "./firebaseService.js";
+import axios from "axios";
+import { serviceAccount } from "../config/firebaseConfig.js";
+import { getPushNotificationById, getUserPushNotifications } from "../models/pushNotificationModel.js";
 
 export const sendNotification = async (userId = null, type, referenceId = null, message) => {
     try {
-        // console.log(lookUps[userId])
+        
         const createdNotification = await createNotification(userId, type, String(referenceId), message);
         const sockets = lookUps.get(userId);
-        // console.log(sockets);
+        const userFcmToken=await getUserPushNotifications(userId);
+        if(userFcmToken){
+            sendPushNotification(userFcmToken.fcmToken,type,message);
+        }
+        
         if (sockets) {
             sockets.forEach(socketId => {
                 io.to(socketId).emit("notification", { createdNotification });
@@ -26,7 +34,10 @@ export const sendBroadcastNotification = async (type, message) => {
         const createdNotification = await createNotification(null, 'announcement', null, message);
         for (const id of userIds) {
             const sockets = lookUps.get(id);
-            // console.log(lookUps)
+            const userFcmToken=await getUserPushNotifications(id);
+            if(userFcmToken){
+                sendPushNotification(userFcmToken.fcmToken,type,message);
+            }
             if (sockets) {
                 sockets.forEach(socketId => {
                     io.to(socketId).emit("announcement", { createdNotification });
@@ -40,14 +51,55 @@ export const sendBroadcastNotification = async (type, message) => {
     }
 };
 
-export const sendToAdmins = async (type,referenceId=null, message) => {
+export const sendToAdmins = async (type, referenceId = null, message) => {
     try {
         const adminUsers = await getUserByRole("Admins");
-        adminUsers.forEach((adminUser) => {
+        adminUsers.forEach(async(adminUser) => {
+            const userFcmToken=await getUserPushNotifications(adminUser.id);
+            if(userFcmToken){
+                sendPushNotification(userFcmToken.fcmToken,type,message);
+            }
             sendNotification(adminUser.id, type, referenceId, message);
         })
     }
     catch (error) {
         logger.error(error.message);
+    }
+}
+
+export const sendPushNotification = async (fcmToken, type, body) => {
+    try {
+        const accessToken = await getAccessToken();
+        console.log("Hello")
+        const message = {
+            message: {
+                token: fcmToken[0],
+                notification: {
+                    title: type.split(" ")[0],
+                    body: body
+                },
+                android: {
+                    priority: "high",
+                    notification: {
+                        sound: "interngo",
+                        channelId: "fcm_default_channel",
+                        icon: "ic_stat_notification",
+                    },
+                },
+            }
+        }
+        const response = await axios.post(`https://fcm.googleapis.com/v1/projects/${serviceAccount.project_id}/messages:send`,
+            message,
+            {
+                headers:{
+                    Authorization:`Bearer ${accessToken}`
+                }
+            }
+        );
+        
+        logger.info("FCM Push Notification Response:", response);
+    }
+    catch (error) {
+        console.error(error)
     }
 }
