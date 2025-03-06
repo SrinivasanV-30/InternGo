@@ -5,7 +5,7 @@ import { getUserByRole } from "../models/userModel.js";
 import { getAccessToken } from "./firebaseService.js";
 import axios from "axios";
 import { serviceAccount } from "../config/firebaseConfig.js";
-import { getPushNotificationById, getUserPushNotifications } from "../models/pushNotificationModel.js";
+import { getUserPushNotifications } from "../models/pushNotificationModel.js";
 
 export const sendNotification = async (userId = null, type, referenceId = null, message) => {
     try {
@@ -14,7 +14,9 @@ export const sendNotification = async (userId = null, type, referenceId = null, 
         const sockets = lookUps.get(userId);
         const userFcmToken=await getUserPushNotifications(userId);
         if(userFcmToken){
-            sendPushNotification(userFcmToken.fcmToken,type,message);
+            userFcmToken.fcmToken.forEach((token)=>{
+                sendPushNotification(token,type,message);
+            })
         }
         
         if (sockets) {
@@ -36,7 +38,10 @@ export const sendBroadcastNotification = async (type, message) => {
             const sockets = lookUps.get(id);
             const userFcmToken=await getUserPushNotifications(id);
             if(userFcmToken){
-                sendPushNotification(userFcmToken.fcmToken,type,message);
+                userFcmToken.fcmToken.forEach((token)=>{
+                    
+                    sendPushNotification(token,type,message);
+                })
             }
             if (sockets) {
                 sockets.forEach(socketId => {
@@ -57,7 +62,9 @@ export const sendToAdmins = async (type, referenceId = null, message) => {
         adminUsers.forEach(async(adminUser) => {
             const userFcmToken=await getUserPushNotifications(adminUser.id);
             if(userFcmToken){
-                sendPushNotification(userFcmToken.fcmToken,type,message);
+                userFcmToken.fcmToken.forEach((token)=>{
+                    sendPushNotification(token,type,message);
+                })
             }
             sendNotification(adminUser.id, type, referenceId, message);
         })
@@ -73,7 +80,7 @@ export const sendPushNotification = async (fcmToken, type, body) => {
         console.log("Hello")
         const message = {
             message: {
-                token: fcmToken[0],
+                token: fcmToken,
                 notification: {
                     title: type.split(" ")[0],
                     body: body
