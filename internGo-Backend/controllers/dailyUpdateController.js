@@ -156,6 +156,7 @@ export const deleteDailyUpdateTask=async(req,res)=>{
     try{
         const taskId=parseInt(req.params.id);
         const taskDetails=await getTaskById(taskId);
+        const actualTime=taskDetails.actualTime;
         const dailyUpdateId=taskDetails.dailyUpdateId;
         if(!taskDetails)
         {
@@ -164,6 +165,9 @@ export const deleteDailyUpdateTask=async(req,res)=>{
         }
         await deleteDailyUpdateTasks(taskId);
         const dailyUpdate=await getDailyUpdates(dailyUpdateId);
+        await updateDailyUpdate(dailyUpdateId,{
+            totalActualTime:dailyUpdate.totalActualTime-actualTime
+        })
         if(dailyUpdate.tasks.length===0){
             await deleteDailyUpdates(dailyUpdateId)
 
