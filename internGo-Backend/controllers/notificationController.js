@@ -76,7 +76,7 @@ export const markAllAsRead = async (req, res) => {
 export const deleteNotification = async (req, res) => {
     try {
         const notifications = req.body;
-        console.log(notifications)
+        // console.log(notifications)
         notifications.notificationIds.forEach(async (id) => {
             let notification;
             if (id) {
@@ -130,6 +130,30 @@ export const userFCMUpsert = async (req, res) => {
         sendResponse(res, 201, "Registered FCMToken successfully");
     }
     catch (error) {
+        logger.error(error.message)
+    }
+}
+
+export const deleteFCM = async(req,res)=>{
+    try{
+        const request = req.body;
+        const userFCM=await getUserPushNotifications(request.userId);
+        if(!userFCM){
+            logger.error("No FCM Tokens found!!");
+            sendResponse(res,404,"No FCM Tokens found!!");
+        }
+        
+        userFCM.fcmToken = userFCM.fcmToken.filter((token)=>{
+            if(token!=request.fcmToken){
+                return token
+            }
+        });
+        await updateFcmToken(request.userId,userFCM.fcmToken)
+        logger.info("Deleted FCMToken successfully");
+        sendResponse(res, 204, "Deleted FCMToken successfully");
+
+    }
+    catch(error){
         logger.error(error.message)
     }
 }
