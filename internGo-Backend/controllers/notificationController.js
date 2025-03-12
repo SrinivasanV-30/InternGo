@@ -140,7 +140,7 @@ export const deleteFCM = async(req,res)=>{
         const userFCM=await getUserPushNotifications(request.userId);
         if(!userFCM){
             logger.error("No FCM Tokens found!!");
-            sendResponse(res,404,"No FCM Tokens found!!");
+            return sendResponse(res,404,"No FCM Tokens found!!");
         }
         
         userFCM.fcmToken = userFCM.fcmToken.filter((token)=>{
