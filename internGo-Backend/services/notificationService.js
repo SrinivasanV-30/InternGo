@@ -6,6 +6,7 @@ import { getAccessToken } from "./firebaseService.js";
 import axios from "axios";
 import { serviceAccount } from "../config/firebaseConfig.js";
 import { getUserPushNotifications } from "../models/pushNotificationModel.js";
+import { capitalizeFirstLetter } from "../helpers/capitalizeFirstLetter.js";
 
 export const sendNotification = async (userId = null, type, referenceId = null, message) => {
     try {
@@ -82,7 +83,7 @@ export const sendPushNotification = async (fcmToken, type, body) => {
             message: {
                 token: fcmToken,
                 notification: {
-                    title: type.split(" ")[0],
+                    title: (capitalizeFirstLetter(type.split("-")[0]) +" "+ capitalizeFirstLetter(type.split("-")[1])).trim(),
                     body: body
                 },
                 android: {
