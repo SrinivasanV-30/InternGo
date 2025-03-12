@@ -40894,3 +40894,361 @@ Invalid `prisma.notifications.findFirst()` invocation:
 
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.298Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.299Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.299Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.299Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.300Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T05:48:10.300Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T05:49:11.119Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.963Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.964Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.965Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.965Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.965Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T06:41:10.965Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T06:52:50.856Z [:[32minfo[39m] ::ffff:192.168.151.116 - - [12/Mar/2025:06:52:50 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+2025-03-12T06:53:13.264Z [:[32minfo[39m] ::ffff:192.168.151.116 - - [12/Mar/2025:06:53:13 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+2025-03-12T07:02:50.542Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:02:50.542Z [:[32minfo[39m] ::ffff:192.168.151.116 - - [12/Mar/2025:07:02:50 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "PostmanRuntime/7.43.0"
+2025-03-12T07:04:49.791Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:04:49.791Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:04:49 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:04:50.984Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:04:50.986Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:04:50 +0000] "GET /api/users/count/status HTTP/1.1" 200 132 "-" "okhttp/4.9.2"
+2025-03-12T07:04:53.152Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: "778fca67-9ea8-4873-86a7-552368c2c7d6",
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-03-12T07:04:53.153Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: "778fca67-9ea8-4873-86a7-552368c2c7d6",
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+2025-03-12T07:05:00.792Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:05:00 +0000] "POST /api/notifications/registerFCM HTTP/1.1" - - "-" "okhttp/4.9.2"
+2025-03-12T07:08:07.118Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:08:07.125Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:08:07 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:08:10.594Z [:[32minfo[39m] Registered FCMToken successfully
+2025-03-12T07:08:10.598Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:08:10 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 201 75 "-" "okhttp/4.9.2"
+2025-03-12T07:08:49.429Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk",
+      [
+        "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+        "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+      ]
+    ]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Argument `fcmToken`: Invalid value provided. Expected pushNotificationUpdatefcmTokenInput or String, provided (String, String, String, String, String, String, String, String).
+2025-03-12T07:08:49.429Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk",
+      [
+        "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+        "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+        "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+      ]
+    ]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Argument `fcmToken`: Invalid value provided. Expected pushNotificationUpdatefcmTokenInput or String, provided (String, String, String, String, String, String, String, String).
+2025-03-12T07:08:59.126Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:08:59 +0000] "DELETE /api/notifications/deleteFCM HTTP/1.1" - - "-" "okhttp/4.9.2"
+2025-03-12T07:10:41.268Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:10:41.270Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:10:41 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:10:42.686Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:10:42.689Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:10:42 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:10:59.848Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined,
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` or `userId` arguments. Available options are marked with ?.
+2025-03-12T07:10:59.848Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined,
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` or `userId` arguments. Available options are marked with ?.
+2025-03-12T07:11:09.172Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:11:09 +0000] "DELETE /api/notifications/deleteFCM HTTP/1.1" - - "-" "okhttp/4.9.2"
+2025-03-12T07:12:17.067Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:12:17.067Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:12:17 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:12:18.048Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:12:18.050Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:12:18 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:12:21.172Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined,
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` or `userId` arguments. Available options are marked with ?.
+2025-03-12T07:12:21.172Z [:[31merror[39m] 
+Invalid `prisma.pushNotification.update()` invocation:
+
+{
+  where: {
+    userId: undefined,
+?   id?: Int,
+?   AND?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   OR?: pushNotificationWhereInput[],
+?   NOT?: pushNotificationWhereInput | pushNotificationWhereInput[],
+?   fcmToken?: StringNullableListFilter,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    fcmToken: [
+      "dB4VCMozTZy2qziZvux_8i:APA91bGqySGe9KOzONscwZygfLGX1tFGFaY34hn7aU2By9l5y_mDSNiNDxmfcNxoBp1HZd_rOhhFCAn88vXt4pTW63UGCV2GNyNjKBmYDvTEpWldb8y55dw",
+      "fQciVM3ERFGZljoTA856s5:APA91bFlhHZIj5BmkuarWnTI7lkPIwh4-QQAyQK1nZ-loTB9w7NpNcDfaLDFtRCI79sqAPqBrKNTXeFxoRiBp9Xov0GgLDnLQGYFWzA3pziX9PtfjOEXuKs",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "dqcqaduERz2ldID-m99OWD:APA91bFe20xW8AhVVbUvq6UqgW_6P1PtXIbMfGmsxAkMgr01ZX7NIuWERnx3G1xAAVI51Y0uFW0rWjNRIOgdkghNFugnah6WO2V6dftR8fex5ENni0EfOMg",
+      "ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk"
+    ]
+  }
+}
+
+Argument `where` of type pushNotificationWhereUniqueInput needs at least one of `id` or `userId` arguments. Available options are marked with ?.
+2025-03-12T07:12:31.096Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:12:31 +0000] "DELETE /api/notifications/deleteFCM?userId=778fca67-9ea8-4873-86a7-552368c2c7d6&fcmToken=ck60yvPqQjKKvP20GYk-2t:APA91bHR6DnpV2mYphLv6vp2sAkaQn7BvB5HqZBaCLXk0S36XZffqVHyk5hLlOEr2JIthctPQuGlWpQpIBp3ED9DsizRFsGb6K1330I_LD7InYZVNDvNfCk HTTP/1.1" - - "-" "okhttp/4.9.2"
+2025-03-12T07:13:28.080Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:13:28.082Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:13:28 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:13:29.708Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:13:29.711Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:13:29 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:13:40.608Z [:[32minfo[39m] Deleted FCMToken successfully
+2025-03-12T07:13:40.610Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:13:40 +0000] "POST /api/notifications/deleteFCM HTTP/1.1" 204 - "-" "okhttp/4.9.2"
+2025-03-12T07:14:25.042Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:14:25.042Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:25 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:14:26.221Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:14:26.223Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:26 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:14:27.911Z [:[32minfo[39m] Registered FCMToken successfully
+2025-03-12T07:14:27.913Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:27 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 201 75 "-" "okhttp/4.9.2"
+2025-03-12T07:14:33.944Z [:[32minfo[39m] Deleted FCMToken successfully
+2025-03-12T07:14:33.946Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:33 +0000] "POST /api/notifications/deleteFCM HTTP/1.1" 204 - "-" "okhttp/4.9.2"
+2025-03-12T07:14:39.034Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:14:39.034Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:39 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "okhttp/4.9.2"
+2025-03-12T07:14:40.115Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:14:40.117Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:40 +0000] "GET /api/users/count/status HTTP/1.1" 304 - "-" "okhttp/4.9.2"
+2025-03-12T07:14:41.515Z [:[32minfo[39m] Registered FCMToken successfully
+2025-03-12T07:14:41.517Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:14:41 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 201 75 "-" "okhttp/4.9.2"
+2025-03-12T07:15:45.296Z [:[32minfo[39m] Deleted FCMToken successfully
+2025-03-12T07:15:45.301Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:15:45 +0000] "POST /api/notifications/deleteFCM HTTP/1.1" 204 - "-" "okhttp/4.9.2"
+2025-03-12T07:16:25.896Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:16:25.897Z [:[32minfo[39m] ::1 - - [12/Mar/2025:07:16:25 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "PostmanRuntime/7.43.0"
+2025-03-12T07:16:59.461Z [:[32minfo[39m] ::1 - - [12/Mar/2025:07:16:59 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T07:17:18.273Z [:[32minfo[39m] Login successful!!!
+2025-03-12T07:17:18.274Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:17:18 +0000] "POST /api/auth/signin HTTP/1.1" 200 752 "-" "okhttp/4.9.2"
+2025-03-12T07:17:19.383Z [:[32minfo[39m] Fetched successfully
+2025-03-12T07:17:19.386Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:17:19 +0000] "GET /api/users/840304d1-e8ff-44de-965b-d2b402e5aa3c/interactionCount HTTP/1.1" 200 135 "-" "okhttp/4.9.2"
+2025-03-12T07:17:19.888Z [:[32minfo[39m] Registered FCMToken successfully
+2025-03-12T07:17:19.889Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:17:19 +0000] "POST /api/notifications/registerFCM HTTP/1.1" 201 75 "-" "okhttp/4.9.2"
+2025-03-12T07:17:23.674Z [:[32minfo[39m] ::1 - - [12/Mar/2025:07:17:23 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T07:17:24.809Z [:[32minfo[39m] FCM Push Notification Response:
+2025-03-12T07:17:36.978Z [:[32minfo[39m] Deleted FCMToken successfully
+2025-03-12T07:17:36.979Z [:[32minfo[39m] ::ffff:192.168.151.175 - - [12/Mar/2025:07:17:36 +0000] "POST /api/notifications/deleteFCM HTTP/1.1" 204 - "-" "okhttp/4.9.2"
+2025-03-12T07:17:40.947Z [:[32minfo[39m] ::1 - - [12/Mar/2025:07:17:40 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T07:17:54.083Z [:[32minfo[39m] ::1 - - [12/Mar/2025:07:17:54 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"

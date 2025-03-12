@@ -259,8 +259,9 @@ enum Recepient{
 
 model pushNotification{
     id Int @id @default(autoincrement())
-    userId String
+    userId String 
     fcmToken String[]
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    @@unique([userId])
 }
