@@ -41314,3 +41314,22 @@ Invalid `prisma.otpStorage.findMany()` invocation:
 
 Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
 2025-03-12T07:40:10.593Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T08:12:22.521Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:12:22 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:12:54.677Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:12:54 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:13:21.900Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:13:21 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:13:48.622Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:13:48 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:14:05.787Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:14:05 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:14:22.226Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:14:22 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:14:39.875Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:14:39 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:15:02.170Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:15:02 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:15:27.677Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:15:27 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:16:12.610Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:16:12 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:16:48.788Z [:[31merror[39m] jwt expired
+2025-03-12T08:16:48.793Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:16:48 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 401 54 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:16:58.437Z [:[32minfo[39m] Login successful!!!
+2025-03-12T08:16:58.438Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:16:58 +0000] "POST /api/auth/signin HTTP/1.1" 200 1049 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:17:09.160Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:17:09 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:17:55.581Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:17:55 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:21:05.146Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:21:05 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:21:54.762Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:21:54 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T08:22:20.613Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:22:20 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"

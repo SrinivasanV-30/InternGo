@@ -78,12 +78,12 @@ export const sendToAdmins = async (type, referenceId = null, message) => {
 export const sendPushNotification = async (fcmToken, type, body) => {
     try {
         const accessToken = await getAccessToken();
-        console.log("Hello")
+        // console.log((capitalizeFirstLetter(type?.split("-")[0]) +" "+ (type?.split("-")[1]?capitalizeFirstLetter(type?.split("-")[1]):"").trim()))
         const message = {
             message: {
                 token: fcmToken,
                 notification: {
-                    title: (capitalizeFirstLetter(type.split("-")[0]) +" "+ type.split("-")[1]?capitalizeFirstLetter(type.split("-")[1]):"").trim(),
+                    title: ((capitalizeFirstLetter(type?.split("-")[0])).trim() +" "+ (type?.split("-")[1]?capitalizeFirstLetter(type?.split("-")[1]):"").trim())?.trim(),
                     body: body
                 },
                 android: {
@@ -105,9 +105,9 @@ export const sendPushNotification = async (fcmToken, type, body) => {
             }
         );
         
-        logger.info("FCM Push Notification Response:", response);
+        logger.info("FCM Push Notification Successful!!");
     }
     catch (error) {
-        console.error(error)
+        logger.error(error)
     }
 }
