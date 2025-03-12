@@ -506,3 +506,13 @@ export const getPlanUsers = async (req, res) => {
         sendResponse(res, 500, "Internal server error");
     }
 };
+
+export const getMilestonesByMentorId = async(req,res)=>{
+    try{
+        
+    }
+    catch(error){
+        logger.error(`Error fetching interns: ${error.message}`);
+        sendResponse(res, 500, "Internal server error");
+    }
+}

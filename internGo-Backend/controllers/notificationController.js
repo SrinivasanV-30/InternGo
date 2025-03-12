@@ -137,6 +137,7 @@ export const userFCMUpsert = async (req, res) => {
 export const deleteFCM = async(req,res)=>{
     try{
         const request = req.body;
+        console.log(request);
         const userFCM=await getUserPushNotifications(request.userId);
         if(!userFCM){
             logger.error("No FCM Tokens found!!");

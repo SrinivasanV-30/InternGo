@@ -65,8 +65,8 @@ export const updateFcmToken = async (userId, newFcmToken) => {
     try {
         const userData= await getUserPushNotifications(userId);
         let updatedFcmToken = [...userData.fcmToken,newFcmToken];
-        return await prisma.pushNotification.updateMany({
-            where: { userId },
+        return await prisma.pushNotification.update({
+            where: { userId:userId },
             data: { fcmToken: updatedFcmToken },
         });
     } catch (error) {
