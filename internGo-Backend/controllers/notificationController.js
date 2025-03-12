@@ -3,7 +3,7 @@ import logger from "../utils/logger.js";
 import { createNotification, deleteAllNotifications, deleteSingleNotification, getAnnouncements, getNotificationById, getUserNotifications, markAllNotificationsAsRead, markNotificationAsRead } from "../models/notificationModel.js";
 import sendResponse from "../utils/response.js";
 import { sendBroadcastNotification } from "../services/notificationService.js";
-import { createPushNotification, getUserPushNotifications, updateFcmToken, upsertNotification } from "../models/pushNotificationModel.js";
+import { createPushNotification, getUserPushNotifications, updateFcmToken, updateFcmTokenArray, upsertNotification } from "../models/pushNotificationModel.js";
 
 export const getNotificationsByUserId = async (req, res) => {
     try {
@@ -137,7 +137,7 @@ export const userFCMUpsert = async (req, res) => {
 export const deleteFCM = async(req,res)=>{
     try{
         const request = req.body;
-        console.log(request);
+        // console.log(request);
         const userFCM=await getUserPushNotifications(request.userId);
         if(!userFCM){
             logger.error("No FCM Tokens found!!");
@@ -149,7 +149,7 @@ export const deleteFCM = async(req,res)=>{
                 return token
             }
         });
-        await updateFcmToken(request.userId,userFCM.fcmToken)
+        await updateFcmTokenArray(request.userId,userFCM.fcmToken)
         logger.info("Deleted FCMToken successfully");
         sendResponse(res, 204, "Deleted FCMToken successfully");
 

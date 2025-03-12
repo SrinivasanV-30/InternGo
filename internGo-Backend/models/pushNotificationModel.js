@@ -75,6 +75,18 @@ export const updateFcmToken = async (userId, newFcmToken) => {
     }
 };
 
+export const updateFcmTokenArray = async (userId, fcmTokens) => {
+    try {
+        
+        return await prisma.pushNotification.update({
+            where: { userId:userId },
+            data: { fcmToken: fcmTokens },
+        });
+    } catch (error) {
+        logger.error(error.message);
+        throw new Error(error.message);
+    }
+};
 export const deleteNotificationById = async (id) => {
     try {
         return await prisma.pushNotification.delete({

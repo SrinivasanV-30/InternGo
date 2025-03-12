@@ -13,5 +13,5 @@ notificationRouter.delete('/delete',authenticateUser,deleteNotification);
 notificationRouter.post('/createAnnouncement',authenticateUser,checkPermission(['users.manage']),createAnnoncement);
 notificationRouter.get('/get/announcements',authenticateUser,getAnnouncement);
 notificationRouter.post('/registerFCM',userFCMUpsert);
-notificationRouter.delete('/deleteFCM',deleteFCM);
+notificationRouter.post('/deleteFCM',deleteFCM);
 export default notificationRouter   
