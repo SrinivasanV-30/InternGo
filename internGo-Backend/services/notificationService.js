@@ -83,7 +83,7 @@ export const sendPushNotification = async (fcmToken, type, body) => {
             message: {
                 token: fcmToken,
                 notification: {
-                    title: (capitalizeFirstLetter(type.split("-")[0]) +" "+ capitalizeFirstLetter(type.split("-")[1])).trim(),
+                    title: (capitalizeFirstLetter(type.split("-")[0]) +" "+ type.split("-")[1]?capitalizeFirstLetter(type.split("-")[1]):"").trim(),
                     body: body
                 },
                 android: {
