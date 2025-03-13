@@ -10,8 +10,21 @@ import { findUserByUserId, getInternsByWhereCondition, getRatingsByUserId, getTr
 import { jwtVerify } from "../services/jwtService.js";
 import { trainingDetailsHelper } from "../helpers/trainingDetailsHelper.js";
 import ExcelJS from 'exceljs';
+import dotenv from 'dotenv';
 
-const chartJSNodeCanvas = new ChartJSNodeCanvas({ width: 800, height: 600 });
+dotenv.config();
+
+const chartJSNodeCanvas = new ChartJSNodeCanvas({ 
+    width: 800, 
+    height: 600,
+    chartCallback: (ChartJS) => {
+        ChartJS.defaults.font.family = 'OpenSans-Regular';
+        ChartJS.defaults.font.size = 16;
+        ChartJS.defaults.font.weight = 'bold';
+    } 
+
+});
+chartJSNodeCanvas.registerFont('./assets/fonts/OpenSans-Bold.ttf', { family: 'OpenSans-Regular' });
 
 export const addFeedback = async (req, res) => {
     try {

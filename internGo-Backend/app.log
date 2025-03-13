@@ -41333,3 +41333,197 @@ Timed out fetching a new connection from the connection pool. More info: http://
 2025-03-12T08:21:05.146Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:21:05 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
 2025-03-12T08:21:54.762Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:21:54 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
 2025-03-12T08:22:20.613Z [:[32minfo[39m] ::1 - - [12/Mar/2025:08:22:20 +0000] "POST /api/notifications/createAnnouncement HTTP/1.1" 200 76 "-" "PostmanRuntime/7.43.0"
+2025-03-12T09:05:05.985Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:05:05.986Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T09:05:05.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:05:05.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:05:05.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:05:05.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:06:05.046Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:06:05.046Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T09:21:10.985Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T09:21:10.986Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T09:21:10.987Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T09:21:10.988Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T09:21:10.989Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T09:21:10.989Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T09:22:10.609Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.032Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.035Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.036Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.037Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.037Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:29:10.037Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T16:30:10.091Z [:[31merror[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:30:10.091Z [:[32minfo[39m] 
+Invalid `prisma.notifications.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T16:30:10.735Z [:[31merror[39m] 
+Invalid `prisma.notifications.findFirst()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 9)
+2025-03-12T17:09:05.991Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:09:05.994Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:09:05.996Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:09:05.996Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:09:05.997Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:09:05.998Z [:[31merror[39m] Failed to fetch OTP record by email
+2025-03-12T17:16:05.424Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:16:05.424Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:16:05.425Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:16:05.425Z [:[31merror[39m] 
+Invalid `prisma.interactions.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:16:05.425Z [:[31merror[39m] Error fetching OTP record by email: 
+Invalid `prisma.otpStorage.findMany()` invocation:
+
+
+Can't reach database server at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-shy-sun-a14m03fc-pooler.ap-southeast-1.aws.neon.tech:5432`.
+2025-03-12T17:16:05.426Z [:[31merror[39m] Failed to fetch OTP record by email

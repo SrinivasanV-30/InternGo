@@ -7,6 +7,9 @@ import axios from "axios";
 import { serviceAccount } from "../config/firebaseConfig.js";
 import { getUserPushNotifications } from "../models/pushNotificationModel.js";
 import { capitalizeFirstLetter } from "../helpers/capitalizeFirstLetter.js";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const sendNotification = async (userId = null, type, referenceId = null, message) => {
     try {

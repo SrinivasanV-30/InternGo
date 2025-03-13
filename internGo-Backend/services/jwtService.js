@@ -1,5 +1,8 @@
 import jwt from 'jsonwebtoken';
 import logger from '../utils/logger.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const jwtSign = async (data) => {
     const token = jwt.sign(data, process.env.SECRET_KEY, { expiresIn: process.env.EXPIRES_IN });

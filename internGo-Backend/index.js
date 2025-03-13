@@ -13,13 +13,16 @@ import { startCronJobs } from './cron.js';
 import notificationRouter from './routes/notificationRoutes.js';
 import feedbackRouter from './routes/feedbackRoutes.js';
 import helpDeskRouter from './routes/helpdeskRoutes.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 
 
 
 
 const app=express();
-const PORT=process.env.PORT || 8080;
+const PORT=process.env.PORT ;
 const server = http.createServer(app);
 webSocket(server);
 startCronJobs()

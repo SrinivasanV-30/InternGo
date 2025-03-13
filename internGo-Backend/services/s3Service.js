@@ -1,4 +1,7 @@
 import s3 from "../config/s3Config.js";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const uploadImageToS3 = async (image, userName) => {
     try {

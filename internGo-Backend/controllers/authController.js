@@ -11,7 +11,10 @@ import { jwtDecode, jwtSign, jwtVerify } from "../services/jwtService.js";
 import { findRoleByName, updateRole } from "../models/roleModel.js";
 import { sendEmail } from "../services/mailService.js";
 import { createOtpRecord, deleteOtpRecord, getOtpByEmail } from "../models/otpStorageModel.js";
-import crypto from 'crypto'
+import crypto from 'crypto';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 
 export const sendOTP = async (req, res) => {
